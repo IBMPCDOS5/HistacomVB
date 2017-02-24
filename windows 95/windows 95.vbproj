@@ -250,10 +250,10 @@
     <Compile Include="Internetexplorer62002damaged.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="loadsettings.Designer.vb">
+    <Compile Include="Game\UI\loadsettings.Designer.vb">
       <DependentUpon>loadsettings.vb</DependentUpon>
     </Compile>
-    <Compile Include="loadsettings.vb">
+    <Compile Include="Game\UI\loadsettings.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -391,10 +391,10 @@
     <Compile Include="timedistorter032002xp.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Title Screen.Designer.vb">
+    <Compile Include="Game\UI\Title Screen.Designer.vb">
       <DependentUpon>Title Screen.vb</DependentUpon>
     </Compile>
-    <Compile Include="Title Screen.vb">
+    <Compile Include="Game\UI\Title Screen.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="volume control.Designer.vb">
@@ -573,7 +573,7 @@
     <EmbeddedResource Include="Internetexplorer62002damaged.resx">
       <DependentUpon>Internetexplorer62002damaged.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="loadsettings.resx">
+    <EmbeddedResource Include="Game\UI\loadsettings.resx">
       <DependentUpon>loadsettings.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
@@ -642,7 +642,7 @@
     <EmbeddedResource Include="timedistorter032002xp.resx">
       <DependentUpon>timedistorter032002xp.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Title Screen.resx">
+    <EmbeddedResource Include="Game\UI\Title Screen.resx">
       <DependentUpon>Title Screen.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="volume control.resx">
