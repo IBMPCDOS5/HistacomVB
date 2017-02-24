@@ -71,12 +71,13 @@ Partial Class Title_Screen
         '
         Me.Label1.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
         Me.Label1.AutoSize = True
-        Me.Label1.BackColor = System.Drawing.Color.Transparent
-        Me.Label1.Location = New System.Drawing.Point(12, 543)
+        Me.Label1.BackColor = System.Drawing.Color.White
+        Me.Label1.ForeColor = System.Drawing.Color.Black
+        Me.Label1.Location = New System.Drawing.Point(221, 494)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(145, 13)
+        Me.Label1.Size = New System.Drawing.Size(321, 13)
         Me.Label1.TabIndex = 3
-        Me.Label1.Text = "Histacom 1.8.5 By 12padams"
+        Me.Label1.Text = "Histacom 2.0 origanally By 12padams now by Alex (aka SonicMad)"
         '
         'Title_Screen
         '
@@ -84,7 +85,7 @@ Partial Class Title_Screen
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = Global.Histacom.My.Resources.Resources.Histacom_1_8_Background
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.ClientSize = New System.Drawing.Size(784, 562)
+        Me.ClientSize = New System.Drawing.Size(784, 560)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.buttonexit)
         Me.Controls.Add(Me.buttonloadgame)
