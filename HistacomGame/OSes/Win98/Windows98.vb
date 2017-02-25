@@ -1,27 +1,31 @@
-﻿Public Class Windows95
+﻿Public Class Windows98
     Dim count As Integer
     Dim txtcount As Integer
     Dim usersave As String
 
-    Private Sub windows95_Click(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Click
+    Private Sub startbutton_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
+        startmenu.Show()
+    End Sub
+
+    Private Sub windows98_Click(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Click
         startmenu.Hide()
     End Sub
 
-    Private Sub windows95_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
-        desktopicons.Show()
-        If My.Resources.windows95bootsound.CanRead Then
-            Dim bStr(My.Resources.windows95bootsound.Length) As Byte
-            My.Resources.windows95bootsound.Read(bStr, 0, My.Resources.windows95bootsound.Length)
+    Private Sub windows98Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Me.Load
+        If My.Resources.windows98bootsound.CanRead Then
+            Dim bStr(My.Resources.windows98bootsound.Length) As Byte
+            My.Resources.windows98bootsound.Read(bStr, 0, My.Resources.windows98bootsound.Length)
             My.Computer.Audio.Play(bStr, AudioPlayMode.Background)
         End If
         startmenu.Hide()
         program.Hide()
-        Timer4.Start()
         Timer1.Start()
         exampleprogramtopbar.Show()
         Me.FormBorderStyle = Windows.Forms.FormBorderStyle.None
         Me.WindowState = FormWindowState.Maximized
         System.Windows.Forms.Application.VisualStyleState = VisualStyles.VisualStyleState.NoneEnabled
+        desktopicons.AutoArrange = False
+        desktopicons.AllowDrop = True
     End Sub
 
     Private Sub NotePadToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles NotePadToolStripMenuItem.Click
@@ -29,6 +33,22 @@
         opennotepad.Show()
         startmenu.Hide()
     End Sub
+
+    Private Sub Closebutton_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
+        program.Hide()
+        exampleprogramtext.Text = ""
+        program.Size = New Size(367, 253)
+    End Sub
+
+    Private Sub fullscreen_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
+        program.Dock = DockStyle.Fill
+    End Sub
+
+    Private Sub minimize_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
+
+        program.Dock = DockStyle.None
+    End Sub
+
 
     Private Sub HelpToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles HelpToolStripMenuItem.Click
         Dim windowshelpopen As New formwindowshelp
@@ -46,7 +66,6 @@
         startmenu.Hide()
     End Sub
 
-
     Private Sub desktopicons_DoubleClick(ByVal sender As Object, ByVal e As System.EventArgs) Handles desktopicons.DoubleClick
         Dim objDrawingPoint As Drawing.Point
         Dim objListViewItem As ListViewItem
@@ -60,27 +79,27 @@
 
             If Not IsNothing(objListViewItem) Then
                 If objListViewItem.Text = "Internet Explorer" Then
-                    Dim openinternet As New internet_explorer_4
+                    Dim openinternet As New internet_explorer_5
                     openinternet.Show()
                 End If
-                If objListViewItem.Text = "Guess The Number Setup" Then
+                If objListViewItem.Text = "Guess The Number 2 Setup" Then
 
                     Dim openinstall As New Installer
-                    openinstall.installname.Text = "Guess The Number"
+                    openinstall.installname.Text = "Guess The Number 2"
                     openinstall.installimage.Image = My.Resources.Guess_the_Number__install_
                     openinstall.Show()
                 End If
-                If objListViewItem.Text = "Start Runner Setup" Then
+                If objListViewItem.Text = "Start Runner 98 Setup" Then
 
                     Dim openinstall As New Installer
-                    openinstall.installname.Text = "Start Runner"
+                    openinstall.installname.Text = "Start Runner 98"
                     openinstall.installimage.Image = My.Resources.start_run__install___white_with_programname_
                     openinstall.Show()
                 End If
-                If objListViewItem.Text = "Error Blaster Setup" Then
+                If objListViewItem.Text = "Error Blaster 98 Setup" Then
 
                     Dim openinstall As New Installer
-                    openinstall.installname.Text = "Error Blaster"
+                    openinstall.installname.Text = "Error Blaster 98"
                     openinstall.installimage.Image = My.Resources.error_blast__big_
                     openinstall.Show()
                 End If
@@ -91,10 +110,10 @@
                     openinstall.installimage.Image = My.Resources.skindows_95
                     openinstall.Show()
                 End If
-                If objListViewItem.Text = "Web Chat Setup" Then
+                If objListViewItem.Text = "Web Chat 1999 Setup" Then
 
                     Dim openinstall As New Installer
-                    openinstall.installname.Text = "Web Chat"
+                    openinstall.installname.Text = "Web Chat 1999"
                     openinstall.installimage.Image = My.Resources.chat_big
                     openinstall.Show()
                 End If
@@ -102,10 +121,10 @@
                     Dim openhwcv As New hwcv
                     openhwcv.Show()
                 End If
-                If objListViewItem.Text = "Time Distorter Setup" Then
+                If objListViewItem.Text = "Time Distorter 0.2 Setup" Then
 
                     Dim openinstall As New Installer
-                    openinstall.installname.Text = "Time Distorter"
+                    openinstall.installname.Text = "Time Distorter 0.2"
                     openinstall.installimage.Image = My.Resources.time_distorter__install_Black_
                     openinstall.Show()
                 End If
@@ -126,17 +145,16 @@
 
     End Sub
 
-    Private Sub minimizebutton_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles minimizebutton.Click
+    Private Sub minimizebutton_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
         program.Dock = DockStyle.None
     End Sub
 
-    Private Sub maximizebutton_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles maximizebutton.Click
+    Private Sub maximizebutton_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
         program.Dock = DockStyle.Fill
     End Sub
 
-    Private Sub startbutton_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles startbutton.Click
+    Private Sub PictureBox1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles startbutton.Click
         startmenu.Show()
-        startmenu.BringToFront()
     End Sub
 
     Private Sub PropertiesToolStripMenuItem1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles PropertiesToolStripMenuItem1.Click
@@ -145,8 +163,15 @@
         startmenu.Hide()
     End Sub
 
-    Private Sub ShutdownToolStripMenuItem1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ShutdownToolStripMenuItem1.Click
-        Title_Screen.Close()
+    Private Sub ToolStripMenuItem2_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ShutdownToolStripMenuItem1.Click
+        startmenu.Hide()
+        desktopicons.Hide()
+        taskbar.Hide()
+        startbutton.Hide()
+
+        Dim bStr(My.Resources.Windows_98_Shutdown.Length) As Byte
+        My.Resources.Windows_98_Shutdown.Read(bStr, 0, My.Resources.Windows_98_Shutdown.Length)
+        My.Computer.Audio.Play(bStr, AudioPlayMode.WaitToComplete)
         Me.Close()
     End Sub
 
@@ -155,7 +180,7 @@
         taskbartime.Text = TimeOfDay
     End Sub
 
-    Private Sub PhoneDialerToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles PhoneDialerToolStripMenuItem.Click
+    Private Sub PhoneDialerToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
         Dim openphonedialer As New phone_dialer
         openphonedialer.Show()
         startmenu.Hide()
@@ -186,13 +211,9 @@
     End Sub
 
     Private Sub WindowsExplorerToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles WindowsExplorerToolStripMenuItem.Click
-        Dim openier As New internet_explorer_4
-        openier.Show()
+        Dim openinternetexplorer As New internet_explorer_5
+        openinternetexplorer.Show()
         startmenu.Hide()
-    End Sub
-
-    Private Sub Timer4_Tick(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Timer4.Tick
-
     End Sub
 
     Private Sub FolderToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles FolderToolStripMenuItem.Click
@@ -228,10 +249,6 @@
         startmenu.Hide()
     End Sub
 
-    Private Sub desktopicons_SelectedIndexChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles desktopicons.SelectedIndexChanged
-
-    End Sub
-
     Private Sub SkindowsToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles SkindowsToolStripMenuItem.Click
         Dim openskin As New Skindows_95
         openskin.Show()
@@ -239,28 +256,34 @@
     End Sub
 
     Private Sub WebChatToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles WebChatToolStripMenuItem.Click
-        Dim openchat As New Webchat1998
+        Dim openchat As New WebChat_1999
         openchat.Show()
         startmenu.Hide()
     End Sub
 
     Private Sub TimeDistorterToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles TimeDistorterToolStripMenuItem.Click
-        Dim opentimedistorter As New time_distorter
-        opentimedistorter.Show()
+        time_distorter_0.Show()
         startmenu.Hide()
     End Sub
 
     Private Sub taskbartime_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles taskbartime.Click
         Dim showmess As New createmsg
-        showmess.infomessage.Text = "Your save code is: ety53g63"
+        showmess.infomessage.Text = "Your save code is: sdu247w4"
         showmess.Show()
     End Sub
-
-    Private Sub startmenuitems_ItemClicked(sender As Object, e As ToolStripItemClickedEventArgs) Handles startmenuitems.ItemClicked
-
+    Private Sub desktopicons_ItemDrag(ByVal sender As Object, ByVal e As System.Windows.Forms.ItemDragEventArgs) Handles desktopicons.ItemDrag
+        Dim lvi As ListViewItem = CType(e.Item, ListViewItem)
+        desktopicons.DoDragDrop(New DataObject("System.Windows.Forms.ListViewItem", lvi), DragDropEffects.Move)
     End Sub
-
-    Private Sub ByNameToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ByNameToolStripMenuItem.Click
-
+    Private Sub desktopicons_DragEnter(ByVal sender As Object, ByVal e As System.Windows.Forms.DragEventArgs) Handles desktopicons.DragEnter
+        If e.Data.GetDataPresent("System.Windows.Forms.ListViewItem") Then
+            e.Effect = DragDropEffects.Move
+        End If
+    End Sub
+    Private Sub desktopicons_DragOver(ByVal sender As Object, ByVal e As System.Windows.Forms.DragEventArgs) Handles desktopicons.DragOver
+        Dim lvi As ListViewItem = CType(e.Data.GetData("System.Windows.Forms.ListViewItem"), ListViewItem)
+        Dim Offset As Size = Size.Subtract(Cursor.Size, New Size(Cursor.HotSpot.X, Cursor.HotSpot.Y))
+        lvi.Position = Point.Subtract(desktopicons.PointToClient(New Point(e.X, e.Y)), Offset)
+        e.Effect = DragDropEffects.Move
     End Sub
 End Class

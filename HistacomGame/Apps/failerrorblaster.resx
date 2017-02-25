@@ -117,7 +117,36 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <metadata name="Timer1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>256, 17</value>
+  <metadata name="pullside.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>636, 17</value>
   </metadata>
+  <metadata name="pullbottom.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>730, 17</value>
+  </metadata>
+  <metadata name="pullbs.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>843, 17</value>
+  </metadata>
+  <metadata name="Timer1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>927, 17</value>
+  </metadata>
+  <metadata name="look.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>1016, 17</value>
+  </metadata>
+  <data name="Label2.Text" xml:space="preserve">
+    <value>Virus Name: Error Blaster
+Virus Type: Scare
+Purpose: To Scare the User and force them to do a certain action in order to remove the 
+virus
+Effect: Message Boxs with random errors will contine to pop up onto the screen at random intervals.
+
+Congradulations for downloading this example virus from my website  "www.12padams.com"
+This virus can be very annoying an is quite common.
+The interval between each message box varies despending on the form of the virus
+The Interval in this example is 1 second which is on the faster side as not many pop up this fast.
+
+Ussually they will never ever stop and will keep poping up untill you download a rouge (fake)
+virus scanner which will further infect your computer and try to steal your money
+
+WARNING: Error Blaster WILL REMOVE THE VIRUS but NOT the WINDOWS that the virus opened.</value>
+  </data>
 </root>

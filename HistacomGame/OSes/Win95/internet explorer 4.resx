@@ -117,7 +117,81 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <metadata name="Timer1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>256, 17</value>
+  <metadata name="MenuStrip3.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
   </metadata>
+  <data name="TextBox1.Text" xml:space="preserve">
+    <value>Welcome To Internet Explorer 4. 
+Internet explorer 4 makes browsing the web and exploring websites a pleasent experience.
+Just type an address in the location bar above and then press go.
+Instantly you will be taken to the webpage of your choosing.
+Where do you want to go today?</value>
+  </data>
+  <data name="TextBox12.Text" xml:space="preserve">
+    <value>1998: Added Time Distortion software to 12padams website.
+Software was hidden and only accessable after downloading hwcv.exe and applying it onto the 12padams website
+Time Distortion software in extremely early stages and dangerous
+Any Download of the time distortion software results in an instant alert to 12padams</value>
+  </data>
+  <data name="TextBox17.Text" xml:space="preserve">
+    <value>Hey 12padams... I was scanning your website and i found well i don't know.
+
+Do you have some type of hidden software on it because i can't find to find the matching software the has the same code as i saw...
+
+Whats the hidden software?</value>
+  </data>
+  <data name="TextBox10.Text" xml:space="preserve">
+    <value>12padams.com Data Log
+
+1996: www.12padams.com created
+1997:Lots Of software added to 12padams.com
+1998: ###############
+
+WARNING 1998 log file is encrypted and unreadable.
+
+Rest of log stored on hotmail account...
+
+Username: 12padams@hotmail.com
+Password: projectdeath                                                                    </value>
+  </data>
+  <data name="TextBox9.Text" xml:space="preserve">
+    <value>
+
+
+
+WARNING: You have entered a secret site which was not meant to be accessed.
+
+Warning do not tell 12padams about this website...
+12padams is evil. 
+12padams is holding secrets which need to be found out.
+I myself am banned from 12padams.com I almost found out the secret.
+I don't know what the secret is but it seems that 12padams is hiding an additional piece of software on his site.
+This software is hidden but can still be accessed.
+The software is very powerful and is not a game, virus, or anything like that. 
+I don't know what it is but i do know its powerful.
+
+You need to access this it.
+I was scanning the code on the 12padams website and thats how i know about it.
+Someone needs to find this software and use it. 
+I don't know how to access it from the 12padams site but all I know is that you have to click on something.
+Its the thing you would least expect to click....
+
+This site will be destroyed by 12padams very soon you need to find this secret before he removes it from his website.
+
+FIND IT!!!
+JUST CLICK EVERYWHERE ON THE 12PADAMS WEBSITE TILL YOU FIND THE SECRET!!!!!
+
+written by "the hidden hacker"</value>
+  </data>
+  <data name="TextBox8.Text" xml:space="preserve">
+    <value>Skindows 95 is the best customization software in the world avalible for windows 95.
+
+It allows the editing of the active captionbar to look pritty much however you like it.
+
+Show the world your style. Buy Skindows 95 to use your computer to its full potential
+
+If you Don't like this product you may recieve a full refund on day of purchous.
+
+So Please enjoy Using this amzing software and show the world what your made of.</value>
+  </data>
 </root>

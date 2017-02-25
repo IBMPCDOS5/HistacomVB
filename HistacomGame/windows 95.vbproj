@@ -117,115 +117,77 @@
     <Compile Include="Apps\downloader.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="errorblaster2000.Designer.vb">
-      <DependentUpon>errorblaster2000.vb</DependentUpon>
+    <Compile Include="Apps\errorblaster.Designer.vb">
+      <DependentUpon>errorblaster.vb</DependentUpon>
     </Compile>
-    <Compile Include="errorblaster2000.vb">
+    <Compile Include="Apps\errorblaster.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="errorblaster98.Designer.vb">
-      <DependentUpon>errorblaster98.vb</DependentUpon>
+    <Compile Include="Apps\failerrorblaster.Designer.vb">
+      <DependentUpon>failerrorblaster.vb</DependentUpon>
     </Compile>
-    <Compile Include="errorblaster98.vb">
-      <SubType>Form</SubType>
-    </Compile>
+    <Compile Include="Apps\failerrorblaster.vb" />
     <Compile Include="GameSystem\Backend\GameMain.vb" />
     <Compile Include="GameSystem\Backend\winman.vb" />
-    <Compile Include="Guess The Number 98.Designer.vb">
-      <DependentUpon>Guess The Number 98.vb</DependentUpon>
+    <Compile Include="Apps\Guess The Number.Designer.vb">
+      <DependentUpon>Guess The Number.vb</DependentUpon>
     </Compile>
-    <Compile Include="Guess The Number 98.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="guessthenumber2win2000.Designer.vb">
-      <DependentUpon>guessthenumber2win2000.vb</DependentUpon>
-    </Compile>
-    <Compile Include="guessthenumber2win2000.vb">
+    <Compile Include="Apps\Guess The Number.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="hiden contect varable.vb" />
-    <Compile Include="errorblaster95.Designer.vb">
-      <DependentUpon>errorblaster95.vb</DependentUpon>
-    </Compile>
-    <Compile Include="errorblaster95.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="formcalculator.Designer.vb">
+    <Compile Include="Apps\formcalculator.Designer.vb">
       <DependentUpon>formcalculator.vb</DependentUpon>
     </Compile>
-    <Compile Include="formcalculator.vb">
+    <Compile Include="Apps\formcalculator.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="formDisplayproperties.Designer.vb">
+    <Compile Include="Apps\formDisplayproperties.Designer.vb">
       <DependentUpon>formDisplayproperties.vb</DependentUpon>
     </Compile>
-    <Compile Include="formDisplayproperties.vb">
+    <Compile Include="Apps\formDisplayproperties.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="formwindowshelp.Designer.vb">
+    <Compile Include="Apps\formwindowshelp.Designer.vb">
       <DependentUpon>formwindowshelp.vb</DependentUpon>
     </Compile>
-    <Compile Include="formwindowshelp.vb">
+    <Compile Include="Apps\formwindowshelp.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Guess The Number app.Designer.vb">
-      <DependentUpon>Guess The Number app.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Guess The Number app.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="hwcv.Designer.vb">
+    <Compile Include="Apps\hwcv.Designer.vb">
       <DependentUpon>hwcv.vb</DependentUpon>
     </Compile>
-    <Compile Include="hwcv.vb">
+    <Compile Include="Apps\hwcv.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="installer2000.Designer.vb">
-      <DependentUpon>installer2000.vb</DependentUpon>
+    <Compile Include="Apps\Installer.Designer.vb">
+      <DependentUpon>Installer.vb</DependentUpon>
     </Compile>
-    <Compile Include="installer2000.vb">
+    <Compile Include="Apps\Installer.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Installer95.Designer.vb">
-      <DependentUpon>Installer95.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Installer95.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Installer98.Designer.vb">
-      <DependentUpon>Installer98.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Installer98.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="installerxp.Designer.vb">
-      <DependentUpon>installerxp.vb</DependentUpon>
-    </Compile>
-    <Compile Include="installerxp.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="internet explorer 4.Designer.vb">
+    <Compile Include="OSes\Win95\internet explorer 4.Designer.vb">
       <DependentUpon>internet explorer 4.vb</DependentUpon>
     </Compile>
-    <Compile Include="internet explorer 4.vb">
+    <Compile Include="OSes\Win95\internet explorer 4.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="internet explorer 5.Designer.vb">
+    <Compile Include="OSes\Win98\internet explorer 5.Designer.vb">
       <DependentUpon>internet explorer 5.vb</DependentUpon>
     </Compile>
-    <Compile Include="internet explorer 5.vb">
+    <Compile Include="OSes\Win98\internet explorer 5.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Internet Explorer 52001.Designer.vb">
+    <Compile Include="OSes\Win2000\Internet Explorer 52001.Designer.vb">
       <DependentUpon>Internet Explorer 52001.vb</DependentUpon>
     </Compile>
-    <Compile Include="Internet Explorer 52001.vb">
+    <Compile Include="OSes\Win2000\Internet Explorer 52001.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Internetexplorer62002damaged.Designer.vb">
+    <Compile Include="OSes\WinXPBad\Internetexplorer62002damaged.Designer.vb">
       <DependentUpon>Internetexplorer62002damaged.vb</DependentUpon>
     </Compile>
-    <Compile Include="Internetexplorer62002damaged.vb">
+    <Compile Include="OSes\WinXPBad\Internetexplorer62002damaged.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="GameSystem\UI\loadsettings.Designer.vb">
@@ -249,124 +211,76 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <Compile Include="notepad.Designer.vb">
+    <Compile Include="Apps\notepad.Designer.vb">
       <DependentUpon>notepad.vb</DependentUpon>
     </Compile>
-    <Compile Include="notepad.vb">
+    <Compile Include="Apps\notepad.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="notepad2000.Designer.vb">
-      <DependentUpon>notepad2000.vb</DependentUpon>
-    </Compile>
-    <Compile Include="notepad2000.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="notepadxp.Designer.vb">
-      <DependentUpon>notepadxp.vb</DependentUpon>
-    </Compile>
-    <Compile Include="notepadxp.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="paint.Designer.vb">
+    <Compile Include="Apps\paint.Designer.vb">
       <DependentUpon>paint.vb</DependentUpon>
     </Compile>
-    <Compile Include="paint.vb">
+    <Compile Include="Apps\paint.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="phone dialer.Designer.vb">
+    <Compile Include="Apps\phone dialer.Designer.vb">
       <DependentUpon>phone dialer.vb</DependentUpon>
     </Compile>
-    <Compile Include="phone dialer.vb">
+    <Compile Include="Apps\phone dialer.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="run.Designer.vb">
+    <Compile Include="Apps\run.Designer.vb">
       <DependentUpon>run.vb</DependentUpon>
     </Compile>
-    <Compile Include="run.vb">
+    <Compile Include="Apps\run.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Skindows 95.Designer.vb">
+    <Compile Include="OSes\Win95\Skindows 95.Designer.vb">
       <DependentUpon>Skindows 95.vb</DependentUpon>
     </Compile>
-    <Compile Include="Skindows 95.vb">
+    <Compile Include="OSes\Win95\Skindows 95.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Start Runner95.Designer.vb">
-      <DependentUpon>Start Runner95.vb</DependentUpon>
+    <Compile Include="Apps\startrunner.Designer.vb">
+      <DependentUpon>startrunner.vb</DependentUpon>
     </Compile>
-    <Compile Include="Start Runner95.vb">
+    <Compile Include="Apps\startrunner.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="startrunner2000.Designer.vb">
-      <DependentUpon>startrunner2000.vb</DependentUpon>
-    </Compile>
-    <Compile Include="startrunner2000.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="StartRunner98.Designer.vb">
-      <DependentUpon>StartRunner98.vb</DependentUpon>
-    </Compile>
-    <Compile Include="StartRunner98.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Survive The Day.Designer.vb">
+    <Compile Include="Apps\Survive The Day.Designer.vb">
       <DependentUpon>Survive The Day.vb</DependentUpon>
     </Compile>
-    <Compile Include="Survive The Day.vb">
+    <Compile Include="Apps\Survive The Day.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="template2000.Designer.vb">
-      <DependentUpon>template2000.vb</DependentUpon>
-    </Compile>
-    <Compile Include="template2000.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="templatexp.Designer.vb">
-      <DependentUpon>templatexp.vb</DependentUpon>
-    </Compile>
-    <Compile Include="templatexp.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="templete.Designer.vb">
-      <DependentUpon>templete95and98.vb</DependentUpon>
-    </Compile>
-    <Compile Include="templete95and98.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="templetevista.Designer.vb">
-      <DependentUpon>templetevista.vb</DependentUpon>
-    </Compile>
-    <Compile Include="templetevista.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="time distorter 0.2.Designer.vb">
+    <Compile Include="zTime Distorter\time distorter 0.2.Designer.vb">
       <DependentUpon>time distorter 0.2.vb</DependentUpon>
     </Compile>
-    <Compile Include="time distorter 0.2.vb">
+    <Compile Include="zTime Distorter\time distorter 0.2.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="time distorter.Designer.vb">
+    <Compile Include="zTime Distorter\time distorter.Designer.vb">
       <DependentUpon>time distorter.vb</DependentUpon>
     </Compile>
-    <Compile Include="time distorter.vb">
+    <Compile Include="zTime Distorter\time distorter.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="time travel year display.Designer.vb">
+    <Compile Include="GameSystem\UI\time travel year display.Designer.vb">
       <DependentUpon>time travel year display.vb</DependentUpon>
     </Compile>
-    <Compile Include="time travel year display.vb">
+    <Compile Include="GameSystem\UI\time travel year display.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="timedistorter0.32000.Designer.vb">
+    <Compile Include="zTime Distorter\timedistorter0.32000.Designer.vb">
       <DependentUpon>timedistorter0.32000.vb</DependentUpon>
     </Compile>
-    <Compile Include="timedistorter0.32000.vb">
+    <Compile Include="zTime Distorter\timedistorter0.32000.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="timedistorter032002xp.Designer.vb">
+    <Compile Include="zTime Distorter\timedistorter032002xp.Designer.vb">
       <DependentUpon>timedistorter032002xp.vb</DependentUpon>
     </Compile>
-    <Compile Include="timedistorter032002xp.vb">
+    <Compile Include="zTime Distorter\timedistorter032002xp.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="GameSystem\UI\Title Screen.Designer.vb">
@@ -375,64 +289,58 @@
     <Compile Include="GameSystem\UI\Title Screen.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="volume control.Designer.vb">
+    <Compile Include="GameSystem\UI\volume control.Designer.vb">
       <DependentUpon>volume control.vb</DependentUpon>
     </Compile>
-    <Compile Include="volume control.vb">
+    <Compile Include="GameSystem\UI\volume control.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="WebChat 1999.Designer.vb">
+    <Compile Include="zWeb Chat\WebChat 1999.Designer.vb">
       <DependentUpon>WebChat 1999.vb</DependentUpon>
     </Compile>
-    <Compile Include="WebChat 1999.vb">
+    <Compile Include="zWeb Chat\WebChat 1999.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="webchat 2001.Designer.vb">
+    <Compile Include="zWeb Chat\webchat 2001.Designer.vb">
       <DependentUpon>webchat 2001.vb</DependentUpon>
     </Compile>
-    <Compile Include="webchat 2001.vb">
+    <Compile Include="zWeb Chat\webchat 2001.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="webchat 2000.Designer.vb">
+    <Compile Include="zWeb Chat\webchat 2000.Designer.vb">
       <DependentUpon>webchat 2000.vb</DependentUpon>
     </Compile>
-    <Compile Include="webchat 2000.vb">
+    <Compile Include="zWeb Chat\webchat 2000.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Webchat.Designer.vb">
+    <Compile Include="zWeb Chat\Webchat.Designer.vb">
       <DependentUpon>Webchat1998.vb</DependentUpon>
     </Compile>
-    <Compile Include="Webchat1998.vb">
+    <Compile Include="zWeb Chat\Webchat1998.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="windows explorer.Designer.vb">
+    <Compile Include="Apps\windows explorer.Designer.vb">
       <DependentUpon>windows explorer.vb</DependentUpon>
     </Compile>
-    <Compile Include="windows explorer.vb">
+    <Compile Include="Apps\windows explorer.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="windows me.Designer.vb">
+    <Compile Include="OSes\WinME\windows me.Designer.vb">
       <DependentUpon>windows me.vb</DependentUpon>
     </Compile>
-    <Compile Include="windows me.vb">
+    <Compile Include="OSes\WinME\windows me.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Windows Xp messagebox.Designer.vb">
-      <DependentUpon>Windows Xp messagebox.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Windows Xp messagebox.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Windows2000.Designer.vb">
+    <Compile Include="OSes\Win2000\Windows2000.Designer.vb">
       <DependentUpon>Windows2000.vb</DependentUpon>
     </Compile>
-    <Compile Include="Windows2000.vb">
+    <Compile Include="OSes\Win2000\Windows2000.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="windows2000messagebox.Designer.vb">
-      <DependentUpon>windows2000messagebox.vb</DependentUpon>
+    <Compile Include="GameSystem\UI\createmsg.Designer.vb">
+      <DependentUpon>createmsg.vb</DependentUpon>
     </Compile>
-    <Compile Include="windows2000messagebox.vb">
+    <Compile Include="GameSystem\UI\createmsg.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="OSes\Win95\Windows95.Designer.vb">
@@ -441,34 +349,22 @@
     <Compile Include="OSes\Win95\Windows95.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="windows95messagebox.Designer.vb">
-      <DependentUpon>windows95messagebox.vb</DependentUpon>
-    </Compile>
-    <Compile Include="windows95messagebox.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Windows98.Designer.vb">
+    <Compile Include="OSes\Win98\Windows98.Designer.vb">
       <DependentUpon>Windows98.vb</DependentUpon>
     </Compile>
-    <Compile Include="Windows98.vb">
+    <Compile Include="OSes\Win98\Windows98.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="windows98messagebox.Designer.vb">
-      <DependentUpon>windows98messagebox.vb</DependentUpon>
-    </Compile>
-    <Compile Include="windows98messagebox.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="windowsvista.Designer.vb">
+    <Compile Include="OSes\WinVista\windowsvista.Designer.vb">
       <DependentUpon>windowsvista.vb</DependentUpon>
     </Compile>
-    <Compile Include="windowsvista.vb">
+    <Compile Include="OSes\WinVista\windowsvista.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Windowsxp2002damaged.Designer.vb">
+    <Compile Include="OSes\WinXPBad\Windowsxp2002damaged.Designer.vb">
       <DependentUpon>Windowsxp2002damaged.vb</DependentUpon>
     </Compile>
-    <Compile Include="Windowsxp2002damaged.vb">
+    <Compile Include="OSes\WinXPBad\Windowsxp2002damaged.vb">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>
@@ -485,58 +381,40 @@
     <EmbeddedResource Include="Apps\downloader.resx">
       <DependentUpon>downloader.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="errorblaster2000.resx">
-      <DependentUpon>errorblaster2000.vb</DependentUpon>
+    <EmbeddedResource Include="Apps\errorblaster.resx">
+      <DependentUpon>errorblaster.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="errorblaster95.resx">
-      <DependentUpon>errorblaster95.vb</DependentUpon>
+    <EmbeddedResource Include="Apps\failerrorblaster.resx">
+      <DependentUpon>failerrorblaster.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="errorblaster98.resx">
-      <DependentUpon>errorblaster98.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="formcalculator.resx">
+    <EmbeddedResource Include="Apps\formcalculator.resx">
       <DependentUpon>formcalculator.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="formDisplayproperties.resx">
+    <EmbeddedResource Include="Apps\formDisplayproperties.resx">
       <DependentUpon>formDisplayproperties.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="formwindowshelp.resx">
+    <EmbeddedResource Include="Apps\formwindowshelp.resx">
       <DependentUpon>formwindowshelp.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Guess The Number 98.resx">
-      <DependentUpon>Guess The Number 98.vb</DependentUpon>
+    <EmbeddedResource Include="Apps\Guess The Number.resx">
+      <DependentUpon>Guess The Number.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Guess The Number app.resx">
-      <DependentUpon>Guess The Number app.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="guessthenumber2win2000.resx">
-      <DependentUpon>guessthenumber2win2000.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="hwcv.resx">
+    <EmbeddedResource Include="Apps\hwcv.resx">
       <DependentUpon>hwcv.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="installer2000.resx">
-      <DependentUpon>installer2000.vb</DependentUpon>
+    <EmbeddedResource Include="Apps\Installer.resx">
+      <DependentUpon>Installer.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Installer95.resx">
-      <DependentUpon>Installer95.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Installer98.resx">
-      <DependentUpon>Installer98.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="installerxp.resx">
-      <DependentUpon>installerxp.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="internet explorer 4.resx">
+    <EmbeddedResource Include="OSes\Win95\internet explorer 4.resx">
       <DependentUpon>internet explorer 4.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="internet explorer 5.resx">
+    <EmbeddedResource Include="OSes\Win98\internet explorer 5.resx">
       <DependentUpon>internet explorer 5.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Internet Explorer 52001.resx">
+    <EmbeddedResource Include="OSes\Win2000\Internet Explorer 52001.resx">
       <DependentUpon>Internet Explorer 52001.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Internetexplorer62002damaged.resx">
+    <EmbeddedResource Include="OSes\WinXPBad\Internetexplorer62002damaged.resx">
       <DependentUpon>Internetexplorer62002damaged.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="GameSystem\UI\loadsettings.resx">
@@ -548,120 +426,87 @@
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="notepad.resx">
+    <EmbeddedResource Include="Apps\notepad.resx">
       <DependentUpon>notepad.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="notepad2000.resx">
-      <DependentUpon>notepad2000.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="notepadxp.resx">
-      <DependentUpon>notepadxp.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="paint.resx">
+    <EmbeddedResource Include="Apps\paint.resx">
       <DependentUpon>paint.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="phone dialer.resx">
+    <EmbeddedResource Include="Apps\phone dialer.resx">
       <DependentUpon>phone dialer.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="run.resx">
+    <EmbeddedResource Include="Apps\run.resx">
       <DependentUpon>run.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Skindows 95.resx">
+    <EmbeddedResource Include="OSes\Win95\Skindows 95.resx">
       <DependentUpon>Skindows 95.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Start Runner95.resx">
-      <DependentUpon>Start Runner95.vb</DependentUpon>
+    <EmbeddedResource Include="Apps\startrunner.resx">
+      <DependentUpon>startrunner.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="startrunner2000.resx">
-      <DependentUpon>startrunner2000.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="StartRunner98.resx">
-      <DependentUpon>StartRunner98.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Survive The Day.resx">
+    <EmbeddedResource Include="Apps\Survive The Day.resx">
       <DependentUpon>Survive The Day.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="template2000.resx">
-      <DependentUpon>template2000.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="templatexp.resx">
-      <DependentUpon>templatexp.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="templete95and98.resx">
-      <DependentUpon>templete95and98.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="templetevista.resx">
-      <DependentUpon>templetevista.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="time distorter 0.2.resx">
+    <EmbeddedResource Include="zTime Distorter\time distorter 0.2.resx">
       <DependentUpon>time distorter 0.2.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="time distorter.resx">
+    <EmbeddedResource Include="zTime Distorter\time distorter.resx">
       <DependentUpon>time distorter.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="time travel year display.resx">
+    <EmbeddedResource Include="GameSystem\UI\time travel year display.resx">
       <DependentUpon>time travel year display.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="timedistorter0.32000.resx">
+    <EmbeddedResource Include="zTime Distorter\timedistorter0.32000.resx">
       <DependentUpon>timedistorter0.32000.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="timedistorter032002xp.resx">
+    <EmbeddedResource Include="zTime Distorter\timedistorter032002xp.resx">
       <DependentUpon>timedistorter032002xp.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="GameSystem\UI\Title Screen.resx">
       <DependentUpon>Title Screen.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="volume control.resx">
+    <EmbeddedResource Include="GameSystem\UI\volume control.resx">
       <DependentUpon>volume control.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="WebChat 1999.resx">
+    <EmbeddedResource Include="zWeb Chat\WebChat 1999.resx">
       <DependentUpon>WebChat 1999.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="webchat 2001.resx">
+    <EmbeddedResource Include="zWeb Chat\webchat 2001.resx">
       <DependentUpon>webchat 2001.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="webchat 2000.resx">
+    <EmbeddedResource Include="zWeb Chat\webchat 2000.resx">
       <DependentUpon>webchat 2000.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Webchat1998.resx">
+    <EmbeddedResource Include="zWeb Chat\Webchat1998.resx">
       <DependentUpon>Webchat1998.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="windows explorer.resx">
+    <EmbeddedResource Include="Apps\windows explorer.resx">
       <DependentUpon>windows explorer.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="windows me.resx">
+    <EmbeddedResource Include="OSes\WinME\windows me.resx">
       <DependentUpon>windows me.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Windows Xp messagebox.resx">
-      <DependentUpon>Windows Xp messagebox.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Windows2000.resx">
+    <EmbeddedResource Include="OSes\Win2000\Windows2000.resx">
       <DependentUpon>Windows2000.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="windows2000messagebox.resx">
-      <DependentUpon>windows2000messagebox.vb</DependentUpon>
+    <EmbeddedResource Include="GameSystem\UI\createmsg.resx">
+      <DependentUpon>createmsg.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="OSes\Win95\Windows95.resx">
       <DependentUpon>Windows95.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="windows95messagebox.resx">
-      <DependentUpon>windows95messagebox.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Windows98.resx">
+    <EmbeddedResource Include="OSes\Win98\Windows98.resx">
       <DependentUpon>Windows98.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="windows98messagebox.resx">
-      <DependentUpon>windows98messagebox.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="windowsvista.resx">
+    <EmbeddedResource Include="OSes\WinVista\windowsvista.resx">
       <DependentUpon>windowsvista.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Windowsxp2002damaged.resx">
+    <EmbeddedResource Include="OSes\WinXPBad\Windowsxp2002damaged.resx">
       <DependentUpon>Windowsxp2002damaged.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <None Include="app.config" />
+    <None Include="OSes\WinXPBad\app.config" />
     <None Include="My Project\app.manifest" />
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
