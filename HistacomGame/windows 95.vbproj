@@ -142,7 +142,13 @@
     <Compile Include="Apps\Guess The Number.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="hiden contect varable.vb" />
+    <Compile Include="GameSystem\UI\Borders\titlebar.Designer.vb">
+      <DependentUpon>titlebar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GameSystem\UI\Borders\titlebar.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="hidden varables.vb" />
     <Compile Include="Apps\formcalculator.Designer.vb">
       <DependentUpon>formcalculator.vb</DependentUpon>
     </Compile>
@@ -414,6 +420,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Apps\NewInstaller.resx">
       <DependentUpon>NewInstaller.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GameSystem\UI\Borders\titlebar.resx">
+      <DependentUpon>titlebar.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="OSes\Win95\internet explorer 4.resx">
       <DependentUpon>internet explorer 4.vb</DependentUpon>
