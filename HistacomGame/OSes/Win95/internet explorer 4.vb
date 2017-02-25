@@ -1,6 +1,11 @@
 ﻿Public Class internet_explorer_4
+    Dim chistory As Integer
+    Dim history(99) As String
+    Dim currentpage As String
 
     Private Sub internet_explorer_5_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
+        history(1) = "www.microsoft.com/internetexplorer4/welcome"
+        chistory = 1
         winman.setupwindow(Me, "Internet Explorer 4", My.Resources.windows95internetexplorerstartmenuicon)
         removewebsites()
         welcomeinternetscreen.Show()
@@ -14,7 +19,27 @@
         End If
     End Sub
 
-    Private Sub Button8_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button8.Click
+    Sub GoToPage(ByVal page As String, Optional special As Boolean = False, Optional fromBack As Boolean = False)
+        If fromBack = False Then
+            Dim i As Integer
+            If chistory >= 99 Then chistory = 80
+            i = chistory + 1
+            Do Until i = history.Count
+                history(i) = Nothing
+                i += 1
+            Loop
+            Dim historyCount As Integer = 0
+            i = 0
+            Do Until i = history.Count
+                If history(i) <> "" Then
+                    historyCount += 1
+                End If
+                i += 1
+            Loop
+            chistory = historyCount
+            history(chistory + 1) = page
+            chistory += 1
+        End If
         removewebsites()
         padamsbackgrounds.Dock = DockStyle.None
         hotmailmain.Dock = DockStyle.None
@@ -23,77 +48,79 @@
         googlemain.Dock = DockStyle.None
         googleprototype.Dock = DockStyle.None
         welcomeinternetscreen.Dock = DockStyle.None
+        addressbar.Text = page
 
-        If addressbar.Text = "www.google.com" Then
-            googlemain.Dock = DockStyle.Fill
-            googlemain.Show()
-        End If
-        If addressbar.Text = "www.microsoft.com/internetexplorer5/welcome" Then
-            welcomeinternetscreen.Dock = DockStyle.Fill
-            welcomeinternetscreen.Show()
-        End If
-        If addressbar.Text = "www.google.stanford.edu" Then
-            googleprototype.Dock = DockStyle.Fill
-            googleprototype.Show()
-        End If
-        If addressbar.Text = "www.alpha.google.com" Then
-            googlealpha.Dock = DockStyle.Fill
-            googlealpha.Show()
-        End If
-        If addressbar.Text = "www.12padams.com" Then
-            padamsmain.Dock = DockStyle.Fill
-            padamsmain.Show()
-        End If
-        If addressbar.Text = "www.hotmail.com" Then
-            hotmailmain.Dock = DockStyle.Fill
-            hotmailmain.Show()
-        End If
-        If addressbar.Text = "www.12padams.com/backgrounds" Then
-            padamsbackgrounds.Dock = DockStyle.Fill
-            padamsbackgrounds.Show()
-        End If
+        Select Case page
+            Case "www.google.com"
+                googlemain.Dock = DockStyle.Fill
+                googlemain.Show()
+            Case "www.microsoft.com/internetexplorer4/welcome"
+                welcomeinternetscreen.Dock = DockStyle.Fill
+                welcomeinternetscreen.Show()
+            Case "www.google.stanford.edu"
+                googleprototype.Dock = DockStyle.Fill
+                googleprototype.Show()
+            Case "www.alpha.google.com"
+                googlealpha.Dock = DockStyle.Fill
+                googlealpha.Show()
+            Case "www.12padams.com"
+                padamsmain.Dock = DockStyle.Fill
+                padamsmain.Show()
+            Case "www.hotmail.com"
+                hotmailmain.Dock = DockStyle.Fill
+                hotmailmain.Show()
+            Case "www.12padams.com/backgrounds"
+                padamsbackgrounds.Dock = DockStyle.Fill
+                padamsbackgrounds.Show()
+            Case "www.12padams.com/skindows"
+                skindows95advertisment.Dock = DockStyle.Fill
+                skindows95advertisment.Show()
+            Case "www.12padams.com/???"
+                GameMain.OpenMsg("NOTE TO 12PADAMS:" & vbCrLf & "Use the hidden link on my website to access this page")
+                addressbar.Text = "www.12padams.com"
+                padamsmain.Dock = DockStyle.Fill
+                padamsmain.Show()
+            Case "www.hotmail.com/seculink/145624987903246EGS4HFO954325UPWEM5N8BSSA5634S"
+                If special = False Then
+                    GameMain.OpenMsg("For security reasons please login normally")
+                    addressbar.Text = "www.12padams.com"
+                    hotmailmain.Dock = DockStyle.Fill
+                    hotmailmain.Show()
+                Else
+                    hotmailpadams.Dock = DockStyle.Fill
+                    hotmailpadams.Show()
+                End If
 
-        If addressbar.Text = "www.12padams.com/skindows" Then
-            skindows95advertisment.Dock = DockStyle.Fill
-            skindows95advertisment.Show()
-        End If
+            Case "www.???.com"
+                secretwebsite.Dock = DockStyle.Fill
+                secretwebsite.Show()
+        End Select
+    End Sub
 
+    Private Sub Button8_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button8.Click
+        GoToPage(addressbar.Text)
     End Sub
 
     Private Sub googleprototypelink_LinkClicked(ByVal sender As System.Object, ByVal e As System.Windows.Forms.LinkLabelLinkClickedEventArgs) Handles googleprototypelink.LinkClicked
-        removewebsites()
-        googleprototype.Dock = DockStyle.Fill
-        googleprototype.Show()
-        addressbar.Text = "www.google.stanford.edu"
+
     End Sub
 
 
     Private Sub googlebetalink_LinkClicked(ByVal sender As System.Object, ByVal e As System.Windows.Forms.LinkLabelLinkClickedEventArgs) Handles googlebetalink.LinkClicked
-        removewebsites()
-        googlealpha.Dock = DockStyle.Fill
-        googlealpha.Show()
-        addressbar.Text = "www.alpha.google.com"
+        GoToPage("www.alpha.google.com")
     End Sub
 
     Private Sub Button5_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button5.Click
-        removewebsites()
-        addressbar.Text = "www.microsoft.com/internetexplorer5/welcome"
-        welcomeinternetscreen.Dock = DockStyle.Fill
-        welcomeinternetscreen.Show()
+        Array.Clear(history, 0, history.Length)
+        GoToPage("www.microsoft.com/internetexplorer4/welcome")
     End Sub
 
     Private Sub LinkLabel15_LinkClicked(ByVal sender As System.Object, ByVal e As System.Windows.Forms.LinkLabelLinkClickedEventArgs) Handles LinkLabel15.LinkClicked
-        removewebsites()
-        addressbar.Text = "www.google.com"
-        googlemain.Dock = DockStyle.Fill
-        googlemain.Show()
+        GoToPage("www.google.com")
     End Sub
 
     Private Sub LinkLabel16_LinkClicked(ByVal sender As System.Object, ByVal e As System.Windows.Forms.LinkLabelLinkClickedEventArgs) Handles LinkLabel16.LinkClicked
-        removewebsites()
-        addressbar.Text = "www.12padams.com"
-        padamsmain.Dock = DockStyle.Fill
-        padamsmain.Show()
+        GoToPage("www.12padams.com")
     End Sub
 
     Private Sub Button17_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button17.Click
@@ -105,7 +132,7 @@
     End Sub
 
     Private Sub Button15_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button15.Click
-        If Not GameMain.StartRInstalled Then
+        If Not GameMain.startRInstalled Then
             GameMain.OpenInstaller("startR", My.Resources.start_run__install___white_with_programname_, AppsLicense.normalLicense, "Start Runner", 60)
         Else
             GameMain.OpenMsg("You already have Start Runner Installed!")
@@ -153,17 +180,11 @@
     End Sub
 
     Private Sub LinkLabel17_LinkClicked(ByVal sender As System.Object, ByVal e As System.Windows.Forms.LinkLabelLinkClickedEventArgs) Handles LinkLabel17.LinkClicked
-        removewebsites()
-        addressbar.Text = "www.hotmail.com"
-        hotmailmain.Dock = DockStyle.Fill
-        hotmailmain.Show()
+        GoToPage("www.hotmail.com")
     End Sub
 
     Private Sub Button23_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button23.Click
-        removewebsites()
-        addressbar.Text = "www.12padams.com/backgrounds"
-        padamsbackgrounds.Dock = DockStyle.Fill
-        padamsbackgrounds.Show()
+        GoToPage("www.12padams.com/backgrounds")
     End Sub
     Private Sub removewebsites()
         googlemain.Hide()
@@ -183,10 +204,7 @@
     End Sub
 
     Private Sub Button24_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button24.Click
-        removewebsites()
-        addressbar.Text = "www.12padams.com/skindows"
-        skindows95advertisment.Dock = DockStyle.Fill
-        skindows95advertisment.Show()
+        GoToPage("www.12padams.com/skindows")
     End Sub
 
     Private Sub Button25_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button25.Click
@@ -201,10 +219,7 @@
     End Sub
 
     Private Sub Label20_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Label20.Click
-        removewebsites()
-        addressbar.Text = "www.12padams.com/???"
-        padamshidden.Dock = DockStyle.Fill
-        padamshidden.Show()
+        GoToPage("www.12padams.com/???", True)
     End Sub
 
     Private Sub Button12_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button12.Click
@@ -262,5 +277,41 @@
             Label57.Show()
             Button26.Show()
         End If
+    End Sub
+
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+        If Not chistory <= 1 Then
+            GoToPage(history(chistory - 1), False, True)
+            chistory -= 1
+        Else
+            GameMain.OpenMsg("You cannot go any further backward")
+        End If
+    End Sub
+
+    Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
+        Dim i As Integer
+        Dim historyCount As Integer = 0
+        i = 0
+        Do Until i = history.Count
+            If history(i) <> "" Then
+                historyCount += 1
+            End If
+            i += 1
+        Loop
+        If Not chistory >= historyCount Then
+            GoToPage(history(chistory + 1), False, True)
+            chistory += 1
+        Else
+            GameMain.OpenMsg("You cannot go any further forward")
+        End If
+    End Sub
+
+    Private Sub ToolStripMenuItem3_Click(sender As Object, e As EventArgs) Handles ToolStripMenuItem3.Click
+        Dim nexplorer As New internet_explorer_4
+        nexplorer.Show()
+    End Sub
+
+    Private Sub Button28_Click(sender As Object, e As EventArgs) Handles Button28.Click
+        Me.WindowState = 2
     End Sub
 End Class
