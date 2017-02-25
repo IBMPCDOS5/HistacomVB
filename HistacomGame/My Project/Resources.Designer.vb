@@ -143,9 +143,9 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized resource of type System.Drawing.Bitmap.
         '''</summary>
-        Friend ReadOnly Property energysave_windows_95() As System.Drawing.Bitmap
+        Friend ReadOnly Property energysave_win95() As System.Drawing.Bitmap
             Get
-                Dim obj As Object = ResourceManager.GetObject("energysave_windows 95", resourceCulture)
+                Dim obj As Object = ResourceManager.GetObject("energysave_win95", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property
@@ -195,7 +195,7 @@ Namespace My.Resources
         '''</summary>
         Friend ReadOnly Property google_2000_2009_logo() As System.Drawing.Bitmap
             Get
-                Dim obj As Object = ResourceManager.GetObject("google 2000-2009 logo", resourceCulture)
+                Dim obj As Object = ResourceManager.GetObject("google_2000_2009_logo", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property
@@ -275,7 +275,7 @@ Namespace My.Resources
         '''</summary>
         Friend ReadOnly Property Histacom_1_8_Background() As System.Drawing.Bitmap
             Get
-                Dim obj As Object = ResourceManager.GetObject("Histacom_1.8_Background", resourceCulture)
+                Dim obj As Object = ResourceManager.GetObject("Histacom_1_8_Background", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property
@@ -973,9 +973,9 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized resource of type System.Drawing.Bitmap.
         '''</summary>
-        Friend ReadOnly Property survive_the_day_choice__mouseover() As System.Drawing.Bitmap
+        Friend ReadOnly Property survive_the_day_choice_mouseover() As System.Drawing.Bitmap
             Get
-                Dim obj As Object = ResourceManager.GetObject("survive_the_day_choice_ mouseover", resourceCulture)
+                Dim obj As Object = ResourceManager.GetObject("survive_the_day_choice_mouseover", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property
@@ -1223,9 +1223,9 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized resource of type System.Drawing.Bitmap.
         '''</summary>
-        Friend ReadOnly Property Windows_2000__background() As System.Drawing.Bitmap
+        Friend ReadOnly Property Windows_2000_background() As System.Drawing.Bitmap
             Get
-                Dim obj As Object = ResourceManager.GetObject("Windows_2000 _background", resourceCulture)
+                Dim obj As Object = ResourceManager.GetObject("Windows_2000_background", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property
@@ -1233,9 +1233,9 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized resource of type System.Drawing.Bitmap.
         '''</summary>
-        Friend ReadOnly Property windows_2000_history__image() As System.Drawing.Bitmap
+        Friend ReadOnly Property windows_2000_history_image() As System.Drawing.Bitmap
             Get
-                Dim obj As Object = ResourceManager.GetObject("windows_2000_history _image", resourceCulture)
+                Dim obj As Object = ResourceManager.GetObject("windows_2000_history_image", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property
@@ -4031,7 +4031,7 @@ Namespace My.Resources
         '''</summary>
         Friend ReadOnly Property windowsxpstartmenuremote_assistance() As System.Drawing.Bitmap
             Get
-                Dim obj As Object = ResourceManager.GetObject("windowsxpstartmenuremote assistance", resourceCulture)
+                Dim obj As Object = ResourceManager.GetObject("windowsxpstartmenuremote_assistance", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property

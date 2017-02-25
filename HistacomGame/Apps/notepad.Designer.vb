@@ -155,9 +155,6 @@ Partial Class notepad
         '
         Me.pullbs.Interval = 1
         '
-        'look
-        '
-        '
         'pullside
         '
         Me.pullside.Interval = 1
@@ -244,7 +241,7 @@ Partial Class notepad
         Me.CutCtrlXToolStripMenuItem.Size = New System.Drawing.Size(182, 22)
         Me.CutCtrlXToolStripMenuItem.Text = "Cut                  Ctrl+X"
         '
-        'notepad2000
+        'notepad
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
@@ -253,7 +250,7 @@ Partial Class notepad
         Me.Controls.Add(Me.program)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.MainMenuStrip = Me.MenuStrip1
-        Me.Name = "notepad2000"
+        Me.Name = "notepad"
         Me.Text = "notepad2000"
         Me.TopMost = True
         Me.program.ResumeLayout(False)

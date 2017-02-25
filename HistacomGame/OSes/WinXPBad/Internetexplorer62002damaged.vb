@@ -19,6 +19,7 @@
     End Sub
 
     Private Sub Internetexplorer62002damaged_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
+        winman.setupwindow(Me, "Internet Explorer 6.2", My.Resources.windows95internetexplorerstartmenuicon)
         labelflash.Start()
         amounttimer.Start()
         commandprompt.Close()

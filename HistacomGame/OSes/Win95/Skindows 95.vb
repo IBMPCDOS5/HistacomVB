@@ -1,12 +1,12 @@
 ﻿Public Class Skindows_95
 
     Private Sub Skindows_95_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
-        look.Start()
+        winman.setupwindow(Me, "Skindows 95", My.Resources.skindowsbinary)
     End Sub
 
     Private Sub Button1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button1.Click
-        'Windows95.exampleprogramtopbar.BackColor = exampletopbar.BackColor
-        'Windows95.exampleprogramtopbar.BackgroundImage = exampletopbar.BackgroundImage
+        Windows95.titlebarcol.BackColor = exampletopbar.BackColor
+        Windows95.titlebarcol.BackgroundImage = exampletopbar.BackgroundImage
     End Sub
 
     Private Sub Panel15_click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Panel15.Click

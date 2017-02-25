@@ -1,4 +1,5 @@
 ﻿Public Class GameMain
+    Public Shared OS As Integer
     Public Shared guessInstalled As Boolean
     Public Shared webChatInstalled As Boolean
     Public Shared startRInstalled As Boolean
@@ -37,7 +38,7 @@
                 Windows95.StartRunnerToolStripMenuItem.Visible = True
                 Windows98.StartRunnerToolStripMenuItem.Visible = True
                 Windows2000.StartRunnerToolStripMenuItem.Visible = True
-                Windows95.pnlstartR.Show()
+                Windows95.pnlStartR.Show()
             Case "time1"
                 time1Installed = True
                 Windows95.TimeDistorterToolStripMenuItem.Visible = True

@@ -22,11 +22,6 @@ Partial Class formcalculator
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.components = New System.ComponentModel.Container()
-        Me.look = New System.Windows.Forms.Timer(Me.components)
-        Me.pullbs = New System.Windows.Forms.Timer(Me.components)
-        Me.pullbottom = New System.Windows.Forms.Timer(Me.components)
-        Me.pullside = New System.Windows.Forms.Timer(Me.components)
         Me.Button9 = New System.Windows.Forms.Button()
         Me.Button19 = New System.Windows.Forms.Button()
         Me.Button20 = New System.Windows.Forms.Button()
@@ -73,21 +68,6 @@ Partial Class formcalculator
         Me.MenuStrip2.SuspendLayout()
         Me.program.SuspendLayout()
         Me.SuspendLayout()
-        '
-        'look
-        '
-        '
-        'pullbs
-        '
-        Me.pullbs.Interval = 1
-        '
-        'pullbottom
-        '
-        Me.pullbottom.Interval = 1
-        '
-        'pullside
-        '
-        Me.pullside.Interval = 1
         '
         'Button9
         '
@@ -595,10 +575,6 @@ Partial Class formcalculator
         Me.ResumeLayout(False)
 
     End Sub
-    Friend WithEvents look As System.Windows.Forms.Timer
-    Friend WithEvents pullbs As System.Windows.Forms.Timer
-    Friend WithEvents pullbottom As System.Windows.Forms.Timer
-    Friend WithEvents pullside As System.Windows.Forms.Timer
     Friend WithEvents Button9 As Button
     Friend WithEvents Button19 As Button
     Friend WithEvents Button20 As Button

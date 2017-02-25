@@ -1,6 +1,6 @@
 ﻿Public Class formcalculator
 
     Private Sub formcalculator_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
-        look.Start()
+        winman.setupwindow(Me, "Calculator", My.Resources.windows95calcualatorstartmenuicon)
     End Sub
 End Class

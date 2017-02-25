@@ -22,6 +22,7 @@ Partial Class internet_explorer_4
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(internet_explorer_4))
         Me.MenuStrip3 = New System.Windows.Forms.MenuStrip()
         Me.ToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
@@ -119,49 +120,27 @@ Partial Class internet_explorer_4
         Me.ToolStripMenuItem93 = New System.Windows.Forms.ToolStripMenuItem()
         Me.ToolStripMenuItem94 = New System.Windows.Forms.ToolStripMenuItem()
         Me.ToolStripMenuItem95 = New System.Windows.Forms.ToolStripMenuItem()
-        Me.Button8 = New System.Windows.Forms.Button()
         Me.Panel1 = New System.Windows.Forms.Panel()
-        Me.Button30 = New System.Windows.Forms.Button()
-        Me.Button29 = New System.Windows.Forms.Button()
-        Me.Button28 = New System.Windows.Forms.Button()
-        Me.Button27 = New System.Windows.Forms.Button()
-        Me.Button7 = New System.Windows.Forms.Button()
-        Me.Button6 = New System.Windows.Forms.Button()
-        Me.Button5 = New System.Windows.Forms.Button()
-        Me.Button4 = New System.Windows.Forms.Button()
-        Me.Button3 = New System.Windows.Forms.Button()
-        Me.Button2 = New System.Windows.Forms.Button()
-        Me.Button1 = New System.Windows.Forms.Button()
         Me.addressbar = New System.Windows.Forms.ComboBox()
-        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.program = New System.Windows.Forms.Panel()
         Me.browsingarea = New System.Windows.Forms.Panel()
         Me.padamsbackgrounds = New System.Windows.Forms.Panel()
         Me.Panel13 = New System.Windows.Forms.Panel()
-        Me.Previewimage = New System.Windows.Forms.PictureBox()
         Me.Button21 = New System.Windows.Forms.Button()
         Me.Button22 = New System.Windows.Forms.Button()
         Me.Label35 = New System.Windows.Forms.Label()
-        Me.mclarinflimage = New System.Windows.Forms.PictureBox()
         Me.Button20 = New System.Windows.Forms.Button()
         Me.Button19 = New System.Windows.Forms.Button()
         Me.Label34 = New System.Windows.Forms.Label()
-        Me.win95background = New System.Windows.Forms.PictureBox()
         Me.Label33 = New System.Windows.Forms.Label()
         Me.Label32 = New System.Windows.Forms.Label()
         Me.hotmailmain = New System.Windows.Forms.Panel()
-        Me.PictureBox9 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox10 = New System.Windows.Forms.PictureBox()
         Me.Label31 = New System.Windows.Forms.Label()
         Me.Label30 = New System.Windows.Forms.Label()
         Me.Label29 = New System.Windows.Forms.Label()
-        Me.PictureBox8 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox7 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox6 = New System.Windows.Forms.PictureBox()
         Me.Label28 = New System.Windows.Forms.Label()
         Me.Label27 = New System.Windows.Forms.Label()
-        Me.PictureBox5 = New System.Windows.Forms.PictureBox()
         Me.RadioButton3 = New System.Windows.Forms.RadioButton()
         Me.RadioButton2 = New System.Windows.Forms.RadioButton()
         Me.RadioButton1 = New System.Windows.Forms.RadioButton()
@@ -173,8 +152,6 @@ Partial Class internet_explorer_4
         Me.Label24 = New System.Windows.Forms.Label()
         Me.Label23 = New System.Windows.Forms.Label()
         Me.Panel11 = New System.Windows.Forms.Panel()
-        Me.PictureBox4 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox3 = New System.Windows.Forms.PictureBox()
         Me.welcomeinternetscreen = New System.Windows.Forms.Panel()
         Me.Label58 = New System.Windows.Forms.Label()
         Me.LinkLabel16 = New System.Windows.Forms.LinkLabel()
@@ -213,9 +190,6 @@ Partial Class internet_explorer_4
         Me.Label50 = New System.Windows.Forms.Label()
         Me.Label51 = New System.Windows.Forms.Label()
         Me.ListBox1 = New System.Windows.Forms.ListBox()
-        Me.PictureBox14 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox13 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox12 = New System.Windows.Forms.PictureBox()
         Me.googlealpha = New System.Windows.Forms.Panel()
         Me.Label15 = New System.Windows.Forms.Label()
         Me.Panel6 = New System.Windows.Forms.Panel()
@@ -241,7 +215,6 @@ Partial Class internet_explorer_4
         Me.Button12 = New System.Windows.Forms.Button()
         Me.TextBox4 = New System.Windows.Forms.TextBox()
         Me.Label11 = New System.Windows.Forms.Label()
-        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         Me.padamsmain = New System.Windows.Forms.Panel()
         Me.Panel12 = New System.Windows.Forms.Panel()
         Me.LinkLabel17 = New System.Windows.Forms.LinkLabel()
@@ -275,7 +248,6 @@ Partial Class internet_explorer_4
         Me.Label42 = New System.Windows.Forms.Label()
         Me.Label41 = New System.Windows.Forms.Label()
         Me.TextBox8 = New System.Windows.Forms.TextBox()
-        Me.PictureBox11 = New System.Windows.Forms.PictureBox()
         Me.Label40 = New System.Windows.Forms.Label()
         Me.Label39 = New System.Windows.Forms.Label()
         Me.googlemain = New System.Windows.Forms.Panel()
@@ -299,46 +271,60 @@ Partial Class internet_explorer_4
         Me.ComboBox1 = New System.Windows.Forms.ComboBox()
         Me.TextBox2 = New System.Windows.Forms.TextBox()
         Me.Label7 = New System.Windows.Forms.Label()
-        Me.pboxgoogleprototypelogo = New System.Windows.Forms.PictureBox()
         Me.Panel14 = New System.Windows.Forms.Panel()
+        Me.Previewimage = New System.Windows.Forms.PictureBox()
+        Me.mclarinflimage = New System.Windows.Forms.PictureBox()
+        Me.win95background = New System.Windows.Forms.PictureBox()
+        Me.PictureBox9 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox10 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox8 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox7 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox6 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox5 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox4 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox3 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox14 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox13 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox12 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox11 = New System.Windows.Forms.PictureBox()
+        Me.pboxgoogleprototypelogo = New System.Windows.Forms.PictureBox()
+        Me.Button8 = New System.Windows.Forms.Button()
+        Me.Button30 = New System.Windows.Forms.Button()
+        Me.Button29 = New System.Windows.Forms.Button()
+        Me.Button28 = New System.Windows.Forms.Button()
+        Me.Button27 = New System.Windows.Forms.Button()
+        Me.Button7 = New System.Windows.Forms.Button()
+        Me.Button6 = New System.Windows.Forms.Button()
+        Me.Button5 = New System.Windows.Forms.Button()
+        Me.Button4 = New System.Windows.Forms.Button()
+        Me.Button3 = New System.Windows.Forms.Button()
+        Me.Button2 = New System.Windows.Forms.Button()
+        Me.Button1 = New System.Windows.Forms.Button()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.toprightcorner = New System.Windows.Forms.Panel()
         Me.bottomrightcorner = New System.Windows.Forms.Panel()
         Me.bottomleftcorner = New System.Windows.Forms.Panel()
         Me.topleftcorner = New System.Windows.Forms.Panel()
+        Me.checkhid = New System.Windows.Forms.Timer(Me.components)
         Me.MenuStrip3.SuspendLayout()
         Me.Panel1.SuspendLayout()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.program.SuspendLayout()
         Me.browsingarea.SuspendLayout()
         Me.padamsbackgrounds.SuspendLayout()
         Me.Panel13.SuspendLayout()
-        CType(Me.Previewimage, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.mclarinflimage, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.win95background, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.hotmailmain.SuspendLayout()
-        CType(Me.PictureBox9, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox10, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox8, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox7, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox6, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel11.SuspendLayout()
-        CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.welcomeinternetscreen.SuspendLayout()
         Me.hotmailpadams.SuspendLayout()
         Me.email1.SuspendLayout()
         Me.email3.SuspendLayout()
         Me.email2.SuspendLayout()
-        CType(Me.PictureBox14, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox13, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox12, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.googlealpha.SuspendLayout()
         Me.Panel6.SuspendLayout()
         Me.Panel7.SuspendLayout()
         Me.Panel5.SuspendLayout()
         Me.Panel4.SuspendLayout()
-        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.padamsmain.SuspendLayout()
         Me.Panel12.SuspendLayout()
         Me.Panel10.SuspendLayout()
@@ -347,13 +333,29 @@ Partial Class internet_explorer_4
         Me.padamshidden.SuspendLayout()
         Me.secretwebsite.SuspendLayout()
         Me.skindows95advertisment.SuspendLayout()
-        CType(Me.PictureBox11, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.googlemain.SuspendLayout()
         Me.googleprototype.SuspendLayout()
         Me.Panel3.SuspendLayout()
         Me.Panel2.SuspendLayout()
-        CType(Me.pboxgoogleprototypelogo, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel14.SuspendLayout()
+        CType(Me.Previewimage, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.mclarinflimage, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.win95background, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox9, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox10, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox8, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox7, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox6, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox14, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox13, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox12, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox11, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.pboxgoogleprototypelogo, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'MenuStrip3
@@ -1041,19 +1043,6 @@ Partial Class internet_explorer_4
         Me.ToolStripMenuItem95.Size = New System.Drawing.Size(196, 22)
         Me.ToolStripMenuItem95.Text = "Send Feedback"
         '
-        'Button8
-        '
-        Me.Button8.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.Button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button8.Image = Global.Histacom.My.Resources.Resources.windows95internetexplorergobutton
-        Me.Button8.Location = New System.Drawing.Point(898, 5)
-        Me.Button8.Name = "Button8"
-        Me.Button8.Size = New System.Drawing.Size(55, 28)
-        Me.Button8.TabIndex = 2
-        Me.Button8.Text = "Go"
-        Me.Button8.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
-        Me.Button8.UseVisualStyleBackColor = True
-        '
         'Panel1
         '
         Me.Panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
@@ -1074,168 +1063,6 @@ Partial Class internet_explorer_4
         Me.Panel1.Size = New System.Drawing.Size(959, 49)
         Me.Panel1.TabIndex = 7
         '
-        'Button30
-        '
-        Me.Button30.Dock = System.Windows.Forms.DockStyle.Left
-        Me.Button30.FlatAppearance.BorderSize = 0
-        Me.Button30.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button30.Image = Global.Histacom.My.Resources.Resources.ie_four_print
-        Me.Button30.ImageAlign = System.Drawing.ContentAlignment.TopCenter
-        Me.Button30.Location = New System.Drawing.Point(750, 0)
-        Me.Button30.Name = "Button30"
-        Me.Button30.Size = New System.Drawing.Size(75, 47)
-        Me.Button30.TabIndex = 10
-        Me.Button30.Text = "Print"
-        Me.Button30.TextAlign = System.Drawing.ContentAlignment.BottomCenter
-        Me.Button30.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
-        Me.Button30.UseVisualStyleBackColor = True
-        '
-        'Button29
-        '
-        Me.Button29.Dock = System.Windows.Forms.DockStyle.Left
-        Me.Button29.FlatAppearance.BorderSize = 0
-        Me.Button29.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button29.Image = Global.Histacom.My.Resources.Resources.ie_four_mail
-        Me.Button29.ImageAlign = System.Drawing.ContentAlignment.TopCenter
-        Me.Button29.Location = New System.Drawing.Point(675, 0)
-        Me.Button29.Name = "Button29"
-        Me.Button29.Size = New System.Drawing.Size(75, 47)
-        Me.Button29.TabIndex = 9
-        Me.Button29.Text = "Mail"
-        Me.Button29.TextAlign = System.Drawing.ContentAlignment.BottomCenter
-        Me.Button29.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
-        Me.Button29.UseVisualStyleBackColor = True
-        '
-        'Button28
-        '
-        Me.Button28.Dock = System.Windows.Forms.DockStyle.Left
-        Me.Button28.FlatAppearance.BorderSize = 0
-        Me.Button28.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button28.Image = Global.Histacom.My.Resources.Resources.ie_four_fullscreen
-        Me.Button28.ImageAlign = System.Drawing.ContentAlignment.TopCenter
-        Me.Button28.Location = New System.Drawing.Point(600, 0)
-        Me.Button28.Name = "Button28"
-        Me.Button28.Size = New System.Drawing.Size(75, 47)
-        Me.Button28.TabIndex = 8
-        Me.Button28.Text = "Full Screen"
-        Me.Button28.TextAlign = System.Drawing.ContentAlignment.BottomCenter
-        Me.Button28.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
-        Me.Button28.UseVisualStyleBackColor = True
-        '
-        'Button27
-        '
-        Me.Button27.Dock = System.Windows.Forms.DockStyle.Left
-        Me.Button27.FlatAppearance.BorderSize = 0
-        Me.Button27.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button27.Image = Global.Histacom.My.Resources.Resources.ie_four_channels
-        Me.Button27.ImageAlign = System.Drawing.ContentAlignment.TopCenter
-        Me.Button27.Location = New System.Drawing.Point(525, 0)
-        Me.Button27.Name = "Button27"
-        Me.Button27.Size = New System.Drawing.Size(75, 47)
-        Me.Button27.TabIndex = 7
-        Me.Button27.Text = "Channels"
-        Me.Button27.TextAlign = System.Drawing.ContentAlignment.BottomCenter
-        Me.Button27.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
-        Me.Button27.UseVisualStyleBackColor = True
-        '
-        'Button7
-        '
-        Me.Button7.Dock = System.Windows.Forms.DockStyle.Left
-        Me.Button7.FlatAppearance.BorderSize = 0
-        Me.Button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button7.Image = Global.Histacom.My.Resources.Resources.windows95internetexplorerhistory
-        Me.Button7.Location = New System.Drawing.Point(450, 0)
-        Me.Button7.Name = "Button7"
-        Me.Button7.Size = New System.Drawing.Size(75, 47)
-        Me.Button7.TabIndex = 6
-        Me.Button7.Text = "History"
-        Me.Button7.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
-        Me.Button7.UseVisualStyleBackColor = True
-        '
-        'Button6
-        '
-        Me.Button6.Dock = System.Windows.Forms.DockStyle.Left
-        Me.Button6.FlatAppearance.BorderSize = 0
-        Me.Button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button6.Image = Global.Histacom.My.Resources.Resources.windows95internetexplorerfavorites
-        Me.Button6.Location = New System.Drawing.Point(375, 0)
-        Me.Button6.Name = "Button6"
-        Me.Button6.Size = New System.Drawing.Size(75, 47)
-        Me.Button6.TabIndex = 5
-        Me.Button6.Text = "Favorites"
-        Me.Button6.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
-        Me.Button6.UseVisualStyleBackColor = True
-        '
-        'Button5
-        '
-        Me.Button5.Dock = System.Windows.Forms.DockStyle.Left
-        Me.Button5.FlatAppearance.BorderSize = 0
-        Me.Button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button5.Image = Global.Histacom.My.Resources.Resources.windows95internetexplorerhome
-        Me.Button5.Location = New System.Drawing.Point(300, 0)
-        Me.Button5.Name = "Button5"
-        Me.Button5.Size = New System.Drawing.Size(75, 47)
-        Me.Button5.TabIndex = 4
-        Me.Button5.Text = "Home"
-        Me.Button5.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
-        Me.Button5.UseVisualStyleBackColor = True
-        '
-        'Button4
-        '
-        Me.Button4.Dock = System.Windows.Forms.DockStyle.Left
-        Me.Button4.FlatAppearance.BorderSize = 0
-        Me.Button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button4.Image = Global.Histacom.My.Resources.Resources.windows95internetexplorerrefresh
-        Me.Button4.Location = New System.Drawing.Point(225, 0)
-        Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(75, 47)
-        Me.Button4.TabIndex = 3
-        Me.Button4.Text = "Refresh"
-        Me.Button4.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
-        Me.Button4.UseVisualStyleBackColor = True
-        '
-        'Button3
-        '
-        Me.Button3.Dock = System.Windows.Forms.DockStyle.Left
-        Me.Button3.FlatAppearance.BorderSize = 0
-        Me.Button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button3.Image = Global.Histacom.My.Resources.Resources.windows95internetexplorerstop
-        Me.Button3.Location = New System.Drawing.Point(150, 0)
-        Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(75, 47)
-        Me.Button3.TabIndex = 2
-        Me.Button3.Text = "Stop"
-        Me.Button3.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
-        Me.Button3.UseVisualStyleBackColor = True
-        '
-        'Button2
-        '
-        Me.Button2.Dock = System.Windows.Forms.DockStyle.Left
-        Me.Button2.FlatAppearance.BorderSize = 0
-        Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button2.Image = Global.Histacom.My.Resources.Resources.windows95internetexplorerforward
-        Me.Button2.Location = New System.Drawing.Point(75, 0)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(75, 47)
-        Me.Button2.TabIndex = 1
-        Me.Button2.Text = "Forward"
-        Me.Button2.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
-        Me.Button2.UseVisualStyleBackColor = True
-        '
-        'Button1
-        '
-        Me.Button1.Dock = System.Windows.Forms.DockStyle.Left
-        Me.Button1.FlatAppearance.BorderSize = 0
-        Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button1.Image = Global.Histacom.My.Resources.Resources.windows95internetexplorerback
-        Me.Button1.Location = New System.Drawing.Point(0, 0)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(75, 47)
-        Me.Button1.TabIndex = 0
-        Me.Button1.Text = "Back"
-        Me.Button1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
-        Me.Button1.UseVisualStyleBackColor = True
-        '
         'addressbar
         '
         Me.addressbar.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
@@ -1246,16 +1073,6 @@ Partial Class internet_explorer_4
         Me.addressbar.Size = New System.Drawing.Size(812, 21)
         Me.addressbar.TabIndex = 1
         Me.addressbar.Text = "www.microsoft.com/internetexplorer4/welcome"
-        '
-        'PictureBox1
-        '
-        Me.PictureBox1.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.PictureBox1.Image = Global.Histacom.My.Resources.Resources.ie_four_logo
-        Me.PictureBox1.Location = New System.Drawing.Point(915, 23)
-        Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(38, 21)
-        Me.PictureBox1.TabIndex = 10
-        Me.PictureBox1.TabStop = False
         '
         'Label1
         '
@@ -1335,19 +1152,6 @@ Partial Class internet_explorer_4
         Me.Panel13.Size = New System.Drawing.Size(3550, 9)
         Me.Panel13.TabIndex = 2
         '
-        'Previewimage
-        '
-        Me.Previewimage.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.Previewimage.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Previewimage.Location = New System.Drawing.Point(246, 6)
-        Me.Previewimage.Name = "Previewimage"
-        Me.Previewimage.Size = New System.Drawing.Size(2133, 9)
-        Me.Previewimage.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.Previewimage.TabIndex = 1
-        Me.Previewimage.TabStop = False
-        '
         'Button21
         '
         Me.Button21.BackColor = System.Drawing.Color.Silver
@@ -1377,16 +1181,6 @@ Partial Class internet_explorer_4
         Me.Label35.TabIndex = 6
         Me.Label35.Text = "1994 Mclaren F1"
         '
-        'mclarinflimage
-        '
-        Me.mclarinflimage.Image = Global.Histacom.My.Resources.Resources.mclaren_f1
-        Me.mclarinflimage.Location = New System.Drawing.Point(26, 192)
-        Me.mclarinflimage.Name = "mclarinflimage"
-        Me.mclarinflimage.Size = New System.Drawing.Size(184, 115)
-        Me.mclarinflimage.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.mclarinflimage.TabIndex = 5
-        Me.mclarinflimage.TabStop = False
-        '
         'Button20
         '
         Me.Button20.BackColor = System.Drawing.Color.Silver
@@ -1415,16 +1209,6 @@ Partial Class internet_explorer_4
         Me.Label34.Size = New System.Drawing.Size(128, 13)
         Me.Label34.TabIndex = 2
         Me.Label34.Text = "Windows 95 Boot Screen"
-        '
-        'win95background
-        '
-        Me.win95background.Image = Global.Histacom.My.Resources.Resources.windows_95_background
-        Me.win95background.Location = New System.Drawing.Point(26, 22)
-        Me.win95background.Name = "win95background"
-        Me.win95background.Size = New System.Drawing.Size(184, 115)
-        Me.win95background.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.win95background.TabIndex = 0
-        Me.win95background.TabStop = False
         '
         'Label33
         '
@@ -1477,24 +1261,6 @@ Partial Class internet_explorer_4
         Me.hotmailmain.Size = New System.Drawing.Size(134, 95)
         Me.hotmailmain.TabIndex = 5
         '
-        'PictureBox9
-        '
-        Me.PictureBox9.Image = Global.Histacom.My.Resources.Resources.hotmail_signup_button
-        Me.PictureBox9.Location = New System.Drawing.Point(248, 207)
-        Me.PictureBox9.Name = "PictureBox9"
-        Me.PictureBox9.Size = New System.Drawing.Size(200, 33)
-        Me.PictureBox9.TabIndex = 2
-        Me.PictureBox9.TabStop = False
-        '
-        'PictureBox10
-        '
-        Me.PictureBox10.Image = Global.Histacom.My.Resources.Resources.hotmailwhysignup_button
-        Me.PictureBox10.Location = New System.Drawing.Point(272, 246)
-        Me.PictureBox10.Name = "PictureBox10"
-        Me.PictureBox10.Size = New System.Drawing.Size(160, 26)
-        Me.PictureBox10.TabIndex = 3
-        Me.PictureBox10.TabStop = False
-        '
         'Label31
         '
         Me.Label31.AutoSize = True
@@ -1528,33 +1294,6 @@ Partial Class internet_explorer_4
         Me.Label29.TabIndex = 17
         Me.Label29.Text = "About Hotmail"
         '
-        'PictureBox8
-        '
-        Me.PictureBox8.Image = Global.Histacom.My.Resources.Resources.hotmailcirclearrow
-        Me.PictureBox8.Location = New System.Drawing.Point(478, 256)
-        Me.PictureBox8.Name = "PictureBox8"
-        Me.PictureBox8.Size = New System.Drawing.Size(17, 16)
-        Me.PictureBox8.TabIndex = 16
-        Me.PictureBox8.TabStop = False
-        '
-        'PictureBox7
-        '
-        Me.PictureBox7.Image = Global.Histacom.My.Resources.Resources.hotmailcirclearrow
-        Me.PictureBox7.Location = New System.Drawing.Point(478, 231)
-        Me.PictureBox7.Name = "PictureBox7"
-        Me.PictureBox7.Size = New System.Drawing.Size(17, 16)
-        Me.PictureBox7.TabIndex = 15
-        Me.PictureBox7.TabStop = False
-        '
-        'PictureBox6
-        '
-        Me.PictureBox6.Image = Global.Histacom.My.Resources.Resources.hotmailcirclearrow
-        Me.PictureBox6.Location = New System.Drawing.Point(478, 206)
-        Me.PictureBox6.Name = "PictureBox6"
-        Me.PictureBox6.Size = New System.Drawing.Size(17, 16)
-        Me.PictureBox6.TabIndex = 14
-        Me.PictureBox6.TabStop = False
-        '
         'Label28
         '
         Me.Label28.AutoSize = True
@@ -1577,15 +1316,6 @@ Partial Class internet_explorer_4
         Me.Label27.Size = New System.Drawing.Size(139, 15)
         Me.Label27.TabIndex = 12
         Me.Label27.Text = "Forgot Your Password?"
-        '
-        'PictureBox5
-        '
-        Me.PictureBox5.Image = Global.Histacom.My.Resources.Resources.hotmailcirclearrow
-        Me.PictureBox5.Location = New System.Drawing.Point(235, 139)
-        Me.PictureBox5.Name = "PictureBox5"
-        Me.PictureBox5.Size = New System.Drawing.Size(17, 16)
-        Me.PictureBox5.TabIndex = 11
-        Me.PictureBox5.TabStop = False
         '
         'RadioButton3
         '
@@ -1706,24 +1436,6 @@ Partial Class internet_explorer_4
         Me.Panel11.Name = "Panel11"
         Me.Panel11.Size = New System.Drawing.Size(205, 445)
         Me.Panel11.TabIndex = 0
-        '
-        'PictureBox4
-        '
-        Me.PictureBox4.Image = Global.Histacom.My.Resources.Resources.hotmail_slogan
-        Me.PictureBox4.Location = New System.Drawing.Point(35, 179)
-        Me.PictureBox4.Name = "PictureBox4"
-        Me.PictureBox4.Size = New System.Drawing.Size(160, 136)
-        Me.PictureBox4.TabIndex = 1
-        Me.PictureBox4.TabStop = False
-        '
-        'PictureBox3
-        '
-        Me.PictureBox3.Image = Global.Histacom.My.Resources.Resources.hotmail_logo
-        Me.PictureBox3.Location = New System.Drawing.Point(13, 23)
-        Me.PictureBox3.Name = "PictureBox3"
-        Me.PictureBox3.Size = New System.Drawing.Size(160, 136)
-        Me.PictureBox3.TabIndex = 0
-        Me.PictureBox3.TabStop = False
         '
         'welcomeinternetscreen
         '
@@ -2115,36 +1827,6 @@ Partial Class internet_explorer_4
         Me.ListBox1.Size = New System.Drawing.Size(518, 278)
         Me.ListBox1.TabIndex = 3
         '
-        'PictureBox14
-        '
-        Me.PictureBox14.Dock = System.Windows.Forms.DockStyle.Top
-        Me.PictureBox14.Image = Global.Histacom.My.Resources.Resources.hotmail2ndfromtopbar
-        Me.PictureBox14.Location = New System.Drawing.Point(154, 38)
-        Me.PictureBox14.Name = "PictureBox14"
-        Me.PictureBox14.Size = New System.Drawing.Size(518, 21)
-        Me.PictureBox14.TabIndex = 2
-        Me.PictureBox14.TabStop = False
-        '
-        'PictureBox13
-        '
-        Me.PictureBox13.Dock = System.Windows.Forms.DockStyle.Top
-        Me.PictureBox13.Image = Global.Histacom.My.Resources.Resources.hotmailtop
-        Me.PictureBox13.Location = New System.Drawing.Point(154, 0)
-        Me.PictureBox13.Name = "PictureBox13"
-        Me.PictureBox13.Size = New System.Drawing.Size(518, 38)
-        Me.PictureBox13.TabIndex = 1
-        Me.PictureBox13.TabStop = False
-        '
-        'PictureBox12
-        '
-        Me.PictureBox12.Dock = System.Windows.Forms.DockStyle.Left
-        Me.PictureBox12.Image = Global.Histacom.My.Resources.Resources.hotmailside
-        Me.PictureBox12.Location = New System.Drawing.Point(0, 0)
-        Me.PictureBox12.Name = "PictureBox12"
-        Me.PictureBox12.Size = New System.Drawing.Size(154, 337)
-        Me.PictureBox12.TabIndex = 0
-        Me.PictureBox12.TabStop = False
-        '
         'googlealpha
         '
         Me.googlealpha.AutoScroll = True
@@ -2413,16 +2095,6 @@ Partial Class internet_explorer_4
         Me.Label11.Size = New System.Drawing.Size(186, 16)
         Me.Label11.TabIndex = 0
         Me.Label11.Text = "Search the web using Google!"
-        '
-        'PictureBox2
-        '
-        Me.PictureBox2.Anchor = System.Windows.Forms.AnchorStyles.Top
-        Me.PictureBox2.Image = Global.Histacom.My.Resources.Resources.googlebetalogo
-        Me.PictureBox2.Location = New System.Drawing.Point(-131, 7)
-        Me.PictureBox2.Name = "PictureBox2"
-        Me.PictureBox2.Size = New System.Drawing.Size(361, 106)
-        Me.PictureBox2.TabIndex = 0
-        Me.PictureBox2.TabStop = False
         '
         'padamsmain
         '
@@ -2783,17 +2455,6 @@ Partial Class internet_explorer_4
         Me.TextBox8.TabIndex = 3
         Me.TextBox8.Text = resources.GetString("TextBox8.Text")
         '
-        'PictureBox11
-        '
-        Me.PictureBox11.Anchor = System.Windows.Forms.AnchorStyles.Top
-        Me.PictureBox11.Image = Global.Histacom.My.Resources.Resources.skindows_95_preview
-        Me.PictureBox11.Location = New System.Drawing.Point(485, 60)
-        Me.PictureBox11.Name = "PictureBox11"
-        Me.PictureBox11.Size = New System.Drawing.Size(337, 386)
-        Me.PictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox11.TabIndex = 2
-        Me.PictureBox11.TabStop = False
-        '
         'Label40
         '
         Me.Label40.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
@@ -2880,7 +2541,7 @@ Partial Class internet_explorer_4
         Me.Label10.Anchor = System.Windows.Forms.AnchorStyles.Top
         Me.Label10.AutoSize = True
         Me.Label10.Font = New System.Drawing.Font("Arial", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label10.Location = New System.Drawing.Point(-91, 405)
+        Me.Label10.Location = New System.Drawing.Point(-91, 430)
         Me.Label10.Name = "Label10"
         Me.Label10.Size = New System.Drawing.Size(215, 15)
         Me.Label10.TabIndex = 6
@@ -2894,7 +2555,7 @@ Partial Class internet_explorer_4
         Me.Panel3.Controls.Add(Me.Button11)
         Me.Panel3.Controls.Add(Me.TextBox3)
         Me.Panel3.Controls.Add(Me.Label9)
-        Me.Panel3.Location = New System.Drawing.Point(-212, 334)
+        Me.Panel3.Location = New System.Drawing.Point(-212, 359)
         Me.Panel3.Name = "Panel3"
         Me.Panel3.Size = New System.Drawing.Size(430, 65)
         Me.Panel3.TabIndex = 5
@@ -2943,7 +2604,7 @@ Partial Class internet_explorer_4
         Me.LinkLabel3.Anchor = System.Windows.Forms.AnchorStyles.Top
         Me.LinkLabel3.AutoSize = True
         Me.LinkLabel3.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.LinkLabel3.Location = New System.Drawing.Point(-101, 309)
+        Me.LinkLabel3.Location = New System.Drawing.Point(-101, 334)
         Me.LinkLabel3.Name = "LinkLabel3"
         Me.LinkLabel3.Size = New System.Drawing.Size(115, 18)
         Me.LinkLabel3.TabIndex = 4
@@ -2955,7 +2616,7 @@ Partial Class internet_explorer_4
         Me.LinkLabel2.Anchor = System.Windows.Forms.AnchorStyles.Top
         Me.LinkLabel2.AutoSize = True
         Me.LinkLabel2.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.LinkLabel2.Location = New System.Drawing.Point(12, 309)
+        Me.LinkLabel2.Location = New System.Drawing.Point(12, 334)
         Me.LinkLabel2.Name = "LinkLabel2"
         Me.LinkLabel2.Size = New System.Drawing.Size(93, 18)
         Me.LinkLabel2.TabIndex = 3
@@ -2967,7 +2628,7 @@ Partial Class internet_explorer_4
         Me.LinkLabel1.Anchor = System.Windows.Forms.AnchorStyles.Top
         Me.LinkLabel1.AutoSize = True
         Me.LinkLabel1.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.LinkLabel1.Location = New System.Drawing.Point(-79, 271)
+        Me.LinkLabel1.Location = New System.Drawing.Point(-79, 296)
         Me.LinkLabel1.Name = "LinkLabel1"
         Me.LinkLabel1.Size = New System.Drawing.Size(162, 25)
         Me.LinkLabel1.TabIndex = 2
@@ -2984,7 +2645,7 @@ Partial Class internet_explorer_4
         Me.Panel2.Controls.Add(Me.ComboBox1)
         Me.Panel2.Controls.Add(Me.TextBox2)
         Me.Panel2.Controls.Add(Me.Label7)
-        Me.Panel2.Location = New System.Drawing.Point(-212, 135)
+        Me.Panel2.Location = New System.Drawing.Point(-212, 160)
         Me.Panel2.Name = "Panel2"
         Me.Panel2.Size = New System.Drawing.Size(430, 117)
         Me.Panel2.TabIndex = 1
@@ -3046,16 +2707,6 @@ Partial Class internet_explorer_4
         Me.Label7.TabIndex = 0
         Me.Label7.Text = "Search the web using Google!"
         '
-        'pboxgoogleprototypelogo
-        '
-        Me.pboxgoogleprototypelogo.Anchor = System.Windows.Forms.AnchorStyles.Top
-        Me.pboxgoogleprototypelogo.Image = Global.Histacom.My.Resources.Resources.googleprotoype
-        Me.pboxgoogleprototypelogo.Location = New System.Drawing.Point(-169, 8)
-        Me.pboxgoogleprototypelogo.Name = "pboxgoogleprototypelogo"
-        Me.pboxgoogleprototypelogo.Size = New System.Drawing.Size(340, 94)
-        Me.pboxgoogleprototypelogo.TabIndex = 0
-        Me.pboxgoogleprototypelogo.TabStop = False
-        '
         'Panel14
         '
         Me.Panel14.Controls.Add(Me.Button8)
@@ -3066,6 +2717,357 @@ Partial Class internet_explorer_4
         Me.Panel14.Name = "Panel14"
         Me.Panel14.Size = New System.Drawing.Size(959, 38)
         Me.Panel14.TabIndex = 13
+        '
+        'Previewimage
+        '
+        Me.Previewimage.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.Previewimage.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Previewimage.Location = New System.Drawing.Point(246, 6)
+        Me.Previewimage.Name = "Previewimage"
+        Me.Previewimage.Size = New System.Drawing.Size(2133, 9)
+        Me.Previewimage.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.Previewimage.TabIndex = 1
+        Me.Previewimage.TabStop = False
+        '
+        'mclarinflimage
+        '
+        Me.mclarinflimage.Image = Global.Histacom.My.Resources.Resources.mclaren_f1
+        Me.mclarinflimage.Location = New System.Drawing.Point(26, 192)
+        Me.mclarinflimage.Name = "mclarinflimage"
+        Me.mclarinflimage.Size = New System.Drawing.Size(184, 115)
+        Me.mclarinflimage.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.mclarinflimage.TabIndex = 5
+        Me.mclarinflimage.TabStop = False
+        '
+        'win95background
+        '
+        Me.win95background.Image = Global.Histacom.My.Resources.Resources.windows_95_background
+        Me.win95background.Location = New System.Drawing.Point(26, 22)
+        Me.win95background.Name = "win95background"
+        Me.win95background.Size = New System.Drawing.Size(184, 115)
+        Me.win95background.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.win95background.TabIndex = 0
+        Me.win95background.TabStop = False
+        '
+        'PictureBox9
+        '
+        Me.PictureBox9.Image = Global.Histacom.My.Resources.Resources.hotmail_signup_button
+        Me.PictureBox9.Location = New System.Drawing.Point(248, 207)
+        Me.PictureBox9.Name = "PictureBox9"
+        Me.PictureBox9.Size = New System.Drawing.Size(200, 33)
+        Me.PictureBox9.TabIndex = 2
+        Me.PictureBox9.TabStop = False
+        '
+        'PictureBox10
+        '
+        Me.PictureBox10.Image = Global.Histacom.My.Resources.Resources.hotmailwhysignup_button
+        Me.PictureBox10.Location = New System.Drawing.Point(272, 246)
+        Me.PictureBox10.Name = "PictureBox10"
+        Me.PictureBox10.Size = New System.Drawing.Size(160, 26)
+        Me.PictureBox10.TabIndex = 3
+        Me.PictureBox10.TabStop = False
+        '
+        'PictureBox8
+        '
+        Me.PictureBox8.Image = Global.Histacom.My.Resources.Resources.hotmailcirclearrow
+        Me.PictureBox8.Location = New System.Drawing.Point(478, 256)
+        Me.PictureBox8.Name = "PictureBox8"
+        Me.PictureBox8.Size = New System.Drawing.Size(17, 16)
+        Me.PictureBox8.TabIndex = 16
+        Me.PictureBox8.TabStop = False
+        '
+        'PictureBox7
+        '
+        Me.PictureBox7.Image = Global.Histacom.My.Resources.Resources.hotmailcirclearrow
+        Me.PictureBox7.Location = New System.Drawing.Point(478, 231)
+        Me.PictureBox7.Name = "PictureBox7"
+        Me.PictureBox7.Size = New System.Drawing.Size(17, 16)
+        Me.PictureBox7.TabIndex = 15
+        Me.PictureBox7.TabStop = False
+        '
+        'PictureBox6
+        '
+        Me.PictureBox6.Image = Global.Histacom.My.Resources.Resources.hotmailcirclearrow
+        Me.PictureBox6.Location = New System.Drawing.Point(478, 206)
+        Me.PictureBox6.Name = "PictureBox6"
+        Me.PictureBox6.Size = New System.Drawing.Size(17, 16)
+        Me.PictureBox6.TabIndex = 14
+        Me.PictureBox6.TabStop = False
+        '
+        'PictureBox5
+        '
+        Me.PictureBox5.Image = Global.Histacom.My.Resources.Resources.hotmailcirclearrow
+        Me.PictureBox5.Location = New System.Drawing.Point(235, 139)
+        Me.PictureBox5.Name = "PictureBox5"
+        Me.PictureBox5.Size = New System.Drawing.Size(17, 16)
+        Me.PictureBox5.TabIndex = 11
+        Me.PictureBox5.TabStop = False
+        '
+        'PictureBox4
+        '
+        Me.PictureBox4.Image = Global.Histacom.My.Resources.Resources.hotmail_slogan
+        Me.PictureBox4.Location = New System.Drawing.Point(35, 179)
+        Me.PictureBox4.Name = "PictureBox4"
+        Me.PictureBox4.Size = New System.Drawing.Size(160, 136)
+        Me.PictureBox4.TabIndex = 1
+        Me.PictureBox4.TabStop = False
+        '
+        'PictureBox3
+        '
+        Me.PictureBox3.Image = Global.Histacom.My.Resources.Resources.hotmail_logo
+        Me.PictureBox3.Location = New System.Drawing.Point(13, 23)
+        Me.PictureBox3.Name = "PictureBox3"
+        Me.PictureBox3.Size = New System.Drawing.Size(160, 136)
+        Me.PictureBox3.TabIndex = 0
+        Me.PictureBox3.TabStop = False
+        '
+        'PictureBox14
+        '
+        Me.PictureBox14.Dock = System.Windows.Forms.DockStyle.Top
+        Me.PictureBox14.Image = Global.Histacom.My.Resources.Resources.hotmail2ndfromtopbar
+        Me.PictureBox14.Location = New System.Drawing.Point(154, 38)
+        Me.PictureBox14.Name = "PictureBox14"
+        Me.PictureBox14.Size = New System.Drawing.Size(518, 21)
+        Me.PictureBox14.TabIndex = 2
+        Me.PictureBox14.TabStop = False
+        '
+        'PictureBox13
+        '
+        Me.PictureBox13.Dock = System.Windows.Forms.DockStyle.Top
+        Me.PictureBox13.Image = Global.Histacom.My.Resources.Resources.hotmailtop
+        Me.PictureBox13.Location = New System.Drawing.Point(154, 0)
+        Me.PictureBox13.Name = "PictureBox13"
+        Me.PictureBox13.Size = New System.Drawing.Size(518, 38)
+        Me.PictureBox13.TabIndex = 1
+        Me.PictureBox13.TabStop = False
+        '
+        'PictureBox12
+        '
+        Me.PictureBox12.Dock = System.Windows.Forms.DockStyle.Left
+        Me.PictureBox12.Image = Global.Histacom.My.Resources.Resources.hotmailside
+        Me.PictureBox12.Location = New System.Drawing.Point(0, 0)
+        Me.PictureBox12.Name = "PictureBox12"
+        Me.PictureBox12.Size = New System.Drawing.Size(154, 337)
+        Me.PictureBox12.TabIndex = 0
+        Me.PictureBox12.TabStop = False
+        '
+        'PictureBox2
+        '
+        Me.PictureBox2.Anchor = System.Windows.Forms.AnchorStyles.Top
+        Me.PictureBox2.Image = Global.Histacom.My.Resources.Resources.googlebetalogo
+        Me.PictureBox2.Location = New System.Drawing.Point(-131, 7)
+        Me.PictureBox2.Name = "PictureBox2"
+        Me.PictureBox2.Size = New System.Drawing.Size(361, 106)
+        Me.PictureBox2.TabIndex = 0
+        Me.PictureBox2.TabStop = False
+        '
+        'PictureBox11
+        '
+        Me.PictureBox11.Anchor = System.Windows.Forms.AnchorStyles.Top
+        Me.PictureBox11.Image = Global.Histacom.My.Resources.Resources.skindows_95_preview
+        Me.PictureBox11.Location = New System.Drawing.Point(485, 60)
+        Me.PictureBox11.Name = "PictureBox11"
+        Me.PictureBox11.Size = New System.Drawing.Size(337, 386)
+        Me.PictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox11.TabIndex = 2
+        Me.PictureBox11.TabStop = False
+        '
+        'pboxgoogleprototypelogo
+        '
+        Me.pboxgoogleprototypelogo.Anchor = System.Windows.Forms.AnchorStyles.Top
+        Me.pboxgoogleprototypelogo.Image = Global.Histacom.My.Resources.Resources.googleprotoype
+        Me.pboxgoogleprototypelogo.Location = New System.Drawing.Point(-169, 33)
+        Me.pboxgoogleprototypelogo.Name = "pboxgoogleprototypelogo"
+        Me.pboxgoogleprototypelogo.Size = New System.Drawing.Size(340, 94)
+        Me.pboxgoogleprototypelogo.TabIndex = 0
+        Me.pboxgoogleprototypelogo.TabStop = False
+        '
+        'Button8
+        '
+        Me.Button8.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.Button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button8.Image = Global.Histacom.My.Resources.Resources.windows95internetexplorergobutton
+        Me.Button8.Location = New System.Drawing.Point(898, 5)
+        Me.Button8.Name = "Button8"
+        Me.Button8.Size = New System.Drawing.Size(55, 28)
+        Me.Button8.TabIndex = 2
+        Me.Button8.Text = "Go"
+        Me.Button8.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
+        Me.Button8.UseVisualStyleBackColor = True
+        '
+        'Button30
+        '
+        Me.Button30.Dock = System.Windows.Forms.DockStyle.Left
+        Me.Button30.FlatAppearance.BorderSize = 0
+        Me.Button30.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button30.Image = Global.Histacom.My.Resources.Resources.ie_four_print
+        Me.Button30.ImageAlign = System.Drawing.ContentAlignment.TopCenter
+        Me.Button30.Location = New System.Drawing.Point(750, 0)
+        Me.Button30.Name = "Button30"
+        Me.Button30.Size = New System.Drawing.Size(75, 47)
+        Me.Button30.TabIndex = 10
+        Me.Button30.Text = "Print"
+        Me.Button30.TextAlign = System.Drawing.ContentAlignment.BottomCenter
+        Me.Button30.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
+        Me.Button30.UseVisualStyleBackColor = True
+        '
+        'Button29
+        '
+        Me.Button29.Dock = System.Windows.Forms.DockStyle.Left
+        Me.Button29.FlatAppearance.BorderSize = 0
+        Me.Button29.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button29.Image = Global.Histacom.My.Resources.Resources.ie_four_mail
+        Me.Button29.ImageAlign = System.Drawing.ContentAlignment.TopCenter
+        Me.Button29.Location = New System.Drawing.Point(675, 0)
+        Me.Button29.Name = "Button29"
+        Me.Button29.Size = New System.Drawing.Size(75, 47)
+        Me.Button29.TabIndex = 9
+        Me.Button29.Text = "Mail"
+        Me.Button29.TextAlign = System.Drawing.ContentAlignment.BottomCenter
+        Me.Button29.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
+        Me.Button29.UseVisualStyleBackColor = True
+        '
+        'Button28
+        '
+        Me.Button28.Dock = System.Windows.Forms.DockStyle.Left
+        Me.Button28.FlatAppearance.BorderSize = 0
+        Me.Button28.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button28.Image = Global.Histacom.My.Resources.Resources.ie_four_fullscreen
+        Me.Button28.ImageAlign = System.Drawing.ContentAlignment.TopCenter
+        Me.Button28.Location = New System.Drawing.Point(600, 0)
+        Me.Button28.Name = "Button28"
+        Me.Button28.Size = New System.Drawing.Size(75, 47)
+        Me.Button28.TabIndex = 8
+        Me.Button28.Text = "Full Screen"
+        Me.Button28.TextAlign = System.Drawing.ContentAlignment.BottomCenter
+        Me.Button28.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
+        Me.Button28.UseVisualStyleBackColor = True
+        '
+        'Button27
+        '
+        Me.Button27.Dock = System.Windows.Forms.DockStyle.Left
+        Me.Button27.FlatAppearance.BorderSize = 0
+        Me.Button27.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button27.Image = Global.Histacom.My.Resources.Resources.ie_four_channels
+        Me.Button27.ImageAlign = System.Drawing.ContentAlignment.TopCenter
+        Me.Button27.Location = New System.Drawing.Point(525, 0)
+        Me.Button27.Name = "Button27"
+        Me.Button27.Size = New System.Drawing.Size(75, 47)
+        Me.Button27.TabIndex = 7
+        Me.Button27.Text = "Channels"
+        Me.Button27.TextAlign = System.Drawing.ContentAlignment.BottomCenter
+        Me.Button27.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
+        Me.Button27.UseVisualStyleBackColor = True
+        '
+        'Button7
+        '
+        Me.Button7.Dock = System.Windows.Forms.DockStyle.Left
+        Me.Button7.FlatAppearance.BorderSize = 0
+        Me.Button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button7.Image = Global.Histacom.My.Resources.Resources.windows95internetexplorerhistory
+        Me.Button7.Location = New System.Drawing.Point(450, 0)
+        Me.Button7.Name = "Button7"
+        Me.Button7.Size = New System.Drawing.Size(75, 47)
+        Me.Button7.TabIndex = 6
+        Me.Button7.Text = "History"
+        Me.Button7.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
+        Me.Button7.UseVisualStyleBackColor = True
+        '
+        'Button6
+        '
+        Me.Button6.Dock = System.Windows.Forms.DockStyle.Left
+        Me.Button6.FlatAppearance.BorderSize = 0
+        Me.Button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button6.Image = Global.Histacom.My.Resources.Resources.windows95internetexplorerfavorites
+        Me.Button6.Location = New System.Drawing.Point(375, 0)
+        Me.Button6.Name = "Button6"
+        Me.Button6.Size = New System.Drawing.Size(75, 47)
+        Me.Button6.TabIndex = 5
+        Me.Button6.Text = "Favorites"
+        Me.Button6.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
+        Me.Button6.UseVisualStyleBackColor = True
+        '
+        'Button5
+        '
+        Me.Button5.Dock = System.Windows.Forms.DockStyle.Left
+        Me.Button5.FlatAppearance.BorderSize = 0
+        Me.Button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button5.Image = Global.Histacom.My.Resources.Resources.windows95internetexplorerhome
+        Me.Button5.Location = New System.Drawing.Point(300, 0)
+        Me.Button5.Name = "Button5"
+        Me.Button5.Size = New System.Drawing.Size(75, 47)
+        Me.Button5.TabIndex = 4
+        Me.Button5.Text = "Home"
+        Me.Button5.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
+        Me.Button5.UseVisualStyleBackColor = True
+        '
+        'Button4
+        '
+        Me.Button4.Dock = System.Windows.Forms.DockStyle.Left
+        Me.Button4.FlatAppearance.BorderSize = 0
+        Me.Button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button4.Image = Global.Histacom.My.Resources.Resources.windows95internetexplorerrefresh
+        Me.Button4.Location = New System.Drawing.Point(225, 0)
+        Me.Button4.Name = "Button4"
+        Me.Button4.Size = New System.Drawing.Size(75, 47)
+        Me.Button4.TabIndex = 3
+        Me.Button4.Text = "Refresh"
+        Me.Button4.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
+        Me.Button4.UseVisualStyleBackColor = True
+        '
+        'Button3
+        '
+        Me.Button3.Dock = System.Windows.Forms.DockStyle.Left
+        Me.Button3.FlatAppearance.BorderSize = 0
+        Me.Button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button3.Image = Global.Histacom.My.Resources.Resources.windows95internetexplorerstop
+        Me.Button3.Location = New System.Drawing.Point(150, 0)
+        Me.Button3.Name = "Button3"
+        Me.Button3.Size = New System.Drawing.Size(75, 47)
+        Me.Button3.TabIndex = 2
+        Me.Button3.Text = "Stop"
+        Me.Button3.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
+        Me.Button3.UseVisualStyleBackColor = True
+        '
+        'Button2
+        '
+        Me.Button2.Dock = System.Windows.Forms.DockStyle.Left
+        Me.Button2.FlatAppearance.BorderSize = 0
+        Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button2.Image = Global.Histacom.My.Resources.Resources.windows95internetexplorerforward
+        Me.Button2.Location = New System.Drawing.Point(75, 0)
+        Me.Button2.Name = "Button2"
+        Me.Button2.Size = New System.Drawing.Size(75, 47)
+        Me.Button2.TabIndex = 1
+        Me.Button2.Text = "Forward"
+        Me.Button2.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
+        Me.Button2.UseVisualStyleBackColor = True
+        '
+        'Button1
+        '
+        Me.Button1.Dock = System.Windows.Forms.DockStyle.Left
+        Me.Button1.FlatAppearance.BorderSize = 0
+        Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button1.Image = Global.Histacom.My.Resources.Resources.windows95internetexplorerback
+        Me.Button1.Location = New System.Drawing.Point(0, 0)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(75, 47)
+        Me.Button1.TabIndex = 0
+        Me.Button1.Text = "Back"
+        Me.Button1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
+        Me.Button1.UseVisualStyleBackColor = True
+        '
+        'PictureBox1
+        '
+        Me.PictureBox1.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.PictureBox1.Image = Global.Histacom.My.Resources.Resources.ie_four_logo
+        Me.PictureBox1.Location = New System.Drawing.Point(915, 23)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(38, 21)
+        Me.PictureBox1.TabIndex = 10
+        Me.PictureBox1.TabStop = False
         '
         'toprightcorner
         '
@@ -3103,6 +3105,11 @@ Partial Class internet_explorer_4
         Me.topleftcorner.Size = New System.Drawing.Size(4, 4)
         Me.topleftcorner.TabIndex = 1
         '
+        'checkhid
+        '
+        Me.checkhid.Enabled = True
+        Me.checkhid.Interval = 3000
+        '
         'internet_explorer_4
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -3116,7 +3123,6 @@ Partial Class internet_explorer_4
         Me.MenuStrip3.ResumeLayout(False)
         Me.MenuStrip3.PerformLayout()
         Me.Panel1.ResumeLayout(False)
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.program.ResumeLayout(False)
         Me.program.PerformLayout()
         Me.browsingarea.ResumeLayout(False)
@@ -3124,20 +3130,9 @@ Partial Class internet_explorer_4
         Me.padamsbackgrounds.PerformLayout()
         Me.Panel13.ResumeLayout(False)
         Me.Panel13.PerformLayout()
-        CType(Me.Previewimage, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.mclarinflimage, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.win95background, System.ComponentModel.ISupportInitialize).EndInit()
         Me.hotmailmain.ResumeLayout(False)
         Me.hotmailmain.PerformLayout()
-        CType(Me.PictureBox9, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox10, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox8, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox7, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox6, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel11.ResumeLayout(False)
-        CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
         Me.welcomeinternetscreen.ResumeLayout(False)
         Me.welcomeinternetscreen.PerformLayout()
         Me.hotmailpadams.ResumeLayout(False)
@@ -3147,9 +3142,6 @@ Partial Class internet_explorer_4
         Me.email3.PerformLayout()
         Me.email2.ResumeLayout(False)
         Me.email2.PerformLayout()
-        CType(Me.PictureBox14, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox13, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox12, System.ComponentModel.ISupportInitialize).EndInit()
         Me.googlealpha.ResumeLayout(False)
         Me.googlealpha.PerformLayout()
         Me.Panel6.ResumeLayout(False)
@@ -3160,7 +3152,6 @@ Partial Class internet_explorer_4
         Me.Panel5.PerformLayout()
         Me.Panel4.ResumeLayout(False)
         Me.Panel4.PerformLayout()
-        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         Me.padamsmain.ResumeLayout(False)
         Me.padamsmain.PerformLayout()
         Me.Panel12.ResumeLayout(False)
@@ -3177,7 +3168,6 @@ Partial Class internet_explorer_4
         Me.secretwebsite.PerformLayout()
         Me.skindows95advertisment.ResumeLayout(False)
         Me.skindows95advertisment.PerformLayout()
-        CType(Me.PictureBox11, System.ComponentModel.ISupportInitialize).EndInit()
         Me.googlemain.ResumeLayout(False)
         Me.googlemain.PerformLayout()
         Me.googleprototype.ResumeLayout(False)
@@ -3186,9 +3176,26 @@ Partial Class internet_explorer_4
         Me.Panel3.PerformLayout()
         Me.Panel2.ResumeLayout(False)
         Me.Panel2.PerformLayout()
-        CType(Me.pboxgoogleprototypelogo, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel14.ResumeLayout(False)
         Me.Panel14.PerformLayout()
+        CType(Me.Previewimage, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.mclarinflimage, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.win95background, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox9, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox10, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox8, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox7, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox6, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox14, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox13, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox12, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox11, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.pboxgoogleprototypelogo, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
@@ -3474,4 +3481,5 @@ Partial Class internet_explorer_4
     Friend WithEvents TextBox2 As TextBox
     Friend WithEvents Label7 As Label
     Friend WithEvents pboxgoogleprototypelogo As PictureBox
+    Friend WithEvents checkhid As Timer
 End Class

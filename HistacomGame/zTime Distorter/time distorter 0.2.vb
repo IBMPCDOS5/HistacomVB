@@ -169,8 +169,8 @@
     End Sub
 
     Private Sub time_distorter_0_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
+        winman.setupwindow(Me, "Time distorter", My.Resources.Time_Distorter_icon)
         Label3.Hide()
-
     End Sub
 
 End Class

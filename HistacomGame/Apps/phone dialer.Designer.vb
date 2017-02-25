@@ -45,47 +45,47 @@ Partial Class phone_dialer
         Me.pullbottom = New System.Windows.Forms.Timer(Me.components)
         Me.pullside = New System.Windows.Forms.Timer(Me.components)
         Me.program = New System.Windows.Forms.Panel()
+        Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.GroupBox1 = New System.Windows.Forms.GroupBox()
+        Me.Label9 = New System.Windows.Forms.Label()
+        Me.Label8 = New System.Windows.Forms.Label()
+        Me.Label7 = New System.Windows.Forms.Label()
+        Me.Label6 = New System.Windows.Forms.Label()
+        Me.Label5 = New System.Windows.Forms.Label()
+        Me.Label4 = New System.Windows.Forms.Label()
+        Me.Label3 = New System.Windows.Forms.Label()
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.Button22 = New System.Windows.Forms.Button()
+        Me.Button21 = New System.Windows.Forms.Button()
+        Me.Button19 = New System.Windows.Forms.Button()
+        Me.Button18 = New System.Windows.Forms.Button()
+        Me.Button17 = New System.Windows.Forms.Button()
+        Me.Button16 = New System.Windows.Forms.Button()
+        Me.Button15 = New System.Windows.Forms.Button()
+        Me.Button14 = New System.Windows.Forms.Button()
+        Me.Button11 = New System.Windows.Forms.Button()
+        Me.Button12 = New System.Windows.Forms.Button()
+        Me.Button13 = New System.Windows.Forms.Button()
+        Me.Button8 = New System.Windows.Forms.Button()
+        Me.Button9 = New System.Windows.Forms.Button()
+        Me.Button10 = New System.Windows.Forms.Button()
+        Me.Button5 = New System.Windows.Forms.Button()
+        Me.Button6 = New System.Windows.Forms.Button()
+        Me.Button7 = New System.Windows.Forms.Button()
+        Me.Button4 = New System.Windows.Forms.Button()
+        Me.Button3 = New System.Windows.Forms.Button()
+        Me.Button2 = New System.Windows.Forms.Button()
+        Me.Button1 = New System.Windows.Forms.Button()
+        Me.ComboBox1 = New System.Windows.Forms.ComboBox()
+        Me.Label1 = New System.Windows.Forms.Label()
         Me.toprightcorner = New System.Windows.Forms.Panel()
         Me.bottomrightcorner = New System.Windows.Forms.Panel()
         Me.bottomleftcorner = New System.Windows.Forms.Panel()
         Me.topleftcorner = New System.Windows.Forms.Panel()
-        Me.Label1 = New System.Windows.Forms.Label()
-        Me.ComboBox1 = New System.Windows.Forms.ComboBox()
-        Me.Button1 = New System.Windows.Forms.Button()
-        Me.Button2 = New System.Windows.Forms.Button()
-        Me.Button3 = New System.Windows.Forms.Button()
-        Me.Button4 = New System.Windows.Forms.Button()
-        Me.Button7 = New System.Windows.Forms.Button()
-        Me.Button6 = New System.Windows.Forms.Button()
-        Me.Button5 = New System.Windows.Forms.Button()
-        Me.Button10 = New System.Windows.Forms.Button()
-        Me.Button9 = New System.Windows.Forms.Button()
-        Me.Button8 = New System.Windows.Forms.Button()
-        Me.Button13 = New System.Windows.Forms.Button()
-        Me.Button12 = New System.Windows.Forms.Button()
-        Me.Button11 = New System.Windows.Forms.Button()
-        Me.GroupBox1 = New System.Windows.Forms.GroupBox()
-        Me.Button14 = New System.Windows.Forms.Button()
-        Me.Button15 = New System.Windows.Forms.Button()
-        Me.Button16 = New System.Windows.Forms.Button()
-        Me.Button17 = New System.Windows.Forms.Button()
-        Me.Button18 = New System.Windows.Forms.Button()
-        Me.Button19 = New System.Windows.Forms.Button()
-        Me.Button21 = New System.Windows.Forms.Button()
-        Me.Button22 = New System.Windows.Forms.Button()
-        Me.Label2 = New System.Windows.Forms.Label()
-        Me.Label3 = New System.Windows.Forms.Label()
-        Me.Label4 = New System.Windows.Forms.Label()
-        Me.Label5 = New System.Windows.Forms.Label()
-        Me.Label6 = New System.Windows.Forms.Label()
-        Me.Label7 = New System.Windows.Forms.Label()
-        Me.Label8 = New System.Windows.Forms.Label()
-        Me.Label9 = New System.Windows.Forms.Label()
-        Me.Panel1 = New System.Windows.Forms.Panel()
         Me.MenuStrip1.SuspendLayout()
         Me.program.SuspendLayout()
-        Me.GroupBox1.SuspendLayout()
         Me.Panel1.SuspendLayout()
+        Me.GroupBox1.SuspendLayout()
         Me.SuspendLayout()
         '
         'MenuStrip1
@@ -211,9 +211,6 @@ Partial Class phone_dialer
         Me.AboutPhoneDialerToolStripMenuItem.Size = New System.Drawing.Size(177, 22)
         Me.AboutPhoneDialerToolStripMenuItem.Text = "About Phone Dialer"
         '
-        'look
-        '
-        '
         'pullbs
         '
         Me.pullbs.Interval = 1
@@ -240,6 +237,351 @@ Partial Class phone_dialer
         Me.program.Name = "program"
         Me.program.Size = New System.Drawing.Size(341, 327)
         Me.program.TabIndex = 8
+        '
+        'Panel1
+        '
+        Me.Panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Panel1.Controls.Add(Me.GroupBox1)
+        Me.Panel1.Controls.Add(Me.Button11)
+        Me.Panel1.Controls.Add(Me.Button12)
+        Me.Panel1.Controls.Add(Me.Button13)
+        Me.Panel1.Controls.Add(Me.Button8)
+        Me.Panel1.Controls.Add(Me.Button9)
+        Me.Panel1.Controls.Add(Me.Button10)
+        Me.Panel1.Controls.Add(Me.Button5)
+        Me.Panel1.Controls.Add(Me.Button6)
+        Me.Panel1.Controls.Add(Me.Button7)
+        Me.Panel1.Controls.Add(Me.Button4)
+        Me.Panel1.Controls.Add(Me.Button3)
+        Me.Panel1.Controls.Add(Me.Button2)
+        Me.Panel1.Controls.Add(Me.Button1)
+        Me.Panel1.Controls.Add(Me.ComboBox1)
+        Me.Panel1.Controls.Add(Me.Label1)
+        Me.Panel1.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.Panel1.Location = New System.Drawing.Point(0, 24)
+        Me.Panel1.Name = "Panel1"
+        Me.Panel1.Size = New System.Drawing.Size(341, 303)
+        Me.Panel1.TabIndex = 7
+        '
+        'GroupBox1
+        '
+        Me.GroupBox1.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.GroupBox1.Controls.Add(Me.Label9)
+        Me.GroupBox1.Controls.Add(Me.Label8)
+        Me.GroupBox1.Controls.Add(Me.Label7)
+        Me.GroupBox1.Controls.Add(Me.Label6)
+        Me.GroupBox1.Controls.Add(Me.Label5)
+        Me.GroupBox1.Controls.Add(Me.Label4)
+        Me.GroupBox1.Controls.Add(Me.Label3)
+        Me.GroupBox1.Controls.Add(Me.Label2)
+        Me.GroupBox1.Controls.Add(Me.Button22)
+        Me.GroupBox1.Controls.Add(Me.Button21)
+        Me.GroupBox1.Controls.Add(Me.Button19)
+        Me.GroupBox1.Controls.Add(Me.Button18)
+        Me.GroupBox1.Controls.Add(Me.Button17)
+        Me.GroupBox1.Controls.Add(Me.Button16)
+        Me.GroupBox1.Controls.Add(Me.Button15)
+        Me.GroupBox1.Controls.Add(Me.Button14)
+        Me.GroupBox1.Location = New System.Drawing.Point(187, 7)
+        Me.GroupBox1.Name = "GroupBox1"
+        Me.GroupBox1.Size = New System.Drawing.Size(139, 280)
+        Me.GroupBox1.TabIndex = 15
+        Me.GroupBox1.TabStop = False
+        Me.GroupBox1.Text = "Speed dial"
+        '
+        'Label9
+        '
+        Me.Label9.AutoSize = True
+        Me.Label9.Location = New System.Drawing.Point(7, 219)
+        Me.Label9.Name = "Label9"
+        Me.Label9.Size = New System.Drawing.Size(13, 13)
+        Me.Label9.TabIndex = 16
+        Me.Label9.Text = "8"
+        '
+        'Label8
+        '
+        Me.Label8.AutoSize = True
+        Me.Label8.Location = New System.Drawing.Point(7, 191)
+        Me.Label8.Name = "Label8"
+        Me.Label8.Size = New System.Drawing.Size(13, 13)
+        Me.Label8.TabIndex = 15
+        Me.Label8.Text = "7"
+        '
+        'Label7
+        '
+        Me.Label7.AutoSize = True
+        Me.Label7.Location = New System.Drawing.Point(7, 165)
+        Me.Label7.Name = "Label7"
+        Me.Label7.Size = New System.Drawing.Size(13, 13)
+        Me.Label7.TabIndex = 14
+        Me.Label7.Text = "6"
+        '
+        'Label6
+        '
+        Me.Label6.AutoSize = True
+        Me.Label6.Location = New System.Drawing.Point(7, 137)
+        Me.Label6.Name = "Label6"
+        Me.Label6.Size = New System.Drawing.Size(13, 13)
+        Me.Label6.TabIndex = 13
+        Me.Label6.Text = "5"
+        '
+        'Label5
+        '
+        Me.Label5.AutoSize = True
+        Me.Label5.Location = New System.Drawing.Point(7, 109)
+        Me.Label5.Name = "Label5"
+        Me.Label5.Size = New System.Drawing.Size(13, 13)
+        Me.Label5.TabIndex = 12
+        Me.Label5.Text = "4"
+        '
+        'Label4
+        '
+        Me.Label4.AutoSize = True
+        Me.Label4.Location = New System.Drawing.Point(7, 80)
+        Me.Label4.Name = "Label4"
+        Me.Label4.Size = New System.Drawing.Size(13, 13)
+        Me.Label4.TabIndex = 11
+        Me.Label4.Text = "3"
+        '
+        'Label3
+        '
+        Me.Label3.AutoSize = True
+        Me.Label3.Location = New System.Drawing.Point(7, 51)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(13, 13)
+        Me.Label3.TabIndex = 10
+        Me.Label3.Text = "2"
+        '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.Location = New System.Drawing.Point(7, 24)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(13, 13)
+        Me.Label2.TabIndex = 9
+        Me.Label2.Text = "1"
+        '
+        'Button22
+        '
+        Me.Button22.Location = New System.Drawing.Point(23, 132)
+        Me.Button22.Name = "Button22"
+        Me.Button22.Size = New System.Drawing.Size(108, 23)
+        Me.Button22.TabIndex = 8
+        Me.Button22.UseVisualStyleBackColor = True
+        '
+        'Button21
+        '
+        Me.Button21.Location = New System.Drawing.Point(23, 160)
+        Me.Button21.Name = "Button21"
+        Me.Button21.Size = New System.Drawing.Size(108, 23)
+        Me.Button21.TabIndex = 7
+        Me.Button21.UseVisualStyleBackColor = True
+        '
+        'Button19
+        '
+        Me.Button19.Location = New System.Drawing.Point(23, 214)
+        Me.Button19.Name = "Button19"
+        Me.Button19.Size = New System.Drawing.Size(108, 23)
+        Me.Button19.TabIndex = 5
+        Me.Button19.UseVisualStyleBackColor = True
+        '
+        'Button18
+        '
+        Me.Button18.Location = New System.Drawing.Point(23, 186)
+        Me.Button18.Name = "Button18"
+        Me.Button18.Size = New System.Drawing.Size(108, 23)
+        Me.Button18.TabIndex = 4
+        Me.Button18.UseVisualStyleBackColor = True
+        '
+        'Button17
+        '
+        Me.Button17.Location = New System.Drawing.Point(23, 104)
+        Me.Button17.Name = "Button17"
+        Me.Button17.Size = New System.Drawing.Size(108, 23)
+        Me.Button17.TabIndex = 3
+        Me.Button17.UseVisualStyleBackColor = True
+        '
+        'Button16
+        '
+        Me.Button16.Location = New System.Drawing.Point(23, 75)
+        Me.Button16.Name = "Button16"
+        Me.Button16.Size = New System.Drawing.Size(108, 23)
+        Me.Button16.TabIndex = 2
+        Me.Button16.UseVisualStyleBackColor = True
+        '
+        'Button15
+        '
+        Me.Button15.Location = New System.Drawing.Point(23, 46)
+        Me.Button15.Name = "Button15"
+        Me.Button15.Size = New System.Drawing.Size(108, 23)
+        Me.Button15.TabIndex = 1
+        Me.Button15.UseVisualStyleBackColor = True
+        '
+        'Button14
+        '
+        Me.Button14.Location = New System.Drawing.Point(23, 19)
+        Me.Button14.Name = "Button14"
+        Me.Button14.Size = New System.Drawing.Size(108, 23)
+        Me.Button14.TabIndex = 0
+        Me.Button14.UseVisualStyleBackColor = True
+        '
+        'Button11
+        '
+        Me.Button11.Font = New System.Drawing.Font("Microsoft Sans Serif", 24.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button11.Location = New System.Drawing.Point(18, 221)
+        Me.Button11.Name = "Button11"
+        Me.Button11.Size = New System.Drawing.Size(40, 34)
+        Me.Button11.TabIndex = 14
+        Me.Button11.Text = "*"
+        Me.Button11.TextAlign = System.Drawing.ContentAlignment.BottomCenter
+        Me.Button11.UseVisualStyleBackColor = True
+        '
+        'Button12
+        '
+        Me.Button12.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button12.Location = New System.Drawing.Point(104, 221)
+        Me.Button12.Name = "Button12"
+        Me.Button12.Size = New System.Drawing.Size(40, 34)
+        Me.Button12.TabIndex = 13
+        Me.Button12.Text = "#"
+        Me.Button12.UseVisualStyleBackColor = True
+        '
+        'Button13
+        '
+        Me.Button13.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button13.Location = New System.Drawing.Point(61, 221)
+        Me.Button13.Name = "Button13"
+        Me.Button13.Size = New System.Drawing.Size(40, 34)
+        Me.Button13.TabIndex = 12
+        Me.Button13.Text = "0"
+        Me.Button13.TextAlign = System.Drawing.ContentAlignment.BottomCenter
+        Me.Button13.UseVisualStyleBackColor = True
+        '
+        'Button8
+        '
+        Me.Button8.Font = New System.Drawing.Font("Calibri", 7.0!)
+        Me.Button8.Location = New System.Drawing.Point(18, 181)
+        Me.Button8.Name = "Button8"
+        Me.Button8.Size = New System.Drawing.Size(40, 34)
+        Me.Button8.TabIndex = 11
+        Me.Button8.Text = "PQRS 7"
+        Me.Button8.TextAlign = System.Drawing.ContentAlignment.TopCenter
+        Me.Button8.UseVisualStyleBackColor = True
+        '
+        'Button9
+        '
+        Me.Button9.Font = New System.Drawing.Font("Calibri", 7.0!)
+        Me.Button9.Location = New System.Drawing.Point(104, 181)
+        Me.Button9.Name = "Button9"
+        Me.Button9.Size = New System.Drawing.Size(40, 34)
+        Me.Button9.TabIndex = 10
+        Me.Button9.Text = "WXYZ 9"
+        Me.Button9.TextAlign = System.Drawing.ContentAlignment.TopCenter
+        Me.Button9.UseVisualStyleBackColor = True
+        '
+        'Button10
+        '
+        Me.Button10.Font = New System.Drawing.Font("Calibri", 7.0!)
+        Me.Button10.Location = New System.Drawing.Point(61, 181)
+        Me.Button10.Name = "Button10"
+        Me.Button10.Size = New System.Drawing.Size(40, 34)
+        Me.Button10.TabIndex = 9
+        Me.Button10.Text = "TUV  8"
+        Me.Button10.TextAlign = System.Drawing.ContentAlignment.TopCenter
+        Me.Button10.UseVisualStyleBackColor = True
+        '
+        'Button5
+        '
+        Me.Button5.Font = New System.Drawing.Font("Calibri", 7.0!)
+        Me.Button5.Location = New System.Drawing.Point(18, 141)
+        Me.Button5.Name = "Button5"
+        Me.Button5.Size = New System.Drawing.Size(40, 34)
+        Me.Button5.TabIndex = 8
+        Me.Button5.Text = "GHI   4"
+        Me.Button5.TextAlign = System.Drawing.ContentAlignment.TopCenter
+        Me.Button5.UseVisualStyleBackColor = True
+        '
+        'Button6
+        '
+        Me.Button6.Font = New System.Drawing.Font("Calibri", 7.0!)
+        Me.Button6.Location = New System.Drawing.Point(104, 141)
+        Me.Button6.Name = "Button6"
+        Me.Button6.Size = New System.Drawing.Size(40, 34)
+        Me.Button6.TabIndex = 7
+        Me.Button6.Text = "MNO 6"
+        Me.Button6.TextAlign = System.Drawing.ContentAlignment.TopCenter
+        Me.Button6.UseVisualStyleBackColor = True
+        '
+        'Button7
+        '
+        Me.Button7.Font = New System.Drawing.Font("Calibri", 7.0!)
+        Me.Button7.Location = New System.Drawing.Point(61, 141)
+        Me.Button7.Name = "Button7"
+        Me.Button7.Size = New System.Drawing.Size(40, 34)
+        Me.Button7.TabIndex = 6
+        Me.Button7.Text = "JKL     5"
+        Me.Button7.TextAlign = System.Drawing.ContentAlignment.TopCenter
+        Me.Button7.UseVisualStyleBackColor = True
+        '
+        'Button4
+        '
+        Me.Button4.Font = New System.Drawing.Font("Calibri", 7.0!)
+        Me.Button4.Location = New System.Drawing.Point(18, 101)
+        Me.Button4.Name = "Button4"
+        Me.Button4.Size = New System.Drawing.Size(40, 34)
+        Me.Button4.TabIndex = 5
+        Me.Button4.Text = "1"
+        Me.Button4.TextAlign = System.Drawing.ContentAlignment.BottomCenter
+        Me.Button4.UseVisualStyleBackColor = True
+        '
+        'Button3
+        '
+        Me.Button3.Font = New System.Drawing.Font("Calibri", 7.0!)
+        Me.Button3.Location = New System.Drawing.Point(104, 101)
+        Me.Button3.Name = "Button3"
+        Me.Button3.Size = New System.Drawing.Size(40, 34)
+        Me.Button3.TabIndex = 4
+        Me.Button3.Text = "DEF   3"
+        Me.Button3.TextAlign = System.Drawing.ContentAlignment.TopCenter
+        Me.Button3.UseVisualStyleBackColor = True
+        '
+        'Button2
+        '
+        Me.Button2.Font = New System.Drawing.Font("Calibri", 7.0!)
+        Me.Button2.Location = New System.Drawing.Point(61, 101)
+        Me.Button2.Name = "Button2"
+        Me.Button2.Size = New System.Drawing.Size(40, 34)
+        Me.Button2.TabIndex = 3
+        Me.Button2.Text = "ABC   2"
+        Me.Button2.TextAlign = System.Drawing.ContentAlignment.TopCenter
+        Me.Button2.UseVisualStyleBackColor = True
+        '
+        'Button1
+        '
+        Me.Button1.Location = New System.Drawing.Point(8, 60)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(150, 23)
+        Me.Button1.TabIndex = 2
+        Me.Button1.Text = "Dial"
+        Me.Button1.UseVisualStyleBackColor = True
+        '
+        'ComboBox1
+        '
+        Me.ComboBox1.FormattingEnabled = True
+        Me.ComboBox1.Location = New System.Drawing.Point(8, 32)
+        Me.ComboBox1.Name = "ComboBox1"
+        Me.ComboBox1.Size = New System.Drawing.Size(150, 21)
+        Me.ComboBox1.TabIndex = 1
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Location = New System.Drawing.Point(7, 15)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(78, 13)
+        Me.Label1.TabIndex = 0
+        Me.Label1.Text = "Number to dial:"
         '
         'toprightcorner
         '
@@ -277,351 +619,6 @@ Partial Class phone_dialer
         Me.topleftcorner.Size = New System.Drawing.Size(4, 4)
         Me.topleftcorner.TabIndex = 1
         '
-        'Label1
-        '
-        Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(7, 15)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(78, 13)
-        Me.Label1.TabIndex = 0
-        Me.Label1.Text = "Number to dial:"
-        '
-        'ComboBox1
-        '
-        Me.ComboBox1.FormattingEnabled = True
-        Me.ComboBox1.Location = New System.Drawing.Point(8, 32)
-        Me.ComboBox1.Name = "ComboBox1"
-        Me.ComboBox1.Size = New System.Drawing.Size(150, 21)
-        Me.ComboBox1.TabIndex = 1
-        '
-        'Button1
-        '
-        Me.Button1.Location = New System.Drawing.Point(8, 60)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(150, 23)
-        Me.Button1.TabIndex = 2
-        Me.Button1.Text = "Dial"
-        Me.Button1.UseVisualStyleBackColor = True
-        '
-        'Button2
-        '
-        Me.Button2.Font = New System.Drawing.Font("Calibri", 7.0!)
-        Me.Button2.Location = New System.Drawing.Point(61, 101)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(40, 34)
-        Me.Button2.TabIndex = 3
-        Me.Button2.Text = "ABC   2"
-        Me.Button2.TextAlign = System.Drawing.ContentAlignment.TopCenter
-        Me.Button2.UseVisualStyleBackColor = True
-        '
-        'Button3
-        '
-        Me.Button3.Font = New System.Drawing.Font("Calibri", 7.0!)
-        Me.Button3.Location = New System.Drawing.Point(104, 101)
-        Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(40, 34)
-        Me.Button3.TabIndex = 4
-        Me.Button3.Text = "DEF   3"
-        Me.Button3.TextAlign = System.Drawing.ContentAlignment.TopCenter
-        Me.Button3.UseVisualStyleBackColor = True
-        '
-        'Button4
-        '
-        Me.Button4.Font = New System.Drawing.Font("Calibri", 7.0!)
-        Me.Button4.Location = New System.Drawing.Point(18, 101)
-        Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(40, 34)
-        Me.Button4.TabIndex = 5
-        Me.Button4.Text = "1"
-        Me.Button4.TextAlign = System.Drawing.ContentAlignment.BottomCenter
-        Me.Button4.UseVisualStyleBackColor = True
-        '
-        'Button7
-        '
-        Me.Button7.Font = New System.Drawing.Font("Calibri", 7.0!)
-        Me.Button7.Location = New System.Drawing.Point(61, 141)
-        Me.Button7.Name = "Button7"
-        Me.Button7.Size = New System.Drawing.Size(40, 34)
-        Me.Button7.TabIndex = 6
-        Me.Button7.Text = "JKL     5"
-        Me.Button7.TextAlign = System.Drawing.ContentAlignment.TopCenter
-        Me.Button7.UseVisualStyleBackColor = True
-        '
-        'Button6
-        '
-        Me.Button6.Font = New System.Drawing.Font("Calibri", 7.0!)
-        Me.Button6.Location = New System.Drawing.Point(104, 141)
-        Me.Button6.Name = "Button6"
-        Me.Button6.Size = New System.Drawing.Size(40, 34)
-        Me.Button6.TabIndex = 7
-        Me.Button6.Text = "MNO 6"
-        Me.Button6.TextAlign = System.Drawing.ContentAlignment.TopCenter
-        Me.Button6.UseVisualStyleBackColor = True
-        '
-        'Button5
-        '
-        Me.Button5.Font = New System.Drawing.Font("Calibri", 7.0!)
-        Me.Button5.Location = New System.Drawing.Point(18, 141)
-        Me.Button5.Name = "Button5"
-        Me.Button5.Size = New System.Drawing.Size(40, 34)
-        Me.Button5.TabIndex = 8
-        Me.Button5.Text = "GHI   4"
-        Me.Button5.TextAlign = System.Drawing.ContentAlignment.TopCenter
-        Me.Button5.UseVisualStyleBackColor = True
-        '
-        'Button10
-        '
-        Me.Button10.Font = New System.Drawing.Font("Calibri", 7.0!)
-        Me.Button10.Location = New System.Drawing.Point(61, 181)
-        Me.Button10.Name = "Button10"
-        Me.Button10.Size = New System.Drawing.Size(40, 34)
-        Me.Button10.TabIndex = 9
-        Me.Button10.Text = "TUV  8"
-        Me.Button10.TextAlign = System.Drawing.ContentAlignment.TopCenter
-        Me.Button10.UseVisualStyleBackColor = True
-        '
-        'Button9
-        '
-        Me.Button9.Font = New System.Drawing.Font("Calibri", 7.0!)
-        Me.Button9.Location = New System.Drawing.Point(104, 181)
-        Me.Button9.Name = "Button9"
-        Me.Button9.Size = New System.Drawing.Size(40, 34)
-        Me.Button9.TabIndex = 10
-        Me.Button9.Text = "WXYZ 9"
-        Me.Button9.TextAlign = System.Drawing.ContentAlignment.TopCenter
-        Me.Button9.UseVisualStyleBackColor = True
-        '
-        'Button8
-        '
-        Me.Button8.Font = New System.Drawing.Font("Calibri", 7.0!)
-        Me.Button8.Location = New System.Drawing.Point(18, 181)
-        Me.Button8.Name = "Button8"
-        Me.Button8.Size = New System.Drawing.Size(40, 34)
-        Me.Button8.TabIndex = 11
-        Me.Button8.Text = "PQRS 7"
-        Me.Button8.TextAlign = System.Drawing.ContentAlignment.TopCenter
-        Me.Button8.UseVisualStyleBackColor = True
-        '
-        'Button13
-        '
-        Me.Button13.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button13.Location = New System.Drawing.Point(61, 221)
-        Me.Button13.Name = "Button13"
-        Me.Button13.Size = New System.Drawing.Size(40, 34)
-        Me.Button13.TabIndex = 12
-        Me.Button13.Text = "0"
-        Me.Button13.TextAlign = System.Drawing.ContentAlignment.BottomCenter
-        Me.Button13.UseVisualStyleBackColor = True
-        '
-        'Button12
-        '
-        Me.Button12.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button12.Location = New System.Drawing.Point(104, 221)
-        Me.Button12.Name = "Button12"
-        Me.Button12.Size = New System.Drawing.Size(40, 34)
-        Me.Button12.TabIndex = 13
-        Me.Button12.Text = "#"
-        Me.Button12.UseVisualStyleBackColor = True
-        '
-        'Button11
-        '
-        Me.Button11.Font = New System.Drawing.Font("Microsoft Sans Serif", 24.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button11.Location = New System.Drawing.Point(18, 221)
-        Me.Button11.Name = "Button11"
-        Me.Button11.Size = New System.Drawing.Size(40, 34)
-        Me.Button11.TabIndex = 14
-        Me.Button11.Text = "*"
-        Me.Button11.TextAlign = System.Drawing.ContentAlignment.BottomCenter
-        Me.Button11.UseVisualStyleBackColor = True
-        '
-        'GroupBox1
-        '
-        Me.GroupBox1.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.GroupBox1.Controls.Add(Me.Label9)
-        Me.GroupBox1.Controls.Add(Me.Label8)
-        Me.GroupBox1.Controls.Add(Me.Label7)
-        Me.GroupBox1.Controls.Add(Me.Label6)
-        Me.GroupBox1.Controls.Add(Me.Label5)
-        Me.GroupBox1.Controls.Add(Me.Label4)
-        Me.GroupBox1.Controls.Add(Me.Label3)
-        Me.GroupBox1.Controls.Add(Me.Label2)
-        Me.GroupBox1.Controls.Add(Me.Button22)
-        Me.GroupBox1.Controls.Add(Me.Button21)
-        Me.GroupBox1.Controls.Add(Me.Button19)
-        Me.GroupBox1.Controls.Add(Me.Button18)
-        Me.GroupBox1.Controls.Add(Me.Button17)
-        Me.GroupBox1.Controls.Add(Me.Button16)
-        Me.GroupBox1.Controls.Add(Me.Button15)
-        Me.GroupBox1.Controls.Add(Me.Button14)
-        Me.GroupBox1.Location = New System.Drawing.Point(187, 7)
-        Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Size = New System.Drawing.Size(139, 280)
-        Me.GroupBox1.TabIndex = 15
-        Me.GroupBox1.TabStop = False
-        Me.GroupBox1.Text = "Speed dial"
-        '
-        'Button14
-        '
-        Me.Button14.Location = New System.Drawing.Point(23, 19)
-        Me.Button14.Name = "Button14"
-        Me.Button14.Size = New System.Drawing.Size(108, 23)
-        Me.Button14.TabIndex = 0
-        Me.Button14.UseVisualStyleBackColor = True
-        '
-        'Button15
-        '
-        Me.Button15.Location = New System.Drawing.Point(23, 46)
-        Me.Button15.Name = "Button15"
-        Me.Button15.Size = New System.Drawing.Size(108, 23)
-        Me.Button15.TabIndex = 1
-        Me.Button15.UseVisualStyleBackColor = True
-        '
-        'Button16
-        '
-        Me.Button16.Location = New System.Drawing.Point(23, 75)
-        Me.Button16.Name = "Button16"
-        Me.Button16.Size = New System.Drawing.Size(108, 23)
-        Me.Button16.TabIndex = 2
-        Me.Button16.UseVisualStyleBackColor = True
-        '
-        'Button17
-        '
-        Me.Button17.Location = New System.Drawing.Point(23, 104)
-        Me.Button17.Name = "Button17"
-        Me.Button17.Size = New System.Drawing.Size(108, 23)
-        Me.Button17.TabIndex = 3
-        Me.Button17.UseVisualStyleBackColor = True
-        '
-        'Button18
-        '
-        Me.Button18.Location = New System.Drawing.Point(23, 186)
-        Me.Button18.Name = "Button18"
-        Me.Button18.Size = New System.Drawing.Size(108, 23)
-        Me.Button18.TabIndex = 4
-        Me.Button18.UseVisualStyleBackColor = True
-        '
-        'Button19
-        '
-        Me.Button19.Location = New System.Drawing.Point(23, 214)
-        Me.Button19.Name = "Button19"
-        Me.Button19.Size = New System.Drawing.Size(108, 23)
-        Me.Button19.TabIndex = 5
-        Me.Button19.UseVisualStyleBackColor = True
-        '
-        'Button21
-        '
-        Me.Button21.Location = New System.Drawing.Point(23, 160)
-        Me.Button21.Name = "Button21"
-        Me.Button21.Size = New System.Drawing.Size(108, 23)
-        Me.Button21.TabIndex = 7
-        Me.Button21.UseVisualStyleBackColor = True
-        '
-        'Button22
-        '
-        Me.Button22.Location = New System.Drawing.Point(23, 132)
-        Me.Button22.Name = "Button22"
-        Me.Button22.Size = New System.Drawing.Size(108, 23)
-        Me.Button22.TabIndex = 8
-        Me.Button22.UseVisualStyleBackColor = True
-        '
-        'Label2
-        '
-        Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(7, 24)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(13, 13)
-        Me.Label2.TabIndex = 9
-        Me.Label2.Text = "1"
-        '
-        'Label3
-        '
-        Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(7, 51)
-        Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(13, 13)
-        Me.Label3.TabIndex = 10
-        Me.Label3.Text = "2"
-        '
-        'Label4
-        '
-        Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(7, 80)
-        Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(13, 13)
-        Me.Label4.TabIndex = 11
-        Me.Label4.Text = "3"
-        '
-        'Label5
-        '
-        Me.Label5.AutoSize = True
-        Me.Label5.Location = New System.Drawing.Point(7, 109)
-        Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(13, 13)
-        Me.Label5.TabIndex = 12
-        Me.Label5.Text = "4"
-        '
-        'Label6
-        '
-        Me.Label6.AutoSize = True
-        Me.Label6.Location = New System.Drawing.Point(7, 137)
-        Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(13, 13)
-        Me.Label6.TabIndex = 13
-        Me.Label6.Text = "5"
-        '
-        'Label7
-        '
-        Me.Label7.AutoSize = True
-        Me.Label7.Location = New System.Drawing.Point(7, 165)
-        Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(13, 13)
-        Me.Label7.TabIndex = 14
-        Me.Label7.Text = "6"
-        '
-        'Label8
-        '
-        Me.Label8.AutoSize = True
-        Me.Label8.Location = New System.Drawing.Point(7, 191)
-        Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(13, 13)
-        Me.Label8.TabIndex = 15
-        Me.Label8.Text = "7"
-        '
-        'Label9
-        '
-        Me.Label9.AutoSize = True
-        Me.Label9.Location = New System.Drawing.Point(7, 219)
-        Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(13, 13)
-        Me.Label9.TabIndex = 16
-        Me.Label9.Text = "8"
-        '
-        'Panel1
-        '
-        Me.Panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Panel1.Controls.Add(Me.GroupBox1)
-        Me.Panel1.Controls.Add(Me.Button11)
-        Me.Panel1.Controls.Add(Me.Button12)
-        Me.Panel1.Controls.Add(Me.Button13)
-        Me.Panel1.Controls.Add(Me.Button8)
-        Me.Panel1.Controls.Add(Me.Button9)
-        Me.Panel1.Controls.Add(Me.Button10)
-        Me.Panel1.Controls.Add(Me.Button5)
-        Me.Panel1.Controls.Add(Me.Button6)
-        Me.Panel1.Controls.Add(Me.Button7)
-        Me.Panel1.Controls.Add(Me.Button4)
-        Me.Panel1.Controls.Add(Me.Button3)
-        Me.Panel1.Controls.Add(Me.Button2)
-        Me.Panel1.Controls.Add(Me.Button1)
-        Me.Panel1.Controls.Add(Me.ComboBox1)
-        Me.Panel1.Controls.Add(Me.Label1)
-        Me.Panel1.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Panel1.Location = New System.Drawing.Point(0, 24)
-        Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(341, 303)
-        Me.Panel1.TabIndex = 7
-        '
         'phone_dialer
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -637,10 +634,10 @@ Partial Class phone_dialer
         Me.MenuStrip1.PerformLayout()
         Me.program.ResumeLayout(False)
         Me.program.PerformLayout()
-        Me.GroupBox1.ResumeLayout(False)
-        Me.GroupBox1.PerformLayout()
         Me.Panel1.ResumeLayout(False)
         Me.Panel1.PerformLayout()
+        Me.GroupBox1.ResumeLayout(False)
+        Me.GroupBox1.PerformLayout()
         Me.ResumeLayout(False)
 
     End Sub

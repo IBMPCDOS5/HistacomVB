@@ -1,11 +1,17 @@
 ﻿Public Class internet_explorer_4
 
     Private Sub internet_explorer_5_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
+        winman.setupwindow(Me, "Internet Explorer 4", My.Resources.windows95internetexplorerstartmenuicon)
         removewebsites()
         welcomeinternetscreen.Show()
         welcomeinternetscreen.Dock = DockStyle.Fill
-        Button26.Hide()
-        Label57.Hide()
+        If close_everything_.timesoftware = "yes" Then
+            Label57.Show()
+            Button26.Show()
+        Else
+            Button26.Hide()
+            Label57.Hide()
+        End If
     End Sub
 
     Private Sub Button8_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button8.Click
@@ -248,6 +254,13 @@
         'opendownload.Label2.Text = "Downloading: Time Distorter"
         If Not GameMain.time1Installed Then
             GameMain.OpenInstaller("time1", My.Resources.time_distorter__install_Black_, AppsLicense.normalLicense, "Time Distorter v1", 1000)
+        End If
+    End Sub
+
+    Private Sub checkhid_Tick(sender As Object, e As EventArgs) Handles checkhid.Tick
+        If close_everything_.timesoftware = "yes" Then
+            Label57.Show()
+            Button26.Show()
         End If
     End Sub
 End Class

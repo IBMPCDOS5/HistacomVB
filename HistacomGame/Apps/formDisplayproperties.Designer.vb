@@ -199,7 +199,7 @@ Partial Class formDisplayproperties
         'Button30
         '
         Me.Button30.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.Button30.Location = New System.Drawing.Point(149, 429)
+        Me.Button30.Location = New System.Drawing.Point(139, 413)
         Me.Button30.Name = "Button30"
         Me.Button30.Size = New System.Drawing.Size(75, 23)
         Me.Button30.TabIndex = 3
@@ -209,7 +209,7 @@ Partial Class formDisplayproperties
         'Button29
         '
         Me.Button29.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.Button29.Location = New System.Drawing.Point(230, 429)
+        Me.Button29.Location = New System.Drawing.Point(220, 413)
         Me.Button29.Name = "Button29"
         Me.Button29.Size = New System.Drawing.Size(75, 23)
         Me.Button29.TabIndex = 2
@@ -219,7 +219,7 @@ Partial Class formDisplayproperties
         'applysettings
         '
         Me.applysettings.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.applysettings.Location = New System.Drawing.Point(311, 429)
+        Me.applysettings.Location = New System.Drawing.Point(301, 413)
         Me.applysettings.Name = "applysettings"
         Me.applysettings.Size = New System.Drawing.Size(75, 23)
         Me.applysettings.TabIndex = 1
@@ -240,7 +240,7 @@ Partial Class formDisplayproperties
         Me.TabControl2.Multiline = True
         Me.TabControl2.Name = "TabControl2"
         Me.TabControl2.SelectedIndex = 0
-        Me.TabControl2.Size = New System.Drawing.Size(372, 392)
+        Me.TabControl2.Size = New System.Drawing.Size(362, 376)
         Me.TabControl2.TabIndex = 0
         '
         'TabPage4
@@ -252,7 +252,7 @@ Partial Class formDisplayproperties
         Me.TabPage4.Location = New System.Drawing.Point(4, 22)
         Me.TabPage4.Name = "TabPage4"
         Me.TabPage4.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage4.Size = New System.Drawing.Size(364, 366)
+        Me.TabPage4.Size = New System.Drawing.Size(354, 350)
         Me.TabPage4.TabIndex = 0
         Me.TabPage4.Text = "Background"
         '
@@ -265,9 +265,9 @@ Partial Class formDisplayproperties
         Me.GroupBox2.Controls.Add(Me.Label4)
         Me.GroupBox2.Controls.Add(Me.Button32)
         Me.GroupBox2.Controls.Add(Me.Wallpaperlistbox)
-        Me.GroupBox2.Location = New System.Drawing.Point(188, 216)
+        Me.GroupBox2.Location = New System.Drawing.Point(178, 216)
         Me.GroupBox2.Name = "GroupBox2"
-        Me.GroupBox2.Size = New System.Drawing.Size(170, 144)
+        Me.GroupBox2.Size = New System.Drawing.Size(170, 128)
         Me.GroupBox2.TabIndex = 2
         Me.GroupBox2.TabStop = False
         Me.GroupBox2.Text = "Wallpaper"
@@ -276,7 +276,7 @@ Partial Class formDisplayproperties
         '
         Me.RadioButton2.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.RadioButton2.AutoSize = True
-        Me.RadioButton2.Location = New System.Drawing.Point(105, 124)
+        Me.RadioButton2.Location = New System.Drawing.Point(105, 108)
         Me.RadioButton2.Name = "RadioButton2"
         Me.RadioButton2.Size = New System.Drawing.Size(56, 17)
         Me.RadioButton2.TabIndex = 5
@@ -288,7 +288,7 @@ Partial Class formDisplayproperties
         '
         Me.RadioButton1.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.RadioButton1.AutoSize = True
-        Me.RadioButton1.Location = New System.Drawing.Point(56, 124)
+        Me.RadioButton1.Location = New System.Drawing.Point(56, 108)
         Me.RadioButton1.Name = "RadioButton1"
         Me.RadioButton1.Size = New System.Drawing.Size(42, 17)
         Me.RadioButton1.TabIndex = 4
@@ -300,7 +300,7 @@ Partial Class formDisplayproperties
         '
         Me.Label4.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(6, 128)
+        Me.Label4.Location = New System.Drawing.Point(6, 112)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(44, 13)
         Me.Label4.TabIndex = 3
@@ -309,7 +309,7 @@ Partial Class formDisplayproperties
         'Button32
         '
         Me.Button32.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.Button32.Location = New System.Drawing.Point(79, 95)
+        Me.Button32.Location = New System.Drawing.Point(79, 79)
         Me.Button32.Name = "Button32"
         Me.Button32.Size = New System.Drawing.Size(82, 23)
         Me.Button32.TabIndex = 2
@@ -324,7 +324,7 @@ Partial Class formDisplayproperties
         Me.Wallpaperlistbox.Items.AddRange(New Object() {"(None)", "Black Thatch", "Blue Rivets", "Bubbles", "Carved Stone", "Circles", "Houndstooth", "Pinstripe", "Setup", "Straw Mat", "Tiles", "Triangles", "Waves"})
         Me.Wallpaperlistbox.Location = New System.Drawing.Point(9, 20)
         Me.Wallpaperlistbox.Name = "Wallpaperlistbox"
-        Me.Wallpaperlistbox.Size = New System.Drawing.Size(152, 69)
+        Me.Wallpaperlistbox.Size = New System.Drawing.Size(152, 43)
         Me.Wallpaperlistbox.TabIndex = 2
         '
         'GroupBox1
@@ -336,7 +336,7 @@ Partial Class formDisplayproperties
         Me.GroupBox1.Controls.Add(Me.patternlistbox)
         Me.GroupBox1.Location = New System.Drawing.Point(6, 216)
         Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Size = New System.Drawing.Size(176, 144)
+        Me.GroupBox1.Size = New System.Drawing.Size(166, 128)
         Me.GroupBox1.TabIndex = 1
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "Pattern"
@@ -344,7 +344,7 @@ Partial Class formDisplayproperties
         'Button31
         '
         Me.Button31.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.Button31.Location = New System.Drawing.Point(80, 96)
+        Me.Button31.Location = New System.Drawing.Point(70, 80)
         Me.Button31.Name = "Button31"
         Me.Button31.Size = New System.Drawing.Size(82, 23)
         Me.Button31.TabIndex = 1
@@ -360,14 +360,14 @@ Partial Class formDisplayproperties
         Me.patternlistbox.Items.AddRange(New Object() {"(None)", "Bricks", "Buttons", "Cargo Net", "Circuits", "Cobblestones", "Colosseum", "Daisies", "Dizzy", "Field Effect", "Key", "Live Wire", "Plaid", "Rounder", "Scales", "Strone", "Thatches", "Tile", "Triangles", "Waffle's Revenge"})
         Me.patternlistbox.Location = New System.Drawing.Point(7, 20)
         Me.patternlistbox.Name = "patternlistbox"
-        Me.patternlistbox.Size = New System.Drawing.Size(155, 69)
+        Me.patternlistbox.Size = New System.Drawing.Size(145, 43)
         Me.patternlistbox.TabIndex = 0
         '
         'democomputerbackground
         '
         Me.democomputerbackground.Anchor = System.Windows.Forms.AnchorStyles.Top
         Me.democomputerbackground.Image = Global.Histacom.My.Resources.Resources.windows_95_settings_computer_example
-        Me.democomputerbackground.Location = New System.Drawing.Point(91, 19)
+        Me.democomputerbackground.Location = New System.Drawing.Point(86, 19)
         Me.democomputerbackground.Name = "democomputerbackground"
         Me.democomputerbackground.Size = New System.Drawing.Size(185, 169)
         Me.democomputerbackground.TabIndex = 0
@@ -512,7 +512,7 @@ Partial Class formDisplayproperties
         '
         'PictureBox3
         '
-        Me.PictureBox3.Image = Global.Histacom.My.Resources.Resources.energysave_windows_95
+        Me.PictureBox3.Image = Global.Histacom.My.Resources.Resources.energysave_win95
         Me.PictureBox3.Location = New System.Drawing.Point(19, 25)
         Me.PictureBox3.Name = "PictureBox3"
         Me.PictureBox3.Size = New System.Drawing.Size(83, 39)
@@ -1632,9 +1632,6 @@ Partial Class formDisplayproperties
         Me.PictureBox14.TabIndex = 2
         Me.PictureBox14.TabStop = False
         '
-        'look
-        '
-        '
         'pullbs
         '
         Me.pullbs.Interval = 1
@@ -1661,14 +1658,14 @@ Partial Class formDisplayproperties
         Me.program.Dock = System.Windows.Forms.DockStyle.Fill
         Me.program.Location = New System.Drawing.Point(0, 0)
         Me.program.Name = "program"
-        Me.program.Size = New System.Drawing.Size(409, 470)
+        Me.program.Size = New System.Drawing.Size(399, 454)
         Me.program.TabIndex = 4
         '
         'toprightcorner
         '
         Me.toprightcorner.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.toprightcorner.BackgroundImage = Global.Histacom.My.Resources.Resources.windows95toprightcorner
-        Me.toprightcorner.Location = New System.Drawing.Point(405, 0)
+        Me.toprightcorner.Location = New System.Drawing.Point(395, 0)
         Me.toprightcorner.Name = "toprightcorner"
         Me.toprightcorner.Size = New System.Drawing.Size(4, 4)
         Me.toprightcorner.TabIndex = 6
@@ -1678,7 +1675,7 @@ Partial Class formDisplayproperties
         Me.bottomrightcorner.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.bottomrightcorner.BackgroundImage = Global.Histacom.My.Resources.Resources.windows95bottomrightcorner
         Me.bottomrightcorner.Cursor = System.Windows.Forms.Cursors.SizeNWSE
-        Me.bottomrightcorner.Location = New System.Drawing.Point(405, 466)
+        Me.bottomrightcorner.Location = New System.Drawing.Point(395, 450)
         Me.bottomrightcorner.Name = "bottomrightcorner"
         Me.bottomrightcorner.Size = New System.Drawing.Size(4, 4)
         Me.bottomrightcorner.TabIndex = 4
@@ -1687,7 +1684,7 @@ Partial Class formDisplayproperties
         '
         Me.bottomleftcorner.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
         Me.bottomleftcorner.BackgroundImage = Global.Histacom.My.Resources.Resources.windows95bottomleftcorner
-        Me.bottomleftcorner.Location = New System.Drawing.Point(0, 466)
+        Me.bottomleftcorner.Location = New System.Drawing.Point(0, 450)
         Me.bottomleftcorner.Name = "bottomleftcorner"
         Me.bottomleftcorner.Size = New System.Drawing.Size(4, 4)
         Me.bottomleftcorner.TabIndex = 2
@@ -1705,7 +1702,7 @@ Partial Class formDisplayproperties
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.Silver
-        Me.ClientSize = New System.Drawing.Size(409, 470)
+        Me.ClientSize = New System.Drawing.Size(399, 454)
         Me.Controls.Add(Me.program)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Name = "formDisplayproperties"

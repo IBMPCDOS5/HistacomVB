@@ -60,4 +60,8 @@
         commandprompt.TextBox1.SelectionStart = 999999
         commandprompt.TextBox1.ScrollToCaret()
     End Sub
+
+    Private Sub timedistorter0_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        winman.setupwindow(Me, "Time distorter", My.Resources.Time_Distorter_icon)
+    End Sub
 End Class

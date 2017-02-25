@@ -5,6 +5,7 @@
     Dim count As Integer
 
     Private Sub Timedistort_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
+        winman.setupwindow(Me, "Time distorter", My.Resources.Time_Distorter_icon)
         look.Start()
         Label7.Hide()
         count = 180

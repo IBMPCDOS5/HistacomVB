@@ -4,6 +4,7 @@
     End Sub
 
     Private Sub buttonnewgame_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles buttonnewgame.Click
+        GameMain.OS = 1
         Windows95.Show()
         Me.Hide()
     End Sub

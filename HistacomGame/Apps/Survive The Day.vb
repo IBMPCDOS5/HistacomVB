@@ -785,14 +785,14 @@
     End Sub
 
     Private Sub Button1_MouseEnter(ByVal sender As Object, ByVal e As System.EventArgs) Handles Button1.MouseEnter
-        Button1.Image = My.Resources.survive_the_day_choice__mouseover
+        Button1.Image = My.Resources.survive_the_day_choice_mouseover
     End Sub
 
     Private Sub Button1_MouseLeave(ByVal sender As Object, ByVal e As System.EventArgs) Handles Button1.MouseLeave
         Button1.Image = My.Resources.survive_the_day_option
     End Sub
     Private Sub Button2_MouseEnter(ByVal sender As Object, ByVal e As System.EventArgs) Handles Button2.MouseEnter
-        Button2.Image = My.Resources.survive_the_day_choice__mouseover
+        Button2.Image = My.Resources.survive_the_day_choice_mouseover
     End Sub
 
     Private Sub Button2_MouseLeave(ByVal sender As Object, ByVal e As System.EventArgs) Handles Button2.MouseLeave
@@ -800,7 +800,7 @@
     End Sub
 
     Private Sub Button3_MouseEnter(ByVal sender As Object, ByVal e As System.EventArgs) Handles Button3.MouseEnter
-        Button3.Image = My.Resources.survive_the_day_choice__mouseover
+        Button3.Image = My.Resources.survive_the_day_choice_mouseover
     End Sub
 
     Private Sub Button3_MouseLeave(ByVal sender As Object, ByVal e As System.EventArgs) Handles Button3.MouseLeave
@@ -808,24 +808,28 @@
     End Sub
 
     Private Sub Button4_MouseEnter(ByVal sender As Object, ByVal e As System.EventArgs) Handles Button4.MouseEnter
-        Button4.Image = My.Resources.survive_the_day_choice__mouseover
+        Button4.Image = My.Resources.survive_the_day_choice_mouseover
     End Sub
 
     Private Sub Button4_MouseLeave(ByVal sender As Object, ByVal e As System.EventArgs) Handles Button4.MouseLeave
         Button4.Image = My.Resources.survive_the_day_option
     End Sub
     Private Sub Button5_MouseEnter(ByVal sender As Object, ByVal e As System.EventArgs) Handles Button5.MouseEnter
-        Button5.Image = My.Resources.survive_the_day_choice__mouseover
+        Button5.Image = My.Resources.survive_the_day_choice_mouseover
     End Sub
 
     Private Sub Button5_MouseLeave(ByVal sender As Object, ByVal e As System.EventArgs) Handles Button5.MouseLeave
         Button5.Image = My.Resources.survive_the_day_option
     End Sub
     Private Sub Button6_MouseEnter(ByVal sender As Object, ByVal e As System.EventArgs) Handles Button6.MouseEnter
-        Button6.Image = My.Resources.survive_the_day_choice__mouseover
+        Button6.Image = My.Resources.survive_the_day_choice_mouseover
     End Sub
 
     Private Sub Button6_MouseLeave(ByVal sender As Object, ByVal e As System.EventArgs) Handles Button6.MouseLeave
         Button6.Image = My.Resources.survive_the_day_option
+    End Sub
+
+    Private Sub Survive_The_Day_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        winman.setupwindow(Me, "Survive the Day", My.Resources.survive_the_day_icon)
     End Sub
 End Class

@@ -15,6 +15,7 @@
     End Sub
 
     Private Sub Start_Runner_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
+        winman.setupwindow(Me, "Start Runner", My.Resources.start_run)
         beginlocation = Windows2000.startbutton.Location
         taskbarlenght = Windows2000.taskbar.Size.Width
         look.Start()

@@ -291,11 +291,11 @@ Partial Class formwindowshelp
         Me.topleftcorner = New System.Windows.Forms.Panel()
         Me.bottomleftcorner = New System.Windows.Forms.Panel()
         Me.TabControl1 = New System.Windows.Forms.TabControl()
-        Me.TabPage3 = New System.Windows.Forms.TabPage()
-        Me.TabPage2 = New System.Windows.Forms.TabPage()
         Me.TabPage1 = New System.Windows.Forms.TabPage()
-        Me.TreeView1 = New System.Windows.Forms.TreeView()
         Me.Label1 = New System.Windows.Forms.Label()
+        Me.TreeView1 = New System.Windows.Forms.TreeView()
+        Me.TabPage2 = New System.Windows.Forms.TabPage()
+        Me.TabPage3 = New System.Windows.Forms.TabPage()
         Me.bottomrightcorner = New System.Windows.Forms.Panel()
         Me.btnwindowshelpdisplay = New System.Windows.Forms.Button()
         Me.btnwindowshelpprint = New System.Windows.Forms.Button()
@@ -314,9 +314,6 @@ Partial Class formwindowshelp
         Me.ImageList1.Images.SetKeyName(0, "windows95closedbook.png")
         Me.ImageList1.Images.SetKeyName(1, "windows95openbook.png")
         Me.ImageList1.Images.SetKeyName(2, "windows95questionpage.png")
-        '
-        'look
-        '
         '
         'pullbs
         '
@@ -361,25 +358,6 @@ Partial Class formwindowshelp
         Me.TabControl1.Size = New System.Drawing.Size(406, 419)
         Me.TabControl1.TabIndex = 0
         '
-        'TabPage3
-        '
-        Me.TabPage3.Location = New System.Drawing.Point(4, 22)
-        Me.TabPage3.Name = "TabPage3"
-        Me.TabPage3.Size = New System.Drawing.Size(398, 393)
-        Me.TabPage3.TabIndex = 2
-        Me.TabPage3.Text = "Find"
-        Me.TabPage3.UseVisualStyleBackColor = True
-        '
-        'TabPage2
-        '
-        Me.TabPage2.Location = New System.Drawing.Point(4, 22)
-        Me.TabPage2.Name = "TabPage2"
-        Me.TabPage2.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage2.Size = New System.Drawing.Size(398, 393)
-        Me.TabPage2.TabIndex = 1
-        Me.TabPage2.Text = "Index"
-        Me.TabPage2.UseVisualStyleBackColor = True
-        '
         'TabPage1
         '
         Me.TabPage1.BackColor = System.Drawing.Color.Silver
@@ -391,6 +369,15 @@ Partial Class formwindowshelp
         Me.TabPage1.Size = New System.Drawing.Size(398, 393)
         Me.TabPage1.TabIndex = 0
         Me.TabPage1.Text = "Contents"
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Location = New System.Drawing.Point(16, 16)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(332, 13)
+        Me.Label1.TabIndex = 1
+        Me.Label1.Text = "Click a book, and then click Open. Or click another tab sub as index."
         '
         'TreeView1
         '
@@ -922,14 +909,24 @@ Partial Class formwindowshelp
         Me.TreeView1.StateImageList = Me.ImageList1
         Me.TreeView1.TabIndex = 0
         '
-        'Label1
+        'TabPage2
         '
-        Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(16, 16)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(332, 13)
-        Me.Label1.TabIndex = 1
-        Me.Label1.Text = "Click a book, and then click Open. Or click another tab sub as index."
+        Me.TabPage2.Location = New System.Drawing.Point(4, 22)
+        Me.TabPage2.Name = "TabPage2"
+        Me.TabPage2.Padding = New System.Windows.Forms.Padding(3)
+        Me.TabPage2.Size = New System.Drawing.Size(398, 393)
+        Me.TabPage2.TabIndex = 1
+        Me.TabPage2.Text = "Index"
+        Me.TabPage2.UseVisualStyleBackColor = True
+        '
+        'TabPage3
+        '
+        Me.TabPage3.Location = New System.Drawing.Point(4, 22)
+        Me.TabPage3.Name = "TabPage3"
+        Me.TabPage3.Size = New System.Drawing.Size(398, 393)
+        Me.TabPage3.TabIndex = 2
+        Me.TabPage3.Text = "Find"
+        Me.TabPage3.UseVisualStyleBackColor = True
         '
         'bottomrightcorner
         '

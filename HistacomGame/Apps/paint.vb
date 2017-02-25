@@ -632,6 +632,6 @@
     End Sub
 
     Private Sub paint_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
-        look.Start()
+        winman.setupwindow(Me, "Paint", My.Resources.windows2000paintstartmenuicon)
     End Sub
 End Class

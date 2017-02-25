@@ -4,6 +4,7 @@
     Dim randomnumb2 As New Random
     Dim chosencolor2 As Integer
     Private Sub internet_explorer_5_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
+        winman.setupwindow(Me, "Internet Explorer 5.2", My.Resources.windows95internetexplorerstartmenuicon)
         'programtopbar.BackColor = Windows2000.exampleprogramtopbar.BackColor
         removewebsites()
         welcomeinternetscreen.Show()

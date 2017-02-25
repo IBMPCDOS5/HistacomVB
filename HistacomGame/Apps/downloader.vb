@@ -4,6 +4,7 @@
     Dim amountdownloaded As Integer
 
     Private Sub Downloader_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Me.Load
+        winman.setupwindow(Me, "Downloader", My.Resources.down_arrow)
         amountdownloaded = 0
         downloadspeed = 8
         amounttodownload = 100

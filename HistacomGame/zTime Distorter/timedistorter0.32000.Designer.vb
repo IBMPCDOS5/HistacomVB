@@ -33,23 +33,20 @@ Partial Class timedistorter0
         Me.bottomrightcorner = New System.Windows.Forms.Panel()
         Me.bottomleftcorner = New System.Windows.Forms.Panel()
         Me.topleftcorner = New System.Windows.Forms.Panel()
-        Me.Panel5 = New System.Windows.Forms.Panel()
-        Me.Panel3 = New System.Windows.Forms.Panel()
-        Me.Label1 = New System.Windows.Forms.Label()
-        Me.Button1 = New System.Windows.Forms.Button()
-        Me.Button2 = New System.Windows.Forms.Button()
-        Me.Countdownlabel = New System.Windows.Forms.Label()
-        Me.countdown = New System.Windows.Forms.Label()
-        Me.Label2 = New System.Windows.Forms.Label()
         Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.countdown = New System.Windows.Forms.Label()
+        Me.Countdownlabel = New System.Windows.Forms.Label()
+        Me.Button2 = New System.Windows.Forms.Button()
+        Me.Button1 = New System.Windows.Forms.Button()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.Panel3 = New System.Windows.Forms.Panel()
+        Me.Panel5 = New System.Windows.Forms.Panel()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.program.SuspendLayout()
         Me.Panel1.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
-        '
-        'look
-        '
         '
         'pullbs
         '
@@ -117,98 +114,6 @@ Partial Class timedistorter0
         Me.topleftcorner.Size = New System.Drawing.Size(4, 4)
         Me.topleftcorner.TabIndex = 1
         '
-        'Panel5
-        '
-        Me.Panel5.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.Panel5.BackgroundImage = Global.Histacom.My.Resources.Resources.windowsxpbottomcorner
-        Me.Panel5.Cursor = System.Windows.Forms.Cursors.SizeNWSE
-        Me.Panel5.Location = New System.Drawing.Point(411, 217)
-        Me.Panel5.Name = "Panel5"
-        Me.Panel5.Size = New System.Drawing.Size(4, 4)
-        Me.Panel5.TabIndex = 4
-        '
-        'Panel3
-        '
-        Me.Panel3.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
-        Me.Panel3.BackgroundImage = Global.Histacom.My.Resources.Resources.windowsxpbottomleftcorner
-        Me.Panel3.Location = New System.Drawing.Point(0, 217)
-        Me.Panel3.Name = "Panel3"
-        Me.Panel3.Size = New System.Drawing.Size(5, 4)
-        Me.Panel3.TabIndex = 10
-        '
-        'Label1
-        '
-        Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Kristen ITC", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(40, 12)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(344, 16)
-        Me.Label1.TabIndex = 11
-        Me.Label1.Text = "Please choose which year you would like to travel to:"
-        '
-        'Button1
-        '
-        Me.Button1.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.Button1.BackColor = System.Drawing.Color.DarkOrange
-        Me.Button1.FlatAppearance.BorderColor = System.Drawing.Color.Maroon
-        Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.Location = New System.Drawing.Point(273, 67)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(130, 39)
-        Me.Button1.TabIndex = 12
-        Me.Button1.Text = "2001"
-        Me.Button1.UseVisualStyleBackColor = False
-        '
-        'Button2
-        '
-        Me.Button2.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
-        Me.Button2.BackColor = System.Drawing.Color.DarkOrange
-        Me.Button2.FlatAppearance.BorderColor = System.Drawing.Color.Maroon
-        Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button2.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button2.Location = New System.Drawing.Point(12, 67)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(130, 39)
-        Me.Button2.TabIndex = 13
-        Me.Button2.Text = "2000"
-        Me.Button2.UseVisualStyleBackColor = False
-        '
-        'Countdownlabel
-        '
-        Me.Countdownlabel.Anchor = System.Windows.Forms.AnchorStyles.Top
-        Me.Countdownlabel.AutoSize = True
-        Me.Countdownlabel.BackColor = System.Drawing.Color.Transparent
-        Me.Countdownlabel.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Countdownlabel.Location = New System.Drawing.Point(167, 34)
-        Me.Countdownlabel.Name = "Countdownlabel"
-        Me.Countdownlabel.Size = New System.Drawing.Size(89, 16)
-        Me.Countdownlabel.TabIndex = 14
-        Me.Countdownlabel.Text = "Count Down"
-        '
-        'countdown
-        '
-        Me.countdown.Anchor = System.Windows.Forms.AnchorStyles.Top
-        Me.countdown.AutoSize = True
-        Me.countdown.BackColor = System.Drawing.Color.Transparent
-        Me.countdown.Font = New System.Drawing.Font("Comic Sans MS", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.countdown.Location = New System.Drawing.Point(192, 52)
-        Me.countdown.Name = "countdown"
-        Me.countdown.Size = New System.Drawing.Size(45, 35)
-        Me.countdown.TabIndex = 15
-        Me.countdown.Text = "60"
-        '
-        'Label2
-        '
-        Me.Label2.AutoSize = True
-        Me.Label2.BackColor = System.Drawing.Color.Transparent
-        Me.Label2.Location = New System.Drawing.Point(11, 52)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(211, 13)
-        Me.Label2.TabIndex = 16
-        Me.Label2.Text = "Year 2000 Selected Preparing Time Travel:"
-        Me.Label2.Visible = False
-        '
         'Panel1
         '
         Me.Panel1.BackColor = System.Drawing.Color.OldLace
@@ -226,6 +131,98 @@ Partial Class timedistorter0
         Me.Panel1.Name = "Panel1"
         Me.Panel1.Size = New System.Drawing.Size(415, 221)
         Me.Panel1.TabIndex = 9
+        '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.BackColor = System.Drawing.Color.Transparent
+        Me.Label2.Location = New System.Drawing.Point(11, 52)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(211, 13)
+        Me.Label2.TabIndex = 16
+        Me.Label2.Text = "Year 2000 Selected Preparing Time Travel:"
+        Me.Label2.Visible = False
+        '
+        'countdown
+        '
+        Me.countdown.Anchor = System.Windows.Forms.AnchorStyles.Top
+        Me.countdown.AutoSize = True
+        Me.countdown.BackColor = System.Drawing.Color.Transparent
+        Me.countdown.Font = New System.Drawing.Font("Comic Sans MS", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.countdown.Location = New System.Drawing.Point(192, 52)
+        Me.countdown.Name = "countdown"
+        Me.countdown.Size = New System.Drawing.Size(45, 35)
+        Me.countdown.TabIndex = 15
+        Me.countdown.Text = "60"
+        '
+        'Countdownlabel
+        '
+        Me.Countdownlabel.Anchor = System.Windows.Forms.AnchorStyles.Top
+        Me.Countdownlabel.AutoSize = True
+        Me.Countdownlabel.BackColor = System.Drawing.Color.Transparent
+        Me.Countdownlabel.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Countdownlabel.Location = New System.Drawing.Point(167, 34)
+        Me.Countdownlabel.Name = "Countdownlabel"
+        Me.Countdownlabel.Size = New System.Drawing.Size(89, 16)
+        Me.Countdownlabel.TabIndex = 14
+        Me.Countdownlabel.Text = "Count Down"
+        '
+        'Button2
+        '
+        Me.Button2.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
+        Me.Button2.BackColor = System.Drawing.Color.DarkOrange
+        Me.Button2.FlatAppearance.BorderColor = System.Drawing.Color.Maroon
+        Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button2.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button2.Location = New System.Drawing.Point(12, 67)
+        Me.Button2.Name = "Button2"
+        Me.Button2.Size = New System.Drawing.Size(130, 39)
+        Me.Button2.TabIndex = 13
+        Me.Button2.Text = "2000"
+        Me.Button2.UseVisualStyleBackColor = False
+        '
+        'Button1
+        '
+        Me.Button1.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.Button1.BackColor = System.Drawing.Color.DarkOrange
+        Me.Button1.FlatAppearance.BorderColor = System.Drawing.Color.Maroon
+        Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button1.Location = New System.Drawing.Point(273, 67)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(130, 39)
+        Me.Button1.TabIndex = 12
+        Me.Button1.Text = "2001"
+        Me.Button1.UseVisualStyleBackColor = False
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Font = New System.Drawing.Font("Kristen ITC", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Location = New System.Drawing.Point(40, 12)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(344, 16)
+        Me.Label1.TabIndex = 11
+        Me.Label1.Text = "Please choose which year you would like to travel to:"
+        '
+        'Panel3
+        '
+        Me.Panel3.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
+        Me.Panel3.BackgroundImage = Global.Histacom.My.Resources.Resources.windowsxpbottomleftcorner
+        Me.Panel3.Location = New System.Drawing.Point(0, 217)
+        Me.Panel3.Name = "Panel3"
+        Me.Panel3.Size = New System.Drawing.Size(5, 4)
+        Me.Panel3.TabIndex = 10
+        '
+        'Panel5
+        '
+        Me.Panel5.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.Panel5.BackgroundImage = Global.Histacom.My.Resources.Resources.windowsxpbottomcorner
+        Me.Panel5.Cursor = System.Windows.Forms.Cursors.SizeNWSE
+        Me.Panel5.Location = New System.Drawing.Point(411, 217)
+        Me.Panel5.Name = "Panel5"
+        Me.Panel5.Size = New System.Drawing.Size(4, 4)
+        Me.Panel5.TabIndex = 4
         '
         'PictureBox1
         '

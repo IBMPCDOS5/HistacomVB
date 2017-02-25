@@ -247,7 +247,7 @@
 
     Private Sub applysettings_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles applysettings.Click
         Windows95.BackColor = appearencesettingspanel.BackColor
-        'Windows95.exampleprogramtopbar.BackColor = exampletopbaractivewindow.BackColor
+        Windows95.titlebarcol.BackColor = exampletopbaractivewindow.BackColor
     End Sub
 
     Private Sub PictureBox13_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles PictureBox13.Click
@@ -255,6 +255,6 @@
     End Sub
 
     Private Sub formDisplayproperties_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
-        look.Start()
+        winman.setupwindow(Me, "Properties", My.Resources.settings_pic_start)
     End Sub
 End Class

@@ -11,6 +11,7 @@
     End Sub
 
     Private Sub windows2000messagebox_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
+        winman.setupwindow(Me, "Critical Error", My.Resources.windows2000error)
         Me.Hide()
         Label1.Hide()
         Label2.Hide()

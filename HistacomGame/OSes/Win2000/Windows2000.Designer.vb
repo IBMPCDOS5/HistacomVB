@@ -1215,7 +1215,7 @@ Partial Class Windows2000
         'desktopicons
         '
         Me.desktopicons.Alignment = System.Windows.Forms.ListViewAlignment.Left
-        Me.desktopicons.BackgroundImage = Global.Histacom.My.Resources.Resources.Windows_2000__background
+        Me.desktopicons.BackgroundImage = Global.Histacom.My.Resources.Resources.Windows_2000_background
         Me.desktopicons.BackgroundImageTiled = True
         Me.desktopicons.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.desktopicons.Dock = System.Windows.Forms.DockStyle.Fill

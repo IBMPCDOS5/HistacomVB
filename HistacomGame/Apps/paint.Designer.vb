@@ -22,7 +22,6 @@ Partial Class paint
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
-        Me.components = New System.ComponentModel.Container()
         Me.PictureBox17 = New System.Windows.Forms.PictureBox()
         Me.StatusStrip1 = New System.Windows.Forms.StatusStrip()
         Me.ToolStripStatusLabel1 = New System.Windows.Forms.ToolStripStatusLabel()
@@ -125,10 +124,6 @@ Partial Class paint
         Me.HelpToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.HelpTopicsToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.AboutPaintToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.look = New System.Windows.Forms.Timer(Me.components)
-        Me.pullbs = New System.Windows.Forms.Timer(Me.components)
-        Me.pullbottom = New System.Windows.Forms.Timer(Me.components)
-        Me.pullside = New System.Windows.Forms.Timer(Me.components)
         Me.program = New System.Windows.Forms.Panel()
         Me.toprightcorner = New System.Windows.Forms.Panel()
         Me.bottomrightcorner = New System.Windows.Forms.Panel()
@@ -1032,18 +1027,6 @@ Partial Class paint
         Me.AboutPaintToolStripMenuItem.Size = New System.Drawing.Size(137, 22)
         Me.AboutPaintToolStripMenuItem.Text = "About Paint"
         '
-        'pullbs
-        '
-        Me.pullbs.Interval = 1
-        '
-        'pullbottom
-        '
-        Me.pullbottom.Interval = 1
-        '
-        'pullside
-        '
-        Me.pullside.Interval = 1
-        '
         'program
         '
         Me.program.BackColor = System.Drawing.Color.Silver
@@ -1242,10 +1225,6 @@ Partial Class paint
     Friend WithEvents DrawOpaqueToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents HelpTopicsToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents AboutPaintToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents look As System.Windows.Forms.Timer
-    Friend WithEvents pullbs As System.Windows.Forms.Timer
-    Friend WithEvents pullbottom As System.Windows.Forms.Timer
-    Friend WithEvents pullside As System.Windows.Forms.Timer
     Friend WithEvents program As System.Windows.Forms.Panel
     Friend WithEvents toprightcorner As System.Windows.Forms.Panel
     Friend WithEvents bottomrightcorner As System.Windows.Forms.Panel

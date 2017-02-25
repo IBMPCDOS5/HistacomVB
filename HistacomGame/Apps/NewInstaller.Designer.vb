@@ -30,6 +30,7 @@ Partial Class NewInstaller
         Me.btnPrev = New System.Windows.Forms.Button()
         Me.btnNext = New System.Windows.Forms.Button()
         Me.pnlmain = New System.Windows.Forms.Panel()
+        Me.Progress = New System.Windows.Forms.ProgressBar()
         Me.pnlLic = New System.Windows.Forms.Panel()
         Me.lbllincense = New System.Windows.Forms.Label()
         Me.txtlicense = New System.Windows.Forms.TextBox()
@@ -37,7 +38,6 @@ Partial Class NewInstaller
         Me.sideimg = New System.Windows.Forms.PictureBox()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
-        Me.Progress = New System.Windows.Forms.ProgressBar()
         Me.download = New System.Windows.Forms.Timer(Me.components)
         Me.program.SuspendLayout()
         Me.pnlnav.SuspendLayout()
@@ -120,6 +120,14 @@ Partial Class NewInstaller
         Me.pnlmain.Size = New System.Drawing.Size(702, 460)
         Me.pnlmain.TabIndex = 4
         '
+        'Progress
+        '
+        Me.Progress.Location = New System.Drawing.Point(132, 202)
+        Me.Progress.Name = "Progress"
+        Me.Progress.Size = New System.Drawing.Size(535, 36)
+        Me.Progress.TabIndex = 8
+        Me.Progress.Visible = False
+        '
         'pnlLic
         '
         Me.pnlLic.Controls.Add(Me.lbllincense)
@@ -191,14 +199,6 @@ Partial Class NewInstaller
         Me.Label2.Text = "This Application will allow to install your programs quicker, easier and... quick" &
     "er"
         '
-        'Progress
-        '
-        Me.Progress.Location = New System.Drawing.Point(132, 202)
-        Me.Progress.Name = "Progress"
-        Me.Progress.Size = New System.Drawing.Size(535, 36)
-        Me.Progress.TabIndex = 8
-        Me.Progress.Visible = False
-        '
         'download
         '
         '
@@ -211,6 +211,7 @@ Partial Class NewInstaller
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Name = "NewInstaller"
         Me.Text = "NewInstaller"
+        Me.TopMost = True
         Me.program.ResumeLayout(False)
         Me.pnlnav.ResumeLayout(False)
         Me.pnlnav.PerformLayout()

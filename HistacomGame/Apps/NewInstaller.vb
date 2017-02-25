@@ -4,6 +4,7 @@
     Public apptoinstall As String
     Public dwnSize As Integer
     Private Sub NewInstaller_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        winman.setupwindow(Me, "Installer", My.Resources.install_icon_basic)
         pnlLic.Hide()
     End Sub
 
@@ -46,6 +47,7 @@
                 btnPrev.Hide()
                 page = 3
             Case 3
+                Progress.Hide()
                 btnNext.Text = "Finish"
                 Label1.Text = "Congratulations!"
                 Label2.Text = "You have successfully installed the application"

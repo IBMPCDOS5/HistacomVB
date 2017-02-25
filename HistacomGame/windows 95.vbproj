@@ -142,6 +142,24 @@
     <Compile Include="Apps\Guess The Number.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="GameSystem\UI\Borders\dborder.Designer.vb">
+      <DependentUpon>dborder.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GameSystem\UI\Borders\dborder.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GameSystem\UI\Borders\lborder.Designer.vb">
+      <DependentUpon>lborder.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GameSystem\UI\Borders\lborder.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GameSystem\UI\Borders\rborder.Designer.vb">
+      <DependentUpon>rborder.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GameSystem\UI\Borders\rborder.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Include="GameSystem\UI\Borders\titlebar.Designer.vb">
       <DependentUpon>titlebar.vb</DependentUpon>
     </Compile>
@@ -420,6 +438,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Apps\NewInstaller.resx">
       <DependentUpon>NewInstaller.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GameSystem\UI\Borders\dborder.resx">
+      <DependentUpon>dborder.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GameSystem\UI\Borders\lborder.resx">
+      <DependentUpon>lborder.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GameSystem\UI\Borders\rborder.resx">
+      <DependentUpon>rborder.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="GameSystem\UI\Borders\titlebar.resx">
       <DependentUpon>titlebar.vb</DependentUpon>

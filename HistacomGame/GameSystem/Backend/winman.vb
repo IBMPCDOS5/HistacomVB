@@ -1,21 +1,30 @@
 ﻿Public Class winman
+    Public Shared Sub setupwindow(ByRef win As Form, ByVal title As String, ByVal icon As Image)
+        Dim ntitle As New titlebar
+        Dim lbord As New lborder
+        Dim rbord As New rborder
+        Dim dbord As New dborder
+        ntitle.Dock = DockStyle.Top
+        lbord.Dock = DockStyle.Left
+        rbord.Dock = DockStyle.Right
+        dbord.Dock = DockStyle.Bottom
+        ntitle.SendToBack()
+        ntitle.appName.Text = title
+        ntitle.appIcon.Image = icon
+        win.Controls.Add(ntitle)
+        win.Controls.Add(lbord)
+        win.Controls.Add(rbord)
+        win.Controls.Add(dbord)
+    End Sub
+
+
+
+
     'Private Sub Address_Book_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
     '    look.Start()
     'End Sub
 
-    'Private Sub programtopbar_MouseDown(ByVal sender As Object, ByVal e As System.Windows.Forms.MouseEventArgs)
-    '    If moveable Then
-    '        If e.Button = MouseButtons.Left Then
-    '            programtopbar.Capture = False
-    '            Const WM_NCLBUTTONDOWN As Integer = &HA1S
-    '            Const HTCAPTION As Integer = 2
-    '            Dim msg As Message =
-    '                Message.Create(Me.Handle, WM_NCLBUTTONDOWN,
-    '                    New IntPtr(HTCAPTION), IntPtr.Zero)
-    '            Me.DefWndProc(msg)
-    '        End If
-    '    End If
-    'End Sub
+
 
     'Private Sub closebutton_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
 

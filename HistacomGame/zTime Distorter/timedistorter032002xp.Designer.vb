@@ -160,9 +160,6 @@ Partial Class timedistorter032002xp
         Me.bottomrightcorner.Size = New System.Drawing.Size(4, 4)
         Me.bottomrightcorner.TabIndex = 4
         '
-        'look
-        '
-        '
         'pullbs
         '
         Me.pullbs.Interval = 1

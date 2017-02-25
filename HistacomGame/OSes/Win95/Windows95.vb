@@ -285,4 +285,9 @@
         Dim openSR As New startrunner
         openSR.Show()
     End Sub
+
+    Private Sub MSDOSPromptToolStripMenuItem1_Click(sender As Object, e As EventArgs) Handles MSDOSPromptToolStripMenuItem1.Click
+        Dim openMD As New commandprompt
+        openMD.Show()
+    End Sub
 End Class

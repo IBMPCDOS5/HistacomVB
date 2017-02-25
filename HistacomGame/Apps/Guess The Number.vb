@@ -10,6 +10,7 @@
         Dim randnumb As New Random
 
     Private Sub Guess_The_Number_app_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
+        winman.setupwindow(Me, "Guees the Number", My.Resources.guess_the_number_Icon)
         thenumber = randnumb.Next(1, 101)
         look.Start()
     End Sub

@@ -115,9 +115,6 @@ Partial Class Windows95
         Me.Timer4 = New System.Windows.Forms.Timer(Me.components)
         Me.desktopicons = New System.Windows.Forms.ListView()
         Me.Timer5 = New System.Windows.Forms.Timer(Me.components)
-        Me.taskbar = New System.Windows.Forms.Panel()
-        Me.startbutton = New System.Windows.Forms.PictureBox()
-        Me.taskbartime = New System.Windows.Forms.Label()
         Me.pnlGuess = New System.Windows.Forms.Panel()
         Me.txtGuess = New System.Windows.Forms.Label()
         Me.picGuess = New System.Windows.Forms.PictureBox()
@@ -130,13 +127,15 @@ Partial Class Windows95
         Me.pnlStartR = New System.Windows.Forms.Panel()
         Me.txtStartR = New System.Windows.Forms.Label()
         Me.picStartR = New System.Windows.Forms.PictureBox()
+        Me.taskbar = New System.Windows.Forms.Panel()
+        Me.startbutton = New System.Windows.Forms.PictureBox()
+        Me.taskbartime = New System.Windows.Forms.Label()
+        Me.titlebarcol = New System.Windows.Forms.Panel()
         Me.startmenu.SuspendLayout()
         Me.startmenuitems.SuspendLayout()
         Me.ossidestartmenu.SuspendLayout()
         CType(Me.osimage, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.rightclickbackproperties.SuspendLayout()
-        Me.taskbar.SuspendLayout()
-        CType(Me.startbutton, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.pnlGuess.SuspendLayout()
         CType(Me.picGuess, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.pnlWeb.SuspendLayout()
@@ -145,6 +144,8 @@ Partial Class Windows95
         CType(Me.picTime, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.pnlStartR.SuspendLayout()
         CType(Me.picStartR, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.taskbar.SuspendLayout()
+        CType(Me.startbutton, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'startmenu
@@ -901,38 +902,6 @@ Partial Class Windows95
         Me.desktopicons.TabIndex = 5
         Me.desktopicons.UseCompatibleStateImageBehavior = False
         '
-        'taskbar
-        '
-        Me.taskbar.BackColor = System.Drawing.Color.Silver
-        Me.taskbar.BackgroundImage = Global.Histacom.My.Resources.Resources.win95_and_98_taskbar
-        Me.taskbar.Controls.Add(Me.startbutton)
-        Me.taskbar.Controls.Add(Me.taskbartime)
-        Me.taskbar.Dock = System.Windows.Forms.DockStyle.Bottom
-        Me.taskbar.Location = New System.Drawing.Point(0, 534)
-        Me.taskbar.Name = "taskbar"
-        Me.taskbar.Size = New System.Drawing.Size(784, 28)
-        Me.taskbar.TabIndex = 0
-        '
-        'startbutton
-        '
-        Me.startbutton.Image = Global.Histacom.My.Resources.Resources.start_button_win95
-        Me.startbutton.Location = New System.Drawing.Point(3, 4)
-        Me.startbutton.Name = "startbutton"
-        Me.startbutton.Size = New System.Drawing.Size(56, 24)
-        Me.startbutton.TabIndex = 3
-        Me.startbutton.TabStop = False
-        '
-        'taskbartime
-        '
-        Me.taskbartime.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.taskbartime.AutoSize = True
-        Me.taskbartime.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.taskbartime.Location = New System.Drawing.Point(699, 8)
-        Me.taskbartime.Name = "taskbartime"
-        Me.taskbartime.Size = New System.Drawing.Size(35, 15)
-        Me.taskbartime.TabIndex = 2
-        Me.taskbartime.Text = "time"
-        '
         'pnlGuess
         '
         Me.pnlGuess.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
@@ -1061,6 +1030,47 @@ Partial Class Windows95
         Me.picStartR.TabIndex = 0
         Me.picStartR.TabStop = False
         '
+        'taskbar
+        '
+        Me.taskbar.BackColor = System.Drawing.Color.Silver
+        Me.taskbar.BackgroundImage = Global.Histacom.My.Resources.Resources.win95_and_98_taskbar
+        Me.taskbar.Controls.Add(Me.startbutton)
+        Me.taskbar.Controls.Add(Me.taskbartime)
+        Me.taskbar.Dock = System.Windows.Forms.DockStyle.Bottom
+        Me.taskbar.Location = New System.Drawing.Point(0, 534)
+        Me.taskbar.Name = "taskbar"
+        Me.taskbar.Size = New System.Drawing.Size(784, 28)
+        Me.taskbar.TabIndex = 0
+        '
+        'startbutton
+        '
+        Me.startbutton.Image = Global.Histacom.My.Resources.Resources.start_button_win95
+        Me.startbutton.Location = New System.Drawing.Point(3, 4)
+        Me.startbutton.Name = "startbutton"
+        Me.startbutton.Size = New System.Drawing.Size(56, 24)
+        Me.startbutton.TabIndex = 3
+        Me.startbutton.TabStop = False
+        '
+        'taskbartime
+        '
+        Me.taskbartime.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.taskbartime.AutoSize = True
+        Me.taskbartime.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.taskbartime.Location = New System.Drawing.Point(699, 8)
+        Me.taskbartime.Name = "taskbartime"
+        Me.taskbartime.Size = New System.Drawing.Size(35, 15)
+        Me.taskbartime.TabIndex = 2
+        Me.taskbartime.Text = "time"
+        '
+        'titlebarcol
+        '
+        Me.titlebarcol.BackColor = System.Drawing.Color.DarkBlue
+        Me.titlebarcol.Location = New System.Drawing.Point(285, 12)
+        Me.titlebarcol.Name = "titlebarcol"
+        Me.titlebarcol.Size = New System.Drawing.Size(200, 20)
+        Me.titlebarcol.TabIndex = 7
+        Me.titlebarcol.Visible = False
+        '
         'Windows95
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -1068,6 +1078,7 @@ Partial Class Windows95
         Me.BackColor = System.Drawing.Color.Teal
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(784, 562)
+        Me.Controls.Add(Me.titlebarcol)
         Me.Controls.Add(Me.pnlStartR)
         Me.Controls.Add(Me.pnlTime)
         Me.Controls.Add(Me.pnlWeb)
@@ -1086,9 +1097,6 @@ Partial Class Windows95
         Me.ossidestartmenu.ResumeLayout(False)
         CType(Me.osimage, System.ComponentModel.ISupportInitialize).EndInit()
         Me.rightclickbackproperties.ResumeLayout(False)
-        Me.taskbar.ResumeLayout(False)
-        Me.taskbar.PerformLayout()
-        CType(Me.startbutton, System.ComponentModel.ISupportInitialize).EndInit()
         Me.pnlGuess.ResumeLayout(False)
         Me.pnlGuess.PerformLayout()
         CType(Me.picGuess, System.ComponentModel.ISupportInitialize).EndInit()
@@ -1101,6 +1109,9 @@ Partial Class Windows95
         Me.pnlStartR.ResumeLayout(False)
         Me.pnlStartR.PerformLayout()
         CType(Me.picStartR, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.taskbar.ResumeLayout(False)
+        Me.taskbar.PerformLayout()
+        CType(Me.startbutton, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
@@ -1202,4 +1213,5 @@ Partial Class Windows95
     Friend WithEvents pnlStartR As Panel
     Friend WithEvents txtStartR As Label
     Friend WithEvents picStartR As PictureBox
+    Friend WithEvents titlebarcol As Panel
 End Class

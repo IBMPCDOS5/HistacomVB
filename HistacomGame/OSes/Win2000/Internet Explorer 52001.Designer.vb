@@ -869,7 +869,7 @@ Partial Class Internet_Explorer_52001
         '
         'PictureBox18
         '
-        Me.PictureBox18.Image = Global.Histacom.My.Resources.Resources.windows_2000_history__image
+        Me.PictureBox18.Image = Global.Histacom.My.Resources.Resources.windows_2000_history_image
         Me.PictureBox18.Location = New System.Drawing.Point(426, 1617)
         Me.PictureBox18.Name = "PictureBox18"
         Me.PictureBox18.Size = New System.Drawing.Size(451, 294)

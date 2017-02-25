@@ -15,6 +15,7 @@
     End Sub
 
     Private Sub windows_explorer_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
+        winman.setupwindow(Me, "Windows Explorer", My.Resources.windows_95_settings_computer_example)
         lblamountofobjects.Text = "0 objects"
         look.Start()
     End Sub

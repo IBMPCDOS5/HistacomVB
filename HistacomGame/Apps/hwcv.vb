@@ -1,6 +1,7 @@
 ﻿Public Class hwcv
 
     Private Sub run_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
+        winman.setupwindow(Me, "hwcv.exe", My.Resources.hwcvicon)
         look.Start()
         Label3.Hide()
         TextBox2.Focus()

@@ -23,7 +23,7 @@
         Me.FormBorderStyle = Windows.Forms.FormBorderStyle.None
         Me.WindowState = FormWindowState.Maximized
         System.Windows.Forms.Application.VisualStyleState = VisualStyles.VisualStyleState.NoneEnabled
-        Me.desktopicons.BackgroundImage = My.Resources.Windows_2000__background
+        Me.desktopicons.BackgroundImage = My.Resources.Windows_2000_background
         Dim w, h As Integer
         w = Me.desktopicons.Width
         h = Me.desktopicons.Height

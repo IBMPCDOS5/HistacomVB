@@ -454,7 +454,7 @@
   <data name="windowsxpstartmenusecuritycentre" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\windowsxpstartmenusecuritycentre.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="energysave_windows 95" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="energysave_win95" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\energysave windows 95.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="windowsxpstartmenuhyperterminal" type="System.Resources.ResXFileRef, System.Windows.Forms">
@@ -673,7 +673,7 @@
   <data name="ie_four_logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\internet explorer 4 logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="google 2000-2009 logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="google_2000_2009_logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\google 2000-2009 logo.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="windows95addressbookprintblackandwhiteicon" type="System.Resources.ResXFileRef, System.Windows.Forms">
@@ -1024,7 +1024,7 @@
   <data name="unmaximizebutton" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\unmaximizebutton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Windows_2000 _background" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="Windows_2000_background" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Windows 2000 background.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="windows2000windowsmediaplayerstartmenuicon" type="System.Resources.ResXFileRef, System.Windows.Forms">
@@ -1138,7 +1138,7 @@
   <data name="error_blast__big_" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\error blast (big).png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="survive_the_day_choice_ mouseover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="survive_the_day_choice_mouseover" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\survive the day choice mouseover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Windows_XP_Shutdown" type="System.Resources.ResXFileRef, System.Windows.Forms">
@@ -1171,7 +1171,7 @@
   <data name="windowsxpstartmenusychronise" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\windowsxpstartmenusychronise.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="windows_2000_history _image" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="windows_2000_history_image" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\windows 2000 history image.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="windows95addressbookpropertiesblackandwhiteicon1" type="System.Resources.ResXFileRef, System.Windows.Forms">
@@ -1189,7 +1189,7 @@
   <data name="windows95internetexplorerforward" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\windows95internetexplorerforward.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Histacom_1.8_Background" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="Histacom_1_8_Background" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Histacom 1.8 Background.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="windowsxpstartmenurunmain" type="System.Resources.ResXFileRef, System.Windows.Forms">
@@ -1360,7 +1360,7 @@
   <data name="title" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\title.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="windowsxpstartmenuremote assistance" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="windowsxpstartmenuremote_assistance" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\windowsxpstartmenuremote assistance.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="ie_four_fullscreen" type="System.Resources.ResXFileRef, System.Windows.Forms">
