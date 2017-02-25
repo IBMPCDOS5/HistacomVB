@@ -171,11 +171,11 @@ Partial Class Installer
         Me.Panel2.Controls.Add(Me.Button3)
         Me.Panel2.Controls.Add(Me.Button2)
         Me.Panel2.Controls.Add(Me.Button1)
-        Me.Panel2.Controls.Add(Me.Complete)
-        Me.Panel2.Controls.Add(Me.welcome)
         Me.Panel2.Controls.Add(Me.licenseagreement)
         Me.Panel2.Controls.Add(Me.summary)
         Me.Panel2.Controls.Add(Me.installerproccess)
+        Me.Panel2.Controls.Add(Me.Complete)
+        Me.Panel2.Controls.Add(Me.welcome)
         Me.Panel2.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Panel2.Location = New System.Drawing.Point(0, 0)
         Me.Panel2.Name = "Panel2"

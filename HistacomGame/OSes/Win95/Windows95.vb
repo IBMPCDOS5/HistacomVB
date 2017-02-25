@@ -146,6 +146,7 @@
     End Sub
 
     Private Sub ShutdownToolStripMenuItem1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ShutdownToolStripMenuItem1.Click
+        GameMain.SaveGame()
         Title_Screen.Close()
         Me.Close()
     End Sub
@@ -254,6 +255,8 @@
         Dim showmess As New createmsg
         showmess.infomessage.Text = "Your save code is: ety53g63"
         showmess.Show()
+
+        GameMain.OpenInstaller("test", My.Resources.chat_big, AppsLicense.normalLicense, "My Test", 400)
     End Sub
 
     Private Sub startmenuitems_ItemClicked(sender As Object, e As ToolStripItemClickedEventArgs) Handles startmenuitems.ItemClicked
@@ -262,5 +265,15 @@
 
     Private Sub ByNameToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ByNameToolStripMenuItem.Click
 
+    End Sub
+
+    Private Sub pnlGuess_Click(sender As Object, e As EventArgs) Handles pnlGuess.Click, picGuess.Click, txtGuess.Click
+        Dim openGuess As New Guess_The_Number
+        openGuess.Show()
+    End Sub
+
+    Private Sub pnlWeb_Click(sender As Object, e As PaintEventArgs) Handles pnlWeb.Click, picWeb.Click, txtWeb.Click
+        Dim openWeb As New Webchat1998
+        openWeb.Show()
     End Sub
 End Class

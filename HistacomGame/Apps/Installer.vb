@@ -8,7 +8,7 @@
         Label1.Text = ("Setup Wizard ")
         Label2.Text = ("Welcome To " & programtoinstall)
         Label3.Text = ("Click Next to continue")
-        Label4.Text = ("This Wizard will guide you throught the installation of " & programtoinstall)
+        Label4.Text = ("This Wizard will guide you through the installation of " & programtoinstall)
         Label11.Text = ("C:\Program Files\ " & programtoinstall)
         Label12.Text = ("Ready to start installing " & programtoinstall)
         Label13.Text = ("Please wait while " & programtoinstall & " is being installed")

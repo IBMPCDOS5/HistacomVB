@@ -105,6 +105,7 @@
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="ApplicationEvents.vb" />
+    <Compile Include="Apps\AppsLicense.vb" />
     <Compile Include="Apps\commandprompt.Designer.vb">
       <DependentUpon>commandprompt.vb</DependentUpon>
     </Compile>
@@ -127,6 +128,12 @@
       <DependentUpon>failerrorblaster.vb</DependentUpon>
     </Compile>
     <Compile Include="Apps\failerrorblaster.vb" />
+    <Compile Include="Apps\NewInstaller.Designer.vb">
+      <DependentUpon>NewInstaller.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Apps\NewInstaller.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="GameSystem\Backend\GameMain.vb" />
     <Compile Include="GameSystem\Backend\winman.vb" />
     <Compile Include="Apps\Guess The Number.Designer.vb">
@@ -404,6 +411,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Apps\Installer.resx">
       <DependentUpon>Installer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Apps\NewInstaller.resx">
+      <DependentUpon>NewInstaller.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="OSes\Win95\internet explorer 4.resx">
       <DependentUpon>internet explorer 4.vb</DependentUpon>

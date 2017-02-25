@@ -125,6 +125,12 @@ Partial Class Windows95
         Me.taskbar = New System.Windows.Forms.Panel()
         Me.startbutton = New System.Windows.Forms.PictureBox()
         Me.taskbartime = New System.Windows.Forms.Label()
+        Me.pnlGuess = New System.Windows.Forms.Panel()
+        Me.txtGuess = New System.Windows.Forms.Label()
+        Me.picGuess = New System.Windows.Forms.PictureBox()
+        Me.pnlWeb = New System.Windows.Forms.Panel()
+        Me.txtWeb = New System.Windows.Forms.Label()
+        Me.picWeb = New System.Windows.Forms.PictureBox()
         Me.startmenu.SuspendLayout()
         Me.startmenuitems.SuspendLayout()
         Me.ossidestartmenu.SuspendLayout()
@@ -138,6 +144,10 @@ Partial Class Windows95
         Me.rightclickbackproperties.SuspendLayout()
         Me.taskbar.SuspendLayout()
         CType(Me.startbutton, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.pnlGuess.SuspendLayout()
+        CType(Me.picGuess, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.pnlWeb.SuspendLayout()
+        CType(Me.picWeb, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'startmenu
@@ -801,70 +811,70 @@ Partial Class Windows95
         Me.rightclickbackproperties.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.PropertiesToolStripMenuItem, Me.LineUpIconsToolStripMenuItem, Me.PasteToolStripMenuItem, Me.PasteShortcutToolStripMenuItem, Me.NewToolStripMenuItem1, Me.PropertiesToolStripMenuItem1})
         Me.rightclickbackproperties.Name = "ContextMenuStrip1"
         Me.rightclickbackproperties.RenderMode = System.Windows.Forms.ToolStripRenderMode.Professional
-        Me.rightclickbackproperties.Size = New System.Drawing.Size(153, 158)
+        Me.rightclickbackproperties.Size = New System.Drawing.Size(151, 136)
         '
         'PropertiesToolStripMenuItem
         '
         Me.PropertiesToolStripMenuItem.BackColor = System.Drawing.Color.Silver
         Me.PropertiesToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ByNameToolStripMenuItem, Me.ByTypeToolStripMenuItem, Me.BySizeToolStripMenuItem, Me.AutoArrangeToolStripMenuItem, Me.ByDateToolStripMenuItem})
         Me.PropertiesToolStripMenuItem.Name = "PropertiesToolStripMenuItem"
-        Me.PropertiesToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.PropertiesToolStripMenuItem.Size = New System.Drawing.Size(150, 22)
         Me.PropertiesToolStripMenuItem.Text = "Arrange Icons"
         '
         'ByNameToolStripMenuItem
         '
         Me.ByNameToolStripMenuItem.BackColor = System.Drawing.Color.Silver
         Me.ByNameToolStripMenuItem.Name = "ByNameToolStripMenuItem"
-        Me.ByNameToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.ByNameToolStripMenuItem.Size = New System.Drawing.Size(145, 22)
         Me.ByNameToolStripMenuItem.Text = "by Name"
         '
         'ByTypeToolStripMenuItem
         '
         Me.ByTypeToolStripMenuItem.BackColor = System.Drawing.Color.Silver
         Me.ByTypeToolStripMenuItem.Name = "ByTypeToolStripMenuItem"
-        Me.ByTypeToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.ByTypeToolStripMenuItem.Size = New System.Drawing.Size(145, 22)
         Me.ByTypeToolStripMenuItem.Text = "by Type"
         '
         'BySizeToolStripMenuItem
         '
         Me.BySizeToolStripMenuItem.BackColor = System.Drawing.Color.Silver
         Me.BySizeToolStripMenuItem.Name = "BySizeToolStripMenuItem"
-        Me.BySizeToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.BySizeToolStripMenuItem.Size = New System.Drawing.Size(145, 22)
         Me.BySizeToolStripMenuItem.Text = "by Size"
         '
         'AutoArrangeToolStripMenuItem
         '
         Me.AutoArrangeToolStripMenuItem.BackColor = System.Drawing.Color.Silver
         Me.AutoArrangeToolStripMenuItem.Name = "AutoArrangeToolStripMenuItem"
-        Me.AutoArrangeToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.AutoArrangeToolStripMenuItem.Size = New System.Drawing.Size(145, 22)
         Me.AutoArrangeToolStripMenuItem.Text = "Auto Arrange"
         '
         'ByDateToolStripMenuItem
         '
         Me.ByDateToolStripMenuItem.BackColor = System.Drawing.Color.Silver
         Me.ByDateToolStripMenuItem.Name = "ByDateToolStripMenuItem"
-        Me.ByDateToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.ByDateToolStripMenuItem.Size = New System.Drawing.Size(145, 22)
         Me.ByDateToolStripMenuItem.Text = "by Date"
         '
         'LineUpIconsToolStripMenuItem
         '
         Me.LineUpIconsToolStripMenuItem.BackColor = System.Drawing.Color.Silver
         Me.LineUpIconsToolStripMenuItem.Name = "LineUpIconsToolStripMenuItem"
-        Me.LineUpIconsToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.LineUpIconsToolStripMenuItem.Size = New System.Drawing.Size(150, 22)
         Me.LineUpIconsToolStripMenuItem.Text = "Line Up Icons"
         '
         'PasteToolStripMenuItem
         '
         Me.PasteToolStripMenuItem.BackColor = System.Drawing.Color.Silver
         Me.PasteToolStripMenuItem.Name = "PasteToolStripMenuItem"
-        Me.PasteToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.PasteToolStripMenuItem.Size = New System.Drawing.Size(150, 22)
         Me.PasteToolStripMenuItem.Text = "Paste"
         '
         'PasteShortcutToolStripMenuItem
         '
         Me.PasteShortcutToolStripMenuItem.BackColor = System.Drawing.Color.Silver
         Me.PasteShortcutToolStripMenuItem.Name = "PasteShortcutToolStripMenuItem"
-        Me.PasteShortcutToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.PasteShortcutToolStripMenuItem.Size = New System.Drawing.Size(150, 22)
         Me.PasteShortcutToolStripMenuItem.Text = "Paste Shortcut"
         '
         'NewToolStripMenuItem1
@@ -872,7 +882,7 @@ Partial Class Windows95
         Me.NewToolStripMenuItem1.BackColor = System.Drawing.Color.Silver
         Me.NewToolStripMenuItem1.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.FolderToolStripMenuItem, Me.ShortcutToolStripMenuItem, Me.WaveSoundToolStripMenuItem, Me.TextDocumentToolStripMenuItem, Me.WordPadDocumentToolStripMenuItem, Me.BitmapImageToolStripMenuItem, Me.MicrosoftDataLinkToolStripMenuItem})
         Me.NewToolStripMenuItem1.Name = "NewToolStripMenuItem1"
-        Me.NewToolStripMenuItem1.Size = New System.Drawing.Size(152, 22)
+        Me.NewToolStripMenuItem1.Size = New System.Drawing.Size(150, 22)
         Me.NewToolStripMenuItem1.Text = "New"
         '
         'FolderToolStripMenuItem
@@ -928,7 +938,7 @@ Partial Class Windows95
         '
         Me.PropertiesToolStripMenuItem1.BackColor = System.Drawing.Color.Silver
         Me.PropertiesToolStripMenuItem1.Name = "PropertiesToolStripMenuItem1"
-        Me.PropertiesToolStripMenuItem1.Size = New System.Drawing.Size(152, 22)
+        Me.PropertiesToolStripMenuItem1.Size = New System.Drawing.Size(150, 22)
         Me.PropertiesToolStripMenuItem1.Text = "Properties"
         '
         'desktopiconsimages
@@ -1004,6 +1014,68 @@ Partial Class Windows95
         Me.taskbartime.TabIndex = 2
         Me.taskbartime.Text = "time"
         '
+        'pnlGuess
+        '
+        Me.pnlGuess.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.pnlGuess.BackColor = System.Drawing.Color.Transparent
+        Me.pnlGuess.Controls.Add(Me.txtGuess)
+        Me.pnlGuess.Controls.Add(Me.picGuess)
+        Me.pnlGuess.Location = New System.Drawing.Point(722, 28)
+        Me.pnlGuess.Name = "pnlGuess"
+        Me.pnlGuess.Size = New System.Drawing.Size(50, 84)
+        Me.pnlGuess.TabIndex = 6
+        '
+        'txtGuess
+        '
+        Me.txtGuess.AutoSize = True
+        Me.txtGuess.Location = New System.Drawing.Point(4, 39)
+        Me.txtGuess.Name = "txtGuess"
+        Me.txtGuess.Size = New System.Drawing.Size(42, 39)
+        Me.txtGuess.TabIndex = 1
+        Me.txtGuess.Text = "Guess " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "the " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "number"
+        '
+        'picGuess
+        '
+        Me.picGuess.Image = Global.Histacom.My.Resources.Resources.guess_the_number_Icon
+        Me.picGuess.Location = New System.Drawing.Point(7, 3)
+        Me.picGuess.Name = "picGuess"
+        Me.picGuess.Size = New System.Drawing.Size(33, 33)
+        Me.picGuess.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.picGuess.TabIndex = 0
+        Me.picGuess.TabStop = False
+        '
+        'pnlWeb
+        '
+        Me.pnlWeb.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.pnlWeb.BackColor = System.Drawing.Color.Transparent
+        Me.pnlWeb.Controls.Add(Me.txtWeb)
+        Me.pnlWeb.Controls.Add(Me.picWeb)
+        Me.pnlWeb.Location = New System.Drawing.Point(722, 118)
+        Me.pnlWeb.Name = "pnlWeb"
+        Me.pnlWeb.Size = New System.Drawing.Size(50, 84)
+        Me.pnlWeb.TabIndex = 6
+        '
+        'txtWeb
+        '
+        Me.txtWeb.AutoSize = True
+        Me.txtWeb.Location = New System.Drawing.Point(7, 39)
+        Me.txtWeb.Name = "txtWeb"
+        Me.txtWeb.Size = New System.Drawing.Size(33, 39)
+        Me.txtWeb.TabIndex = 1
+        Me.txtWeb.Text = "Web " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "chat" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "1998"
+        '
+        'picWeb
+        '
+        Me.picWeb.Image = Global.Histacom.My.Resources.Resources.chat
+        Me.picWeb.Location = New System.Drawing.Point(7, 3)
+        Me.picWeb.Name = "picWeb"
+        Me.picWeb.Size = New System.Drawing.Size(33, 33)
+        Me.picWeb.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.picWeb.TabIndex = 0
+        Me.picWeb.TabStop = False
+        '
         'Windows95
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -1011,10 +1083,12 @@ Partial Class Windows95
         Me.BackColor = System.Drawing.Color.Teal
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(784, 562)
+        Me.Controls.Add(Me.pnlWeb)
+        Me.Controls.Add(Me.pnlGuess)
         Me.Controls.Add(Me.taskbar)
         Me.Controls.Add(Me.program)
-        Me.Controls.Add(Me.startmenu)
         Me.Controls.Add(Me.desktopicons)
+        Me.Controls.Add(Me.startmenu)
         Me.Name = "Windows95"
         Me.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Show
         Me.Text = "Form1"
@@ -1036,6 +1110,12 @@ Partial Class Windows95
         Me.taskbar.ResumeLayout(False)
         Me.taskbar.PerformLayout()
         CType(Me.startbutton, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.pnlGuess.ResumeLayout(False)
+        Me.pnlGuess.PerformLayout()
+        CType(Me.picGuess, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.pnlWeb.ResumeLayout(False)
+        Me.pnlWeb.PerformLayout()
+        CType(Me.picWeb, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
@@ -1132,5 +1212,10 @@ Partial Class Windows95
     Friend WithEvents WebChatToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents TimeDistorterToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents Timer5 As System.Windows.Forms.Timer
-
+    Friend WithEvents pnlGuess As Panel
+    Friend WithEvents txtGuess As Label
+    Friend WithEvents picGuess As PictureBox
+    Friend WithEvents pnlWeb As Panel
+    Friend WithEvents txtWeb As Label
+    Friend WithEvents picWeb As PictureBox
 End Class

@@ -91,9 +91,7 @@
     End Sub
 
     Private Sub Button17_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button17.Click
-        Dim opendownload As New downloader
-        opendownload.Show()
-        opendownload.Label2.Text = "Downloading: Guess The Number"
+        GameMain.OpenInstaller("guessNum", My.Resources.guess_the_number_one, AppsLicense.normalLicense, "Guess The Number", 20)
     End Sub
 
     Private Sub Button15_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button15.Click
@@ -102,7 +100,7 @@
         opendownload.Label2.Text = "Downloading: Start Runner"
     End Sub
 
-    Private Sub Button16_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button16.Click
+    Private Sub Button16_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
         Dim opendownload As New downloader
         opendownload.Show()
         opendownload.Label2.Text = "Downloading: Error Blaster"
@@ -180,9 +178,10 @@
     End Sub
 
     Private Sub Button25_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button25.Click
-        Dim opendownload As New downloader
-        opendownload.Show()
-        opendownload.Label2.Text = "Downloading: Web Chat"
+        'Dim opendownload As New downloader
+        'opendownload.Show()
+        'opendownload.Label2.Text = "Downloading: Web Chat"
+        GameMain.OpenInstaller("webChat", My.Resources.chat_big, AppsLicense.normalLicense, "Web Chat 1998", 100)
     End Sub
 
     Private Sub Label20_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Label20.Click

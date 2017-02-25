@@ -136,226 +136,224 @@ Partial Class internet_explorer_4
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.program = New System.Windows.Forms.Panel()
+        Me.browsingarea = New System.Windows.Forms.Panel()
+        Me.padamsbackgrounds = New System.Windows.Forms.Panel()
+        Me.Panel13 = New System.Windows.Forms.Panel()
+        Me.Previewimage = New System.Windows.Forms.PictureBox()
+        Me.Button21 = New System.Windows.Forms.Button()
+        Me.Button22 = New System.Windows.Forms.Button()
+        Me.Label35 = New System.Windows.Forms.Label()
+        Me.mclarinflimage = New System.Windows.Forms.PictureBox()
+        Me.Button20 = New System.Windows.Forms.Button()
+        Me.Button19 = New System.Windows.Forms.Button()
+        Me.Label34 = New System.Windows.Forms.Label()
+        Me.win95background = New System.Windows.Forms.PictureBox()
+        Me.Label33 = New System.Windows.Forms.Label()
+        Me.Label32 = New System.Windows.Forms.Label()
+        Me.hotmailmain = New System.Windows.Forms.Panel()
+        Me.PictureBox9 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox10 = New System.Windows.Forms.PictureBox()
+        Me.Label31 = New System.Windows.Forms.Label()
+        Me.Label30 = New System.Windows.Forms.Label()
+        Me.Label29 = New System.Windows.Forms.Label()
+        Me.PictureBox8 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox7 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox6 = New System.Windows.Forms.PictureBox()
+        Me.Label28 = New System.Windows.Forms.Label()
+        Me.Label27 = New System.Windows.Forms.Label()
+        Me.PictureBox5 = New System.Windows.Forms.PictureBox()
+        Me.RadioButton3 = New System.Windows.Forms.RadioButton()
+        Me.RadioButton2 = New System.Windows.Forms.RadioButton()
+        Me.RadioButton1 = New System.Windows.Forms.RadioButton()
+        Me.Button18 = New System.Windows.Forms.Button()
+        Me.txtpassword = New System.Windows.Forms.TextBox()
+        Me.txtloginname = New System.Windows.Forms.TextBox()
+        Me.Label26 = New System.Windows.Forms.Label()
+        Me.Label25 = New System.Windows.Forms.Label()
+        Me.Label24 = New System.Windows.Forms.Label()
+        Me.Label23 = New System.Windows.Forms.Label()
+        Me.Panel11 = New System.Windows.Forms.Panel()
+        Me.PictureBox4 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox3 = New System.Windows.Forms.PictureBox()
+        Me.welcomeinternetscreen = New System.Windows.Forms.Panel()
+        Me.Label58 = New System.Windows.Forms.Label()
+        Me.LinkLabel16 = New System.Windows.Forms.LinkLabel()
+        Me.LinkLabel15 = New System.Windows.Forms.LinkLabel()
+        Me.Label3 = New System.Windows.Forms.Label()
+        Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.hotmailpadams = New System.Windows.Forms.Panel()
+        Me.email1 = New System.Windows.Forms.Panel()
+        Me.LinkLabel18 = New System.Windows.Forms.LinkLabel()
+        Me.Label56 = New System.Windows.Forms.Label()
+        Me.Label47 = New System.Windows.Forms.Label()
+        Me.TextBox12 = New System.Windows.Forms.TextBox()
+        Me.TextBox11 = New System.Windows.Forms.TextBox()
+        Me.TextBox7 = New System.Windows.Forms.TextBox()
+        Me.TextBox6 = New System.Windows.Forms.TextBox()
+        Me.Label46 = New System.Windows.Forms.Label()
+        Me.Label45 = New System.Windows.Forms.Label()
+        Me.Label44 = New System.Windows.Forms.Label()
+        Me.email3 = New System.Windows.Forms.Panel()
+        Me.Label52 = New System.Windows.Forms.Label()
+        Me.TextBox17 = New System.Windows.Forms.TextBox()
+        Me.TextBox18 = New System.Windows.Forms.TextBox()
+        Me.TextBox19 = New System.Windows.Forms.TextBox()
+        Me.TextBox20 = New System.Windows.Forms.TextBox()
+        Me.Label53 = New System.Windows.Forms.Label()
+        Me.Label54 = New System.Windows.Forms.Label()
+        Me.Label55 = New System.Windows.Forms.Label()
+        Me.email2 = New System.Windows.Forms.Panel()
+        Me.Label48 = New System.Windows.Forms.Label()
+        Me.TextBox13 = New System.Windows.Forms.TextBox()
+        Me.TextBox14 = New System.Windows.Forms.TextBox()
+        Me.TextBox15 = New System.Windows.Forms.TextBox()
+        Me.TextBox16 = New System.Windows.Forms.TextBox()
+        Me.Label49 = New System.Windows.Forms.Label()
+        Me.Label50 = New System.Windows.Forms.Label()
+        Me.Label51 = New System.Windows.Forms.Label()
+        Me.ListBox1 = New System.Windows.Forms.ListBox()
+        Me.PictureBox14 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox13 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox12 = New System.Windows.Forms.PictureBox()
+        Me.googlealpha = New System.Windows.Forms.Panel()
+        Me.Label15 = New System.Windows.Forms.Label()
+        Me.Panel6 = New System.Windows.Forms.Panel()
+        Me.LinkLabel13 = New System.Windows.Forms.LinkLabel()
+        Me.LinkLabel10 = New System.Windows.Forms.LinkLabel()
+        Me.LinkLabel11 = New System.Windows.Forms.LinkLabel()
+        Me.LinkLabel12 = New System.Windows.Forms.LinkLabel()
+        Me.LinkLabel9 = New System.Windows.Forms.LinkLabel()
+        Me.LinkLabel8 = New System.Windows.Forms.LinkLabel()
+        Me.LinkLabel7 = New System.Windows.Forms.LinkLabel()
+        Me.Panel7 = New System.Windows.Forms.Panel()
+        Me.LinkLabel14 = New System.Windows.Forms.LinkLabel()
+        Me.Button14 = New System.Windows.Forms.Button()
+        Me.TextBox5 = New System.Windows.Forms.TextBox()
+        Me.Label14 = New System.Windows.Forms.Label()
+        Me.Label13 = New System.Windows.Forms.Label()
+        Me.Panel5 = New System.Windows.Forms.Panel()
+        Me.LinkLabel6 = New System.Windows.Forms.LinkLabel()
+        Me.LinkLabel5 = New System.Windows.Forms.LinkLabel()
+        Me.Label12 = New System.Windows.Forms.Label()
+        Me.Panel4 = New System.Windows.Forms.Panel()
+        Me.Button13 = New System.Windows.Forms.Button()
+        Me.Button12 = New System.Windows.Forms.Button()
+        Me.TextBox4 = New System.Windows.Forms.TextBox()
+        Me.Label11 = New System.Windows.Forms.Label()
+        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
+        Me.padamsmain = New System.Windows.Forms.Panel()
+        Me.Panel12 = New System.Windows.Forms.Panel()
+        Me.LinkLabel17 = New System.Windows.Forms.LinkLabel()
+        Me.Label38 = New System.Windows.Forms.Label()
+        Me.Label20 = New System.Windows.Forms.Label()
+        Me.Panel10 = New System.Windows.Forms.Panel()
+        Me.Button15 = New System.Windows.Forms.Button()
+        Me.Label21 = New System.Windows.Forms.Label()
+        Me.Label18 = New System.Windows.Forms.Label()
+        Me.Panel9 = New System.Windows.Forms.Panel()
+        Me.Label37 = New System.Windows.Forms.Label()
+        Me.Button24 = New System.Windows.Forms.Button()
+        Me.Button23 = New System.Windows.Forms.Button()
+        Me.Label36 = New System.Windows.Forms.Label()
+        Me.Label19 = New System.Windows.Forms.Label()
+        Me.Panel8 = New System.Windows.Forms.Panel()
+        Me.Button26 = New System.Windows.Forms.Button()
+        Me.Label57 = New System.Windows.Forms.Label()
+        Me.Button25 = New System.Windows.Forms.Button()
+        Me.Label43 = New System.Windows.Forms.Label()
+        Me.Button17 = New System.Windows.Forms.Button()
+        Me.Label5 = New System.Windows.Forms.Label()
+        Me.Label17 = New System.Windows.Forms.Label()
+        Me.Label16 = New System.Windows.Forms.Label()
+        Me.Label4 = New System.Windows.Forms.Label()
+        Me.padamshidden = New System.Windows.Forms.Panel()
+        Me.TextBox10 = New System.Windows.Forms.TextBox()
+        Me.secretwebsite = New System.Windows.Forms.Panel()
+        Me.TextBox9 = New System.Windows.Forms.TextBox()
+        Me.skindows95advertisment = New System.Windows.Forms.Panel()
+        Me.Label42 = New System.Windows.Forms.Label()
+        Me.Label41 = New System.Windows.Forms.Label()
+        Me.TextBox8 = New System.Windows.Forms.TextBox()
+        Me.PictureBox11 = New System.Windows.Forms.PictureBox()
+        Me.Label40 = New System.Windows.Forms.Label()
+        Me.Label39 = New System.Windows.Forms.Label()
+        Me.googlemain = New System.Windows.Forms.Panel()
+        Me.googlebetalink = New System.Windows.Forms.LinkLabel()
+        Me.googleprototypelink = New System.Windows.Forms.LinkLabel()
+        Me.Label6 = New System.Windows.Forms.Label()
+        Me.googleprototype = New System.Windows.Forms.Panel()
+        Me.Label10 = New System.Windows.Forms.Label()
+        Me.Panel3 = New System.Windows.Forms.Panel()
+        Me.LinkLabel4 = New System.Windows.Forms.LinkLabel()
+        Me.Button11 = New System.Windows.Forms.Button()
+        Me.TextBox3 = New System.Windows.Forms.TextBox()
+        Me.Label9 = New System.Windows.Forms.Label()
+        Me.LinkLabel3 = New System.Windows.Forms.LinkLabel()
+        Me.LinkLabel2 = New System.Windows.Forms.LinkLabel()
+        Me.LinkLabel1 = New System.Windows.Forms.LinkLabel()
+        Me.Panel2 = New System.Windows.Forms.Panel()
+        Me.Label8 = New System.Windows.Forms.Label()
+        Me.Button10 = New System.Windows.Forms.Button()
+        Me.Button9 = New System.Windows.Forms.Button()
+        Me.ComboBox1 = New System.Windows.Forms.ComboBox()
+        Me.TextBox2 = New System.Windows.Forms.TextBox()
+        Me.Label7 = New System.Windows.Forms.Label()
+        Me.pboxgoogleprototypelogo = New System.Windows.Forms.PictureBox()
         Me.Panel14 = New System.Windows.Forms.Panel()
         Me.toprightcorner = New System.Windows.Forms.Panel()
         Me.bottomrightcorner = New System.Windows.Forms.Panel()
         Me.bottomleftcorner = New System.Windows.Forms.Panel()
         Me.topleftcorner = New System.Windows.Forms.Panel()
-        Me.googleprototype = New System.Windows.Forms.Panel()
-        Me.pboxgoogleprototypelogo = New System.Windows.Forms.PictureBox()
-        Me.Panel2 = New System.Windows.Forms.Panel()
-        Me.Label7 = New System.Windows.Forms.Label()
-        Me.TextBox2 = New System.Windows.Forms.TextBox()
-        Me.ComboBox1 = New System.Windows.Forms.ComboBox()
-        Me.Button9 = New System.Windows.Forms.Button()
-        Me.Button10 = New System.Windows.Forms.Button()
-        Me.Label8 = New System.Windows.Forms.Label()
-        Me.LinkLabel1 = New System.Windows.Forms.LinkLabel()
-        Me.LinkLabel2 = New System.Windows.Forms.LinkLabel()
-        Me.LinkLabel3 = New System.Windows.Forms.LinkLabel()
-        Me.Panel3 = New System.Windows.Forms.Panel()
-        Me.Label9 = New System.Windows.Forms.Label()
-        Me.TextBox3 = New System.Windows.Forms.TextBox()
-        Me.Button11 = New System.Windows.Forms.Button()
-        Me.LinkLabel4 = New System.Windows.Forms.LinkLabel()
-        Me.Label10 = New System.Windows.Forms.Label()
-        Me.googlemain = New System.Windows.Forms.Panel()
-        Me.Label6 = New System.Windows.Forms.Label()
-        Me.googleprototypelink = New System.Windows.Forms.LinkLabel()
-        Me.googlebetalink = New System.Windows.Forms.LinkLabel()
-        Me.skindows95advertisment = New System.Windows.Forms.Panel()
-        Me.Label39 = New System.Windows.Forms.Label()
-        Me.Label40 = New System.Windows.Forms.Label()
-        Me.PictureBox11 = New System.Windows.Forms.PictureBox()
-        Me.TextBox8 = New System.Windows.Forms.TextBox()
-        Me.Label41 = New System.Windows.Forms.Label()
-        Me.Label42 = New System.Windows.Forms.Label()
-        Me.secretwebsite = New System.Windows.Forms.Panel()
-        Me.TextBox9 = New System.Windows.Forms.TextBox()
-        Me.padamshidden = New System.Windows.Forms.Panel()
-        Me.TextBox10 = New System.Windows.Forms.TextBox()
-        Me.padamsmain = New System.Windows.Forms.Panel()
-        Me.Label4 = New System.Windows.Forms.Label()
-        Me.Label16 = New System.Windows.Forms.Label()
-        Me.Panel8 = New System.Windows.Forms.Panel()
-        Me.Label17 = New System.Windows.Forms.Label()
-        Me.Label5 = New System.Windows.Forms.Label()
-        Me.Button17 = New System.Windows.Forms.Button()
-        Me.Label43 = New System.Windows.Forms.Label()
-        Me.Button25 = New System.Windows.Forms.Button()
-        Me.Label57 = New System.Windows.Forms.Label()
-        Me.Button26 = New System.Windows.Forms.Button()
-        Me.Panel9 = New System.Windows.Forms.Panel()
-        Me.Label19 = New System.Windows.Forms.Label()
-        Me.Label36 = New System.Windows.Forms.Label()
-        Me.Button23 = New System.Windows.Forms.Button()
-        Me.Button24 = New System.Windows.Forms.Button()
-        Me.Label37 = New System.Windows.Forms.Label()
-        Me.Panel10 = New System.Windows.Forms.Panel()
-        Me.Label18 = New System.Windows.Forms.Label()
-        Me.Label21 = New System.Windows.Forms.Label()
-        Me.Button15 = New System.Windows.Forms.Button()
-        Me.Label22 = New System.Windows.Forms.Label()
-        Me.Button16 = New System.Windows.Forms.Button()
-        Me.Label20 = New System.Windows.Forms.Label()
-        Me.Panel12 = New System.Windows.Forms.Panel()
-        Me.Label38 = New System.Windows.Forms.Label()
-        Me.LinkLabel17 = New System.Windows.Forms.LinkLabel()
-        Me.googlealpha = New System.Windows.Forms.Panel()
-        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
-        Me.Panel4 = New System.Windows.Forms.Panel()
-        Me.Label11 = New System.Windows.Forms.Label()
-        Me.TextBox4 = New System.Windows.Forms.TextBox()
-        Me.Button12 = New System.Windows.Forms.Button()
-        Me.Button13 = New System.Windows.Forms.Button()
-        Me.Panel5 = New System.Windows.Forms.Panel()
-        Me.Label12 = New System.Windows.Forms.Label()
-        Me.LinkLabel5 = New System.Windows.Forms.LinkLabel()
-        Me.LinkLabel6 = New System.Windows.Forms.LinkLabel()
-        Me.Panel7 = New System.Windows.Forms.Panel()
-        Me.Label13 = New System.Windows.Forms.Label()
-        Me.Label14 = New System.Windows.Forms.Label()
-        Me.TextBox5 = New System.Windows.Forms.TextBox()
-        Me.Button14 = New System.Windows.Forms.Button()
-        Me.LinkLabel14 = New System.Windows.Forms.LinkLabel()
-        Me.Panel6 = New System.Windows.Forms.Panel()
-        Me.LinkLabel7 = New System.Windows.Forms.LinkLabel()
-        Me.LinkLabel8 = New System.Windows.Forms.LinkLabel()
-        Me.LinkLabel9 = New System.Windows.Forms.LinkLabel()
-        Me.LinkLabel12 = New System.Windows.Forms.LinkLabel()
-        Me.LinkLabel11 = New System.Windows.Forms.LinkLabel()
-        Me.LinkLabel10 = New System.Windows.Forms.LinkLabel()
-        Me.LinkLabel13 = New System.Windows.Forms.LinkLabel()
-        Me.Label15 = New System.Windows.Forms.Label()
-        Me.hotmailpadams = New System.Windows.Forms.Panel()
-        Me.PictureBox12 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox13 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox14 = New System.Windows.Forms.PictureBox()
-        Me.ListBox1 = New System.Windows.Forms.ListBox()
-        Me.email2 = New System.Windows.Forms.Panel()
-        Me.Label51 = New System.Windows.Forms.Label()
-        Me.Label50 = New System.Windows.Forms.Label()
-        Me.Label49 = New System.Windows.Forms.Label()
-        Me.TextBox16 = New System.Windows.Forms.TextBox()
-        Me.TextBox15 = New System.Windows.Forms.TextBox()
-        Me.TextBox14 = New System.Windows.Forms.TextBox()
-        Me.TextBox13 = New System.Windows.Forms.TextBox()
-        Me.Label48 = New System.Windows.Forms.Label()
-        Me.email3 = New System.Windows.Forms.Panel()
-        Me.Label55 = New System.Windows.Forms.Label()
-        Me.Label54 = New System.Windows.Forms.Label()
-        Me.Label53 = New System.Windows.Forms.Label()
-        Me.TextBox20 = New System.Windows.Forms.TextBox()
-        Me.TextBox19 = New System.Windows.Forms.TextBox()
-        Me.TextBox18 = New System.Windows.Forms.TextBox()
-        Me.TextBox17 = New System.Windows.Forms.TextBox()
-        Me.Label52 = New System.Windows.Forms.Label()
-        Me.email1 = New System.Windows.Forms.Panel()
-        Me.Label44 = New System.Windows.Forms.Label()
-        Me.Label45 = New System.Windows.Forms.Label()
-        Me.Label46 = New System.Windows.Forms.Label()
-        Me.TextBox6 = New System.Windows.Forms.TextBox()
-        Me.TextBox7 = New System.Windows.Forms.TextBox()
-        Me.TextBox11 = New System.Windows.Forms.TextBox()
-        Me.TextBox12 = New System.Windows.Forms.TextBox()
-        Me.Label47 = New System.Windows.Forms.Label()
-        Me.Label56 = New System.Windows.Forms.Label()
-        Me.LinkLabel18 = New System.Windows.Forms.LinkLabel()
-        Me.welcomeinternetscreen = New System.Windows.Forms.Panel()
-        Me.Label2 = New System.Windows.Forms.Label()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
-        Me.Label3 = New System.Windows.Forms.Label()
-        Me.LinkLabel15 = New System.Windows.Forms.LinkLabel()
-        Me.LinkLabel16 = New System.Windows.Forms.LinkLabel()
-        Me.Label58 = New System.Windows.Forms.Label()
-        Me.hotmailmain = New System.Windows.Forms.Panel()
-        Me.Panel11 = New System.Windows.Forms.Panel()
-        Me.PictureBox3 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox4 = New System.Windows.Forms.PictureBox()
-        Me.Label23 = New System.Windows.Forms.Label()
-        Me.Label24 = New System.Windows.Forms.Label()
-        Me.Label25 = New System.Windows.Forms.Label()
-        Me.Label26 = New System.Windows.Forms.Label()
-        Me.txtloginname = New System.Windows.Forms.TextBox()
-        Me.txtpassword = New System.Windows.Forms.TextBox()
-        Me.Button18 = New System.Windows.Forms.Button()
-        Me.RadioButton1 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton2 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton3 = New System.Windows.Forms.RadioButton()
-        Me.PictureBox5 = New System.Windows.Forms.PictureBox()
-        Me.Label27 = New System.Windows.Forms.Label()
-        Me.Label28 = New System.Windows.Forms.Label()
-        Me.PictureBox6 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox7 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox8 = New System.Windows.Forms.PictureBox()
-        Me.Label29 = New System.Windows.Forms.Label()
-        Me.Label30 = New System.Windows.Forms.Label()
-        Me.Label31 = New System.Windows.Forms.Label()
-        Me.PictureBox10 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox9 = New System.Windows.Forms.PictureBox()
-        Me.padamsbackgrounds = New System.Windows.Forms.Panel()
-        Me.Label32 = New System.Windows.Forms.Label()
-        Me.Label33 = New System.Windows.Forms.Label()
-        Me.Panel13 = New System.Windows.Forms.Panel()
-        Me.win95background = New System.Windows.Forms.PictureBox()
-        Me.Label34 = New System.Windows.Forms.Label()
-        Me.Button19 = New System.Windows.Forms.Button()
-        Me.Button20 = New System.Windows.Forms.Button()
-        Me.mclarinflimage = New System.Windows.Forms.PictureBox()
-        Me.Label35 = New System.Windows.Forms.Label()
-        Me.Button22 = New System.Windows.Forms.Button()
-        Me.Button21 = New System.Windows.Forms.Button()
-        Me.Previewimage = New System.Windows.Forms.PictureBox()
-        Me.browsingarea = New System.Windows.Forms.Panel()
         Me.MenuStrip3.SuspendLayout()
         Me.Panel1.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.program.SuspendLayout()
-        Me.Panel14.SuspendLayout()
-        Me.googleprototype.SuspendLayout()
-        CType(Me.pboxgoogleprototypelogo, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.Panel2.SuspendLayout()
-        Me.Panel3.SuspendLayout()
-        Me.googlemain.SuspendLayout()
-        Me.skindows95advertisment.SuspendLayout()
-        CType(Me.PictureBox11, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.secretwebsite.SuspendLayout()
-        Me.padamshidden.SuspendLayout()
-        Me.padamsmain.SuspendLayout()
-        Me.Panel8.SuspendLayout()
-        Me.Panel9.SuspendLayout()
-        Me.Panel10.SuspendLayout()
-        Me.Panel12.SuspendLayout()
-        Me.googlealpha.SuspendLayout()
-        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.Panel4.SuspendLayout()
-        Me.Panel5.SuspendLayout()
-        Me.Panel7.SuspendLayout()
-        Me.Panel6.SuspendLayout()
-        Me.hotmailpadams.SuspendLayout()
-        CType(Me.PictureBox12, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox13, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox14, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.email2.SuspendLayout()
-        Me.email3.SuspendLayout()
-        Me.email1.SuspendLayout()
-        Me.welcomeinternetscreen.SuspendLayout()
-        Me.hotmailmain.SuspendLayout()
-        Me.Panel11.SuspendLayout()
-        CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox6, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox7, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox8, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox10, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox9, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.browsingarea.SuspendLayout()
         Me.padamsbackgrounds.SuspendLayout()
         Me.Panel13.SuspendLayout()
-        CType(Me.win95background, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.mclarinflimage, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.Previewimage, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.browsingarea.SuspendLayout()
+        CType(Me.mclarinflimage, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.win95background, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.hotmailmain.SuspendLayout()
+        CType(Me.PictureBox9, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox10, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox8, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox7, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox6, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Panel11.SuspendLayout()
+        CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.welcomeinternetscreen.SuspendLayout()
+        Me.hotmailpadams.SuspendLayout()
+        Me.email1.SuspendLayout()
+        Me.email3.SuspendLayout()
+        Me.email2.SuspendLayout()
+        CType(Me.PictureBox14, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox13, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox12, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.googlealpha.SuspendLayout()
+        Me.Panel6.SuspendLayout()
+        Me.Panel7.SuspendLayout()
+        Me.Panel5.SuspendLayout()
+        Me.Panel4.SuspendLayout()
+        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.padamsmain.SuspendLayout()
+        Me.Panel12.SuspendLayout()
+        Me.Panel10.SuspendLayout()
+        Me.Panel9.SuspendLayout()
+        Me.Panel8.SuspendLayout()
+        Me.padamshidden.SuspendLayout()
+        Me.secretwebsite.SuspendLayout()
+        Me.skindows95advertisment.SuspendLayout()
+        CType(Me.PictureBox11, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.googlemain.SuspendLayout()
+        Me.googleprototype.SuspendLayout()
+        Me.Panel3.SuspendLayout()
+        Me.Panel2.SuspendLayout()
+        CType(Me.pboxgoogleprototypelogo, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Panel14.SuspendLayout()
         Me.SuspendLayout()
         '
         'MenuStrip3
@@ -1286,6 +1284,1778 @@ Partial Class internet_explorer_4
         Me.program.Size = New System.Drawing.Size(959, 594)
         Me.program.TabIndex = 12
         '
+        'browsingarea
+        '
+        Me.browsingarea.BackColor = System.Drawing.Color.White
+        Me.browsingarea.Controls.Add(Me.padamsbackgrounds)
+        Me.browsingarea.Controls.Add(Me.hotmailmain)
+        Me.browsingarea.Controls.Add(Me.welcomeinternetscreen)
+        Me.browsingarea.Controls.Add(Me.hotmailpadams)
+        Me.browsingarea.Controls.Add(Me.googlealpha)
+        Me.browsingarea.Controls.Add(Me.padamsmain)
+        Me.browsingarea.Controls.Add(Me.padamshidden)
+        Me.browsingarea.Controls.Add(Me.secretwebsite)
+        Me.browsingarea.Controls.Add(Me.skindows95advertisment)
+        Me.browsingarea.Controls.Add(Me.googlemain)
+        Me.browsingarea.Controls.Add(Me.googleprototype)
+        Me.browsingarea.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.browsingarea.Location = New System.Drawing.Point(0, 111)
+        Me.browsingarea.Name = "browsingarea"
+        Me.browsingarea.Size = New System.Drawing.Size(959, 483)
+        Me.browsingarea.TabIndex = 9
+        '
+        'padamsbackgrounds
+        '
+        Me.padamsbackgrounds.AutoScroll = True
+        Me.padamsbackgrounds.Controls.Add(Me.Panel13)
+        Me.padamsbackgrounds.Controls.Add(Me.Label33)
+        Me.padamsbackgrounds.Controls.Add(Me.Label32)
+        Me.padamsbackgrounds.Location = New System.Drawing.Point(686, 352)
+        Me.padamsbackgrounds.Name = "padamsbackgrounds"
+        Me.padamsbackgrounds.Size = New System.Drawing.Size(122, 94)
+        Me.padamsbackgrounds.TabIndex = 6
+        '
+        'Panel13
+        '
+        Me.Panel13.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.Panel13.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Panel13.Controls.Add(Me.Previewimage)
+        Me.Panel13.Controls.Add(Me.Button21)
+        Me.Panel13.Controls.Add(Me.Button22)
+        Me.Panel13.Controls.Add(Me.Label35)
+        Me.Panel13.Controls.Add(Me.mclarinflimage)
+        Me.Panel13.Controls.Add(Me.Button20)
+        Me.Panel13.Controls.Add(Me.Button19)
+        Me.Panel13.Controls.Add(Me.Label34)
+        Me.Panel13.Controls.Add(Me.win95background)
+        Me.Panel13.Location = New System.Drawing.Point(46, 74)
+        Me.Panel13.Name = "Panel13"
+        Me.Panel13.Size = New System.Drawing.Size(3550, 9)
+        Me.Panel13.TabIndex = 2
+        '
+        'Previewimage
+        '
+        Me.Previewimage.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.Previewimage.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Previewimage.Location = New System.Drawing.Point(246, 6)
+        Me.Previewimage.Name = "Previewimage"
+        Me.Previewimage.Size = New System.Drawing.Size(2133, 9)
+        Me.Previewimage.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.Previewimage.TabIndex = 1
+        Me.Previewimage.TabStop = False
+        '
+        'Button21
+        '
+        Me.Button21.BackColor = System.Drawing.Color.Silver
+        Me.Button21.Location = New System.Drawing.Point(95, 310)
+        Me.Button21.Name = "Button21"
+        Me.Button21.Size = New System.Drawing.Size(115, 23)
+        Me.Button21.TabIndex = 8
+        Me.Button21.Text = "Set As Background"
+        Me.Button21.UseVisualStyleBackColor = False
+        '
+        'Button22
+        '
+        Me.Button22.BackColor = System.Drawing.Color.Silver
+        Me.Button22.Location = New System.Drawing.Point(26, 310)
+        Me.Button22.Name = "Button22"
+        Me.Button22.Size = New System.Drawing.Size(63, 23)
+        Me.Button22.TabIndex = 7
+        Me.Button22.Text = "Preview"
+        Me.Button22.UseVisualStyleBackColor = False
+        '
+        'Label35
+        '
+        Me.Label35.AutoSize = True
+        Me.Label35.Location = New System.Drawing.Point(72, 176)
+        Me.Label35.Name = "Label35"
+        Me.Label35.Size = New System.Drawing.Size(87, 13)
+        Me.Label35.TabIndex = 6
+        Me.Label35.Text = "1994 Mclaren F1"
+        '
+        'mclarinflimage
+        '
+        Me.mclarinflimage.Image = Global.Histacom.My.Resources.Resources.mclaren_f1
+        Me.mclarinflimage.Location = New System.Drawing.Point(26, 192)
+        Me.mclarinflimage.Name = "mclarinflimage"
+        Me.mclarinflimage.Size = New System.Drawing.Size(184, 115)
+        Me.mclarinflimage.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.mclarinflimage.TabIndex = 5
+        Me.mclarinflimage.TabStop = False
+        '
+        'Button20
+        '
+        Me.Button20.BackColor = System.Drawing.Color.Silver
+        Me.Button20.Location = New System.Drawing.Point(95, 140)
+        Me.Button20.Name = "Button20"
+        Me.Button20.Size = New System.Drawing.Size(115, 23)
+        Me.Button20.TabIndex = 4
+        Me.Button20.Text = "Set As Background"
+        Me.Button20.UseVisualStyleBackColor = False
+        '
+        'Button19
+        '
+        Me.Button19.BackColor = System.Drawing.Color.Silver
+        Me.Button19.Location = New System.Drawing.Point(26, 140)
+        Me.Button19.Name = "Button19"
+        Me.Button19.Size = New System.Drawing.Size(63, 23)
+        Me.Button19.TabIndex = 3
+        Me.Button19.Text = "Preview"
+        Me.Button19.UseVisualStyleBackColor = False
+        '
+        'Label34
+        '
+        Me.Label34.AutoSize = True
+        Me.Label34.Location = New System.Drawing.Point(50, 6)
+        Me.Label34.Name = "Label34"
+        Me.Label34.Size = New System.Drawing.Size(128, 13)
+        Me.Label34.TabIndex = 2
+        Me.Label34.Text = "Windows 95 Boot Screen"
+        '
+        'win95background
+        '
+        Me.win95background.Image = Global.Histacom.My.Resources.Resources.windows_95_background
+        Me.win95background.Location = New System.Drawing.Point(26, 22)
+        Me.win95background.Name = "win95background"
+        Me.win95background.Size = New System.Drawing.Size(184, 115)
+        Me.win95background.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.win95background.TabIndex = 0
+        Me.win95background.TabStop = False
+        '
+        'Label33
+        '
+        Me.Label33.AutoSize = True
+        Me.Label33.Location = New System.Drawing.Point(46, 47)
+        Me.Label33.Name = "Label33"
+        Me.Label33.Size = New System.Drawing.Size(622, 13)
+        Me.Label33.TabIndex = 1
+        Me.Label33.Text = "Changing your desktop background shows the world that you are different and that " &
+    "you well...  know how to change a background"
+        '
+        'Label32
+        '
+        Me.Label32.AutoSize = True
+        Me.Label32.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label32.Location = New System.Drawing.Point(42, 21)
+        Me.Label32.Name = "Label32"
+        Me.Label32.Size = New System.Drawing.Size(114, 20)
+        Me.Label32.TabIndex = 0
+        Me.Label32.Text = "Backgrounds"
+        '
+        'hotmailmain
+        '
+        Me.hotmailmain.AutoScroll = True
+        Me.hotmailmain.BackColor = System.Drawing.Color.SteelBlue
+        Me.hotmailmain.Controls.Add(Me.PictureBox9)
+        Me.hotmailmain.Controls.Add(Me.PictureBox10)
+        Me.hotmailmain.Controls.Add(Me.Label31)
+        Me.hotmailmain.Controls.Add(Me.Label30)
+        Me.hotmailmain.Controls.Add(Me.Label29)
+        Me.hotmailmain.Controls.Add(Me.PictureBox8)
+        Me.hotmailmain.Controls.Add(Me.PictureBox7)
+        Me.hotmailmain.Controls.Add(Me.PictureBox6)
+        Me.hotmailmain.Controls.Add(Me.Label28)
+        Me.hotmailmain.Controls.Add(Me.Label27)
+        Me.hotmailmain.Controls.Add(Me.PictureBox5)
+        Me.hotmailmain.Controls.Add(Me.RadioButton3)
+        Me.hotmailmain.Controls.Add(Me.RadioButton2)
+        Me.hotmailmain.Controls.Add(Me.RadioButton1)
+        Me.hotmailmain.Controls.Add(Me.Button18)
+        Me.hotmailmain.Controls.Add(Me.txtpassword)
+        Me.hotmailmain.Controls.Add(Me.txtloginname)
+        Me.hotmailmain.Controls.Add(Me.Label26)
+        Me.hotmailmain.Controls.Add(Me.Label25)
+        Me.hotmailmain.Controls.Add(Me.Label24)
+        Me.hotmailmain.Controls.Add(Me.Label23)
+        Me.hotmailmain.Controls.Add(Me.Panel11)
+        Me.hotmailmain.Location = New System.Drawing.Point(477, 73)
+        Me.hotmailmain.Name = "hotmailmain"
+        Me.hotmailmain.Size = New System.Drawing.Size(134, 95)
+        Me.hotmailmain.TabIndex = 5
+        '
+        'PictureBox9
+        '
+        Me.PictureBox9.Image = Global.Histacom.My.Resources.Resources.hotmail_signup_button
+        Me.PictureBox9.Location = New System.Drawing.Point(248, 207)
+        Me.PictureBox9.Name = "PictureBox9"
+        Me.PictureBox9.Size = New System.Drawing.Size(200, 33)
+        Me.PictureBox9.TabIndex = 2
+        Me.PictureBox9.TabStop = False
+        '
+        'PictureBox10
+        '
+        Me.PictureBox10.Image = Global.Histacom.My.Resources.Resources.hotmailwhysignup_button
+        Me.PictureBox10.Location = New System.Drawing.Point(272, 246)
+        Me.PictureBox10.Name = "PictureBox10"
+        Me.PictureBox10.Size = New System.Drawing.Size(160, 26)
+        Me.PictureBox10.TabIndex = 3
+        Me.PictureBox10.TabStop = False
+        '
+        'Label31
+        '
+        Me.Label31.AutoSize = True
+        Me.Label31.Font = New System.Drawing.Font("Arial", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label31.ForeColor = System.Drawing.Color.White
+        Me.Label31.Location = New System.Drawing.Point(513, 259)
+        Me.Label31.Name = "Label31"
+        Me.Label31.Size = New System.Drawing.Size(111, 15)
+        Me.Label31.TabIndex = 19
+        Me.Label31.Text = "Privacy Statement"
+        '
+        'Label30
+        '
+        Me.Label30.AutoSize = True
+        Me.Label30.Font = New System.Drawing.Font("Arial", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label30.ForeColor = System.Drawing.Color.White
+        Me.Label30.Location = New System.Drawing.Point(513, 234)
+        Me.Label30.Name = "Label30"
+        Me.Label30.Size = New System.Drawing.Size(77, 15)
+        Me.Label30.TabIndex = 18
+        Me.Label30.Text = "Email Safety"
+        '
+        'Label29
+        '
+        Me.Label29.AutoSize = True
+        Me.Label29.Font = New System.Drawing.Font("Arial", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label29.ForeColor = System.Drawing.Color.White
+        Me.Label29.Location = New System.Drawing.Point(513, 207)
+        Me.Label29.Name = "Label29"
+        Me.Label29.Size = New System.Drawing.Size(86, 15)
+        Me.Label29.TabIndex = 17
+        Me.Label29.Text = "About Hotmail"
+        '
+        'PictureBox8
+        '
+        Me.PictureBox8.Image = Global.Histacom.My.Resources.Resources.hotmailcirclearrow
+        Me.PictureBox8.Location = New System.Drawing.Point(478, 256)
+        Me.PictureBox8.Name = "PictureBox8"
+        Me.PictureBox8.Size = New System.Drawing.Size(17, 16)
+        Me.PictureBox8.TabIndex = 16
+        Me.PictureBox8.TabStop = False
+        '
+        'PictureBox7
+        '
+        Me.PictureBox7.Image = Global.Histacom.My.Resources.Resources.hotmailcirclearrow
+        Me.PictureBox7.Location = New System.Drawing.Point(478, 231)
+        Me.PictureBox7.Name = "PictureBox7"
+        Me.PictureBox7.Size = New System.Drawing.Size(17, 16)
+        Me.PictureBox7.TabIndex = 15
+        Me.PictureBox7.TabStop = False
+        '
+        'PictureBox6
+        '
+        Me.PictureBox6.Image = Global.Histacom.My.Resources.Resources.hotmailcirclearrow
+        Me.PictureBox6.Location = New System.Drawing.Point(478, 206)
+        Me.PictureBox6.Name = "PictureBox6"
+        Me.PictureBox6.Size = New System.Drawing.Size(17, 16)
+        Me.PictureBox6.TabIndex = 14
+        Me.PictureBox6.TabStop = False
+        '
+        'Label28
+        '
+        Me.Label28.AutoSize = True
+        Me.Label28.BackColor = System.Drawing.Color.Navy
+        Me.Label28.Font = New System.Drawing.Font("Book Antiqua", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label28.ForeColor = System.Drawing.Color.White
+        Me.Label28.Location = New System.Drawing.Point(463, 179)
+        Me.Label28.Name = "Label28"
+        Me.Label28.Size = New System.Drawing.Size(183, 18)
+        Me.Label28.TabIndex = 13
+        Me.Label28.Text = "   I N F O                                         "
+        '
+        'Label27
+        '
+        Me.Label27.AutoSize = True
+        Me.Label27.Font = New System.Drawing.Font("Arial", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label27.ForeColor = System.Drawing.Color.White
+        Me.Label27.Location = New System.Drawing.Point(258, 140)
+        Me.Label27.Name = "Label27"
+        Me.Label27.Size = New System.Drawing.Size(139, 15)
+        Me.Label27.TabIndex = 12
+        Me.Label27.Text = "Forgot Your Password?"
+        '
+        'PictureBox5
+        '
+        Me.PictureBox5.Image = Global.Histacom.My.Resources.Resources.hotmailcirclearrow
+        Me.PictureBox5.Location = New System.Drawing.Point(235, 139)
+        Me.PictureBox5.Name = "PictureBox5"
+        Me.PictureBox5.Size = New System.Drawing.Size(17, 16)
+        Me.PictureBox5.TabIndex = 11
+        Me.PictureBox5.TabStop = False
+        '
+        'RadioButton3
+        '
+        Me.RadioButton3.AutoSize = True
+        Me.RadioButton3.Checked = True
+        Me.RadioButton3.Font = New System.Drawing.Font("Arial Narrow", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadioButton3.ForeColor = System.Drawing.Color.White
+        Me.RadioButton3.Location = New System.Drawing.Point(466, 109)
+        Me.RadioButton3.Name = "RadioButton3"
+        Me.RadioButton3.Size = New System.Drawing.Size(69, 19)
+        Me.RadioButton3.TabIndex = 10
+        Me.RadioButton3.TabStop = True
+        Me.RadioButton3.Text = "My Default"
+        Me.RadioButton3.UseVisualStyleBackColor = True
+        '
+        'RadioButton2
+        '
+        Me.RadioButton2.AutoSize = True
+        Me.RadioButton2.Font = New System.Drawing.Font("Arial Narrow", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadioButton2.ForeColor = System.Drawing.Color.White
+        Me.RadioButton2.Location = New System.Drawing.Point(345, 109)
+        Me.RadioButton2.Name = "RadioButton2"
+        Me.RadioButton2.Size = New System.Drawing.Size(72, 19)
+        Me.RadioButton2.TabIndex = 9
+        Me.RadioButton2.Text = "No Frames"
+        Me.RadioButton2.UseVisualStyleBackColor = True
+        '
+        'RadioButton1
+        '
+        Me.RadioButton1.AutoSize = True
+        Me.RadioButton1.Font = New System.Drawing.Font("Arial Narrow", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadioButton1.ForeColor = System.Drawing.Color.White
+        Me.RadioButton1.Location = New System.Drawing.Point(235, 109)
+        Me.RadioButton1.Name = "RadioButton1"
+        Me.RadioButton1.Size = New System.Drawing.Size(57, 19)
+        Me.RadioButton1.TabIndex = 8
+        Me.RadioButton1.Text = "Frames"
+        Me.RadioButton1.UseVisualStyleBackColor = True
+        '
+        'Button18
+        '
+        Me.Button18.BackColor = System.Drawing.Color.Silver
+        Me.Button18.Location = New System.Drawing.Point(563, 81)
+        Me.Button18.Name = "Button18"
+        Me.Button18.Size = New System.Drawing.Size(60, 23)
+        Me.Button18.TabIndex = 7
+        Me.Button18.Text = "Enter"
+        Me.Button18.UseVisualStyleBackColor = False
+        '
+        'txtpassword
+        '
+        Me.txtpassword.Location = New System.Drawing.Point(406, 83)
+        Me.txtpassword.Name = "txtpassword"
+        Me.txtpassword.Size = New System.Drawing.Size(138, 20)
+        Me.txtpassword.TabIndex = 6
+        Me.txtpassword.UseSystemPasswordChar = True
+        '
+        'txtloginname
+        '
+        Me.txtloginname.Location = New System.Drawing.Point(235, 83)
+        Me.txtloginname.Name = "txtloginname"
+        Me.txtloginname.Size = New System.Drawing.Size(138, 20)
+        Me.txtloginname.TabIndex = 5
+        '
+        'Label26
+        '
+        Me.Label26.AutoSize = True
+        Me.Label26.Font = New System.Drawing.Font("Arial", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label26.ForeColor = System.Drawing.Color.White
+        Me.Label26.Location = New System.Drawing.Point(403, 59)
+        Me.Label26.Name = "Label26"
+        Me.Label26.Size = New System.Drawing.Size(65, 15)
+        Me.Label26.TabIndex = 4
+        Me.Label26.Text = "Password"
+        '
+        'Label25
+        '
+        Me.Label25.AutoSize = True
+        Me.Label25.Font = New System.Drawing.Font("Arial", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label25.ForeColor = System.Drawing.Color.White
+        Me.Label25.Location = New System.Drawing.Point(232, 59)
+        Me.Label25.Name = "Label25"
+        Me.Label25.Size = New System.Drawing.Size(74, 15)
+        Me.Label25.TabIndex = 3
+        Me.Label25.Text = "Login Name"
+        '
+        'Label24
+        '
+        Me.Label24.AutoSize = True
+        Me.Label24.BackColor = System.Drawing.Color.Navy
+        Me.Label24.Font = New System.Drawing.Font("Book Antiqua", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label24.ForeColor = System.Drawing.Color.White
+        Me.Label24.Location = New System.Drawing.Point(229, 179)
+        Me.Label24.Name = "Label24"
+        Me.Label24.Size = New System.Drawing.Size(226, 18)
+        Me.Label24.TabIndex = 2
+        Me.Label24.Text = "   V I S I T O R S                                         "
+        '
+        'Label23
+        '
+        Me.Label23.AutoSize = True
+        Me.Label23.BackColor = System.Drawing.Color.Navy
+        Me.Label23.Font = New System.Drawing.Font("Book Antiqua", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label23.ForeColor = System.Drawing.Color.White
+        Me.Label23.Location = New System.Drawing.Point(229, 30)
+        Me.Label23.Name = "Label23"
+        Me.Label23.Size = New System.Drawing.Size(473, 18)
+        Me.Label23.TabIndex = 1
+        Me.Label23.Text = "   R E G I S T E R E D   U S E R S                                               " &
+    "                                              "
+        '
+        'Panel11
+        '
+        Me.Panel11.BackColor = System.Drawing.Color.White
+        Me.Panel11.Controls.Add(Me.PictureBox4)
+        Me.Panel11.Controls.Add(Me.PictureBox3)
+        Me.Panel11.Location = New System.Drawing.Point(18, 0)
+        Me.Panel11.Name = "Panel11"
+        Me.Panel11.Size = New System.Drawing.Size(205, 445)
+        Me.Panel11.TabIndex = 0
+        '
+        'PictureBox4
+        '
+        Me.PictureBox4.Image = Global.Histacom.My.Resources.Resources.hotmail_slogan
+        Me.PictureBox4.Location = New System.Drawing.Point(35, 179)
+        Me.PictureBox4.Name = "PictureBox4"
+        Me.PictureBox4.Size = New System.Drawing.Size(160, 136)
+        Me.PictureBox4.TabIndex = 1
+        Me.PictureBox4.TabStop = False
+        '
+        'PictureBox3
+        '
+        Me.PictureBox3.Image = Global.Histacom.My.Resources.Resources.hotmail_logo
+        Me.PictureBox3.Location = New System.Drawing.Point(13, 23)
+        Me.PictureBox3.Name = "PictureBox3"
+        Me.PictureBox3.Size = New System.Drawing.Size(160, 136)
+        Me.PictureBox3.TabIndex = 0
+        Me.PictureBox3.TabStop = False
+        '
+        'welcomeinternetscreen
+        '
+        Me.welcomeinternetscreen.AutoScroll = True
+        Me.welcomeinternetscreen.BackColor = System.Drawing.Color.White
+        Me.welcomeinternetscreen.Controls.Add(Me.Label58)
+        Me.welcomeinternetscreen.Controls.Add(Me.LinkLabel16)
+        Me.welcomeinternetscreen.Controls.Add(Me.LinkLabel15)
+        Me.welcomeinternetscreen.Controls.Add(Me.Label3)
+        Me.welcomeinternetscreen.Controls.Add(Me.TextBox1)
+        Me.welcomeinternetscreen.Controls.Add(Me.Label2)
+        Me.welcomeinternetscreen.Location = New System.Drawing.Point(694, 199)
+        Me.welcomeinternetscreen.Name = "welcomeinternetscreen"
+        Me.welcomeinternetscreen.Size = New System.Drawing.Size(117, 45)
+        Me.welcomeinternetscreen.TabIndex = 0
+        '
+        'Label58
+        '
+        Me.Label58.Anchor = System.Windows.Forms.AnchorStyles.Top
+        Me.Label58.AutoSize = True
+        Me.Label58.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label58.Location = New System.Drawing.Point(-93, 45)
+        Me.Label58.Name = "Label58"
+        Me.Label58.Size = New System.Drawing.Size(199, 16)
+        Me.Label58.TabIndex = 7
+        Me.Label58.Text = "Where do you want to go today?"
+        '
+        'LinkLabel16
+        '
+        Me.LinkLabel16.Anchor = System.Windows.Forms.AnchorStyles.Top
+        Me.LinkLabel16.AutoSize = True
+        Me.LinkLabel16.Location = New System.Drawing.Point(-38, 317)
+        Me.LinkLabel16.Name = "LinkLabel16"
+        Me.LinkLabel16.Size = New System.Drawing.Size(106, 13)
+        Me.LinkLabel16.TabIndex = 6
+        Me.LinkLabel16.TabStop = True
+        Me.LinkLabel16.Text = "www.12padams.com"
+        '
+        'LinkLabel15
+        '
+        Me.LinkLabel15.Anchor = System.Windows.Forms.AnchorStyles.Top
+        Me.LinkLabel15.AutoSize = True
+        Me.LinkLabel15.Location = New System.Drawing.Point(-31, 298)
+        Me.LinkLabel15.Name = "LinkLabel15"
+        Me.LinkLabel15.Size = New System.Drawing.Size(89, 13)
+        Me.LinkLabel15.TabIndex = 5
+        Me.LinkLabel15.TabStop = True
+        Me.LinkLabel15.Text = "www.google.com"
+        '
+        'Label3
+        '
+        Me.Label3.Anchor = System.Windows.Forms.AnchorStyles.Top
+        Me.Label3.AutoSize = True
+        Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.Location = New System.Drawing.Point(-153, 258)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(342, 20)
+        Me.Label3.TabIndex = 2
+        Me.Label3.Text = "Here are some sites you may wish to visit."
+        '
+        'TextBox1
+        '
+        Me.TextBox1.Anchor = System.Windows.Forms.AnchorStyles.Top
+        Me.TextBox1.BackColor = System.Drawing.Color.White
+        Me.TextBox1.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.TextBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox1.Location = New System.Drawing.Point(-189, 98)
+        Me.TextBox1.Multiline = True
+        Me.TextBox1.Name = "TextBox1"
+        Me.TextBox1.ReadOnly = True
+        Me.TextBox1.Size = New System.Drawing.Size(428, 130)
+        Me.TextBox1.TabIndex = 1
+        Me.TextBox1.Text = resources.GetString("TextBox1.Text")
+        Me.TextBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'Label2
+        '
+        Me.Label2.Anchor = System.Windows.Forms.AnchorStyles.Top
+        Me.Label2.AutoSize = True
+        Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.Location = New System.Drawing.Point(-140, 19)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(308, 24)
+        Me.Label2.TabIndex = 0
+        Me.Label2.Text = "Welcome To Internet Explorer 4"
+        '
+        'hotmailpadams
+        '
+        Me.hotmailpadams.AutoScroll = True
+        Me.hotmailpadams.BackColor = System.Drawing.Color.LightSteelBlue
+        Me.hotmailpadams.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.hotmailpadams.Controls.Add(Me.email1)
+        Me.hotmailpadams.Controls.Add(Me.email3)
+        Me.hotmailpadams.Controls.Add(Me.email2)
+        Me.hotmailpadams.Controls.Add(Me.ListBox1)
+        Me.hotmailpadams.Controls.Add(Me.PictureBox14)
+        Me.hotmailpadams.Controls.Add(Me.PictureBox13)
+        Me.hotmailpadams.Controls.Add(Me.PictureBox12)
+        Me.hotmailpadams.Location = New System.Drawing.Point(728, 108)
+        Me.hotmailpadams.Name = "hotmailpadams"
+        Me.hotmailpadams.Size = New System.Drawing.Size(83, 63)
+        Me.hotmailpadams.TabIndex = 10
+        '
+        'email1
+        '
+        Me.email1.Controls.Add(Me.LinkLabel18)
+        Me.email1.Controls.Add(Me.Label56)
+        Me.email1.Controls.Add(Me.Label47)
+        Me.email1.Controls.Add(Me.TextBox12)
+        Me.email1.Controls.Add(Me.TextBox11)
+        Me.email1.Controls.Add(Me.TextBox7)
+        Me.email1.Controls.Add(Me.TextBox6)
+        Me.email1.Controls.Add(Me.Label46)
+        Me.email1.Controls.Add(Me.Label45)
+        Me.email1.Controls.Add(Me.Label44)
+        Me.email1.Location = New System.Drawing.Point(207, 121)
+        Me.email1.Name = "email1"
+        Me.email1.Size = New System.Drawing.Size(465, 213)
+        Me.email1.TabIndex = 4
+        Me.email1.Visible = False
+        '
+        'LinkLabel18
+        '
+        Me.LinkLabel18.AutoSize = True
+        Me.LinkLabel18.Location = New System.Drawing.Point(83, 86)
+        Me.LinkLabel18.Name = "LinkLabel18"
+        Me.LinkLabel18.Size = New System.Drawing.Size(53, 13)
+        Me.LinkLabel18.TabIndex = 9
+        Me.LinkLabel18.TabStop = True
+        Me.LinkLabel18.Text = "hwcv.exe"
+        '
+        'Label56
+        '
+        Me.Label56.AutoSize = True
+        Me.Label56.Location = New System.Drawing.Point(7, 87)
+        Me.Label56.Name = "Label56"
+        Me.Label56.Size = New System.Drawing.Size(69, 13)
+        Me.Label56.TabIndex = 8
+        Me.Label56.Text = "Attachments:"
+        '
+        'Label47
+        '
+        Me.Label47.AutoSize = True
+        Me.Label47.Location = New System.Drawing.Point(6, 110)
+        Me.Label47.Name = "Label47"
+        Me.Label47.Size = New System.Drawing.Size(34, 13)
+        Me.Label47.TabIndex = 7
+        Me.Label47.Text = "Body:"
+        '
+        'TextBox12
+        '
+        Me.TextBox12.Location = New System.Drawing.Point(55, 109)
+        Me.TextBox12.Multiline = True
+        Me.TextBox12.Name = "TextBox12"
+        Me.TextBox12.Size = New System.Drawing.Size(394, 94)
+        Me.TextBox12.TabIndex = 6
+        Me.TextBox12.Text = resources.GetString("TextBox12.Text")
+        '
+        'TextBox11
+        '
+        Me.TextBox11.Location = New System.Drawing.Point(55, 58)
+        Me.TextBox11.Name = "TextBox11"
+        Me.TextBox11.Size = New System.Drawing.Size(394, 20)
+        Me.TextBox11.TabIndex = 5
+        Me.TextBox11.Text = "12padams.com DataLog 1998"
+        '
+        'TextBox7
+        '
+        Me.TextBox7.Location = New System.Drawing.Point(55, 32)
+        Me.TextBox7.Name = "TextBox7"
+        Me.TextBox7.Size = New System.Drawing.Size(394, 20)
+        Me.TextBox7.TabIndex = 4
+        Me.TextBox7.Text = "12padams"
+        '
+        'TextBox6
+        '
+        Me.TextBox6.Location = New System.Drawing.Point(55, 6)
+        Me.TextBox6.Name = "TextBox6"
+        Me.TextBox6.Size = New System.Drawing.Size(394, 20)
+        Me.TextBox6.TabIndex = 3
+        Me.TextBox6.Text = "12padams Bot"
+        '
+        'Label46
+        '
+        Me.Label46.AutoSize = True
+        Me.Label46.Location = New System.Drawing.Point(6, 61)
+        Me.Label46.Name = "Label46"
+        Me.Label46.Size = New System.Drawing.Size(46, 13)
+        Me.Label46.TabIndex = 2
+        Me.Label46.Text = "Subject:"
+        '
+        'Label45
+        '
+        Me.Label45.AutoSize = True
+        Me.Label45.Location = New System.Drawing.Point(6, 35)
+        Me.Label45.Name = "Label45"
+        Me.Label45.Size = New System.Drawing.Size(23, 13)
+        Me.Label45.TabIndex = 1
+        Me.Label45.Text = "To:"
+        '
+        'Label44
+        '
+        Me.Label44.AutoSize = True
+        Me.Label44.Location = New System.Drawing.Point(6, 9)
+        Me.Label44.Name = "Label44"
+        Me.Label44.Size = New System.Drawing.Size(33, 13)
+        Me.Label44.TabIndex = 0
+        Me.Label44.Text = "From:"
+        '
+        'email3
+        '
+        Me.email3.Controls.Add(Me.Label52)
+        Me.email3.Controls.Add(Me.TextBox17)
+        Me.email3.Controls.Add(Me.TextBox18)
+        Me.email3.Controls.Add(Me.TextBox19)
+        Me.email3.Controls.Add(Me.TextBox20)
+        Me.email3.Controls.Add(Me.Label53)
+        Me.email3.Controls.Add(Me.Label54)
+        Me.email3.Controls.Add(Me.Label55)
+        Me.email3.Location = New System.Drawing.Point(175, 99)
+        Me.email3.Name = "email3"
+        Me.email3.Size = New System.Drawing.Size(465, 213)
+        Me.email3.TabIndex = 6
+        Me.email3.Visible = False
+        '
+        'Label52
+        '
+        Me.Label52.AutoSize = True
+        Me.Label52.Location = New System.Drawing.Point(6, 88)
+        Me.Label52.Name = "Label52"
+        Me.Label52.Size = New System.Drawing.Size(34, 13)
+        Me.Label52.TabIndex = 7
+        Me.Label52.Text = "Body:"
+        '
+        'TextBox17
+        '
+        Me.TextBox17.Location = New System.Drawing.Point(55, 85)
+        Me.TextBox17.Multiline = True
+        Me.TextBox17.Name = "TextBox17"
+        Me.TextBox17.Size = New System.Drawing.Size(394, 116)
+        Me.TextBox17.TabIndex = 6
+        Me.TextBox17.Text = resources.GetString("TextBox17.Text")
+        '
+        'TextBox18
+        '
+        Me.TextBox18.Location = New System.Drawing.Point(55, 58)
+        Me.TextBox18.Name = "TextBox18"
+        Me.TextBox18.Size = New System.Drawing.Size(394, 20)
+        Me.TextBox18.TabIndex = 5
+        Me.TextBox18.Text = "What's the secret to your website"
+        '
+        'TextBox19
+        '
+        Me.TextBox19.Location = New System.Drawing.Point(55, 32)
+        Me.TextBox19.Name = "TextBox19"
+        Me.TextBox19.Size = New System.Drawing.Size(394, 20)
+        Me.TextBox19.TabIndex = 4
+        Me.TextBox19.Text = "12padams@hotmail.com"
+        '
+        'TextBox20
+        '
+        Me.TextBox20.Location = New System.Drawing.Point(55, 6)
+        Me.TextBox20.Name = "TextBox20"
+        Me.TextBox20.Size = New System.Drawing.Size(394, 20)
+        Me.TextBox20.TabIndex = 3
+        Me.TextBox20.Text = "thehiddenhacker@hotmail.com"
+        '
+        'Label53
+        '
+        Me.Label53.AutoSize = True
+        Me.Label53.Location = New System.Drawing.Point(6, 61)
+        Me.Label53.Name = "Label53"
+        Me.Label53.Size = New System.Drawing.Size(46, 13)
+        Me.Label53.TabIndex = 2
+        Me.Label53.Text = "Subject:"
+        '
+        'Label54
+        '
+        Me.Label54.AutoSize = True
+        Me.Label54.Location = New System.Drawing.Point(6, 35)
+        Me.Label54.Name = "Label54"
+        Me.Label54.Size = New System.Drawing.Size(23, 13)
+        Me.Label54.TabIndex = 1
+        Me.Label54.Text = "To:"
+        '
+        'Label55
+        '
+        Me.Label55.AutoSize = True
+        Me.Label55.Location = New System.Drawing.Point(6, 9)
+        Me.Label55.Name = "Label55"
+        Me.Label55.Size = New System.Drawing.Size(33, 13)
+        Me.Label55.TabIndex = 0
+        Me.Label55.Text = "From:"
+        '
+        'email2
+        '
+        Me.email2.Controls.Add(Me.Label48)
+        Me.email2.Controls.Add(Me.TextBox13)
+        Me.email2.Controls.Add(Me.TextBox14)
+        Me.email2.Controls.Add(Me.TextBox15)
+        Me.email2.Controls.Add(Me.TextBox16)
+        Me.email2.Controls.Add(Me.Label49)
+        Me.email2.Controls.Add(Me.Label50)
+        Me.email2.Controls.Add(Me.Label51)
+        Me.email2.Location = New System.Drawing.Point(161, 124)
+        Me.email2.Name = "email2"
+        Me.email2.Size = New System.Drawing.Size(465, 213)
+        Me.email2.TabIndex = 5
+        Me.email2.Visible = False
+        '
+        'Label48
+        '
+        Me.Label48.AutoSize = True
+        Me.Label48.Location = New System.Drawing.Point(6, 88)
+        Me.Label48.Name = "Label48"
+        Me.Label48.Size = New System.Drawing.Size(34, 13)
+        Me.Label48.TabIndex = 7
+        Me.Label48.Text = "Body:"
+        '
+        'TextBox13
+        '
+        Me.TextBox13.Location = New System.Drawing.Point(55, 85)
+        Me.TextBox13.Multiline = True
+        Me.TextBox13.Name = "TextBox13"
+        Me.TextBox13.Size = New System.Drawing.Size(394, 116)
+        Me.TextBox13.TabIndex = 6
+        Me.TextBox13.Text = "Hey How dare you ask me about that I am blocking your ip right now from my websit" &
+    "e... And for the record don't waste your time theres nothing hidden on my websit" &
+    "e!!!"
+        '
+        'TextBox14
+        '
+        Me.TextBox14.Location = New System.Drawing.Point(55, 58)
+        Me.TextBox14.Name = "TextBox14"
+        Me.TextBox14.Size = New System.Drawing.Size(394, 20)
+        Me.TextBox14.TabIndex = 5
+        Me.TextBox14.Text = "Re: What's the secret to your website"
+        '
+        'TextBox15
+        '
+        Me.TextBox15.Location = New System.Drawing.Point(55, 32)
+        Me.TextBox15.Name = "TextBox15"
+        Me.TextBox15.Size = New System.Drawing.Size(394, 20)
+        Me.TextBox15.TabIndex = 4
+        Me.TextBox15.Text = "thehiddenhacker@hotmail.com"
+        '
+        'TextBox16
+        '
+        Me.TextBox16.Location = New System.Drawing.Point(55, 6)
+        Me.TextBox16.Name = "TextBox16"
+        Me.TextBox16.Size = New System.Drawing.Size(394, 20)
+        Me.TextBox16.TabIndex = 3
+        Me.TextBox16.Text = "12padams@hotmail.com"
+        '
+        'Label49
+        '
+        Me.Label49.AutoSize = True
+        Me.Label49.Location = New System.Drawing.Point(6, 61)
+        Me.Label49.Name = "Label49"
+        Me.Label49.Size = New System.Drawing.Size(46, 13)
+        Me.Label49.TabIndex = 2
+        Me.Label49.Text = "Subject:"
+        '
+        'Label50
+        '
+        Me.Label50.AutoSize = True
+        Me.Label50.Location = New System.Drawing.Point(6, 35)
+        Me.Label50.Name = "Label50"
+        Me.Label50.Size = New System.Drawing.Size(23, 13)
+        Me.Label50.TabIndex = 1
+        Me.Label50.Text = "To:"
+        '
+        'Label51
+        '
+        Me.Label51.AutoSize = True
+        Me.Label51.Location = New System.Drawing.Point(6, 9)
+        Me.Label51.Name = "Label51"
+        Me.Label51.Size = New System.Drawing.Size(33, 13)
+        Me.Label51.TabIndex = 0
+        Me.Label51.Text = "From:"
+        '
+        'ListBox1
+        '
+        Me.ListBox1.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.ListBox1.FormattingEnabled = True
+        Me.ListBox1.Items.AddRange(New Object() {"12padams.com datalog 1998", "RE: What's the secrect to your website?", "What's the secret to your website?"})
+        Me.ListBox1.Location = New System.Drawing.Point(154, 59)
+        Me.ListBox1.Name = "ListBox1"
+        Me.ListBox1.Size = New System.Drawing.Size(518, 278)
+        Me.ListBox1.TabIndex = 3
+        '
+        'PictureBox14
+        '
+        Me.PictureBox14.Dock = System.Windows.Forms.DockStyle.Top
+        Me.PictureBox14.Image = Global.Histacom.My.Resources.Resources.hotmail2ndfromtopbar
+        Me.PictureBox14.Location = New System.Drawing.Point(154, 38)
+        Me.PictureBox14.Name = "PictureBox14"
+        Me.PictureBox14.Size = New System.Drawing.Size(518, 21)
+        Me.PictureBox14.TabIndex = 2
+        Me.PictureBox14.TabStop = False
+        '
+        'PictureBox13
+        '
+        Me.PictureBox13.Dock = System.Windows.Forms.DockStyle.Top
+        Me.PictureBox13.Image = Global.Histacom.My.Resources.Resources.hotmailtop
+        Me.PictureBox13.Location = New System.Drawing.Point(154, 0)
+        Me.PictureBox13.Name = "PictureBox13"
+        Me.PictureBox13.Size = New System.Drawing.Size(518, 38)
+        Me.PictureBox13.TabIndex = 1
+        Me.PictureBox13.TabStop = False
+        '
+        'PictureBox12
+        '
+        Me.PictureBox12.Dock = System.Windows.Forms.DockStyle.Left
+        Me.PictureBox12.Image = Global.Histacom.My.Resources.Resources.hotmailside
+        Me.PictureBox12.Location = New System.Drawing.Point(0, 0)
+        Me.PictureBox12.Name = "PictureBox12"
+        Me.PictureBox12.Size = New System.Drawing.Size(154, 337)
+        Me.PictureBox12.TabIndex = 0
+        Me.PictureBox12.TabStop = False
+        '
+        'googlealpha
+        '
+        Me.googlealpha.AutoScroll = True
+        Me.googlealpha.Controls.Add(Me.Label15)
+        Me.googlealpha.Controls.Add(Me.Panel6)
+        Me.googlealpha.Controls.Add(Me.Panel7)
+        Me.googlealpha.Controls.Add(Me.Panel5)
+        Me.googlealpha.Controls.Add(Me.Panel4)
+        Me.googlealpha.Controls.Add(Me.PictureBox2)
+        Me.googlealpha.Location = New System.Drawing.Point(659, 29)
+        Me.googlealpha.Name = "googlealpha"
+        Me.googlealpha.Size = New System.Drawing.Size(144, 78)
+        Me.googlealpha.TabIndex = 3
+        '
+        'Label15
+        '
+        Me.Label15.Anchor = System.Windows.Forms.AnchorStyles.Top
+        Me.Label15.AutoSize = True
+        Me.Label15.Font = New System.Drawing.Font("Bookman Old Style", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label15.Location = New System.Drawing.Point(-24, 370)
+        Me.Label15.Name = "Label15"
+        Me.Label15.Size = New System.Drawing.Size(178, 16)
+        Me.Label15.TabIndex = 4
+        Me.Label15.Text = "Copyright ©1998 Google Inc."
+        '
+        'Panel6
+        '
+        Me.Panel6.Anchor = System.Windows.Forms.AnchorStyles.Top
+        Me.Panel6.BackColor = System.Drawing.Color.MediumTurquoise
+        Me.Panel6.Controls.Add(Me.LinkLabel13)
+        Me.Panel6.Controls.Add(Me.LinkLabel10)
+        Me.Panel6.Controls.Add(Me.LinkLabel11)
+        Me.Panel6.Controls.Add(Me.LinkLabel12)
+        Me.Panel6.Controls.Add(Me.LinkLabel9)
+        Me.Panel6.Controls.Add(Me.LinkLabel8)
+        Me.Panel6.Controls.Add(Me.LinkLabel7)
+        Me.Panel6.Location = New System.Drawing.Point(-21, 227)
+        Me.Panel6.Name = "Panel6"
+        Me.Panel6.Size = New System.Drawing.Size(167, 124)
+        Me.Panel6.TabIndex = 3
+        '
+        'LinkLabel13
+        '
+        Me.LinkLabel13.AutoSize = True
+        Me.LinkLabel13.Location = New System.Drawing.Point(19, 104)
+        Me.LinkLabel13.Name = "LinkLabel13"
+        Me.LinkLabel13.Size = New System.Drawing.Size(137, 13)
+        Me.LinkLabel13.TabIndex = 6
+        Me.LinkLabel13.TabStop = True
+        Me.LinkLabel13.Text = "Making Google! the Default"
+        '
+        'LinkLabel10
+        '
+        Me.LinkLabel10.AutoSize = True
+        Me.LinkLabel10.Location = New System.Drawing.Point(48, 89)
+        Me.LinkLabel10.Name = "LinkLabel10"
+        Me.LinkLabel10.Size = New System.Drawing.Size(76, 13)
+        Me.LinkLabel10.TabIndex = 5
+        Me.LinkLabel10.TabStop = True
+        Me.LinkLabel10.Text = "Google! Logos"
+        '
+        'LinkLabel11
+        '
+        Me.LinkLabel11.AutoSize = True
+        Me.LinkLabel11.Location = New System.Drawing.Point(48, 73)
+        Me.LinkLabel11.Name = "LinkLabel11"
+        Me.LinkLabel11.Size = New System.Drawing.Size(78, 13)
+        Me.LinkLabel11.TabIndex = 4
+        Me.LinkLabel11.TabStop = True
+        Me.LinkLabel11.Text = "Jobs at Google"
+        '
+        'LinkLabel12
+        '
+        Me.LinkLabel12.AutoSize = True
+        Me.LinkLabel12.Location = New System.Drawing.Point(49, 57)
+        Me.LinkLabel12.Name = "LinkLabel12"
+        Me.LinkLabel12.Size = New System.Drawing.Size(72, 13)
+        Me.LinkLabel12.TabIndex = 3
+        Me.LinkLabel12.TabStop = True
+        Me.LinkLabel12.Text = "Company Info"
+        '
+        'LinkLabel9
+        '
+        Me.LinkLabel9.AutoSize = True
+        Me.LinkLabel9.Location = New System.Drawing.Point(70, 41)
+        Me.LinkLabel9.Name = "LinkLabel9"
+        Me.LinkLabel9.Size = New System.Drawing.Size(32, 13)
+        Me.LinkLabel9.TabIndex = 2
+        Me.LinkLabel9.TabStop = True
+        Me.LinkLabel9.Text = "Help!"
+        '
+        'LinkLabel8
+        '
+        Me.LinkLabel8.AutoSize = True
+        Me.LinkLabel8.Location = New System.Drawing.Point(37, 25)
+        Me.LinkLabel8.Name = "LinkLabel8"
+        Me.LinkLabel8.Size = New System.Drawing.Size(103, 13)
+        Me.LinkLabel8.TabIndex = 1
+        Me.LinkLabel8.TabStop = True
+        Me.LinkLabel8.Text = "Press about Google!"
+        '
+        'LinkLabel7
+        '
+        Me.LinkLabel7.AutoSize = True
+        Me.LinkLabel7.Location = New System.Drawing.Point(42, 9)
+        Me.LinkLabel7.Name = "LinkLabel7"
+        Me.LinkLabel7.Size = New System.Drawing.Size(89, 13)
+        Me.LinkLabel7.TabIndex = 0
+        Me.LinkLabel7.TabStop = True
+        Me.LinkLabel7.Text = "Why use Google!"
+        '
+        'Panel7
+        '
+        Me.Panel7.Anchor = System.Windows.Forms.AnchorStyles.Top
+        Me.Panel7.BackColor = System.Drawing.Color.LightSeaGreen
+        Me.Panel7.Controls.Add(Me.LinkLabel14)
+        Me.Panel7.Controls.Add(Me.Button14)
+        Me.Panel7.Controls.Add(Me.TextBox5)
+        Me.Panel7.Controls.Add(Me.Label14)
+        Me.Panel7.Controls.Add(Me.Label13)
+        Me.Panel7.Location = New System.Drawing.Point(149, 227)
+        Me.Panel7.Name = "Panel7"
+        Me.Panel7.Size = New System.Drawing.Size(164, 124)
+        Me.Panel7.TabIndex = 3
+        '
+        'LinkLabel14
+        '
+        Me.LinkLabel14.AutoSize = True
+        Me.LinkLabel14.Location = New System.Drawing.Point(105, 84)
+        Me.LinkLabel14.Name = "LinkLabel14"
+        Me.LinkLabel14.Size = New System.Drawing.Size(43, 13)
+        Me.LinkLabel14.TabIndex = 4
+        Me.LinkLabel14.TabStop = True
+        Me.LinkLabel14.Text = "Archive"
+        '
+        'Button14
+        '
+        Me.Button14.BackColor = System.Drawing.Color.Silver
+        Me.Button14.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button14.Location = New System.Drawing.Point(17, 79)
+        Me.Button14.Name = "Button14"
+        Me.Button14.Size = New System.Drawing.Size(82, 23)
+        Me.Button14.TabIndex = 3
+        Me.Button14.Text = "Subscribe"
+        Me.Button14.UseVisualStyleBackColor = False
+        '
+        'TextBox5
+        '
+        Me.TextBox5.Location = New System.Drawing.Point(12, 57)
+        Me.TextBox5.Name = "TextBox5"
+        Me.TextBox5.Size = New System.Drawing.Size(138, 20)
+        Me.TextBox5.TabIndex = 2
+        Me.TextBox5.Text = "your e-mail"
+        '
+        'Label14
+        '
+        Me.Label14.AutoSize = True
+        Me.Label14.Location = New System.Drawing.Point(44, 42)
+        Me.Label14.Name = "Label14"
+        Me.Label14.Size = New System.Drawing.Size(87, 13)
+        Me.Label14.TabIndex = 1
+        Me.Label14.Text = "updates monthly:"
+        '
+        'Label13
+        '
+        Me.Label13.AutoSize = True
+        Me.Label13.Location = New System.Drawing.Point(55, 25)
+        Me.Label13.Name = "Label13"
+        Me.Label13.Size = New System.Drawing.Size(64, 13)
+        Me.Label13.TabIndex = 0
+        Me.Label13.Text = "Get Google!"
+        '
+        'Panel5
+        '
+        Me.Panel5.Anchor = System.Windows.Forms.AnchorStyles.Top
+        Me.Panel5.BackColor = System.Drawing.Color.PaleTurquoise
+        Me.Panel5.Controls.Add(Me.LinkLabel6)
+        Me.Panel5.Controls.Add(Me.LinkLabel5)
+        Me.Panel5.Controls.Add(Me.Label12)
+        Me.Panel5.Location = New System.Drawing.Point(-188, 227)
+        Me.Panel5.Name = "Panel5"
+        Me.Panel5.Size = New System.Drawing.Size(164, 124)
+        Me.Panel5.TabIndex = 2
+        '
+        'LinkLabel6
+        '
+        Me.LinkLabel6.AutoSize = True
+        Me.LinkLabel6.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LinkLabel6.Location = New System.Drawing.Point(43, 81)
+        Me.LinkLabel6.Name = "LinkLabel6"
+        Me.LinkLabel6.Size = New System.Drawing.Size(84, 16)
+        Me.LinkLabel6.TabIndex = 2
+        Me.LinkLabel6.TabStop = True
+        Me.LinkLabel6.Text = "Linux Search"
+        '
+        'LinkLabel5
+        '
+        Me.LinkLabel5.AutoSize = True
+        Me.LinkLabel5.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LinkLabel5.Location = New System.Drawing.Point(32, 64)
+        Me.LinkLabel5.Name = "LinkLabel5"
+        Me.LinkLabel5.Size = New System.Drawing.Size(104, 16)
+        Me.LinkLabel5.TabIndex = 1
+        Me.LinkLabel5.TabStop = True
+        Me.LinkLabel5.Text = "Stanford Search"
+        '
+        'Label12
+        '
+        Me.Label12.AutoSize = True
+        Me.Label12.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label12.Location = New System.Drawing.Point(26, 46)
+        Me.Label12.Name = "Label12"
+        Me.Label12.Size = New System.Drawing.Size(115, 16)
+        Me.Label12.TabIndex = 0
+        Me.Label12.Text = "Special Searches"
+        '
+        'Panel4
+        '
+        Me.Panel4.Anchor = System.Windows.Forms.AnchorStyles.Top
+        Me.Panel4.BackColor = System.Drawing.Color.WhiteSmoke
+        Me.Panel4.Controls.Add(Me.Button13)
+        Me.Panel4.Controls.Add(Me.Button12)
+        Me.Panel4.Controls.Add(Me.TextBox4)
+        Me.Panel4.Controls.Add(Me.Label11)
+        Me.Panel4.Location = New System.Drawing.Point(-188, 125)
+        Me.Panel4.Name = "Panel4"
+        Me.Panel4.Size = New System.Drawing.Size(501, 100)
+        Me.Panel4.TabIndex = 1
+        '
+        'Button13
+        '
+        Me.Button13.BackColor = System.Drawing.Color.Silver
+        Me.Button13.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button13.Location = New System.Drawing.Point(253, 55)
+        Me.Button13.Name = "Button13"
+        Me.Button13.Size = New System.Drawing.Size(110, 25)
+        Me.Button13.TabIndex = 3
+        Me.Button13.Text = "I'm feeling lucky"
+        Me.Button13.UseVisualStyleBackColor = False
+        '
+        'Button12
+        '
+        Me.Button12.BackColor = System.Drawing.Color.Silver
+        Me.Button12.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button12.Location = New System.Drawing.Point(141, 55)
+        Me.Button12.Name = "Button12"
+        Me.Button12.Size = New System.Drawing.Size(106, 25)
+        Me.Button12.TabIndex = 2
+        Me.Button12.Text = "Google Search"
+        Me.Button12.UseVisualStyleBackColor = False
+        '
+        'TextBox4
+        '
+        Me.TextBox4.Location = New System.Drawing.Point(113, 26)
+        Me.TextBox4.Multiline = True
+        Me.TextBox4.Name = "TextBox4"
+        Me.TextBox4.Size = New System.Drawing.Size(281, 24)
+        Me.TextBox4.TabIndex = 1
+        '
+        'Label11
+        '
+        Me.Label11.AutoSize = True
+        Me.Label11.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label11.Location = New System.Drawing.Point(155, 6)
+        Me.Label11.Name = "Label11"
+        Me.Label11.Size = New System.Drawing.Size(186, 16)
+        Me.Label11.TabIndex = 0
+        Me.Label11.Text = "Search the web using Google!"
+        '
+        'PictureBox2
+        '
+        Me.PictureBox2.Anchor = System.Windows.Forms.AnchorStyles.Top
+        Me.PictureBox2.Image = Global.Histacom.My.Resources.Resources.googlebetalogo
+        Me.PictureBox2.Location = New System.Drawing.Point(-131, 7)
+        Me.PictureBox2.Name = "PictureBox2"
+        Me.PictureBox2.Size = New System.Drawing.Size(361, 106)
+        Me.PictureBox2.TabIndex = 0
+        Me.PictureBox2.TabStop = False
+        '
+        'padamsmain
+        '
+        Me.padamsmain.AutoScroll = True
+        Me.padamsmain.Controls.Add(Me.Panel12)
+        Me.padamsmain.Controls.Add(Me.Label20)
+        Me.padamsmain.Controls.Add(Me.Panel10)
+        Me.padamsmain.Controls.Add(Me.Panel9)
+        Me.padamsmain.Controls.Add(Me.Panel8)
+        Me.padamsmain.Controls.Add(Me.Label16)
+        Me.padamsmain.Controls.Add(Me.Label4)
+        Me.padamsmain.Location = New System.Drawing.Point(12, 113)
+        Me.padamsmain.Name = "padamsmain"
+        Me.padamsmain.Size = New System.Drawing.Size(953, 354)
+        Me.padamsmain.TabIndex = 4
+        '
+        'Panel12
+        '
+        Me.Panel12.Anchor = System.Windows.Forms.AnchorStyles.Top
+        Me.Panel12.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Panel12.Controls.Add(Me.LinkLabel17)
+        Me.Panel12.Controls.Add(Me.Label38)
+        Me.Panel12.Location = New System.Drawing.Point(709, 94)
+        Me.Panel12.Name = "Panel12"
+        Me.Panel12.Size = New System.Drawing.Size(200, 305)
+        Me.Panel12.TabIndex = 6
+        '
+        'LinkLabel17
+        '
+        Me.LinkLabel17.AutoSize = True
+        Me.LinkLabel17.Location = New System.Drawing.Point(56, 47)
+        Me.LinkLabel17.Name = "LinkLabel17"
+        Me.LinkLabel17.Size = New System.Drawing.Size(90, 13)
+        Me.LinkLabel17.TabIndex = 3
+        Me.LinkLabel17.TabStop = True
+        Me.LinkLabel17.Text = "www.hotmail.com"
+        '
+        'Label38
+        '
+        Me.Label38.AutoSize = True
+        Me.Label38.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label38.Location = New System.Drawing.Point(66, 17)
+        Me.Label38.Name = "Label38"
+        Me.Label38.Size = New System.Drawing.Size(75, 16)
+        Me.Label38.TabIndex = 2
+        Me.Label38.Text = "WebSites"
+        '
+        'Label20
+        '
+        Me.Label20.Anchor = System.Windows.Forms.AnchorStyles.Top
+        Me.Label20.AutoSize = True
+        Me.Label20.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label20.Location = New System.Drawing.Point(354, 422)
+        Me.Label20.Name = "Label20"
+        Me.Label20.Size = New System.Drawing.Size(174, 15)
+        Me.Label20.TabIndex = 7
+        Me.Label20.Text = "Copyright 1998 12padams"
+        '
+        'Panel10
+        '
+        Me.Panel10.Anchor = System.Windows.Forms.AnchorStyles.Top
+        Me.Panel10.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Panel10.Controls.Add(Me.Button15)
+        Me.Panel10.Controls.Add(Me.Label21)
+        Me.Panel10.Controls.Add(Me.Label18)
+        Me.Panel10.Location = New System.Drawing.Point(470, 94)
+        Me.Panel10.Name = "Panel10"
+        Me.Panel10.Size = New System.Drawing.Size(200, 305)
+        Me.Panel10.TabIndex = 6
+        '
+        'Button15
+        '
+        Me.Button15.BackColor = System.Drawing.Color.Silver
+        Me.Button15.Location = New System.Drawing.Point(115, 40)
+        Me.Button15.Name = "Button15"
+        Me.Button15.Size = New System.Drawing.Size(75, 23)
+        Me.Button15.TabIndex = 5
+        Me.Button15.Text = "Download"
+        Me.Button15.UseVisualStyleBackColor = False
+        '
+        'Label21
+        '
+        Me.Label21.AutoSize = True
+        Me.Label21.Location = New System.Drawing.Point(12, 44)
+        Me.Label21.Name = "Label21"
+        Me.Label21.Size = New System.Drawing.Size(82, 13)
+        Me.Label21.TabIndex = 4
+        Me.Label21.Text = "Start Runner 95"
+        '
+        'Label18
+        '
+        Me.Label18.AutoSize = True
+        Me.Label18.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label18.Location = New System.Drawing.Point(35, 18)
+        Me.Label18.Name = "Label18"
+        Me.Label18.Size = New System.Drawing.Size(124, 16)
+        Me.Label18.TabIndex = 3
+        Me.Label18.Text = "Example Viruses"
+        '
+        'Panel9
+        '
+        Me.Panel9.Anchor = System.Windows.Forms.AnchorStyles.Top
+        Me.Panel9.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Panel9.Controls.Add(Me.Label37)
+        Me.Panel9.Controls.Add(Me.Button24)
+        Me.Panel9.Controls.Add(Me.Button23)
+        Me.Panel9.Controls.Add(Me.Label36)
+        Me.Panel9.Controls.Add(Me.Label19)
+        Me.Panel9.Location = New System.Drawing.Point(235, 94)
+        Me.Panel9.Name = "Panel9"
+        Me.Panel9.Size = New System.Drawing.Size(207, 305)
+        Me.Panel9.TabIndex = 6
+        '
+        'Label37
+        '
+        Me.Label37.AutoSize = True
+        Me.Label37.Location = New System.Drawing.Point(11, 94)
+        Me.Label37.Name = "Label37"
+        Me.Label37.Size = New System.Drawing.Size(68, 13)
+        Me.Label37.TabIndex = 8
+        Me.Label37.Text = "Skindows 95"
+        '
+        'Button24
+        '
+        Me.Button24.BackColor = System.Drawing.Color.Silver
+        Me.Button24.Location = New System.Drawing.Point(96, 87)
+        Me.Button24.Name = "Button24"
+        Me.Button24.Size = New System.Drawing.Size(106, 23)
+        Me.Button24.TabIndex = 7
+        Me.Button24.Text = "Info"
+        Me.Button24.UseVisualStyleBackColor = False
+        '
+        'Button23
+        '
+        Me.Button23.BackColor = System.Drawing.Color.Silver
+        Me.Button23.Location = New System.Drawing.Point(96, 46)
+        Me.Button23.Name = "Button23"
+        Me.Button23.Size = New System.Drawing.Size(106, 23)
+        Me.Button23.TabIndex = 6
+        Me.Button23.Text = "View Backgrounds"
+        Me.Button23.UseVisualStyleBackColor = False
+        '
+        'Label36
+        '
+        Me.Label36.AutoSize = True
+        Me.Label36.Location = New System.Drawing.Point(11, 51)
+        Me.Label36.Name = "Label36"
+        Me.Label36.Size = New System.Drawing.Size(70, 13)
+        Me.Label36.TabIndex = 5
+        Me.Label36.Text = "Backgrounds"
+        '
+        'Label19
+        '
+        Me.Label19.AutoSize = True
+        Me.Label19.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label19.Location = New System.Drawing.Point(44, 13)
+        Me.Label19.Name = "Label19"
+        Me.Label19.Size = New System.Drawing.Size(112, 16)
+        Me.Label19.TabIndex = 4
+        Me.Label19.Text = "Customizations"
+        '
+        'Panel8
+        '
+        Me.Panel8.Anchor = System.Windows.Forms.AnchorStyles.Top
+        Me.Panel8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Panel8.Controls.Add(Me.Button26)
+        Me.Panel8.Controls.Add(Me.Label57)
+        Me.Panel8.Controls.Add(Me.Button25)
+        Me.Panel8.Controls.Add(Me.Label43)
+        Me.Panel8.Controls.Add(Me.Button17)
+        Me.Panel8.Controls.Add(Me.Label5)
+        Me.Panel8.Controls.Add(Me.Label17)
+        Me.Panel8.Location = New System.Drawing.Point(7, 94)
+        Me.Panel8.Name = "Panel8"
+        Me.Panel8.Size = New System.Drawing.Size(200, 305)
+        Me.Panel8.TabIndex = 5
+        '
+        'Button26
+        '
+        Me.Button26.BackColor = System.Drawing.Color.Silver
+        Me.Button26.Location = New System.Drawing.Point(120, 115)
+        Me.Button26.Name = "Button26"
+        Me.Button26.Size = New System.Drawing.Size(75, 22)
+        Me.Button26.TabIndex = 8
+        Me.Button26.Text = "Download"
+        Me.Button26.UseVisualStyleBackColor = False
+        '
+        'Label57
+        '
+        Me.Label57.AutoSize = True
+        Me.Label57.Location = New System.Drawing.Point(10, 120)
+        Me.Label57.Name = "Label57"
+        Me.Label57.Size = New System.Drawing.Size(90, 13)
+        Me.Label57.TabIndex = 7
+        Me.Label57.Text = "Time Distorter 0.1"
+        '
+        'Button25
+        '
+        Me.Button25.BackColor = System.Drawing.Color.Silver
+        Me.Button25.Location = New System.Drawing.Point(120, 81)
+        Me.Button25.Name = "Button25"
+        Me.Button25.Size = New System.Drawing.Size(75, 22)
+        Me.Button25.TabIndex = 6
+        Me.Button25.Text = "Download"
+        Me.Button25.UseVisualStyleBackColor = False
+        '
+        'Label43
+        '
+        Me.Label43.AutoSize = True
+        Me.Label43.Location = New System.Drawing.Point(8, 87)
+        Me.Label43.Name = "Label43"
+        Me.Label43.Size = New System.Drawing.Size(82, 13)
+        Me.Label43.TabIndex = 5
+        Me.Label43.Text = "Web Chat 1998"
+        '
+        'Button17
+        '
+        Me.Button17.BackColor = System.Drawing.Color.Silver
+        Me.Button17.Location = New System.Drawing.Point(120, 47)
+        Me.Button17.Name = "Button17"
+        Me.Button17.Size = New System.Drawing.Size(75, 22)
+        Me.Button17.TabIndex = 4
+        Me.Button17.Text = "Download"
+        Me.Button17.UseVisualStyleBackColor = False
+        '
+        'Label5
+        '
+        Me.Label5.AutoSize = True
+        Me.Label5.Location = New System.Drawing.Point(8, 51)
+        Me.Label5.Name = "Label5"
+        Me.Label5.Size = New System.Drawing.Size(95, 13)
+        Me.Label5.TabIndex = 3
+        Me.Label5.Text = "Guess the Number"
+        '
+        'Label17
+        '
+        Me.Label17.AutoSize = True
+        Me.Label17.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label17.Location = New System.Drawing.Point(38, 17)
+        Me.Label17.Name = "Label17"
+        Me.Label17.Size = New System.Drawing.Size(122, 16)
+        Me.Label17.TabIndex = 2
+        Me.Label17.Text = "Games/Software"
+        '
+        'Label16
+        '
+        Me.Label16.Anchor = System.Windows.Forms.AnchorStyles.Top
+        Me.Label16.AutoSize = True
+        Me.Label16.Location = New System.Drawing.Point(311, 36)
+        Me.Label16.Name = "Label16"
+        Me.Label16.Size = New System.Drawing.Size(265, 13)
+        Me.Label16.TabIndex = 1
+        Me.Label16.Text = "The best customizations for your windows 95 computer"
+        '
+        'Label4
+        '
+        Me.Label4.Anchor = System.Windows.Forms.AnchorStyles.Top
+        Me.Label4.AutoSize = True
+        Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label4.Location = New System.Drawing.Point(292, 20)
+        Me.Label4.Name = "Label4"
+        Me.Label4.Size = New System.Drawing.Size(312, 16)
+        Me.Label4.TabIndex = 0
+        Me.Label4.Text = "Welcome to the Official 12padams website!!!"
+        '
+        'padamshidden
+        '
+        Me.padamshidden.AutoScroll = True
+        Me.padamshidden.Controls.Add(Me.TextBox10)
+        Me.padamshidden.Location = New System.Drawing.Point(822, 311)
+        Me.padamshidden.Name = "padamshidden"
+        Me.padamshidden.Size = New System.Drawing.Size(109, 59)
+        Me.padamshidden.TabIndex = 9
+        '
+        'TextBox10
+        '
+        Me.TextBox10.BackColor = System.Drawing.Color.White
+        Me.TextBox10.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.TextBox10.Location = New System.Drawing.Point(10, 15)
+        Me.TextBox10.Multiline = True
+        Me.TextBox10.Name = "TextBox10"
+        Me.TextBox10.ReadOnly = True
+        Me.TextBox10.Size = New System.Drawing.Size(721, 409)
+        Me.TextBox10.TabIndex = 0
+        Me.TextBox10.Text = resources.GetString("TextBox10.Text")
+        '
+        'secretwebsite
+        '
+        Me.secretwebsite.AutoScroll = True
+        Me.secretwebsite.BackColor = System.Drawing.Color.Black
+        Me.secretwebsite.Controls.Add(Me.TextBox9)
+        Me.secretwebsite.ForeColor = System.Drawing.Color.White
+        Me.secretwebsite.Location = New System.Drawing.Point(860, 231)
+        Me.secretwebsite.Name = "secretwebsite"
+        Me.secretwebsite.Size = New System.Drawing.Size(71, 61)
+        Me.secretwebsite.TabIndex = 8
+        '
+        'TextBox9
+        '
+        Me.TextBox9.Anchor = System.Windows.Forms.AnchorStyles.Top
+        Me.TextBox9.BackColor = System.Drawing.Color.Black
+        Me.TextBox9.ForeColor = System.Drawing.Color.White
+        Me.TextBox9.Location = New System.Drawing.Point(-359, 33)
+        Me.TextBox9.Multiline = True
+        Me.TextBox9.Name = "TextBox9"
+        Me.TextBox9.ReadOnly = True
+        Me.TextBox9.Size = New System.Drawing.Size(761, 375)
+        Me.TextBox9.TabIndex = 0
+        Me.TextBox9.Text = resources.GetString("TextBox9.Text")
+        Me.TextBox9.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'skindows95advertisment
+        '
+        Me.skindows95advertisment.AutoScroll = True
+        Me.skindows95advertisment.Controls.Add(Me.Label42)
+        Me.skindows95advertisment.Controls.Add(Me.Label41)
+        Me.skindows95advertisment.Controls.Add(Me.TextBox8)
+        Me.skindows95advertisment.Controls.Add(Me.PictureBox11)
+        Me.skindows95advertisment.Controls.Add(Me.Label40)
+        Me.skindows95advertisment.Controls.Add(Me.Label39)
+        Me.skindows95advertisment.Location = New System.Drawing.Point(852, 163)
+        Me.skindows95advertisment.Name = "skindows95advertisment"
+        Me.skindows95advertisment.Size = New System.Drawing.Size(82, 55)
+        Me.skindows95advertisment.TabIndex = 7
+        '
+        'Label42
+        '
+        Me.Label42.Anchor = System.Windows.Forms.AnchorStyles.Top
+        Me.Label42.AutoSize = True
+        Me.Label42.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label42.Location = New System.Drawing.Point(515, 9)
+        Me.Label42.Name = "Label42"
+        Me.Label42.Size = New System.Drawing.Size(263, 18)
+        Me.Label42.TabIndex = 5
+        Me.Label42.Text = "Get all you will ever need for only:"
+        '
+        'Label41
+        '
+        Me.Label41.Anchor = System.Windows.Forms.AnchorStyles.Top
+        Me.Label41.AutoSize = True
+        Me.Label41.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label41.Location = New System.Drawing.Point(615, 33)
+        Me.Label41.Name = "Label41"
+        Me.Label41.Size = New System.Drawing.Size(71, 24)
+        Me.Label41.TabIndex = 4
+        Me.Label41.Text = "$39.99"
+        '
+        'TextBox8
+        '
+        Me.TextBox8.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
+        Me.TextBox8.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.TextBox8.Location = New System.Drawing.Point(51, 72)
+        Me.TextBox8.Multiline = True
+        Me.TextBox8.Name = "TextBox8"
+        Me.TextBox8.ReadOnly = True
+        Me.TextBox8.Size = New System.Drawing.Size(172, 3077)
+        Me.TextBox8.TabIndex = 3
+        Me.TextBox8.Text = resources.GetString("TextBox8.Text")
+        '
+        'PictureBox11
+        '
+        Me.PictureBox11.Anchor = System.Windows.Forms.AnchorStyles.Top
+        Me.PictureBox11.Image = Global.Histacom.My.Resources.Resources.skindows_95_preview
+        Me.PictureBox11.Location = New System.Drawing.Point(485, 60)
+        Me.PictureBox11.Name = "PictureBox11"
+        Me.PictureBox11.Size = New System.Drawing.Size(337, 386)
+        Me.PictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox11.TabIndex = 2
+        Me.PictureBox11.TabStop = False
+        '
+        'Label40
+        '
+        Me.Label40.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
+        Me.Label40.AutoSize = True
+        Me.Label40.Location = New System.Drawing.Point(48, 45)
+        Me.Label40.Name = "Label40"
+        Me.Label40.Size = New System.Drawing.Size(180, 13)
+        Me.Label40.TabIndex = 1
+        Me.Label40.Text = "The one stop customization software"
+        '
+        'Label39
+        '
+        Me.Label39.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
+        Me.Label39.AutoSize = True
+        Me.Label39.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label39.Location = New System.Drawing.Point(47, 25)
+        Me.Label39.Name = "Label39"
+        Me.Label39.Size = New System.Drawing.Size(110, 20)
+        Me.Label39.TabIndex = 0
+        Me.Label39.Text = "Skindows 95"
+        '
+        'googlemain
+        '
+        Me.googlemain.AutoScroll = True
+        Me.googlemain.Controls.Add(Me.googlebetalink)
+        Me.googlemain.Controls.Add(Me.googleprototypelink)
+        Me.googlemain.Controls.Add(Me.Label6)
+        Me.googlemain.Location = New System.Drawing.Point(862, 110)
+        Me.googlemain.Name = "googlemain"
+        Me.googlemain.Size = New System.Drawing.Size(50, 32)
+        Me.googlemain.TabIndex = 1
+        '
+        'googlebetalink
+        '
+        Me.googlebetalink.AutoSize = True
+        Me.googlebetalink.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.googlebetalink.Location = New System.Drawing.Point(16, 82)
+        Me.googlebetalink.Name = "googlebetalink"
+        Me.googlebetalink.Size = New System.Drawing.Size(411, 16)
+        Me.googlebetalink.TabIndex = 2
+        Me.googlebetalink.TabStop = True
+        Me.googlebetalink.Text = "Might-work-some-of-the-time-prototype that is much more up to date. "
+        '
+        'googleprototypelink
+        '
+        Me.googleprototypelink.AutoSize = True
+        Me.googleprototypelink.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.googleprototypelink.Location = New System.Drawing.Point(16, 64)
+        Me.googleprototypelink.Name = "googleprototypelink"
+        Me.googleprototypelink.Size = New System.Drawing.Size(205, 16)
+        Me.googleprototypelink.TabIndex = 1
+        Me.googleprototypelink.TabStop = True
+        Me.googleprototypelink.Text = "Google Search Engine Prototype"
+        '
+        'Label6
+        '
+        Me.Label6.AutoSize = True
+        Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label6.Location = New System.Drawing.Point(10, 15)
+        Me.Label6.Name = "Label6"
+        Me.Label6.Size = New System.Drawing.Size(276, 31)
+        Me.Label6.TabIndex = 0
+        Me.Label6.Text = "Welcome To Google"
+        '
+        'googleprototype
+        '
+        Me.googleprototype.AutoScroll = True
+        Me.googleprototype.Controls.Add(Me.Label10)
+        Me.googleprototype.Controls.Add(Me.Panel3)
+        Me.googleprototype.Controls.Add(Me.LinkLabel3)
+        Me.googleprototype.Controls.Add(Me.LinkLabel2)
+        Me.googleprototype.Controls.Add(Me.LinkLabel1)
+        Me.googleprototype.Controls.Add(Me.Panel2)
+        Me.googleprototype.Controls.Add(Me.pboxgoogleprototypelogo)
+        Me.googleprototype.Location = New System.Drawing.Point(852, 50)
+        Me.googleprototype.Name = "googleprototype"
+        Me.googleprototype.Size = New System.Drawing.Size(60, 35)
+        Me.googleprototype.TabIndex = 2
+        '
+        'Label10
+        '
+        Me.Label10.Anchor = System.Windows.Forms.AnchorStyles.Top
+        Me.Label10.AutoSize = True
+        Me.Label10.Font = New System.Drawing.Font("Arial", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label10.Location = New System.Drawing.Point(-91, 405)
+        Me.Label10.Name = "Label10"
+        Me.Label10.Size = New System.Drawing.Size(215, 15)
+        Me.Label10.TabIndex = 6
+        Me.Label10.Text = "Copyright ©1997-8 Stanford University"
+        '
+        'Panel3
+        '
+        Me.Panel3.Anchor = System.Windows.Forms.AnchorStyles.Top
+        Me.Panel3.BackColor = System.Drawing.Color.WhiteSmoke
+        Me.Panel3.Controls.Add(Me.LinkLabel4)
+        Me.Panel3.Controls.Add(Me.Button11)
+        Me.Panel3.Controls.Add(Me.TextBox3)
+        Me.Panel3.Controls.Add(Me.Label9)
+        Me.Panel3.Location = New System.Drawing.Point(-212, 334)
+        Me.Panel3.Name = "Panel3"
+        Me.Panel3.Size = New System.Drawing.Size(430, 65)
+        Me.Panel3.TabIndex = 5
+        '
+        'LinkLabel4
+        '
+        Me.LinkLabel4.AutoSize = True
+        Me.LinkLabel4.Location = New System.Drawing.Point(301, 44)
+        Me.LinkLabel4.Name = "LinkLabel4"
+        Me.LinkLabel4.Size = New System.Drawing.Size(43, 13)
+        Me.LinkLabel4.TabIndex = 3
+        Me.LinkLabel4.TabStop = True
+        Me.LinkLabel4.Text = "Archive"
+        '
+        'Button11
+        '
+        Me.Button11.BackColor = System.Drawing.Color.Silver
+        Me.Button11.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button11.Location = New System.Drawing.Point(198, 34)
+        Me.Button11.Name = "Button11"
+        Me.Button11.Size = New System.Drawing.Size(96, 26)
+        Me.Button11.TabIndex = 2
+        Me.Button11.Text = "Subscribe"
+        Me.Button11.UseVisualStyleBackColor = False
+        '
+        'TextBox3
+        '
+        Me.TextBox3.Location = New System.Drawing.Point(46, 36)
+        Me.TextBox3.Name = "TextBox3"
+        Me.TextBox3.Size = New System.Drawing.Size(146, 20)
+        Me.TextBox3.TabIndex = 1
+        Me.TextBox3.Text = "your e-mail"
+        '
+        'Label9
+        '
+        Me.Label9.AutoSize = True
+        Me.Label9.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label9.Location = New System.Drawing.Point(111, 9)
+        Me.Label9.Name = "Label9"
+        Me.Label9.Size = New System.Drawing.Size(212, 16)
+        Me.Label9.TabIndex = 0
+        Me.Label9.Text = "Get Google! updates monthly!"
+        '
+        'LinkLabel3
+        '
+        Me.LinkLabel3.Anchor = System.Windows.Forms.AnchorStyles.Top
+        Me.LinkLabel3.AutoSize = True
+        Me.LinkLabel3.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LinkLabel3.Location = New System.Drawing.Point(-101, 309)
+        Me.LinkLabel3.Name = "LinkLabel3"
+        Me.LinkLabel3.Size = New System.Drawing.Size(115, 18)
+        Me.LinkLabel3.TabIndex = 4
+        Me.LinkLabel3.TabStop = True
+        Me.LinkLabel3.Text = "Stanford Search"
+        '
+        'LinkLabel2
+        '
+        Me.LinkLabel2.Anchor = System.Windows.Forms.AnchorStyles.Top
+        Me.LinkLabel2.AutoSize = True
+        Me.LinkLabel2.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LinkLabel2.Location = New System.Drawing.Point(12, 309)
+        Me.LinkLabel2.Name = "LinkLabel2"
+        Me.LinkLabel2.Size = New System.Drawing.Size(93, 18)
+        Me.LinkLabel2.TabIndex = 3
+        Me.LinkLabel2.TabStop = True
+        Me.LinkLabel2.Text = "Linux Search"
+        '
+        'LinkLabel1
+        '
+        Me.LinkLabel1.Anchor = System.Windows.Forms.AnchorStyles.Top
+        Me.LinkLabel1.AutoSize = True
+        Me.LinkLabel1.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LinkLabel1.Location = New System.Drawing.Point(-79, 271)
+        Me.LinkLabel1.Name = "LinkLabel1"
+        Me.LinkLabel1.Size = New System.Drawing.Size(162, 25)
+        Me.LinkLabel1.TabIndex = 2
+        Me.LinkLabel1.TabStop = True
+        Me.LinkLabel1.Text = "About Google!"
+        '
+        'Panel2
+        '
+        Me.Panel2.Anchor = System.Windows.Forms.AnchorStyles.Top
+        Me.Panel2.BackColor = System.Drawing.Color.WhiteSmoke
+        Me.Panel2.Controls.Add(Me.Label8)
+        Me.Panel2.Controls.Add(Me.Button10)
+        Me.Panel2.Controls.Add(Me.Button9)
+        Me.Panel2.Controls.Add(Me.ComboBox1)
+        Me.Panel2.Controls.Add(Me.TextBox2)
+        Me.Panel2.Controls.Add(Me.Label7)
+        Me.Panel2.Location = New System.Drawing.Point(-212, 135)
+        Me.Panel2.Name = "Panel2"
+        Me.Panel2.Size = New System.Drawing.Size(430, 117)
+        Me.Panel2.TabIndex = 1
+        '
+        'Label8
+        '
+        Me.Label8.AutoSize = True
+        Me.Label8.Font = New System.Drawing.Font("Century Gothic", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label8.Location = New System.Drawing.Point(18, 91)
+        Me.Label8.Name = "Label8"
+        Me.Label8.Size = New System.Drawing.Size(391, 16)
+        Me.Label8.TabIndex = 5
+        Me.Label8.Text = "Index contains ~25 million pages (soon to be much bigger)"
+        '
+        'Button10
+        '
+        Me.Button10.BackColor = System.Drawing.Color.Silver
+        Me.Button10.Location = New System.Drawing.Point(263, 65)
+        Me.Button10.Name = "Button10"
+        Me.Button10.Size = New System.Drawing.Size(104, 23)
+        Me.Button10.TabIndex = 4
+        Me.Button10.Text = "I'm Feeling Lucky"
+        Me.Button10.UseVisualStyleBackColor = False
+        '
+        'Button9
+        '
+        Me.Button9.BackColor = System.Drawing.Color.Silver
+        Me.Button9.Location = New System.Drawing.Point(153, 65)
+        Me.Button9.Name = "Button9"
+        Me.Button9.Size = New System.Drawing.Size(104, 23)
+        Me.Button9.TabIndex = 3
+        Me.Button9.Text = "Google Search"
+        Me.Button9.UseVisualStyleBackColor = False
+        '
+        'ComboBox1
+        '
+        Me.ComboBox1.FormattingEnabled = True
+        Me.ComboBox1.Items.AddRange(New Object() {"10 results", "30 results", "100 results"})
+        Me.ComboBox1.Location = New System.Drawing.Point(54, 65)
+        Me.ComboBox1.Name = "ComboBox1"
+        Me.ComboBox1.Size = New System.Drawing.Size(92, 21)
+        Me.ComboBox1.TabIndex = 2
+        Me.ComboBox1.Text = "10 results"
+        '
+        'TextBox2
+        '
+        Me.TextBox2.Location = New System.Drawing.Point(83, 39)
+        Me.TextBox2.Name = "TextBox2"
+        Me.TextBox2.Size = New System.Drawing.Size(261, 20)
+        Me.TextBox2.TabIndex = 1
+        '
+        'Label7
+        '
+        Me.Label7.AutoSize = True
+        Me.Label7.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label7.Location = New System.Drawing.Point(121, 15)
+        Me.Label7.Name = "Label7"
+        Me.Label7.Size = New System.Drawing.Size(186, 16)
+        Me.Label7.TabIndex = 0
+        Me.Label7.Text = "Search the web using Google!"
+        '
+        'pboxgoogleprototypelogo
+        '
+        Me.pboxgoogleprototypelogo.Anchor = System.Windows.Forms.AnchorStyles.Top
+        Me.pboxgoogleprototypelogo.Image = Global.Histacom.My.Resources.Resources.googleprotoype
+        Me.pboxgoogleprototypelogo.Location = New System.Drawing.Point(-169, 8)
+        Me.pboxgoogleprototypelogo.Name = "pboxgoogleprototypelogo"
+        Me.pboxgoogleprototypelogo.Size = New System.Drawing.Size(340, 94)
+        Me.pboxgoogleprototypelogo.TabIndex = 0
+        Me.pboxgoogleprototypelogo.TabStop = False
+        '
         'Panel14
         '
         Me.Panel14.Controls.Add(Me.Button8)
@@ -1333,1799 +3103,6 @@ Partial Class internet_explorer_4
         Me.topleftcorner.Size = New System.Drawing.Size(4, 4)
         Me.topleftcorner.TabIndex = 1
         '
-        'googleprototype
-        '
-        Me.googleprototype.AutoScroll = True
-        Me.googleprototype.Controls.Add(Me.Label10)
-        Me.googleprototype.Controls.Add(Me.Panel3)
-        Me.googleprototype.Controls.Add(Me.LinkLabel3)
-        Me.googleprototype.Controls.Add(Me.LinkLabel2)
-        Me.googleprototype.Controls.Add(Me.LinkLabel1)
-        Me.googleprototype.Controls.Add(Me.Panel2)
-        Me.googleprototype.Controls.Add(Me.pboxgoogleprototypelogo)
-        Me.googleprototype.Location = New System.Drawing.Point(852, 50)
-        Me.googleprototype.Name = "googleprototype"
-        Me.googleprototype.Size = New System.Drawing.Size(60, 35)
-        Me.googleprototype.TabIndex = 2
-        '
-        'pboxgoogleprototypelogo
-        '
-        Me.pboxgoogleprototypelogo.Anchor = System.Windows.Forms.AnchorStyles.Top
-        Me.pboxgoogleprototypelogo.Image = Global.Histacom.My.Resources.Resources.googleprotoype
-        Me.pboxgoogleprototypelogo.Location = New System.Drawing.Point(-178, 6)
-        Me.pboxgoogleprototypelogo.Name = "pboxgoogleprototypelogo"
-        Me.pboxgoogleprototypelogo.Size = New System.Drawing.Size(349, 116)
-        Me.pboxgoogleprototypelogo.TabIndex = 0
-        Me.pboxgoogleprototypelogo.TabStop = False
-        '
-        'Panel2
-        '
-        Me.Panel2.Anchor = System.Windows.Forms.AnchorStyles.Top
-        Me.Panel2.BackColor = System.Drawing.Color.WhiteSmoke
-        Me.Panel2.Controls.Add(Me.Label8)
-        Me.Panel2.Controls.Add(Me.Button10)
-        Me.Panel2.Controls.Add(Me.Button9)
-        Me.Panel2.Controls.Add(Me.ComboBox1)
-        Me.Panel2.Controls.Add(Me.TextBox2)
-        Me.Panel2.Controls.Add(Me.Label7)
-        Me.Panel2.Location = New System.Drawing.Point(-212, 135)
-        Me.Panel2.Name = "Panel2"
-        Me.Panel2.Size = New System.Drawing.Size(430, 117)
-        Me.Panel2.TabIndex = 1
-        '
-        'Label7
-        '
-        Me.Label7.AutoSize = True
-        Me.Label7.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label7.Location = New System.Drawing.Point(121, 15)
-        Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(186, 16)
-        Me.Label7.TabIndex = 0
-        Me.Label7.Text = "Search the web using Google!"
-        '
-        'TextBox2
-        '
-        Me.TextBox2.Location = New System.Drawing.Point(83, 39)
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(261, 20)
-        Me.TextBox2.TabIndex = 1
-        '
-        'ComboBox1
-        '
-        Me.ComboBox1.FormattingEnabled = True
-        Me.ComboBox1.Items.AddRange(New Object() {"10 results", "30 results", "100 results"})
-        Me.ComboBox1.Location = New System.Drawing.Point(54, 65)
-        Me.ComboBox1.Name = "ComboBox1"
-        Me.ComboBox1.Size = New System.Drawing.Size(92, 21)
-        Me.ComboBox1.TabIndex = 2
-        Me.ComboBox1.Text = "10 results"
-        '
-        'Button9
-        '
-        Me.Button9.BackColor = System.Drawing.Color.Silver
-        Me.Button9.Location = New System.Drawing.Point(153, 65)
-        Me.Button9.Name = "Button9"
-        Me.Button9.Size = New System.Drawing.Size(104, 23)
-        Me.Button9.TabIndex = 3
-        Me.Button9.Text = "Google Search"
-        Me.Button9.UseVisualStyleBackColor = False
-        '
-        'Button10
-        '
-        Me.Button10.BackColor = System.Drawing.Color.Silver
-        Me.Button10.Location = New System.Drawing.Point(263, 65)
-        Me.Button10.Name = "Button10"
-        Me.Button10.Size = New System.Drawing.Size(104, 23)
-        Me.Button10.TabIndex = 4
-        Me.Button10.Text = "I'm Feeling Lucky"
-        Me.Button10.UseVisualStyleBackColor = False
-        '
-        'Label8
-        '
-        Me.Label8.AutoSize = True
-        Me.Label8.Font = New System.Drawing.Font("Century Gothic", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label8.Location = New System.Drawing.Point(18, 91)
-        Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(391, 16)
-        Me.Label8.TabIndex = 5
-        Me.Label8.Text = "Index contains ~25 million pages (soon to be much bigger)"
-        '
-        'LinkLabel1
-        '
-        Me.LinkLabel1.Anchor = System.Windows.Forms.AnchorStyles.Top
-        Me.LinkLabel1.AutoSize = True
-        Me.LinkLabel1.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.LinkLabel1.Location = New System.Drawing.Point(-79, 271)
-        Me.LinkLabel1.Name = "LinkLabel1"
-        Me.LinkLabel1.Size = New System.Drawing.Size(162, 25)
-        Me.LinkLabel1.TabIndex = 2
-        Me.LinkLabel1.TabStop = True
-        Me.LinkLabel1.Text = "About Google!"
-        '
-        'LinkLabel2
-        '
-        Me.LinkLabel2.Anchor = System.Windows.Forms.AnchorStyles.Top
-        Me.LinkLabel2.AutoSize = True
-        Me.LinkLabel2.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.LinkLabel2.Location = New System.Drawing.Point(12, 309)
-        Me.LinkLabel2.Name = "LinkLabel2"
-        Me.LinkLabel2.Size = New System.Drawing.Size(93, 18)
-        Me.LinkLabel2.TabIndex = 3
-        Me.LinkLabel2.TabStop = True
-        Me.LinkLabel2.Text = "Linux Search"
-        '
-        'LinkLabel3
-        '
-        Me.LinkLabel3.Anchor = System.Windows.Forms.AnchorStyles.Top
-        Me.LinkLabel3.AutoSize = True
-        Me.LinkLabel3.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.LinkLabel3.Location = New System.Drawing.Point(-101, 309)
-        Me.LinkLabel3.Name = "LinkLabel3"
-        Me.LinkLabel3.Size = New System.Drawing.Size(115, 18)
-        Me.LinkLabel3.TabIndex = 4
-        Me.LinkLabel3.TabStop = True
-        Me.LinkLabel3.Text = "Stanford Search"
-        '
-        'Panel3
-        '
-        Me.Panel3.Anchor = System.Windows.Forms.AnchorStyles.Top
-        Me.Panel3.BackColor = System.Drawing.Color.WhiteSmoke
-        Me.Panel3.Controls.Add(Me.LinkLabel4)
-        Me.Panel3.Controls.Add(Me.Button11)
-        Me.Panel3.Controls.Add(Me.TextBox3)
-        Me.Panel3.Controls.Add(Me.Label9)
-        Me.Panel3.Location = New System.Drawing.Point(-212, 334)
-        Me.Panel3.Name = "Panel3"
-        Me.Panel3.Size = New System.Drawing.Size(430, 65)
-        Me.Panel3.TabIndex = 5
-        '
-        'Label9
-        '
-        Me.Label9.AutoSize = True
-        Me.Label9.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label9.Location = New System.Drawing.Point(111, 9)
-        Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(212, 16)
-        Me.Label9.TabIndex = 0
-        Me.Label9.Text = "Get Google! updates monthly!"
-        '
-        'TextBox3
-        '
-        Me.TextBox3.Location = New System.Drawing.Point(46, 36)
-        Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(146, 20)
-        Me.TextBox3.TabIndex = 1
-        Me.TextBox3.Text = "your e-mail"
-        '
-        'Button11
-        '
-        Me.Button11.BackColor = System.Drawing.Color.Silver
-        Me.Button11.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button11.Location = New System.Drawing.Point(198, 34)
-        Me.Button11.Name = "Button11"
-        Me.Button11.Size = New System.Drawing.Size(96, 26)
-        Me.Button11.TabIndex = 2
-        Me.Button11.Text = "Subscribe"
-        Me.Button11.UseVisualStyleBackColor = False
-        '
-        'LinkLabel4
-        '
-        Me.LinkLabel4.AutoSize = True
-        Me.LinkLabel4.Location = New System.Drawing.Point(301, 44)
-        Me.LinkLabel4.Name = "LinkLabel4"
-        Me.LinkLabel4.Size = New System.Drawing.Size(43, 13)
-        Me.LinkLabel4.TabIndex = 3
-        Me.LinkLabel4.TabStop = True
-        Me.LinkLabel4.Text = "Archive"
-        '
-        'Label10
-        '
-        Me.Label10.Anchor = System.Windows.Forms.AnchorStyles.Top
-        Me.Label10.AutoSize = True
-        Me.Label10.Font = New System.Drawing.Font("Arial", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label10.Location = New System.Drawing.Point(-91, 405)
-        Me.Label10.Name = "Label10"
-        Me.Label10.Size = New System.Drawing.Size(215, 15)
-        Me.Label10.TabIndex = 6
-        Me.Label10.Text = "Copyright ©1997-8 Stanford University"
-        '
-        'googlemain
-        '
-        Me.googlemain.AutoScroll = True
-        Me.googlemain.Controls.Add(Me.googlebetalink)
-        Me.googlemain.Controls.Add(Me.googleprototypelink)
-        Me.googlemain.Controls.Add(Me.Label6)
-        Me.googlemain.Location = New System.Drawing.Point(862, 110)
-        Me.googlemain.Name = "googlemain"
-        Me.googlemain.Size = New System.Drawing.Size(50, 32)
-        Me.googlemain.TabIndex = 1
-        '
-        'Label6
-        '
-        Me.Label6.AutoSize = True
-        Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label6.Location = New System.Drawing.Point(10, 15)
-        Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(276, 31)
-        Me.Label6.TabIndex = 0
-        Me.Label6.Text = "Welcome To Google"
-        '
-        'googleprototypelink
-        '
-        Me.googleprototypelink.AutoSize = True
-        Me.googleprototypelink.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.googleprototypelink.Location = New System.Drawing.Point(16, 64)
-        Me.googleprototypelink.Name = "googleprototypelink"
-        Me.googleprototypelink.Size = New System.Drawing.Size(205, 16)
-        Me.googleprototypelink.TabIndex = 1
-        Me.googleprototypelink.TabStop = True
-        Me.googleprototypelink.Text = "Google Search Engine Prototype"
-        '
-        'googlebetalink
-        '
-        Me.googlebetalink.AutoSize = True
-        Me.googlebetalink.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.googlebetalink.Location = New System.Drawing.Point(16, 82)
-        Me.googlebetalink.Name = "googlebetalink"
-        Me.googlebetalink.Size = New System.Drawing.Size(411, 16)
-        Me.googlebetalink.TabIndex = 2
-        Me.googlebetalink.TabStop = True
-        Me.googlebetalink.Text = "Might-work-some-of-the-time-prototype that is much more up to date. "
-        '
-        'skindows95advertisment
-        '
-        Me.skindows95advertisment.AutoScroll = True
-        Me.skindows95advertisment.Controls.Add(Me.Label42)
-        Me.skindows95advertisment.Controls.Add(Me.Label41)
-        Me.skindows95advertisment.Controls.Add(Me.TextBox8)
-        Me.skindows95advertisment.Controls.Add(Me.PictureBox11)
-        Me.skindows95advertisment.Controls.Add(Me.Label40)
-        Me.skindows95advertisment.Controls.Add(Me.Label39)
-        Me.skindows95advertisment.Location = New System.Drawing.Point(852, 163)
-        Me.skindows95advertisment.Name = "skindows95advertisment"
-        Me.skindows95advertisment.Size = New System.Drawing.Size(82, 55)
-        Me.skindows95advertisment.TabIndex = 7
-        '
-        'Label39
-        '
-        Me.Label39.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
-        Me.Label39.AutoSize = True
-        Me.Label39.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label39.Location = New System.Drawing.Point(47, 25)
-        Me.Label39.Name = "Label39"
-        Me.Label39.Size = New System.Drawing.Size(110, 20)
-        Me.Label39.TabIndex = 0
-        Me.Label39.Text = "Skindows 95"
-        '
-        'Label40
-        '
-        Me.Label40.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
-        Me.Label40.AutoSize = True
-        Me.Label40.Location = New System.Drawing.Point(48, 45)
-        Me.Label40.Name = "Label40"
-        Me.Label40.Size = New System.Drawing.Size(180, 13)
-        Me.Label40.TabIndex = 1
-        Me.Label40.Text = "The one stop customization software"
-        '
-        'PictureBox11
-        '
-        Me.PictureBox11.Anchor = System.Windows.Forms.AnchorStyles.Top
-        Me.PictureBox11.Image = Global.Histacom.My.Resources.Resources.skindows_95_preview
-        Me.PictureBox11.Location = New System.Drawing.Point(412, 60)
-        Me.PictureBox11.Name = "PictureBox11"
-        Me.PictureBox11.Size = New System.Drawing.Size(337, 386)
-        Me.PictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox11.TabIndex = 2
-        Me.PictureBox11.TabStop = False
-        '
-        'TextBox8
-        '
-        Me.TextBox8.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
-        Me.TextBox8.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.TextBox8.Location = New System.Drawing.Point(51, 72)
-        Me.TextBox8.Multiline = True
-        Me.TextBox8.Name = "TextBox8"
-        Me.TextBox8.ReadOnly = True
-        Me.TextBox8.Size = New System.Drawing.Size(172, 2686)
-        Me.TextBox8.TabIndex = 3
-        Me.TextBox8.Text = resources.GetString("TextBox8.Text")
-        '
-        'Label41
-        '
-        Me.Label41.Anchor = System.Windows.Forms.AnchorStyles.Top
-        Me.Label41.AutoSize = True
-        Me.Label41.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label41.Location = New System.Drawing.Point(542, 33)
-        Me.Label41.Name = "Label41"
-        Me.Label41.Size = New System.Drawing.Size(71, 24)
-        Me.Label41.TabIndex = 4
-        Me.Label41.Text = "$39.99"
-        '
-        'Label42
-        '
-        Me.Label42.Anchor = System.Windows.Forms.AnchorStyles.Top
-        Me.Label42.AutoSize = True
-        Me.Label42.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label42.Location = New System.Drawing.Point(442, 9)
-        Me.Label42.Name = "Label42"
-        Me.Label42.Size = New System.Drawing.Size(263, 18)
-        Me.Label42.TabIndex = 5
-        Me.Label42.Text = "Get all you will ever need for only:"
-        '
-        'secretwebsite
-        '
-        Me.secretwebsite.AutoScroll = True
-        Me.secretwebsite.BackColor = System.Drawing.Color.Black
-        Me.secretwebsite.Controls.Add(Me.TextBox9)
-        Me.secretwebsite.ForeColor = System.Drawing.Color.White
-        Me.secretwebsite.Location = New System.Drawing.Point(860, 231)
-        Me.secretwebsite.Name = "secretwebsite"
-        Me.secretwebsite.Size = New System.Drawing.Size(71, 61)
-        Me.secretwebsite.TabIndex = 8
-        '
-        'TextBox9
-        '
-        Me.TextBox9.Anchor = System.Windows.Forms.AnchorStyles.Top
-        Me.TextBox9.BackColor = System.Drawing.Color.Black
-        Me.TextBox9.ForeColor = System.Drawing.Color.White
-        Me.TextBox9.Location = New System.Drawing.Point(-359, 33)
-        Me.TextBox9.Multiline = True
-        Me.TextBox9.Name = "TextBox9"
-        Me.TextBox9.ReadOnly = True
-        Me.TextBox9.Size = New System.Drawing.Size(761, 375)
-        Me.TextBox9.TabIndex = 0
-        Me.TextBox9.Text = resources.GetString("TextBox9.Text")
-        Me.TextBox9.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        '
-        'padamshidden
-        '
-        Me.padamshidden.AutoScroll = True
-        Me.padamshidden.Controls.Add(Me.TextBox10)
-        Me.padamshidden.Location = New System.Drawing.Point(834, 311)
-        Me.padamshidden.Name = "padamshidden"
-        Me.padamshidden.Size = New System.Drawing.Size(97, 69)
-        Me.padamshidden.TabIndex = 9
-        '
-        'TextBox10
-        '
-        Me.TextBox10.BackColor = System.Drawing.Color.White
-        Me.TextBox10.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.TextBox10.Location = New System.Drawing.Point(10, 15)
-        Me.TextBox10.Multiline = True
-        Me.TextBox10.Name = "TextBox10"
-        Me.TextBox10.ReadOnly = True
-        Me.TextBox10.Size = New System.Drawing.Size(721, 409)
-        Me.TextBox10.TabIndex = 0
-        Me.TextBox10.Text = resources.GetString("TextBox10.Text")
-        '
-        'padamsmain
-        '
-        Me.padamsmain.AutoScroll = True
-        Me.padamsmain.Controls.Add(Me.Panel12)
-        Me.padamsmain.Controls.Add(Me.Label20)
-        Me.padamsmain.Controls.Add(Me.Panel10)
-        Me.padamsmain.Controls.Add(Me.Panel9)
-        Me.padamsmain.Controls.Add(Me.Panel8)
-        Me.padamsmain.Controls.Add(Me.Label16)
-        Me.padamsmain.Controls.Add(Me.Label4)
-        Me.padamsmain.Location = New System.Drawing.Point(851, 395)
-        Me.padamsmain.Name = "padamsmain"
-        Me.padamsmain.Size = New System.Drawing.Size(68, 42)
-        Me.padamsmain.TabIndex = 4
-        '
-        'Label4
-        '
-        Me.Label4.Anchor = System.Windows.Forms.AnchorStyles.Top
-        Me.Label4.AutoSize = True
-        Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.Location = New System.Drawing.Point(-151, 20)
-        Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(312, 16)
-        Me.Label4.TabIndex = 0
-        Me.Label4.Text = "Welcome to the Official 12padams website!!!"
-        '
-        'Label16
-        '
-        Me.Label16.Anchor = System.Windows.Forms.AnchorStyles.Top
-        Me.Label16.AutoSize = True
-        Me.Label16.Location = New System.Drawing.Point(-132, 36)
-        Me.Label16.Name = "Label16"
-        Me.Label16.Size = New System.Drawing.Size(265, 13)
-        Me.Label16.TabIndex = 1
-        Me.Label16.Text = "The best customizations for your windows 95 computer"
-        '
-        'Panel8
-        '
-        Me.Panel8.Anchor = System.Windows.Forms.AnchorStyles.Top
-        Me.Panel8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Panel8.Controls.Add(Me.Button26)
-        Me.Panel8.Controls.Add(Me.Label57)
-        Me.Panel8.Controls.Add(Me.Button25)
-        Me.Panel8.Controls.Add(Me.Label43)
-        Me.Panel8.Controls.Add(Me.Button17)
-        Me.Panel8.Controls.Add(Me.Label5)
-        Me.Panel8.Controls.Add(Me.Label17)
-        Me.Panel8.Location = New System.Drawing.Point(-436, 94)
-        Me.Panel8.Name = "Panel8"
-        Me.Panel8.Size = New System.Drawing.Size(200, 305)
-        Me.Panel8.TabIndex = 5
-        '
-        'Label17
-        '
-        Me.Label17.AutoSize = True
-        Me.Label17.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label17.Location = New System.Drawing.Point(38, 17)
-        Me.Label17.Name = "Label17"
-        Me.Label17.Size = New System.Drawing.Size(122, 16)
-        Me.Label17.TabIndex = 2
-        Me.Label17.Text = "Games/Software"
-        '
-        'Label5
-        '
-        Me.Label5.AutoSize = True
-        Me.Label5.Location = New System.Drawing.Point(8, 51)
-        Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(111, 13)
-        Me.Label5.TabIndex = 3
-        Me.Label5.Text = "Guess the Number V1"
-        '
-        'Button17
-        '
-        Me.Button17.BackColor = System.Drawing.Color.Silver
-        Me.Button17.Location = New System.Drawing.Point(120, 47)
-        Me.Button17.Name = "Button17"
-        Me.Button17.Size = New System.Drawing.Size(75, 22)
-        Me.Button17.TabIndex = 4
-        Me.Button17.Text = "Download"
-        Me.Button17.UseVisualStyleBackColor = False
-        '
-        'Label43
-        '
-        Me.Label43.AutoSize = True
-        Me.Label43.Location = New System.Drawing.Point(8, 87)
-        Me.Label43.Name = "Label43"
-        Me.Label43.Size = New System.Drawing.Size(82, 13)
-        Me.Label43.TabIndex = 5
-        Me.Label43.Text = "Web Chat 1998"
-        '
-        'Button25
-        '
-        Me.Button25.BackColor = System.Drawing.Color.Silver
-        Me.Button25.Location = New System.Drawing.Point(120, 81)
-        Me.Button25.Name = "Button25"
-        Me.Button25.Size = New System.Drawing.Size(75, 22)
-        Me.Button25.TabIndex = 6
-        Me.Button25.Text = "Download"
-        Me.Button25.UseVisualStyleBackColor = False
-        '
-        'Label57
-        '
-        Me.Label57.AutoSize = True
-        Me.Label57.Location = New System.Drawing.Point(10, 120)
-        Me.Label57.Name = "Label57"
-        Me.Label57.Size = New System.Drawing.Size(90, 13)
-        Me.Label57.TabIndex = 7
-        Me.Label57.Text = "Time Distorter 0.1"
-        '
-        'Button26
-        '
-        Me.Button26.BackColor = System.Drawing.Color.Silver
-        Me.Button26.Location = New System.Drawing.Point(120, 115)
-        Me.Button26.Name = "Button26"
-        Me.Button26.Size = New System.Drawing.Size(75, 22)
-        Me.Button26.TabIndex = 8
-        Me.Button26.Text = "Download"
-        Me.Button26.UseVisualStyleBackColor = False
-        '
-        'Panel9
-        '
-        Me.Panel9.Anchor = System.Windows.Forms.AnchorStyles.Top
-        Me.Panel9.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Panel9.Controls.Add(Me.Label37)
-        Me.Panel9.Controls.Add(Me.Button24)
-        Me.Panel9.Controls.Add(Me.Button23)
-        Me.Panel9.Controls.Add(Me.Label36)
-        Me.Panel9.Controls.Add(Me.Label19)
-        Me.Panel9.Location = New System.Drawing.Point(-208, 94)
-        Me.Panel9.Name = "Panel9"
-        Me.Panel9.Size = New System.Drawing.Size(207, 305)
-        Me.Panel9.TabIndex = 6
-        '
-        'Label19
-        '
-        Me.Label19.AutoSize = True
-        Me.Label19.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label19.Location = New System.Drawing.Point(44, 13)
-        Me.Label19.Name = "Label19"
-        Me.Label19.Size = New System.Drawing.Size(112, 16)
-        Me.Label19.TabIndex = 4
-        Me.Label19.Text = "Customizations"
-        '
-        'Label36
-        '
-        Me.Label36.AutoSize = True
-        Me.Label36.Location = New System.Drawing.Point(11, 51)
-        Me.Label36.Name = "Label36"
-        Me.Label36.Size = New System.Drawing.Size(70, 13)
-        Me.Label36.TabIndex = 5
-        Me.Label36.Text = "Backgrounds"
-        '
-        'Button23
-        '
-        Me.Button23.BackColor = System.Drawing.Color.Silver
-        Me.Button23.Location = New System.Drawing.Point(96, 46)
-        Me.Button23.Name = "Button23"
-        Me.Button23.Size = New System.Drawing.Size(106, 23)
-        Me.Button23.TabIndex = 6
-        Me.Button23.Text = "View Backgrounds"
-        Me.Button23.UseVisualStyleBackColor = False
-        '
-        'Button24
-        '
-        Me.Button24.BackColor = System.Drawing.Color.Silver
-        Me.Button24.Location = New System.Drawing.Point(96, 87)
-        Me.Button24.Name = "Button24"
-        Me.Button24.Size = New System.Drawing.Size(106, 23)
-        Me.Button24.TabIndex = 7
-        Me.Button24.Text = "Info"
-        Me.Button24.UseVisualStyleBackColor = False
-        '
-        'Label37
-        '
-        Me.Label37.AutoSize = True
-        Me.Label37.Location = New System.Drawing.Point(11, 94)
-        Me.Label37.Name = "Label37"
-        Me.Label37.Size = New System.Drawing.Size(68, 13)
-        Me.Label37.TabIndex = 8
-        Me.Label37.Text = "Skindows 95"
-        '
-        'Panel10
-        '
-        Me.Panel10.Anchor = System.Windows.Forms.AnchorStyles.Top
-        Me.Panel10.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Panel10.Controls.Add(Me.Button16)
-        Me.Panel10.Controls.Add(Me.Label22)
-        Me.Panel10.Controls.Add(Me.Button15)
-        Me.Panel10.Controls.Add(Me.Label21)
-        Me.Panel10.Controls.Add(Me.Label18)
-        Me.Panel10.Location = New System.Drawing.Point(27, 94)
-        Me.Panel10.Name = "Panel10"
-        Me.Panel10.Size = New System.Drawing.Size(200, 305)
-        Me.Panel10.TabIndex = 6
-        '
-        'Label18
-        '
-        Me.Label18.AutoSize = True
-        Me.Label18.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label18.Location = New System.Drawing.Point(35, 18)
-        Me.Label18.Name = "Label18"
-        Me.Label18.Size = New System.Drawing.Size(124, 16)
-        Me.Label18.TabIndex = 3
-        Me.Label18.Text = "Example Viruses"
-        '
-        'Label21
-        '
-        Me.Label21.AutoSize = True
-        Me.Label21.Location = New System.Drawing.Point(12, 44)
-        Me.Label21.Name = "Label21"
-        Me.Label21.Size = New System.Drawing.Size(82, 13)
-        Me.Label21.TabIndex = 4
-        Me.Label21.Text = "Start Runner 95"
-        '
-        'Button15
-        '
-        Me.Button15.BackColor = System.Drawing.Color.Silver
-        Me.Button15.Location = New System.Drawing.Point(115, 40)
-        Me.Button15.Name = "Button15"
-        Me.Button15.Size = New System.Drawing.Size(75, 23)
-        Me.Button15.TabIndex = 5
-        Me.Button15.Text = "Download"
-        Me.Button15.UseVisualStyleBackColor = False
-        '
-        'Label22
-        '
-        Me.Label22.AutoSize = True
-        Me.Label22.Location = New System.Drawing.Point(12, 78)
-        Me.Label22.Name = "Label22"
-        Me.Label22.Size = New System.Drawing.Size(79, 13)
-        Me.Label22.TabIndex = 6
-        Me.Label22.Text = "Error Blaster 95"
-        '
-        'Button16
-        '
-        Me.Button16.BackColor = System.Drawing.Color.Silver
-        Me.Button16.Location = New System.Drawing.Point(115, 74)
-        Me.Button16.Name = "Button16"
-        Me.Button16.Size = New System.Drawing.Size(75, 23)
-        Me.Button16.TabIndex = 7
-        Me.Button16.Text = "Download"
-        Me.Button16.UseVisualStyleBackColor = False
-        '
-        'Label20
-        '
-        Me.Label20.Anchor = System.Windows.Forms.AnchorStyles.Top
-        Me.Label20.AutoSize = True
-        Me.Label20.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label20.Location = New System.Drawing.Point(-89, 422)
-        Me.Label20.Name = "Label20"
-        Me.Label20.Size = New System.Drawing.Size(174, 15)
-        Me.Label20.TabIndex = 7
-        Me.Label20.Text = "Copyright 1998 12padams"
-        '
-        'Panel12
-        '
-        Me.Panel12.Anchor = System.Windows.Forms.AnchorStyles.Top
-        Me.Panel12.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Panel12.Controls.Add(Me.LinkLabel17)
-        Me.Panel12.Controls.Add(Me.Label38)
-        Me.Panel12.Location = New System.Drawing.Point(266, 94)
-        Me.Panel12.Name = "Panel12"
-        Me.Panel12.Size = New System.Drawing.Size(200, 305)
-        Me.Panel12.TabIndex = 6
-        '
-        'Label38
-        '
-        Me.Label38.AutoSize = True
-        Me.Label38.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label38.Location = New System.Drawing.Point(66, 17)
-        Me.Label38.Name = "Label38"
-        Me.Label38.Size = New System.Drawing.Size(75, 16)
-        Me.Label38.TabIndex = 2
-        Me.Label38.Text = "WebSites"
-        '
-        'LinkLabel17
-        '
-        Me.LinkLabel17.AutoSize = True
-        Me.LinkLabel17.Location = New System.Drawing.Point(56, 47)
-        Me.LinkLabel17.Name = "LinkLabel17"
-        Me.LinkLabel17.Size = New System.Drawing.Size(90, 13)
-        Me.LinkLabel17.TabIndex = 3
-        Me.LinkLabel17.TabStop = True
-        Me.LinkLabel17.Text = "www.hotmail.com"
-        '
-        'googlealpha
-        '
-        Me.googlealpha.AutoScroll = True
-        Me.googlealpha.Controls.Add(Me.Label15)
-        Me.googlealpha.Controls.Add(Me.Panel6)
-        Me.googlealpha.Controls.Add(Me.Panel7)
-        Me.googlealpha.Controls.Add(Me.Panel5)
-        Me.googlealpha.Controls.Add(Me.Panel4)
-        Me.googlealpha.Controls.Add(Me.PictureBox2)
-        Me.googlealpha.Location = New System.Drawing.Point(732, 29)
-        Me.googlealpha.Name = "googlealpha"
-        Me.googlealpha.Size = New System.Drawing.Size(71, 39)
-        Me.googlealpha.TabIndex = 3
-        '
-        'PictureBox2
-        '
-        Me.PictureBox2.Anchor = System.Windows.Forms.AnchorStyles.Top
-        Me.PictureBox2.Image = Global.Histacom.My.Resources.Resources.googlebetalogo
-        Me.PictureBox2.Location = New System.Drawing.Point(-167, 7)
-        Me.PictureBox2.Name = "PictureBox2"
-        Me.PictureBox2.Size = New System.Drawing.Size(361, 106)
-        Me.PictureBox2.TabIndex = 0
-        Me.PictureBox2.TabStop = False
-        '
-        'Panel4
-        '
-        Me.Panel4.Anchor = System.Windows.Forms.AnchorStyles.Top
-        Me.Panel4.BackColor = System.Drawing.Color.WhiteSmoke
-        Me.Panel4.Controls.Add(Me.Button13)
-        Me.Panel4.Controls.Add(Me.Button12)
-        Me.Panel4.Controls.Add(Me.TextBox4)
-        Me.Panel4.Controls.Add(Me.Label11)
-        Me.Panel4.Location = New System.Drawing.Point(-224, 125)
-        Me.Panel4.Name = "Panel4"
-        Me.Panel4.Size = New System.Drawing.Size(501, 100)
-        Me.Panel4.TabIndex = 1
-        '
-        'Label11
-        '
-        Me.Label11.AutoSize = True
-        Me.Label11.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label11.Location = New System.Drawing.Point(155, 6)
-        Me.Label11.Name = "Label11"
-        Me.Label11.Size = New System.Drawing.Size(186, 16)
-        Me.Label11.TabIndex = 0
-        Me.Label11.Text = "Search the web using Google!"
-        '
-        'TextBox4
-        '
-        Me.TextBox4.Location = New System.Drawing.Point(113, 26)
-        Me.TextBox4.Multiline = True
-        Me.TextBox4.Name = "TextBox4"
-        Me.TextBox4.Size = New System.Drawing.Size(281, 24)
-        Me.TextBox4.TabIndex = 1
-        '
-        'Button12
-        '
-        Me.Button12.BackColor = System.Drawing.Color.Silver
-        Me.Button12.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button12.Location = New System.Drawing.Point(141, 55)
-        Me.Button12.Name = "Button12"
-        Me.Button12.Size = New System.Drawing.Size(106, 25)
-        Me.Button12.TabIndex = 2
-        Me.Button12.Text = "Google Search"
-        Me.Button12.UseVisualStyleBackColor = False
-        '
-        'Button13
-        '
-        Me.Button13.BackColor = System.Drawing.Color.Silver
-        Me.Button13.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button13.Location = New System.Drawing.Point(253, 55)
-        Me.Button13.Name = "Button13"
-        Me.Button13.Size = New System.Drawing.Size(110, 25)
-        Me.Button13.TabIndex = 3
-        Me.Button13.Text = "I'm feeling lucky"
-        Me.Button13.UseVisualStyleBackColor = False
-        '
-        'Panel5
-        '
-        Me.Panel5.Anchor = System.Windows.Forms.AnchorStyles.Top
-        Me.Panel5.BackColor = System.Drawing.Color.PaleTurquoise
-        Me.Panel5.Controls.Add(Me.LinkLabel6)
-        Me.Panel5.Controls.Add(Me.LinkLabel5)
-        Me.Panel5.Controls.Add(Me.Label12)
-        Me.Panel5.Location = New System.Drawing.Point(-224, 227)
-        Me.Panel5.Name = "Panel5"
-        Me.Panel5.Size = New System.Drawing.Size(164, 124)
-        Me.Panel5.TabIndex = 2
-        '
-        'Label12
-        '
-        Me.Label12.AutoSize = True
-        Me.Label12.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label12.Location = New System.Drawing.Point(26, 46)
-        Me.Label12.Name = "Label12"
-        Me.Label12.Size = New System.Drawing.Size(115, 16)
-        Me.Label12.TabIndex = 0
-        Me.Label12.Text = "Special Searches"
-        '
-        'LinkLabel5
-        '
-        Me.LinkLabel5.AutoSize = True
-        Me.LinkLabel5.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.LinkLabel5.Location = New System.Drawing.Point(32, 64)
-        Me.LinkLabel5.Name = "LinkLabel5"
-        Me.LinkLabel5.Size = New System.Drawing.Size(104, 16)
-        Me.LinkLabel5.TabIndex = 1
-        Me.LinkLabel5.TabStop = True
-        Me.LinkLabel5.Text = "Stanford Search"
-        '
-        'LinkLabel6
-        '
-        Me.LinkLabel6.AutoSize = True
-        Me.LinkLabel6.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.LinkLabel6.Location = New System.Drawing.Point(43, 81)
-        Me.LinkLabel6.Name = "LinkLabel6"
-        Me.LinkLabel6.Size = New System.Drawing.Size(84, 16)
-        Me.LinkLabel6.TabIndex = 2
-        Me.LinkLabel6.TabStop = True
-        Me.LinkLabel6.Text = "Linux Search"
-        '
-        'Panel7
-        '
-        Me.Panel7.Anchor = System.Windows.Forms.AnchorStyles.Top
-        Me.Panel7.BackColor = System.Drawing.Color.LightSeaGreen
-        Me.Panel7.Controls.Add(Me.LinkLabel14)
-        Me.Panel7.Controls.Add(Me.Button14)
-        Me.Panel7.Controls.Add(Me.TextBox5)
-        Me.Panel7.Controls.Add(Me.Label14)
-        Me.Panel7.Controls.Add(Me.Label13)
-        Me.Panel7.Location = New System.Drawing.Point(113, 227)
-        Me.Panel7.Name = "Panel7"
-        Me.Panel7.Size = New System.Drawing.Size(164, 124)
-        Me.Panel7.TabIndex = 3
-        '
-        'Label13
-        '
-        Me.Label13.AutoSize = True
-        Me.Label13.Location = New System.Drawing.Point(55, 25)
-        Me.Label13.Name = "Label13"
-        Me.Label13.Size = New System.Drawing.Size(64, 13)
-        Me.Label13.TabIndex = 0
-        Me.Label13.Text = "Get Google!"
-        '
-        'Label14
-        '
-        Me.Label14.AutoSize = True
-        Me.Label14.Location = New System.Drawing.Point(44, 42)
-        Me.Label14.Name = "Label14"
-        Me.Label14.Size = New System.Drawing.Size(87, 13)
-        Me.Label14.TabIndex = 1
-        Me.Label14.Text = "updates monthly:"
-        '
-        'TextBox5
-        '
-        Me.TextBox5.Location = New System.Drawing.Point(12, 57)
-        Me.TextBox5.Name = "TextBox5"
-        Me.TextBox5.Size = New System.Drawing.Size(138, 20)
-        Me.TextBox5.TabIndex = 2
-        Me.TextBox5.Text = "your e-mail"
-        '
-        'Button14
-        '
-        Me.Button14.BackColor = System.Drawing.Color.Silver
-        Me.Button14.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button14.Location = New System.Drawing.Point(17, 79)
-        Me.Button14.Name = "Button14"
-        Me.Button14.Size = New System.Drawing.Size(82, 23)
-        Me.Button14.TabIndex = 3
-        Me.Button14.Text = "Subscribe"
-        Me.Button14.UseVisualStyleBackColor = False
-        '
-        'LinkLabel14
-        '
-        Me.LinkLabel14.AutoSize = True
-        Me.LinkLabel14.Location = New System.Drawing.Point(105, 84)
-        Me.LinkLabel14.Name = "LinkLabel14"
-        Me.LinkLabel14.Size = New System.Drawing.Size(43, 13)
-        Me.LinkLabel14.TabIndex = 4
-        Me.LinkLabel14.TabStop = True
-        Me.LinkLabel14.Text = "Archive"
-        '
-        'Panel6
-        '
-        Me.Panel6.Anchor = System.Windows.Forms.AnchorStyles.Top
-        Me.Panel6.BackColor = System.Drawing.Color.MediumTurquoise
-        Me.Panel6.Controls.Add(Me.LinkLabel13)
-        Me.Panel6.Controls.Add(Me.LinkLabel10)
-        Me.Panel6.Controls.Add(Me.LinkLabel11)
-        Me.Panel6.Controls.Add(Me.LinkLabel12)
-        Me.Panel6.Controls.Add(Me.LinkLabel9)
-        Me.Panel6.Controls.Add(Me.LinkLabel8)
-        Me.Panel6.Controls.Add(Me.LinkLabel7)
-        Me.Panel6.Location = New System.Drawing.Point(-57, 227)
-        Me.Panel6.Name = "Panel6"
-        Me.Panel6.Size = New System.Drawing.Size(167, 124)
-        Me.Panel6.TabIndex = 3
-        '
-        'LinkLabel7
-        '
-        Me.LinkLabel7.AutoSize = True
-        Me.LinkLabel7.Location = New System.Drawing.Point(42, 9)
-        Me.LinkLabel7.Name = "LinkLabel7"
-        Me.LinkLabel7.Size = New System.Drawing.Size(89, 13)
-        Me.LinkLabel7.TabIndex = 0
-        Me.LinkLabel7.TabStop = True
-        Me.LinkLabel7.Text = "Why use Google!"
-        '
-        'LinkLabel8
-        '
-        Me.LinkLabel8.AutoSize = True
-        Me.LinkLabel8.Location = New System.Drawing.Point(37, 25)
-        Me.LinkLabel8.Name = "LinkLabel8"
-        Me.LinkLabel8.Size = New System.Drawing.Size(103, 13)
-        Me.LinkLabel8.TabIndex = 1
-        Me.LinkLabel8.TabStop = True
-        Me.LinkLabel8.Text = "Press about Google!"
-        '
-        'LinkLabel9
-        '
-        Me.LinkLabel9.AutoSize = True
-        Me.LinkLabel9.Location = New System.Drawing.Point(70, 41)
-        Me.LinkLabel9.Name = "LinkLabel9"
-        Me.LinkLabel9.Size = New System.Drawing.Size(32, 13)
-        Me.LinkLabel9.TabIndex = 2
-        Me.LinkLabel9.TabStop = True
-        Me.LinkLabel9.Text = "Help!"
-        '
-        'LinkLabel12
-        '
-        Me.LinkLabel12.AutoSize = True
-        Me.LinkLabel12.Location = New System.Drawing.Point(49, 57)
-        Me.LinkLabel12.Name = "LinkLabel12"
-        Me.LinkLabel12.Size = New System.Drawing.Size(72, 13)
-        Me.LinkLabel12.TabIndex = 3
-        Me.LinkLabel12.TabStop = True
-        Me.LinkLabel12.Text = "Company Info"
-        '
-        'LinkLabel11
-        '
-        Me.LinkLabel11.AutoSize = True
-        Me.LinkLabel11.Location = New System.Drawing.Point(48, 73)
-        Me.LinkLabel11.Name = "LinkLabel11"
-        Me.LinkLabel11.Size = New System.Drawing.Size(78, 13)
-        Me.LinkLabel11.TabIndex = 4
-        Me.LinkLabel11.TabStop = True
-        Me.LinkLabel11.Text = "Jobs at Google"
-        '
-        'LinkLabel10
-        '
-        Me.LinkLabel10.AutoSize = True
-        Me.LinkLabel10.Location = New System.Drawing.Point(48, 89)
-        Me.LinkLabel10.Name = "LinkLabel10"
-        Me.LinkLabel10.Size = New System.Drawing.Size(76, 13)
-        Me.LinkLabel10.TabIndex = 5
-        Me.LinkLabel10.TabStop = True
-        Me.LinkLabel10.Text = "Google! Logos"
-        '
-        'LinkLabel13
-        '
-        Me.LinkLabel13.AutoSize = True
-        Me.LinkLabel13.Location = New System.Drawing.Point(19, 104)
-        Me.LinkLabel13.Name = "LinkLabel13"
-        Me.LinkLabel13.Size = New System.Drawing.Size(137, 13)
-        Me.LinkLabel13.TabIndex = 6
-        Me.LinkLabel13.TabStop = True
-        Me.LinkLabel13.Text = "Making Google! the Default"
-        '
-        'Label15
-        '
-        Me.Label15.Anchor = System.Windows.Forms.AnchorStyles.Top
-        Me.Label15.AutoSize = True
-        Me.Label15.Font = New System.Drawing.Font("Bookman Old Style", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label15.Location = New System.Drawing.Point(-60, 370)
-        Me.Label15.Name = "Label15"
-        Me.Label15.Size = New System.Drawing.Size(178, 16)
-        Me.Label15.TabIndex = 4
-        Me.Label15.Text = "Copyright ©1998 Google Inc."
-        '
-        'hotmailpadams
-        '
-        Me.hotmailpadams.AutoScroll = True
-        Me.hotmailpadams.BackColor = System.Drawing.Color.LightSteelBlue
-        Me.hotmailpadams.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.hotmailpadams.Controls.Add(Me.email1)
-        Me.hotmailpadams.Controls.Add(Me.email3)
-        Me.hotmailpadams.Controls.Add(Me.email2)
-        Me.hotmailpadams.Controls.Add(Me.ListBox1)
-        Me.hotmailpadams.Controls.Add(Me.PictureBox14)
-        Me.hotmailpadams.Controls.Add(Me.PictureBox13)
-        Me.hotmailpadams.Controls.Add(Me.PictureBox12)
-        Me.hotmailpadams.Location = New System.Drawing.Point(728, 108)
-        Me.hotmailpadams.Name = "hotmailpadams"
-        Me.hotmailpadams.Size = New System.Drawing.Size(83, 63)
-        Me.hotmailpadams.TabIndex = 10
-        '
-        'PictureBox12
-        '
-        Me.PictureBox12.Dock = System.Windows.Forms.DockStyle.Left
-        Me.PictureBox12.Image = Global.Histacom.My.Resources.Resources.hotmailside
-        Me.PictureBox12.Location = New System.Drawing.Point(0, 0)
-        Me.PictureBox12.Name = "PictureBox12"
-        Me.PictureBox12.Size = New System.Drawing.Size(154, 337)
-        Me.PictureBox12.TabIndex = 0
-        Me.PictureBox12.TabStop = False
-        '
-        'PictureBox13
-        '
-        Me.PictureBox13.Dock = System.Windows.Forms.DockStyle.Top
-        Me.PictureBox13.Image = Global.Histacom.My.Resources.Resources.hotmailtop
-        Me.PictureBox13.Location = New System.Drawing.Point(154, 0)
-        Me.PictureBox13.Name = "PictureBox13"
-        Me.PictureBox13.Size = New System.Drawing.Size(518, 38)
-        Me.PictureBox13.TabIndex = 1
-        Me.PictureBox13.TabStop = False
-        '
-        'PictureBox14
-        '
-        Me.PictureBox14.Dock = System.Windows.Forms.DockStyle.Top
-        Me.PictureBox14.Image = Global.Histacom.My.Resources.Resources.hotmail2ndfromtopbar
-        Me.PictureBox14.Location = New System.Drawing.Point(154, 38)
-        Me.PictureBox14.Name = "PictureBox14"
-        Me.PictureBox14.Size = New System.Drawing.Size(518, 21)
-        Me.PictureBox14.TabIndex = 2
-        Me.PictureBox14.TabStop = False
-        '
-        'ListBox1
-        '
-        Me.ListBox1.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.ListBox1.FormattingEnabled = True
-        Me.ListBox1.Items.AddRange(New Object() {"12padams.com datalog 1998", "RE: What's the secrect to your website?", "What's the secret to your website?"})
-        Me.ListBox1.Location = New System.Drawing.Point(154, 59)
-        Me.ListBox1.Name = "ListBox1"
-        Me.ListBox1.Size = New System.Drawing.Size(518, 278)
-        Me.ListBox1.TabIndex = 3
-        '
-        'email2
-        '
-        Me.email2.Controls.Add(Me.Label48)
-        Me.email2.Controls.Add(Me.TextBox13)
-        Me.email2.Controls.Add(Me.TextBox14)
-        Me.email2.Controls.Add(Me.TextBox15)
-        Me.email2.Controls.Add(Me.TextBox16)
-        Me.email2.Controls.Add(Me.Label49)
-        Me.email2.Controls.Add(Me.Label50)
-        Me.email2.Controls.Add(Me.Label51)
-        Me.email2.Location = New System.Drawing.Point(161, 124)
-        Me.email2.Name = "email2"
-        Me.email2.Size = New System.Drawing.Size(465, 213)
-        Me.email2.TabIndex = 5
-        Me.email2.Visible = False
-        '
-        'Label51
-        '
-        Me.Label51.AutoSize = True
-        Me.Label51.Location = New System.Drawing.Point(6, 9)
-        Me.Label51.Name = "Label51"
-        Me.Label51.Size = New System.Drawing.Size(33, 13)
-        Me.Label51.TabIndex = 0
-        Me.Label51.Text = "From:"
-        '
-        'Label50
-        '
-        Me.Label50.AutoSize = True
-        Me.Label50.Location = New System.Drawing.Point(6, 35)
-        Me.Label50.Name = "Label50"
-        Me.Label50.Size = New System.Drawing.Size(23, 13)
-        Me.Label50.TabIndex = 1
-        Me.Label50.Text = "To:"
-        '
-        'Label49
-        '
-        Me.Label49.AutoSize = True
-        Me.Label49.Location = New System.Drawing.Point(6, 61)
-        Me.Label49.Name = "Label49"
-        Me.Label49.Size = New System.Drawing.Size(46, 13)
-        Me.Label49.TabIndex = 2
-        Me.Label49.Text = "Subject:"
-        '
-        'TextBox16
-        '
-        Me.TextBox16.Location = New System.Drawing.Point(55, 6)
-        Me.TextBox16.Name = "TextBox16"
-        Me.TextBox16.Size = New System.Drawing.Size(394, 20)
-        Me.TextBox16.TabIndex = 3
-        Me.TextBox16.Text = "12padams@hotmail.com"
-        '
-        'TextBox15
-        '
-        Me.TextBox15.Location = New System.Drawing.Point(55, 32)
-        Me.TextBox15.Name = "TextBox15"
-        Me.TextBox15.Size = New System.Drawing.Size(394, 20)
-        Me.TextBox15.TabIndex = 4
-        Me.TextBox15.Text = "thehiddenhacker@hotmail.com"
-        '
-        'TextBox14
-        '
-        Me.TextBox14.Location = New System.Drawing.Point(55, 58)
-        Me.TextBox14.Name = "TextBox14"
-        Me.TextBox14.Size = New System.Drawing.Size(394, 20)
-        Me.TextBox14.TabIndex = 5
-        Me.TextBox14.Text = "Re: What's the secret to your website"
-        '
-        'TextBox13
-        '
-        Me.TextBox13.Location = New System.Drawing.Point(55, 85)
-        Me.TextBox13.Multiline = True
-        Me.TextBox13.Name = "TextBox13"
-        Me.TextBox13.Size = New System.Drawing.Size(394, 116)
-        Me.TextBox13.TabIndex = 6
-        Me.TextBox13.Text = "Hey How dare you ask me about that I am blocking your ip right now from my websit" &
-    "e... And for the record don't waste your time theres nothing hidden on my websit" &
-    "e!!!"
-        '
-        'Label48
-        '
-        Me.Label48.AutoSize = True
-        Me.Label48.Location = New System.Drawing.Point(6, 88)
-        Me.Label48.Name = "Label48"
-        Me.Label48.Size = New System.Drawing.Size(34, 13)
-        Me.Label48.TabIndex = 7
-        Me.Label48.Text = "Body:"
-        '
-        'email3
-        '
-        Me.email3.Controls.Add(Me.Label52)
-        Me.email3.Controls.Add(Me.TextBox17)
-        Me.email3.Controls.Add(Me.TextBox18)
-        Me.email3.Controls.Add(Me.TextBox19)
-        Me.email3.Controls.Add(Me.TextBox20)
-        Me.email3.Controls.Add(Me.Label53)
-        Me.email3.Controls.Add(Me.Label54)
-        Me.email3.Controls.Add(Me.Label55)
-        Me.email3.Location = New System.Drawing.Point(175, 99)
-        Me.email3.Name = "email3"
-        Me.email3.Size = New System.Drawing.Size(465, 213)
-        Me.email3.TabIndex = 6
-        Me.email3.Visible = False
-        '
-        'Label55
-        '
-        Me.Label55.AutoSize = True
-        Me.Label55.Location = New System.Drawing.Point(6, 9)
-        Me.Label55.Name = "Label55"
-        Me.Label55.Size = New System.Drawing.Size(33, 13)
-        Me.Label55.TabIndex = 0
-        Me.Label55.Text = "From:"
-        '
-        'Label54
-        '
-        Me.Label54.AutoSize = True
-        Me.Label54.Location = New System.Drawing.Point(6, 35)
-        Me.Label54.Name = "Label54"
-        Me.Label54.Size = New System.Drawing.Size(23, 13)
-        Me.Label54.TabIndex = 1
-        Me.Label54.Text = "To:"
-        '
-        'Label53
-        '
-        Me.Label53.AutoSize = True
-        Me.Label53.Location = New System.Drawing.Point(6, 61)
-        Me.Label53.Name = "Label53"
-        Me.Label53.Size = New System.Drawing.Size(46, 13)
-        Me.Label53.TabIndex = 2
-        Me.Label53.Text = "Subject:"
-        '
-        'TextBox20
-        '
-        Me.TextBox20.Location = New System.Drawing.Point(55, 6)
-        Me.TextBox20.Name = "TextBox20"
-        Me.TextBox20.Size = New System.Drawing.Size(394, 20)
-        Me.TextBox20.TabIndex = 3
-        Me.TextBox20.Text = "thehiddenhacker@hotmail.com"
-        '
-        'TextBox19
-        '
-        Me.TextBox19.Location = New System.Drawing.Point(55, 32)
-        Me.TextBox19.Name = "TextBox19"
-        Me.TextBox19.Size = New System.Drawing.Size(394, 20)
-        Me.TextBox19.TabIndex = 4
-        Me.TextBox19.Text = "12padams@hotmail.com"
-        '
-        'TextBox18
-        '
-        Me.TextBox18.Location = New System.Drawing.Point(55, 58)
-        Me.TextBox18.Name = "TextBox18"
-        Me.TextBox18.Size = New System.Drawing.Size(394, 20)
-        Me.TextBox18.TabIndex = 5
-        Me.TextBox18.Text = "What's the secret to your website"
-        '
-        'TextBox17
-        '
-        Me.TextBox17.Location = New System.Drawing.Point(55, 85)
-        Me.TextBox17.Multiline = True
-        Me.TextBox17.Name = "TextBox17"
-        Me.TextBox17.Size = New System.Drawing.Size(394, 116)
-        Me.TextBox17.TabIndex = 6
-        Me.TextBox17.Text = resources.GetString("TextBox17.Text")
-        '
-        'Label52
-        '
-        Me.Label52.AutoSize = True
-        Me.Label52.Location = New System.Drawing.Point(6, 88)
-        Me.Label52.Name = "Label52"
-        Me.Label52.Size = New System.Drawing.Size(34, 13)
-        Me.Label52.TabIndex = 7
-        Me.Label52.Text = "Body:"
-        '
-        'email1
-        '
-        Me.email1.Controls.Add(Me.LinkLabel18)
-        Me.email1.Controls.Add(Me.Label56)
-        Me.email1.Controls.Add(Me.Label47)
-        Me.email1.Controls.Add(Me.TextBox12)
-        Me.email1.Controls.Add(Me.TextBox11)
-        Me.email1.Controls.Add(Me.TextBox7)
-        Me.email1.Controls.Add(Me.TextBox6)
-        Me.email1.Controls.Add(Me.Label46)
-        Me.email1.Controls.Add(Me.Label45)
-        Me.email1.Controls.Add(Me.Label44)
-        Me.email1.Location = New System.Drawing.Point(207, 121)
-        Me.email1.Name = "email1"
-        Me.email1.Size = New System.Drawing.Size(465, 213)
-        Me.email1.TabIndex = 4
-        Me.email1.Visible = False
-        '
-        'Label44
-        '
-        Me.Label44.AutoSize = True
-        Me.Label44.Location = New System.Drawing.Point(6, 9)
-        Me.Label44.Name = "Label44"
-        Me.Label44.Size = New System.Drawing.Size(33, 13)
-        Me.Label44.TabIndex = 0
-        Me.Label44.Text = "From:"
-        '
-        'Label45
-        '
-        Me.Label45.AutoSize = True
-        Me.Label45.Location = New System.Drawing.Point(6, 35)
-        Me.Label45.Name = "Label45"
-        Me.Label45.Size = New System.Drawing.Size(23, 13)
-        Me.Label45.TabIndex = 1
-        Me.Label45.Text = "To:"
-        '
-        'Label46
-        '
-        Me.Label46.AutoSize = True
-        Me.Label46.Location = New System.Drawing.Point(6, 61)
-        Me.Label46.Name = "Label46"
-        Me.Label46.Size = New System.Drawing.Size(46, 13)
-        Me.Label46.TabIndex = 2
-        Me.Label46.Text = "Subject:"
-        '
-        'TextBox6
-        '
-        Me.TextBox6.Location = New System.Drawing.Point(55, 6)
-        Me.TextBox6.Name = "TextBox6"
-        Me.TextBox6.Size = New System.Drawing.Size(394, 20)
-        Me.TextBox6.TabIndex = 3
-        Me.TextBox6.Text = "12padams Bot"
-        '
-        'TextBox7
-        '
-        Me.TextBox7.Location = New System.Drawing.Point(55, 32)
-        Me.TextBox7.Name = "TextBox7"
-        Me.TextBox7.Size = New System.Drawing.Size(394, 20)
-        Me.TextBox7.TabIndex = 4
-        Me.TextBox7.Text = "12padams"
-        '
-        'TextBox11
-        '
-        Me.TextBox11.Location = New System.Drawing.Point(55, 58)
-        Me.TextBox11.Name = "TextBox11"
-        Me.TextBox11.Size = New System.Drawing.Size(394, 20)
-        Me.TextBox11.TabIndex = 5
-        Me.TextBox11.Text = "12padams.com DataLog 1998"
-        '
-        'TextBox12
-        '
-        Me.TextBox12.Location = New System.Drawing.Point(55, 109)
-        Me.TextBox12.Multiline = True
-        Me.TextBox12.Name = "TextBox12"
-        Me.TextBox12.Size = New System.Drawing.Size(394, 94)
-        Me.TextBox12.TabIndex = 6
-        Me.TextBox12.Text = resources.GetString("TextBox12.Text")
-        '
-        'Label47
-        '
-        Me.Label47.AutoSize = True
-        Me.Label47.Location = New System.Drawing.Point(6, 110)
-        Me.Label47.Name = "Label47"
-        Me.Label47.Size = New System.Drawing.Size(34, 13)
-        Me.Label47.TabIndex = 7
-        Me.Label47.Text = "Body:"
-        '
-        'Label56
-        '
-        Me.Label56.AutoSize = True
-        Me.Label56.Location = New System.Drawing.Point(7, 87)
-        Me.Label56.Name = "Label56"
-        Me.Label56.Size = New System.Drawing.Size(69, 13)
-        Me.Label56.TabIndex = 8
-        Me.Label56.Text = "Attachments:"
-        '
-        'LinkLabel18
-        '
-        Me.LinkLabel18.AutoSize = True
-        Me.LinkLabel18.Location = New System.Drawing.Point(83, 86)
-        Me.LinkLabel18.Name = "LinkLabel18"
-        Me.LinkLabel18.Size = New System.Drawing.Size(53, 13)
-        Me.LinkLabel18.TabIndex = 9
-        Me.LinkLabel18.TabStop = True
-        Me.LinkLabel18.Text = "hwcv.exe"
-        '
-        'welcomeinternetscreen
-        '
-        Me.welcomeinternetscreen.AutoScroll = True
-        Me.welcomeinternetscreen.BackColor = System.Drawing.Color.White
-        Me.welcomeinternetscreen.Controls.Add(Me.Label58)
-        Me.welcomeinternetscreen.Controls.Add(Me.LinkLabel16)
-        Me.welcomeinternetscreen.Controls.Add(Me.LinkLabel15)
-        Me.welcomeinternetscreen.Controls.Add(Me.Label3)
-        Me.welcomeinternetscreen.Controls.Add(Me.TextBox1)
-        Me.welcomeinternetscreen.Controls.Add(Me.Label2)
-        Me.welcomeinternetscreen.Location = New System.Drawing.Point(725, 199)
-        Me.welcomeinternetscreen.Name = "welcomeinternetscreen"
-        Me.welcomeinternetscreen.Size = New System.Drawing.Size(86, 51)
-        Me.welcomeinternetscreen.TabIndex = 0
-        '
-        'Label2
-        '
-        Me.Label2.Anchor = System.Windows.Forms.AnchorStyles.Top
-        Me.Label2.AutoSize = True
-        Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(-156, 19)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(308, 24)
-        Me.Label2.TabIndex = 0
-        Me.Label2.Text = "Welcome To Internet Explorer 4"
-        '
-        'TextBox1
-        '
-        Me.TextBox1.Anchor = System.Windows.Forms.AnchorStyles.Top
-        Me.TextBox1.BackColor = System.Drawing.Color.White
-        Me.TextBox1.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.TextBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox1.Location = New System.Drawing.Point(-205, 98)
-        Me.TextBox1.Multiline = True
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.ReadOnly = True
-        Me.TextBox1.Size = New System.Drawing.Size(428, 130)
-        Me.TextBox1.TabIndex = 1
-        Me.TextBox1.Text = resources.GetString("TextBox1.Text")
-        Me.TextBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        '
-        'Label3
-        '
-        Me.Label3.Anchor = System.Windows.Forms.AnchorStyles.Top
-        Me.Label3.AutoSize = True
-        Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(-169, 258)
-        Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(342, 20)
-        Me.Label3.TabIndex = 2
-        Me.Label3.Text = "Here are some sites you may wish to visit."
-        '
-        'LinkLabel15
-        '
-        Me.LinkLabel15.Anchor = System.Windows.Forms.AnchorStyles.Top
-        Me.LinkLabel15.AutoSize = True
-        Me.LinkLabel15.Location = New System.Drawing.Point(-47, 298)
-        Me.LinkLabel15.Name = "LinkLabel15"
-        Me.LinkLabel15.Size = New System.Drawing.Size(89, 13)
-        Me.LinkLabel15.TabIndex = 5
-        Me.LinkLabel15.TabStop = True
-        Me.LinkLabel15.Text = "www.google.com"
-        '
-        'LinkLabel16
-        '
-        Me.LinkLabel16.Anchor = System.Windows.Forms.AnchorStyles.Top
-        Me.LinkLabel16.AutoSize = True
-        Me.LinkLabel16.Location = New System.Drawing.Point(-54, 317)
-        Me.LinkLabel16.Name = "LinkLabel16"
-        Me.LinkLabel16.Size = New System.Drawing.Size(106, 13)
-        Me.LinkLabel16.TabIndex = 6
-        Me.LinkLabel16.TabStop = True
-        Me.LinkLabel16.Text = "www.12padams.com"
-        '
-        'Label58
-        '
-        Me.Label58.Anchor = System.Windows.Forms.AnchorStyles.Top
-        Me.Label58.AutoSize = True
-        Me.Label58.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label58.Location = New System.Drawing.Point(-109, 45)
-        Me.Label58.Name = "Label58"
-        Me.Label58.Size = New System.Drawing.Size(199, 16)
-        Me.Label58.TabIndex = 7
-        Me.Label58.Text = "Where do you want to go today?"
-        '
-        'hotmailmain
-        '
-        Me.hotmailmain.AutoScroll = True
-        Me.hotmailmain.BackColor = System.Drawing.Color.SteelBlue
-        Me.hotmailmain.Controls.Add(Me.PictureBox9)
-        Me.hotmailmain.Controls.Add(Me.PictureBox10)
-        Me.hotmailmain.Controls.Add(Me.Label31)
-        Me.hotmailmain.Controls.Add(Me.Label30)
-        Me.hotmailmain.Controls.Add(Me.Label29)
-        Me.hotmailmain.Controls.Add(Me.PictureBox8)
-        Me.hotmailmain.Controls.Add(Me.PictureBox7)
-        Me.hotmailmain.Controls.Add(Me.PictureBox6)
-        Me.hotmailmain.Controls.Add(Me.Label28)
-        Me.hotmailmain.Controls.Add(Me.Label27)
-        Me.hotmailmain.Controls.Add(Me.PictureBox5)
-        Me.hotmailmain.Controls.Add(Me.RadioButton3)
-        Me.hotmailmain.Controls.Add(Me.RadioButton2)
-        Me.hotmailmain.Controls.Add(Me.RadioButton1)
-        Me.hotmailmain.Controls.Add(Me.Button18)
-        Me.hotmailmain.Controls.Add(Me.txtpassword)
-        Me.hotmailmain.Controls.Add(Me.txtloginname)
-        Me.hotmailmain.Controls.Add(Me.Label26)
-        Me.hotmailmain.Controls.Add(Me.Label25)
-        Me.hotmailmain.Controls.Add(Me.Label24)
-        Me.hotmailmain.Controls.Add(Me.Label23)
-        Me.hotmailmain.Controls.Add(Me.Panel11)
-        Me.hotmailmain.Location = New System.Drawing.Point(725, 274)
-        Me.hotmailmain.Name = "hotmailmain"
-        Me.hotmailmain.Size = New System.Drawing.Size(79, 62)
-        Me.hotmailmain.TabIndex = 5
-        '
-        'Panel11
-        '
-        Me.Panel11.BackColor = System.Drawing.Color.White
-        Me.Panel11.Controls.Add(Me.PictureBox4)
-        Me.Panel11.Controls.Add(Me.PictureBox3)
-        Me.Panel11.Location = New System.Drawing.Point(18, 0)
-        Me.Panel11.Name = "Panel11"
-        Me.Panel11.Size = New System.Drawing.Size(205, 445)
-        Me.Panel11.TabIndex = 0
-        '
-        'PictureBox3
-        '
-        Me.PictureBox3.Image = Global.Histacom.My.Resources.Resources.hotmail_logo
-        Me.PictureBox3.Location = New System.Drawing.Point(13, 23)
-        Me.PictureBox3.Name = "PictureBox3"
-        Me.PictureBox3.Size = New System.Drawing.Size(160, 136)
-        Me.PictureBox3.TabIndex = 0
-        Me.PictureBox3.TabStop = False
-        '
-        'PictureBox4
-        '
-        Me.PictureBox4.Image = Global.Histacom.My.Resources.Resources.hotmail_slogan
-        Me.PictureBox4.Location = New System.Drawing.Point(35, 179)
-        Me.PictureBox4.Name = "PictureBox4"
-        Me.PictureBox4.Size = New System.Drawing.Size(160, 136)
-        Me.PictureBox4.TabIndex = 1
-        Me.PictureBox4.TabStop = False
-        '
-        'Label23
-        '
-        Me.Label23.AutoSize = True
-        Me.Label23.BackColor = System.Drawing.Color.Navy
-        Me.Label23.Font = New System.Drawing.Font("Book Antiqua", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label23.ForeColor = System.Drawing.Color.White
-        Me.Label23.Location = New System.Drawing.Point(229, 30)
-        Me.Label23.Name = "Label23"
-        Me.Label23.Size = New System.Drawing.Size(473, 18)
-        Me.Label23.TabIndex = 1
-        Me.Label23.Text = "   R E G I S T E R E D   U S E R S                                               " &
-    "                                              "
-        '
-        'Label24
-        '
-        Me.Label24.AutoSize = True
-        Me.Label24.BackColor = System.Drawing.Color.Navy
-        Me.Label24.Font = New System.Drawing.Font("Book Antiqua", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label24.ForeColor = System.Drawing.Color.White
-        Me.Label24.Location = New System.Drawing.Point(229, 179)
-        Me.Label24.Name = "Label24"
-        Me.Label24.Size = New System.Drawing.Size(226, 18)
-        Me.Label24.TabIndex = 2
-        Me.Label24.Text = "   V I S I T O R S                                         "
-        '
-        'Label25
-        '
-        Me.Label25.AutoSize = True
-        Me.Label25.Font = New System.Drawing.Font("Arial", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label25.ForeColor = System.Drawing.Color.White
-        Me.Label25.Location = New System.Drawing.Point(232, 59)
-        Me.Label25.Name = "Label25"
-        Me.Label25.Size = New System.Drawing.Size(74, 15)
-        Me.Label25.TabIndex = 3
-        Me.Label25.Text = "Login Name"
-        '
-        'Label26
-        '
-        Me.Label26.AutoSize = True
-        Me.Label26.Font = New System.Drawing.Font("Arial", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label26.ForeColor = System.Drawing.Color.White
-        Me.Label26.Location = New System.Drawing.Point(403, 59)
-        Me.Label26.Name = "Label26"
-        Me.Label26.Size = New System.Drawing.Size(65, 15)
-        Me.Label26.TabIndex = 4
-        Me.Label26.Text = "Password"
-        '
-        'txtloginname
-        '
-        Me.txtloginname.Location = New System.Drawing.Point(235, 83)
-        Me.txtloginname.Name = "txtloginname"
-        Me.txtloginname.Size = New System.Drawing.Size(138, 20)
-        Me.txtloginname.TabIndex = 5
-        '
-        'txtpassword
-        '
-        Me.txtpassword.Location = New System.Drawing.Point(406, 83)
-        Me.txtpassword.Name = "txtpassword"
-        Me.txtpassword.Size = New System.Drawing.Size(138, 20)
-        Me.txtpassword.TabIndex = 6
-        Me.txtpassword.UseSystemPasswordChar = True
-        '
-        'Button18
-        '
-        Me.Button18.BackColor = System.Drawing.Color.Silver
-        Me.Button18.Location = New System.Drawing.Point(563, 81)
-        Me.Button18.Name = "Button18"
-        Me.Button18.Size = New System.Drawing.Size(60, 23)
-        Me.Button18.TabIndex = 7
-        Me.Button18.Text = "Enter"
-        Me.Button18.UseVisualStyleBackColor = False
-        '
-        'RadioButton1
-        '
-        Me.RadioButton1.AutoSize = True
-        Me.RadioButton1.Font = New System.Drawing.Font("Arial Narrow", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RadioButton1.ForeColor = System.Drawing.Color.White
-        Me.RadioButton1.Location = New System.Drawing.Point(235, 109)
-        Me.RadioButton1.Name = "RadioButton1"
-        Me.RadioButton1.Size = New System.Drawing.Size(57, 19)
-        Me.RadioButton1.TabIndex = 8
-        Me.RadioButton1.Text = "Frames"
-        Me.RadioButton1.UseVisualStyleBackColor = True
-        '
-        'RadioButton2
-        '
-        Me.RadioButton2.AutoSize = True
-        Me.RadioButton2.Font = New System.Drawing.Font("Arial Narrow", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RadioButton2.ForeColor = System.Drawing.Color.White
-        Me.RadioButton2.Location = New System.Drawing.Point(345, 109)
-        Me.RadioButton2.Name = "RadioButton2"
-        Me.RadioButton2.Size = New System.Drawing.Size(72, 19)
-        Me.RadioButton2.TabIndex = 9
-        Me.RadioButton2.Text = "No Frames"
-        Me.RadioButton2.UseVisualStyleBackColor = True
-        '
-        'RadioButton3
-        '
-        Me.RadioButton3.AutoSize = True
-        Me.RadioButton3.Checked = True
-        Me.RadioButton3.Font = New System.Drawing.Font("Arial Narrow", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RadioButton3.ForeColor = System.Drawing.Color.White
-        Me.RadioButton3.Location = New System.Drawing.Point(466, 109)
-        Me.RadioButton3.Name = "RadioButton3"
-        Me.RadioButton3.Size = New System.Drawing.Size(69, 19)
-        Me.RadioButton3.TabIndex = 10
-        Me.RadioButton3.TabStop = True
-        Me.RadioButton3.Text = "My Default"
-        Me.RadioButton3.UseVisualStyleBackColor = True
-        '
-        'PictureBox5
-        '
-        Me.PictureBox5.Image = Global.Histacom.My.Resources.Resources.hotmailcirclearrow
-        Me.PictureBox5.Location = New System.Drawing.Point(235, 139)
-        Me.PictureBox5.Name = "PictureBox5"
-        Me.PictureBox5.Size = New System.Drawing.Size(17, 16)
-        Me.PictureBox5.TabIndex = 11
-        Me.PictureBox5.TabStop = False
-        '
-        'Label27
-        '
-        Me.Label27.AutoSize = True
-        Me.Label27.Font = New System.Drawing.Font("Arial", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label27.ForeColor = System.Drawing.Color.White
-        Me.Label27.Location = New System.Drawing.Point(258, 140)
-        Me.Label27.Name = "Label27"
-        Me.Label27.Size = New System.Drawing.Size(139, 15)
-        Me.Label27.TabIndex = 12
-        Me.Label27.Text = "Forgot Your Password?"
-        '
-        'Label28
-        '
-        Me.Label28.AutoSize = True
-        Me.Label28.BackColor = System.Drawing.Color.Navy
-        Me.Label28.Font = New System.Drawing.Font("Book Antiqua", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label28.ForeColor = System.Drawing.Color.White
-        Me.Label28.Location = New System.Drawing.Point(463, 179)
-        Me.Label28.Name = "Label28"
-        Me.Label28.Size = New System.Drawing.Size(183, 18)
-        Me.Label28.TabIndex = 13
-        Me.Label28.Text = "   I N F O                                         "
-        '
-        'PictureBox6
-        '
-        Me.PictureBox6.Image = Global.Histacom.My.Resources.Resources.hotmailcirclearrow
-        Me.PictureBox6.Location = New System.Drawing.Point(478, 206)
-        Me.PictureBox6.Name = "PictureBox6"
-        Me.PictureBox6.Size = New System.Drawing.Size(17, 16)
-        Me.PictureBox6.TabIndex = 14
-        Me.PictureBox6.TabStop = False
-        '
-        'PictureBox7
-        '
-        Me.PictureBox7.Image = Global.Histacom.My.Resources.Resources.hotmailcirclearrow
-        Me.PictureBox7.Location = New System.Drawing.Point(478, 231)
-        Me.PictureBox7.Name = "PictureBox7"
-        Me.PictureBox7.Size = New System.Drawing.Size(17, 16)
-        Me.PictureBox7.TabIndex = 15
-        Me.PictureBox7.TabStop = False
-        '
-        'PictureBox8
-        '
-        Me.PictureBox8.Image = Global.Histacom.My.Resources.Resources.hotmailcirclearrow
-        Me.PictureBox8.Location = New System.Drawing.Point(478, 256)
-        Me.PictureBox8.Name = "PictureBox8"
-        Me.PictureBox8.Size = New System.Drawing.Size(17, 16)
-        Me.PictureBox8.TabIndex = 16
-        Me.PictureBox8.TabStop = False
-        '
-        'Label29
-        '
-        Me.Label29.AutoSize = True
-        Me.Label29.Font = New System.Drawing.Font("Arial", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label29.ForeColor = System.Drawing.Color.White
-        Me.Label29.Location = New System.Drawing.Point(513, 207)
-        Me.Label29.Name = "Label29"
-        Me.Label29.Size = New System.Drawing.Size(86, 15)
-        Me.Label29.TabIndex = 17
-        Me.Label29.Text = "About Hotmail"
-        '
-        'Label30
-        '
-        Me.Label30.AutoSize = True
-        Me.Label30.Font = New System.Drawing.Font("Arial", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label30.ForeColor = System.Drawing.Color.White
-        Me.Label30.Location = New System.Drawing.Point(513, 234)
-        Me.Label30.Name = "Label30"
-        Me.Label30.Size = New System.Drawing.Size(77, 15)
-        Me.Label30.TabIndex = 18
-        Me.Label30.Text = "Email Safety"
-        '
-        'Label31
-        '
-        Me.Label31.AutoSize = True
-        Me.Label31.Font = New System.Drawing.Font("Arial", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label31.ForeColor = System.Drawing.Color.White
-        Me.Label31.Location = New System.Drawing.Point(513, 259)
-        Me.Label31.Name = "Label31"
-        Me.Label31.Size = New System.Drawing.Size(111, 15)
-        Me.Label31.TabIndex = 19
-        Me.Label31.Text = "Privacy Statement"
-        '
-        'PictureBox10
-        '
-        Me.PictureBox10.Image = Global.Histacom.My.Resources.Resources.hotmailwhysignup_button
-        Me.PictureBox10.Location = New System.Drawing.Point(272, 246)
-        Me.PictureBox10.Name = "PictureBox10"
-        Me.PictureBox10.Size = New System.Drawing.Size(160, 26)
-        Me.PictureBox10.TabIndex = 3
-        Me.PictureBox10.TabStop = False
-        '
-        'PictureBox9
-        '
-        Me.PictureBox9.Image = Global.Histacom.My.Resources.Resources.hotmail_signup_button
-        Me.PictureBox9.Location = New System.Drawing.Point(248, 207)
-        Me.PictureBox9.Name = "PictureBox9"
-        Me.PictureBox9.Size = New System.Drawing.Size(200, 33)
-        Me.PictureBox9.TabIndex = 2
-        Me.PictureBox9.TabStop = False
-        '
-        'padamsbackgrounds
-        '
-        Me.padamsbackgrounds.AutoScroll = True
-        Me.padamsbackgrounds.Controls.Add(Me.Panel13)
-        Me.padamsbackgrounds.Controls.Add(Me.Label33)
-        Me.padamsbackgrounds.Controls.Add(Me.Label32)
-        Me.padamsbackgrounds.Location = New System.Drawing.Point(732, 352)
-        Me.padamsbackgrounds.Name = "padamsbackgrounds"
-        Me.padamsbackgrounds.Size = New System.Drawing.Size(76, 85)
-        Me.padamsbackgrounds.TabIndex = 6
-        '
-        'Label32
-        '
-        Me.Label32.AutoSize = True
-        Me.Label32.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label32.Location = New System.Drawing.Point(42, 21)
-        Me.Label32.Name = "Label32"
-        Me.Label32.Size = New System.Drawing.Size(114, 20)
-        Me.Label32.TabIndex = 0
-        Me.Label32.Text = "Backgrounds"
-        '
-        'Label33
-        '
-        Me.Label33.AutoSize = True
-        Me.Label33.Location = New System.Drawing.Point(46, 47)
-        Me.Label33.Name = "Label33"
-        Me.Label33.Size = New System.Drawing.Size(622, 13)
-        Me.Label33.TabIndex = 1
-        Me.Label33.Text = "Changing your desktop background shows the world that you are different and that " &
-    "you well...  know how to change a background"
-        '
-        'Panel13
-        '
-        Me.Panel13.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.Panel13.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Panel13.Controls.Add(Me.Previewimage)
-        Me.Panel13.Controls.Add(Me.Button21)
-        Me.Panel13.Controls.Add(Me.Button22)
-        Me.Panel13.Controls.Add(Me.Label35)
-        Me.Panel13.Controls.Add(Me.mclarinflimage)
-        Me.Panel13.Controls.Add(Me.Button20)
-        Me.Panel13.Controls.Add(Me.Button19)
-        Me.Panel13.Controls.Add(Me.Label34)
-        Me.Panel13.Controls.Add(Me.win95background)
-        Me.Panel13.Location = New System.Drawing.Point(46, 74)
-        Me.Panel13.Name = "Panel13"
-        Me.Panel13.Size = New System.Drawing.Size(2958, 0)
-        Me.Panel13.TabIndex = 2
-        '
-        'win95background
-        '
-        Me.win95background.Image = Global.Histacom.My.Resources.Resources.windows_95_background
-        Me.win95background.Location = New System.Drawing.Point(26, 22)
-        Me.win95background.Name = "win95background"
-        Me.win95background.Size = New System.Drawing.Size(184, 115)
-        Me.win95background.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.win95background.TabIndex = 0
-        Me.win95background.TabStop = False
-        '
-        'Label34
-        '
-        Me.Label34.AutoSize = True
-        Me.Label34.Location = New System.Drawing.Point(50, 6)
-        Me.Label34.Name = "Label34"
-        Me.Label34.Size = New System.Drawing.Size(128, 13)
-        Me.Label34.TabIndex = 2
-        Me.Label34.Text = "Windows 95 Boot Screen"
-        '
-        'Button19
-        '
-        Me.Button19.BackColor = System.Drawing.Color.Silver
-        Me.Button19.Location = New System.Drawing.Point(26, 140)
-        Me.Button19.Name = "Button19"
-        Me.Button19.Size = New System.Drawing.Size(63, 23)
-        Me.Button19.TabIndex = 3
-        Me.Button19.Text = "Preview"
-        Me.Button19.UseVisualStyleBackColor = False
-        '
-        'Button20
-        '
-        Me.Button20.BackColor = System.Drawing.Color.Silver
-        Me.Button20.Location = New System.Drawing.Point(95, 140)
-        Me.Button20.Name = "Button20"
-        Me.Button20.Size = New System.Drawing.Size(115, 23)
-        Me.Button20.TabIndex = 4
-        Me.Button20.Text = "Set As Background"
-        Me.Button20.UseVisualStyleBackColor = False
-        '
-        'mclarinflimage
-        '
-        Me.mclarinflimage.Image = Global.Histacom.My.Resources.Resources.mclaren_f1
-        Me.mclarinflimage.Location = New System.Drawing.Point(26, 192)
-        Me.mclarinflimage.Name = "mclarinflimage"
-        Me.mclarinflimage.Size = New System.Drawing.Size(184, 115)
-        Me.mclarinflimage.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.mclarinflimage.TabIndex = 5
-        Me.mclarinflimage.TabStop = False
-        '
-        'Label35
-        '
-        Me.Label35.AutoSize = True
-        Me.Label35.Location = New System.Drawing.Point(72, 176)
-        Me.Label35.Name = "Label35"
-        Me.Label35.Size = New System.Drawing.Size(87, 13)
-        Me.Label35.TabIndex = 6
-        Me.Label35.Text = "1994 Mclaren F1"
-        '
-        'Button22
-        '
-        Me.Button22.BackColor = System.Drawing.Color.Silver
-        Me.Button22.Location = New System.Drawing.Point(26, 310)
-        Me.Button22.Name = "Button22"
-        Me.Button22.Size = New System.Drawing.Size(63, 23)
-        Me.Button22.TabIndex = 7
-        Me.Button22.Text = "Preview"
-        Me.Button22.UseVisualStyleBackColor = False
-        '
-        'Button21
-        '
-        Me.Button21.BackColor = System.Drawing.Color.Silver
-        Me.Button21.Location = New System.Drawing.Point(95, 310)
-        Me.Button21.Name = "Button21"
-        Me.Button21.Size = New System.Drawing.Size(115, 23)
-        Me.Button21.TabIndex = 8
-        Me.Button21.Text = "Set As Background"
-        Me.Button21.UseVisualStyleBackColor = False
-        '
-        'Previewimage
-        '
-        Me.Previewimage.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.Previewimage.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Previewimage.Location = New System.Drawing.Point(246, 6)
-        Me.Previewimage.Name = "Previewimage"
-        Me.Previewimage.Size = New System.Drawing.Size(1541, 2)
-        Me.Previewimage.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.Previewimage.TabIndex = 1
-        Me.Previewimage.TabStop = False
-        '
-        'browsingarea
-        '
-        Me.browsingarea.BackColor = System.Drawing.Color.White
-        Me.browsingarea.Controls.Add(Me.padamsbackgrounds)
-        Me.browsingarea.Controls.Add(Me.hotmailmain)
-        Me.browsingarea.Controls.Add(Me.welcomeinternetscreen)
-        Me.browsingarea.Controls.Add(Me.hotmailpadams)
-        Me.browsingarea.Controls.Add(Me.googlealpha)
-        Me.browsingarea.Controls.Add(Me.padamsmain)
-        Me.browsingarea.Controls.Add(Me.padamshidden)
-        Me.browsingarea.Controls.Add(Me.secretwebsite)
-        Me.browsingarea.Controls.Add(Me.skindows95advertisment)
-        Me.browsingarea.Controls.Add(Me.googlemain)
-        Me.browsingarea.Controls.Add(Me.googleprototype)
-        Me.browsingarea.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.browsingarea.Location = New System.Drawing.Point(0, 111)
-        Me.browsingarea.Name = "browsingarea"
-        Me.browsingarea.Size = New System.Drawing.Size(959, 483)
-        Me.browsingarea.TabIndex = 9
-        '
         'internet_explorer_4
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -3142,76 +3119,76 @@ Partial Class internet_explorer_4
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.program.ResumeLayout(False)
         Me.program.PerformLayout()
-        Me.Panel14.ResumeLayout(False)
-        Me.Panel14.PerformLayout()
-        Me.googleprototype.ResumeLayout(False)
-        Me.googleprototype.PerformLayout()
-        CType(Me.pboxgoogleprototypelogo, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.Panel2.ResumeLayout(False)
-        Me.Panel2.PerformLayout()
-        Me.Panel3.ResumeLayout(False)
-        Me.Panel3.PerformLayout()
-        Me.googlemain.ResumeLayout(False)
-        Me.googlemain.PerformLayout()
-        Me.skindows95advertisment.ResumeLayout(False)
-        Me.skindows95advertisment.PerformLayout()
-        CType(Me.PictureBox11, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.secretwebsite.ResumeLayout(False)
-        Me.secretwebsite.PerformLayout()
-        Me.padamshidden.ResumeLayout(False)
-        Me.padamshidden.PerformLayout()
-        Me.padamsmain.ResumeLayout(False)
-        Me.padamsmain.PerformLayout()
-        Me.Panel8.ResumeLayout(False)
-        Me.Panel8.PerformLayout()
-        Me.Panel9.ResumeLayout(False)
-        Me.Panel9.PerformLayout()
-        Me.Panel10.ResumeLayout(False)
-        Me.Panel10.PerformLayout()
-        Me.Panel12.ResumeLayout(False)
-        Me.Panel12.PerformLayout()
-        Me.googlealpha.ResumeLayout(False)
-        Me.googlealpha.PerformLayout()
-        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.Panel4.ResumeLayout(False)
-        Me.Panel4.PerformLayout()
-        Me.Panel5.ResumeLayout(False)
-        Me.Panel5.PerformLayout()
-        Me.Panel7.ResumeLayout(False)
-        Me.Panel7.PerformLayout()
-        Me.Panel6.ResumeLayout(False)
-        Me.Panel6.PerformLayout()
-        Me.hotmailpadams.ResumeLayout(False)
-        CType(Me.PictureBox12, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox13, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox14, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.email2.ResumeLayout(False)
-        Me.email2.PerformLayout()
-        Me.email3.ResumeLayout(False)
-        Me.email3.PerformLayout()
-        Me.email1.ResumeLayout(False)
-        Me.email1.PerformLayout()
-        Me.welcomeinternetscreen.ResumeLayout(False)
-        Me.welcomeinternetscreen.PerformLayout()
-        Me.hotmailmain.ResumeLayout(False)
-        Me.hotmailmain.PerformLayout()
-        Me.Panel11.ResumeLayout(False)
-        CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox6, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox7, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox8, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox10, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox9, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.browsingarea.ResumeLayout(False)
         Me.padamsbackgrounds.ResumeLayout(False)
         Me.padamsbackgrounds.PerformLayout()
         Me.Panel13.ResumeLayout(False)
         Me.Panel13.PerformLayout()
-        CType(Me.win95background, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.mclarinflimage, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.Previewimage, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.browsingarea.ResumeLayout(False)
+        CType(Me.mclarinflimage, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.win95background, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.hotmailmain.ResumeLayout(False)
+        Me.hotmailmain.PerformLayout()
+        CType(Me.PictureBox9, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox10, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox8, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox7, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox6, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Panel11.ResumeLayout(False)
+        CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.welcomeinternetscreen.ResumeLayout(False)
+        Me.welcomeinternetscreen.PerformLayout()
+        Me.hotmailpadams.ResumeLayout(False)
+        Me.email1.ResumeLayout(False)
+        Me.email1.PerformLayout()
+        Me.email3.ResumeLayout(False)
+        Me.email3.PerformLayout()
+        Me.email2.ResumeLayout(False)
+        Me.email2.PerformLayout()
+        CType(Me.PictureBox14, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox13, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox12, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.googlealpha.ResumeLayout(False)
+        Me.googlealpha.PerformLayout()
+        Me.Panel6.ResumeLayout(False)
+        Me.Panel6.PerformLayout()
+        Me.Panel7.ResumeLayout(False)
+        Me.Panel7.PerformLayout()
+        Me.Panel5.ResumeLayout(False)
+        Me.Panel5.PerformLayout()
+        Me.Panel4.ResumeLayout(False)
+        Me.Panel4.PerformLayout()
+        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.padamsmain.ResumeLayout(False)
+        Me.padamsmain.PerformLayout()
+        Me.Panel12.ResumeLayout(False)
+        Me.Panel12.PerformLayout()
+        Me.Panel10.ResumeLayout(False)
+        Me.Panel10.PerformLayout()
+        Me.Panel9.ResumeLayout(False)
+        Me.Panel9.PerformLayout()
+        Me.Panel8.ResumeLayout(False)
+        Me.Panel8.PerformLayout()
+        Me.padamshidden.ResumeLayout(False)
+        Me.padamshidden.PerformLayout()
+        Me.secretwebsite.ResumeLayout(False)
+        Me.secretwebsite.PerformLayout()
+        Me.skindows95advertisment.ResumeLayout(False)
+        Me.skindows95advertisment.PerformLayout()
+        CType(Me.PictureBox11, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.googlemain.ResumeLayout(False)
+        Me.googlemain.PerformLayout()
+        Me.googleprototype.ResumeLayout(False)
+        Me.googleprototype.PerformLayout()
+        Me.Panel3.ResumeLayout(False)
+        Me.Panel3.PerformLayout()
+        Me.Panel2.ResumeLayout(False)
+        Me.Panel2.PerformLayout()
+        CType(Me.pboxgoogleprototypelogo, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Panel14.ResumeLayout(False)
+        Me.Panel14.PerformLayout()
         Me.ResumeLayout(False)
 
     End Sub
@@ -3445,8 +3422,6 @@ Partial Class internet_explorer_4
     Friend WithEvents Label38 As Label
     Friend WithEvents Label20 As Label
     Friend WithEvents Panel10 As Panel
-    Friend WithEvents Button16 As Button
-    Friend WithEvents Label22 As Label
     Friend WithEvents Button15 As Button
     Friend WithEvents Label21 As Label
     Friend WithEvents Label18 As Label
