@@ -1,0 +1,370 @@
+SHIDI_FLIP3D ICON "Icon_1.ico"
+
+2 ICON "Icon_2.ico"
+
+3 ICON "Icon_3.ico"
+
+4 ICON "Icon_4.ico"
+
+5 ICON "Icon_5.ico"
+
+6 ICON "Icon_6.ico"
+
+8 ICON "Icon_7.ico"
+
+9 ICON "Icon_8.ico"
+
+10 ICON "Icon_9.ico"
+
+14 ICON "Icon_10.ico"
+
+15 ICON "Icon_11.ico"
+
+17 ICON "Icon_12.ico"
+
+18 ICON "Icon_13.ico"
+
+19 ICON "Icon_14.ico"
+
+20 ICON "Icon_15.ico"
+
+21 ICON "Icon_16.ico"
+
+22 ICON "Icon_17.ico"
+
+23 ICON "Icon_18.ico"
+
+24 ICON "Icon_19.ico"
+
+25 ICON "Icon_20.ico"
+
+26 ICON "Icon_21.ico"
+
+27 ICON "Icon_22.ico"
+
+28 ICON "Icon_23.ico"
+
+29 ICON "Icon_24.ico"
+
+30 ICON "Icon_25.ico"
+
+31 ICON "Icon_26.ico"
+
+32 ICON "Icon_27.ico"
+
+33 ICON "Icon_28.ico"
+
+34 ICON "Icon_29.ico"
+
+35 ICON "Icon_30.ico"
+
+36 ICON "Icon_31.ico"
+
+37 ICON "Icon_32.ico"
+
+38 ICON "Icon_33.ico"
+
+39 ICON "Icon_34.ico"
+
+40 ICON "Icon_35.ico"
+
+41 ICON "Icon_36.ico"
+
+42 ICON "Icon_37.ico"
+
+43 ICON "Icon_38.ico"
+
+44 ICON "Icon_39.ico"
+
+45 ICON "Icon_40.ico"
+
+46 ICON "Icon_41.ico"
+
+47 ICON "Icon_42.ico"
+
+48 ICON "Icon_43.ico"
+
+49 ICON "Icon_44.ico"
+
+50 ICON "Icon_45.ico"
+
+51 ICON "Icon_46.ico"
+
+52 ICON "Icon_47.ico"
+
+53 ICON "Icon_48.ico"
+
+54 ICON "Icon_49.ico"
+
+55 ICON "Icon_50.ico"
+
+56 ICON "Icon_51.ico"
+
+57 ICON "Icon_52.ico"
+
+58 ICON "Icon_53.ico"
+
+59 ICON "Icon_54.ico"
+
+60 ICON "Icon_55.ico"
+
+61 ICON "Icon_56.ico"
+
+62 ICON "Icon_57.ico"
+
+63 ICON "Icon_58.ico"
+
+64 ICON "Icon_59.ico"
+
+65 ICON "Icon_60.ico"
+
+66 ICON "Icon_61.ico"
+
+67 ICON "Icon_62.ico"
+
+68 ICON "Icon_63.ico"
+
+69 ICON "Icon_64.ico"
+
+70 ICON "Icon_65.ico"
+
+71 ICON "Icon_66.ico"
+
+72 ICON "Icon_67.ico"
+
+73 ICON "Icon_68.ico"
+
+74 ICON "Icon_69.ico"
+
+75 ICON "Icon_70.ico"
+
+76 ICON "Icon_71.ico"
+
+77 ICON "Icon_72.ico"
+
+78 ICON "Icon_73.ico"
+
+79 ICON "Icon_74.ico"
+
+80 ICON "Icon_75.ico"
+
+81 ICON "Icon_76.ico"
+
+82 ICON "Icon_77.ico"
+
+83 ICON "Icon_78.ico"
+
+84 ICON "Icon_79.ico"
+
+85 ICON "Icon_80.ico"
+
+86 ICON "Icon_81.ico"
+
+87 ICON "Icon_82.ico"
+
+88 ICON "Icon_83.ico"
+
+89 ICON "Icon_84.ico"
+
+90 ICON "Icon_85.ico"
+
+91 ICON "Icon_86.ico"
+
+92 ICON "Icon_87.ico"
+
+93 ICON "Icon_88.ico"
+
+94 ICON "Icon_89.ico"
+
+95 ICON "Icon_90.ico"
+
+96 ICON "Icon_91.ico"
+
+97 ICON "Icon_92.ico"
+
+98 ICON "Icon_93.ico"
+
+99 ICON "Icon_94.ico"
+
+100 ICON "Icon_95.ico"
+
+101 ICON "Icon_96.ico"
+
+102 ICON "Icon_97.ico"
+
+103 ICON "Icon_98.ico"
+
+104 ICON "Icon_99.ico"
+
+105 ICON "Icon_100.ico"
+
+106 ICON "Icon_101.ico"
+
+107 ICON "Icon_102.ico"
+
+108 ICON "Icon_103.ico"
+
+109 ICON "Icon_104.ico"
+
+110 ICON "Icon_105.ico"
+
+111 ICON "Icon_106.ico"
+
+112 ICON "Icon_107.ico"
+
+113 ICON "Icon_108.ico"
+
+114 ICON "Icon_109.ico"
+
+115 ICON "Icon_110.ico"
+
+116 ICON "Icon_111.ico"
+
+117 ICON "Icon_112.ico"
+
+119 ICON "Icon_113.ico"
+
+120 ICON "Icon_114.ico"
+
+121 ICON "Icon_115.ico"
+
+122 ICON "Icon_116.ico"
+
+123 ICON "Icon_117.ico"
+
+124 ICON "Icon_118.ico"
+
+125 ICON "Icon_119.ico"
+
+126 ICON "Icon_120.ico"
+
+127 ICON "Icon_121.ico"
+
+128 ICON "Icon_122.ico"
+
+129 ICON "Icon_123.ico"
+
+130 ICON "Icon_124.ico"
+
+131 ICON "Icon_125.ico"
+
+132 ICON "Icon_126.ico"
+
+133 ICON "Icon_127.ico"
+
+134 ICON "Icon_128.ico"
+
+135 ICON "Icon_129.ico"
+
+136 ICON "Icon_130.ico"
+
+137 ICON "Icon_131.ico"
+
+138 ICON "Icon_132.ico"
+
+139 ICON "Icon_133.ico"
+
+140 ICON "Icon_134.ico"
+
+141 ICON "Icon_135.ico"
+
+142 ICON "Icon_136.ico"
+
+143 ICON "Icon_137.ico"
+
+144 ICON "Icon_138.ico"
+
+145 ICON "Icon_139.ico"
+
+146 ICON "Icon_140.ico"
+
+147 ICON "Icon_141.ico"
+
+148 ICON "Icon_142.ico"
+
+149 ICON "Icon_143.ico"
+
+150 ICON "Icon_144.ico"
+
+151 ICON "Icon_145.ico"
+
+152 ICON "Icon_146.ico"
+
+155 ICON "Icon_147.ico"
+
+158 ICON "Icon_148.ico"
+
+159 ICON "Icon_149.ico"
+
+160 ICON "Icon_150.ico"
+
+161 ICON "Icon_151.ico"
+
+162 ICON "Icon_152.ico"
+
+163 ICON "Icon_153.ico"
+
+164 ICON "Icon_154.ico"
+
+165 ICON "Icon_155.ico"
+
+166 ICON "Icon_156.ico"
+
+167 ICON "Icon_157.ico"
+
+168 ICON "Icon_158.ico"
+
+169 ICON "Icon_159.ico"
+
+170 ICON "Icon_160.ico"
+
+171 ICON "Icon_161.ico"
+
+172 ICON "Icon_162.ico"
+
+173 ICON "Icon_163.ico"
+
+174 ICON "Icon_164.ico"
+
+175 ICON "Icon_165.ico"
+
+176 ICON "Icon_166.ico"
+
+177 ICON "Icon_167.ico"
+
+178 ICON "Icon_168.ico"
+
+179 ICON "Icon_169.ico"
+
+180 ICON "Icon_170.ico"
+
+181 ICON "Icon_171.ico"
+
+182 ICON "Icon_172.ico"
+
+183 ICON "Icon_173.ico"
+
+184 ICON "Icon_174.ico"
+
+185 ICON "Icon_175.ico"
+
+186 ICON "Icon_176.ico"
+
+189 ICON "Icon_177.ico"
+
+190 ICON "Icon_178.ico"
+
+191 ICON "Icon_179.ico"
+
+192 ICON "Icon_180.ico"
+
+193 ICON "Icon_181.ico"
+
+194 ICON "Icon_182.ico"
+
+195 ICON "Icon_183.ico"
+
+196 ICON "Icon_184.ico"
+
+197 ICON "Icon_185.ico"
+
