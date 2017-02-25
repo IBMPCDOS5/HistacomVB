@@ -89,13 +89,6 @@ Partial Class Windows95
         Me.ShutdownToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
         Me.ossidestartmenu = New System.Windows.Forms.Panel()
         Me.osimage = New System.Windows.Forms.PictureBox()
-        Me.program = New System.Windows.Forms.Panel()
-        Me.outsideprogramtopbar = New System.Windows.Forms.Panel()
-        Me.exampleprogramtopbar = New System.Windows.Forms.Panel()
-        Me.maximizebutton = New System.Windows.Forms.PictureBox()
-        Me.minimizebutton = New System.Windows.Forms.PictureBox()
-        Me.exampleprogramtext = New System.Windows.Forms.Label()
-        Me.closebutton = New System.Windows.Forms.PictureBox()
         Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
         Me.rightclickbackproperties = New System.Windows.Forms.ContextMenuStrip(Me.components)
         Me.PropertiesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
@@ -131,16 +124,16 @@ Partial Class Windows95
         Me.pnlWeb = New System.Windows.Forms.Panel()
         Me.txtWeb = New System.Windows.Forms.Label()
         Me.picWeb = New System.Windows.Forms.PictureBox()
+        Me.pnlTime = New System.Windows.Forms.Panel()
+        Me.txtTime = New System.Windows.Forms.Label()
+        Me.picTime = New System.Windows.Forms.PictureBox()
+        Me.pnlStartR = New System.Windows.Forms.Panel()
+        Me.txtStartR = New System.Windows.Forms.Label()
+        Me.picStartR = New System.Windows.Forms.PictureBox()
         Me.startmenu.SuspendLayout()
         Me.startmenuitems.SuspendLayout()
         Me.ossidestartmenu.SuspendLayout()
         CType(Me.osimage, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.program.SuspendLayout()
-        Me.outsideprogramtopbar.SuspendLayout()
-        Me.exampleprogramtopbar.SuspendLayout()
-        CType(Me.maximizebutton, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.minimizebutton, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.closebutton, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.rightclickbackproperties.SuspendLayout()
         Me.taskbar.SuspendLayout()
         CType(Me.startbutton, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -148,6 +141,10 @@ Partial Class Windows95
         CType(Me.picGuess, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.pnlWeb.SuspendLayout()
         CType(Me.picWeb, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.pnlTime.SuspendLayout()
+        CType(Me.picTime, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.pnlStartR.SuspendLayout()
+        CType(Me.picStartR, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'startmenu
@@ -726,83 +723,6 @@ Partial Class Windows95
         Me.osimage.TabIndex = 0
         Me.osimage.TabStop = False
         '
-        'program
-        '
-        Me.program.Anchor = System.Windows.Forms.AnchorStyles.Left
-        Me.program.BackColor = System.Drawing.Color.Silver
-        Me.program.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.program.Controls.Add(Me.outsideprogramtopbar)
-        Me.program.Location = New System.Drawing.Point(193, 276)
-        Me.program.Name = "program"
-        Me.program.RightToLeft = System.Windows.Forms.RightToLeft.No
-        Me.program.Size = New System.Drawing.Size(367, 253)
-        Me.program.TabIndex = 2
-        '
-        'outsideprogramtopbar
-        '
-        Me.outsideprogramtopbar.Controls.Add(Me.exampleprogramtopbar)
-        Me.outsideprogramtopbar.Dock = System.Windows.Forms.DockStyle.Top
-        Me.outsideprogramtopbar.Location = New System.Drawing.Point(0, 0)
-        Me.outsideprogramtopbar.Name = "outsideprogramtopbar"
-        Me.outsideprogramtopbar.Size = New System.Drawing.Size(363, 25)
-        Me.outsideprogramtopbar.TabIndex = 5
-        '
-        'exampleprogramtopbar
-        '
-        Me.exampleprogramtopbar.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.exampleprogramtopbar.BackColor = System.Drawing.Color.DarkBlue
-        Me.exampleprogramtopbar.Controls.Add(Me.maximizebutton)
-        Me.exampleprogramtopbar.Controls.Add(Me.minimizebutton)
-        Me.exampleprogramtopbar.Controls.Add(Me.exampleprogramtext)
-        Me.exampleprogramtopbar.Controls.Add(Me.closebutton)
-        Me.exampleprogramtopbar.Location = New System.Drawing.Point(3, 3)
-        Me.exampleprogramtopbar.Name = "exampleprogramtopbar"
-        Me.exampleprogramtopbar.Size = New System.Drawing.Size(357, 18)
-        Me.exampleprogramtopbar.TabIndex = 0
-        '
-        'maximizebutton
-        '
-        Me.maximizebutton.Anchor = System.Windows.Forms.AnchorStyles.Right
-        Me.maximizebutton.Image = Global.Histacom.My.Resources.Resources.Maximize
-        Me.maximizebutton.Location = New System.Drawing.Point(323, 2)
-        Me.maximizebutton.Name = "maximizebutton"
-        Me.maximizebutton.Size = New System.Drawing.Size(16, 14)
-        Me.maximizebutton.TabIndex = 6
-        Me.maximizebutton.TabStop = False
-        '
-        'minimizebutton
-        '
-        Me.minimizebutton.Anchor = System.Windows.Forms.AnchorStyles.Right
-        Me.minimizebutton.Image = Global.Histacom.My.Resources.Resources.minimize
-        Me.minimizebutton.Location = New System.Drawing.Point(307, 2)
-        Me.minimizebutton.Name = "minimizebutton"
-        Me.minimizebutton.Size = New System.Drawing.Size(16, 14)
-        Me.minimizebutton.TabIndex = 5
-        Me.minimizebutton.TabStop = False
-        '
-        'exampleprogramtext
-        '
-        Me.exampleprogramtext.AutoSize = True
-        Me.exampleprogramtext.BackColor = System.Drawing.Color.Transparent
-        Me.exampleprogramtext.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.exampleprogramtext.ForeColor = System.Drawing.Color.White
-        Me.exampleprogramtext.Location = New System.Drawing.Point(3, 2)
-        Me.exampleprogramtext.Name = "exampleprogramtext"
-        Me.exampleprogramtext.Size = New System.Drawing.Size(90, 13)
-        Me.exampleprogramtext.TabIndex = 3
-        Me.exampleprogramtext.Text = "Program1name"
-        '
-        'closebutton
-        '
-        Me.closebutton.Anchor = System.Windows.Forms.AnchorStyles.Right
-        Me.closebutton.Image = Global.Histacom.My.Resources.Resources.close
-        Me.closebutton.Location = New System.Drawing.Point(340, 2)
-        Me.closebutton.Name = "closebutton"
-        Me.closebutton.Size = New System.Drawing.Size(16, 14)
-        Me.closebutton.TabIndex = 4
-        Me.closebutton.TabStop = False
-        '
         'Timer1
         '
         '
@@ -966,19 +886,18 @@ Partial Class Windows95
         'desktopicons
         '
         Me.desktopicons.Alignment = System.Windows.Forms.ListViewAlignment.Left
-        Me.desktopicons.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.desktopicons.BackColor = System.Drawing.Color.Gray
         Me.desktopicons.BackgroundImageTiled = True
         Me.desktopicons.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.desktopicons.ContextMenuStrip = Me.rightclickbackproperties
+        Me.desktopicons.Dock = System.Windows.Forms.DockStyle.Fill
         Me.desktopicons.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.desktopicons.ForeColor = System.Drawing.Color.White
         Me.desktopicons.Items.AddRange(New System.Windows.Forms.ListViewItem() {ListViewItem1, ListViewItem2, ListViewItem3, ListViewItem4, ListViewItem5, ListViewItem6, ListViewItem7, ListViewItem8})
         Me.desktopicons.LargeImageList = Me.desktopiconsimages
         Me.desktopicons.Location = New System.Drawing.Point(0, 0)
         Me.desktopicons.Name = "desktopicons"
-        Me.desktopicons.Size = New System.Drawing.Size(784, 535)
+        Me.desktopicons.Size = New System.Drawing.Size(784, 562)
         Me.desktopicons.TabIndex = 5
         Me.desktopicons.UseCompatibleStateImageBehavior = False
         '
@@ -1016,8 +935,7 @@ Partial Class Windows95
         '
         'pnlGuess
         '
-        Me.pnlGuess.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.pnlGuess.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.pnlGuess.BackColor = System.Drawing.Color.Transparent
         Me.pnlGuess.Controls.Add(Me.txtGuess)
         Me.pnlGuess.Controls.Add(Me.picGuess)
@@ -1025,10 +943,12 @@ Partial Class Windows95
         Me.pnlGuess.Name = "pnlGuess"
         Me.pnlGuess.Size = New System.Drawing.Size(50, 84)
         Me.pnlGuess.TabIndex = 6
+        Me.pnlGuess.Visible = False
         '
         'txtGuess
         '
         Me.txtGuess.AutoSize = True
+        Me.txtGuess.ForeColor = System.Drawing.Color.White
         Me.txtGuess.Location = New System.Drawing.Point(4, 39)
         Me.txtGuess.Name = "txtGuess"
         Me.txtGuess.Size = New System.Drawing.Size(42, 39)
@@ -1047,8 +967,7 @@ Partial Class Windows95
         '
         'pnlWeb
         '
-        Me.pnlWeb.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.pnlWeb.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.pnlWeb.BackColor = System.Drawing.Color.Transparent
         Me.pnlWeb.Controls.Add(Me.txtWeb)
         Me.pnlWeb.Controls.Add(Me.picWeb)
@@ -1056,10 +975,12 @@ Partial Class Windows95
         Me.pnlWeb.Name = "pnlWeb"
         Me.pnlWeb.Size = New System.Drawing.Size(50, 84)
         Me.pnlWeb.TabIndex = 6
+        Me.pnlWeb.Visible = False
         '
         'txtWeb
         '
         Me.txtWeb.AutoSize = True
+        Me.txtWeb.ForeColor = System.Drawing.Color.White
         Me.txtWeb.Location = New System.Drawing.Point(7, 39)
         Me.txtWeb.Name = "txtWeb"
         Me.txtWeb.Size = New System.Drawing.Size(33, 39)
@@ -1076,6 +997,70 @@ Partial Class Windows95
         Me.picWeb.TabIndex = 0
         Me.picWeb.TabStop = False
         '
+        'pnlTime
+        '
+        Me.pnlTime.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.pnlTime.BackColor = System.Drawing.Color.Transparent
+        Me.pnlTime.Controls.Add(Me.txtTime)
+        Me.pnlTime.Controls.Add(Me.picTime)
+        Me.pnlTime.Location = New System.Drawing.Point(722, 289)
+        Me.pnlTime.Name = "pnlTime"
+        Me.pnlTime.Size = New System.Drawing.Size(50, 84)
+        Me.pnlTime.TabIndex = 6
+        Me.pnlTime.Visible = False
+        '
+        'txtTime
+        '
+        Me.txtTime.AutoSize = True
+        Me.txtTime.ForeColor = System.Drawing.Color.White
+        Me.txtTime.Location = New System.Drawing.Point(3, 39)
+        Me.txtTime.Name = "txtTime"
+        Me.txtTime.Size = New System.Drawing.Size(46, 39)
+        Me.txtTime.TabIndex = 1
+        Me.txtTime.Text = "Time" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Distorter" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "v1"
+        '
+        'picTime
+        '
+        Me.picTime.Image = Global.Histacom.My.Resources.Resources.Time_Distorter_icon
+        Me.picTime.Location = New System.Drawing.Point(7, 3)
+        Me.picTime.Name = "picTime"
+        Me.picTime.Size = New System.Drawing.Size(33, 33)
+        Me.picTime.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.picTime.TabIndex = 0
+        Me.picTime.TabStop = False
+        '
+        'pnlStartR
+        '
+        Me.pnlStartR.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.pnlStartR.BackColor = System.Drawing.Color.Transparent
+        Me.pnlStartR.Controls.Add(Me.txtStartR)
+        Me.pnlStartR.Controls.Add(Me.picStartR)
+        Me.pnlStartR.Location = New System.Drawing.Point(722, 208)
+        Me.pnlStartR.Name = "pnlStartR"
+        Me.pnlStartR.Size = New System.Drawing.Size(50, 75)
+        Me.pnlStartR.TabIndex = 6
+        Me.pnlStartR.Visible = False
+        '
+        'txtStartR
+        '
+        Me.txtStartR.AutoSize = True
+        Me.txtStartR.ForeColor = System.Drawing.Color.White
+        Me.txtStartR.Location = New System.Drawing.Point(3, 39)
+        Me.txtStartR.Name = "txtStartR"
+        Me.txtStartR.Size = New System.Drawing.Size(42, 26)
+        Me.txtStartR.TabIndex = 1
+        Me.txtStartR.Text = "Start" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Runner"
+        '
+        'picStartR
+        '
+        Me.picStartR.Image = Global.Histacom.My.Resources.Resources.start_run
+        Me.picStartR.Location = New System.Drawing.Point(7, 3)
+        Me.picStartR.Name = "picStartR"
+        Me.picStartR.Size = New System.Drawing.Size(33, 33)
+        Me.picStartR.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.picStartR.TabIndex = 0
+        Me.picStartR.TabStop = False
+        '
         'Windows95
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -1083,12 +1068,13 @@ Partial Class Windows95
         Me.BackColor = System.Drawing.Color.Teal
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(784, 562)
+        Me.Controls.Add(Me.pnlStartR)
+        Me.Controls.Add(Me.pnlTime)
         Me.Controls.Add(Me.pnlWeb)
         Me.Controls.Add(Me.pnlGuess)
         Me.Controls.Add(Me.taskbar)
-        Me.Controls.Add(Me.program)
-        Me.Controls.Add(Me.desktopicons)
         Me.Controls.Add(Me.startmenu)
+        Me.Controls.Add(Me.desktopicons)
         Me.Name = "Windows95"
         Me.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Show
         Me.Text = "Form1"
@@ -1099,13 +1085,6 @@ Partial Class Windows95
         Me.startmenuitems.PerformLayout()
         Me.ossidestartmenu.ResumeLayout(False)
         CType(Me.osimage, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.program.ResumeLayout(False)
-        Me.outsideprogramtopbar.ResumeLayout(False)
-        Me.exampleprogramtopbar.ResumeLayout(False)
-        Me.exampleprogramtopbar.PerformLayout()
-        CType(Me.maximizebutton, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.minimizebutton, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.closebutton, System.ComponentModel.ISupportInitialize).EndInit()
         Me.rightclickbackproperties.ResumeLayout(False)
         Me.taskbar.ResumeLayout(False)
         Me.taskbar.PerformLayout()
@@ -1116,6 +1095,12 @@ Partial Class Windows95
         Me.pnlWeb.ResumeLayout(False)
         Me.pnlWeb.PerformLayout()
         CType(Me.picWeb, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.pnlTime.ResumeLayout(False)
+        Me.pnlTime.PerformLayout()
+        CType(Me.picTime, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.pnlStartR.ResumeLayout(False)
+        Me.pnlStartR.PerformLayout()
+        CType(Me.picStartR, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
@@ -1137,9 +1122,6 @@ Partial Class Windows95
     Friend WithEvents NotePadToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents PaintToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents WordPadToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents program As System.Windows.Forms.Panel
-    Friend WithEvents exampleprogramtopbar As System.Windows.Forms.Panel
-    Friend WithEvents exampleprogramtext As System.Windows.Forms.Label
     Friend WithEvents ControlPanelToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents PrintersToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents TaskbarToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
@@ -1155,10 +1137,6 @@ Partial Class Windows95
     Friend WithEvents rightclickbackproperties As System.Windows.Forms.ContextMenuStrip
     Friend WithEvents PropertiesToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents ShutdownToolStripMenuItem1 As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents closebutton As System.Windows.Forms.PictureBox
-    Friend WithEvents maximizebutton As System.Windows.Forms.PictureBox
-    Friend WithEvents minimizebutton As System.Windows.Forms.PictureBox
-    Friend WithEvents outsideprogramtopbar As System.Windows.Forms.Panel
     Friend WithEvents startbutton As System.Windows.Forms.PictureBox
     Friend WithEvents Timer2 As System.Windows.Forms.Timer
     Friend WithEvents ByNameToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
@@ -1218,4 +1196,10 @@ Partial Class Windows95
     Friend WithEvents pnlWeb As Panel
     Friend WithEvents txtWeb As Label
     Friend WithEvents picWeb As PictureBox
+    Friend WithEvents pnlTime As Panel
+    Friend WithEvents txtTime As Label
+    Friend WithEvents picTime As PictureBox
+    Friend WithEvents pnlStartR As Panel
+    Friend WithEvents txtStartR As Label
+    Friend WithEvents picStartR As PictureBox
 End Class

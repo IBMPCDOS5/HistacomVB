@@ -91,13 +91,19 @@
     End Sub
 
     Private Sub Button17_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button17.Click
-        GameMain.OpenInstaller("guessNum", My.Resources.guess_the_number_one, AppsLicense.normalLicense, "Guess The Number", 20)
+        If Not GameMain.guessInstalled Then
+            GameMain.OpenInstaller("guessNum", My.Resources.guess_the_number_one, AppsLicense.normalLicense, "Guess The Number", 20)
+        Else
+            GameMain.OpenMsg("You already have Guess The Number Installed!")
+        End If
     End Sub
 
     Private Sub Button15_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button15.Click
-        Dim opendownload As New downloader
-        opendownload.Show()
-        opendownload.Label2.Text = "Downloading: Start Runner"
+        If Not GameMain.StartRInstalled Then
+            GameMain.OpenInstaller("startR", My.Resources.start_run__install___white_with_programname_, AppsLicense.normalLicense, "Start Runner", 60)
+        Else
+            GameMain.OpenMsg("You already have Start Runner Installed!")
+        End If
     End Sub
 
     Private Sub Button16_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
@@ -181,7 +187,11 @@
         'Dim opendownload As New downloader
         'opendownload.Show()
         'opendownload.Label2.Text = "Downloading: Web Chat"
-        GameMain.OpenInstaller("webChat", My.Resources.chat_big, AppsLicense.normalLicense, "Web Chat 1998", 100)
+        If Not GameMain.webChatInstalled Then
+            GameMain.OpenInstaller("webChat", My.Resources.chat_big, AppsLicense.normalLicense, "Web Chat 1998", 100)
+        Else
+            GameMain.OpenMsg("The application Web Chat 1998 is already installed!")
+        End If
     End Sub
 
     Private Sub Label20_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Label20.Click
@@ -233,8 +243,11 @@
     End Sub
 
     Private Sub Button26_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button26.Click
-        Dim opendownload As New downloader
-        opendownload.Show()
-        opendownload.Label2.Text = "Downloading: Time Distorter"
+        'Dim opendownload As New downloader
+        'opendownload.Show()
+        'opendownload.Label2.Text = "Downloading: Time Distorter"
+        If Not GameMain.time1Installed Then
+            GameMain.OpenInstaller("time1", My.Resources.time_distorter__install_Black_, AppsLicense.normalLicense, "Time Distorter v1", 1000)
+        End If
     End Sub
 End Class

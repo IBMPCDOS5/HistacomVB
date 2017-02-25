@@ -5,8 +5,8 @@
     End Sub
 
     Private Sub Button1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button1.Click
-        Windows95.exampleprogramtopbar.BackColor = exampletopbar.BackColor
-        Windows95.exampleprogramtopbar.BackgroundImage = exampletopbar.BackgroundImage
+        'Windows95.exampleprogramtopbar.BackColor = exampletopbar.BackColor
+        'Windows95.exampleprogramtopbar.BackgroundImage = exampletopbar.BackgroundImage
     End Sub
 
     Private Sub Panel15_click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Panel15.Click

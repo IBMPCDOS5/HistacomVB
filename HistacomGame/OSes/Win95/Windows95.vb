@@ -15,10 +15,10 @@
             My.Computer.Audio.Play(bStr, AudioPlayMode.Background)
         End If
         startmenu.Hide()
-        program.Hide()
+        'program.Hide()
         Timer4.Start()
         Timer1.Start()
-        exampleprogramtopbar.Show()
+        'exampleprogramtopbar.Show()
         Me.FormBorderStyle = Windows.Forms.FormBorderStyle.None
         Me.WindowState = FormWindowState.Maximized
         System.Windows.Forms.Application.VisualStyleState = VisualStyles.VisualStyleState.NoneEnabled
@@ -37,7 +37,7 @@
     End Sub
 
     Private Sub ExitToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
-        program.Hide()
+        'program.Hide()
     End Sub
 
     Private Sub CalculatorToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles CalculatorToolStripMenuItem.Click
@@ -126,12 +126,12 @@
 
     End Sub
 
-    Private Sub minimizebutton_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles minimizebutton.Click
-        program.Dock = DockStyle.None
+    Private Sub minimizebutton_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
+        'program.Dock = DockStyle.None
     End Sub
 
-    Private Sub maximizebutton_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles maximizebutton.Click
-        program.Dock = DockStyle.Fill
+    Private Sub maximizebutton_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
+        'program.Dock = DockStyle.Fill
     End Sub
 
     Private Sub startbutton_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles startbutton.Click
@@ -272,8 +272,17 @@
         openGuess.Show()
     End Sub
 
-    Private Sub pnlWeb_Click(sender As Object, e As PaintEventArgs) Handles pnlWeb.Click, picWeb.Click, txtWeb.Click
+    Private Sub pnlWeb_Click(sender As Object, e As EventArgs) Handles pnlWeb.Click, picWeb.Click, txtWeb.Click
         Dim openWeb As New Webchat1998
         openWeb.Show()
+    End Sub
+
+    Private Sub pnlTime_Click(sender As Object, e As EventArgs) Handles pnlTime.Click, picTime.Click, txtTime.Click
+        time_distorter.Show()
+    End Sub
+
+    Private Sub pnlStartR_Click(sender As Object, e As EventArgs) Handles txtStartR.Click, pnlStartR.Click, picStartR.Click
+        Dim openSR As New startrunner
+        openSR.Show()
     End Sub
 End Class

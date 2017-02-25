@@ -1,6 +1,8 @@
 ﻿Public Class GameMain
     Public Shared guessInstalled As Boolean
     Public Shared webChatInstalled As Boolean
+    Public Shared startRInstalled As Boolean
+    Public Shared time1Installed As Boolean
 
     Public Shared Sub saveGame()
 
@@ -30,6 +32,16 @@
                 Windows98.WebChatToolStripMenuItem.Visible = True
                 Windows2000.WebChatToolStripMenuItem.Visible = True
                 Windows95.pnlWeb.Show()
+            Case "startR"
+                startRInstalled = True
+                Windows95.StartRunnerToolStripMenuItem.Visible = True
+                Windows98.StartRunnerToolStripMenuItem.Visible = True
+                Windows2000.StartRunnerToolStripMenuItem.Visible = True
+                Windows95.pnlstartR.Show()
+            Case "time1"
+                time1Installed = True
+                Windows95.TimeDistorterToolStripMenuItem.Visible = True
+                Windows95.pnlTime.Show()
         End Select
     End Sub
 
