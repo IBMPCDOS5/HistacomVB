@@ -28,6 +28,7 @@ Partial Class Title_Screen
         Me.buttonexit = New System.Windows.Forms.PictureBox()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
+        Me.Label3 = New System.Windows.Forms.Label()
         CType(Me.buttonnewgame, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.buttonloadgame, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.buttonexit, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -93,6 +94,19 @@ Partial Class Title_Screen
         Me.Label2.TabIndex = 3
         Me.Label2.Text = "Alpha 1 (Everything is basically messed up, right now)"
         '
+        'Label3
+        '
+        Me.Label3.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
+        Me.Label3.AutoSize = True
+        Me.Label3.BackColor = System.Drawing.Color.White
+        Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!)
+        Me.Label3.ForeColor = System.Drawing.Color.Black
+        Me.Label3.Location = New System.Drawing.Point(183, 400)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(405, 29)
+        Me.Label3.TabIndex = 3
+        Me.Label3.Text = "Version of the game with no borders!"
+        '
         'Title_Screen
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -101,6 +115,7 @@ Partial Class Title_Screen
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(784, 560)
         Me.Controls.Add(Me.Label2)
+        Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.buttonexit)
         Me.Controls.Add(Me.buttonloadgame)
@@ -122,4 +137,5 @@ Partial Class Title_Screen
     Friend WithEvents buttonexit As System.Windows.Forms.PictureBox
     Friend WithEvents Label1 As System.Windows.Forms.Label
     Friend WithEvents Label2 As Label
+    Friend WithEvents Label3 As Label
 End Class
