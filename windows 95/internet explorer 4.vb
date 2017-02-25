@@ -93,19 +93,19 @@
     End Sub
 
     Private Sub Button17_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button17.Click
-        Dim opendownload As New downloader95
+        Dim opendownload As New downloader
         opendownload.Show()
         opendownload.Label2.Text = "Downloading: Guess The Number"
     End Sub
 
     Private Sub Button15_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button15.Click
-        Dim opendownload As New downloader95
+        Dim opendownload As New downloader
         opendownload.Show()
         opendownload.Label2.Text = "Downloading: Start Runner"
     End Sub
 
     Private Sub Button16_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button16.Click
-        Dim opendownload As New downloader95
+        Dim opendownload As New downloader
         opendownload.Show()
         opendownload.Label2.Text = "Downloading: Error Blaster"
     End Sub
@@ -192,7 +192,7 @@
     End Sub
 
     Private Sub Button25_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button25.Click
-        Dim opendownload As New downloader95
+        Dim opendownload As New downloader
         opendownload.Show()
         opendownload.Label2.Text = "Downloading: Web Chat"
     End Sub
@@ -240,13 +240,13 @@
     End Sub
 
     Private Sub LinkLabel18_LinkClicked(ByVal sender As System.Object, ByVal e As System.Windows.Forms.LinkLabelLinkClickedEventArgs) Handles LinkLabel18.LinkClicked
-        Dim opendownload As New downloader95
+        Dim opendownload As New downloader
         opendownload.Show()
         opendownload.Label2.Text = "Downloading: hwcv.exe"
     End Sub
 
     Private Sub Button26_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button26.Click
-        Dim opendownload As New downloader95
+        Dim opendownload As New downloader
         opendownload.Show()
         opendownload.Label2.Text = "Downloading: Time Distorter"
     End Sub

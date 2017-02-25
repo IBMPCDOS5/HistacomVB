@@ -986,7 +986,7 @@ Partial Class windows_me
         'ATTWorldNetServiceToolStripMenuItem
         '
         Me.ATTWorldNetServiceToolStripMenuItem.BackColor = System.Drawing.Color.LightGray
-        Me.ATTWorldNetServiceToolStripMenuItem.Image = Global.Histacom.My.Resources.Resources.windowsmestartmenua_tservice
+        Me.ATTWorldNetServiceToolStripMenuItem.Image = Global.Histacom.My.Resources.Resources.windowsmestartmenua_and_tservice
         Me.ATTWorldNetServiceToolStripMenuItem.Name = "ATTWorldNetServiceToolStripMenuItem"
         Me.ATTWorldNetServiceToolStripMenuItem.Size = New System.Drawing.Size(209, 22)
         Me.ATTWorldNetServiceToolStripMenuItem.Text = "AT&T WorldNet Service"
@@ -1063,7 +1063,7 @@ Partial Class windows_me
         'GuessTheNumberToolStripMenuItem
         '
         Me.GuessTheNumberToolStripMenuItem.BackColor = System.Drawing.Color.LightGray
-        Me.GuessTheNumberToolStripMenuItem.Image = Global.Histacom.My.Resources.Resources.guess_the_number_number_1__32x32_
+        Me.GuessTheNumberToolStripMenuItem.Image = Global.Histacom.My.Resources.Resources.guess_the_number_one
         Me.GuessTheNumberToolStripMenuItem.Name = "GuessTheNumberToolStripMenuItem"
         Me.GuessTheNumberToolStripMenuItem.Size = New System.Drawing.Size(198, 26)
         Me.GuessTheNumberToolStripMenuItem.Text = "Guess The Number 2"
@@ -1072,7 +1072,7 @@ Partial Class windows_me
         'StartRunnerToolStripMenuItem
         '
         Me.StartRunnerToolStripMenuItem.BackColor = System.Drawing.Color.LightGray
-        Me.StartRunnerToolStripMenuItem.Image = Global.Histacom.My.Resources.Resources.start_run__32x32_
+        Me.StartRunnerToolStripMenuItem.Image = Global.Histacom.My.Resources.Resources.start_run
         Me.StartRunnerToolStripMenuItem.Name = "StartRunnerToolStripMenuItem"
         Me.StartRunnerToolStripMenuItem.Size = New System.Drawing.Size(198, 26)
         Me.StartRunnerToolStripMenuItem.Text = "Start Runner"
@@ -1081,7 +1081,7 @@ Partial Class windows_me
         'ErrorBlasterToolStripMenuItem
         '
         Me.ErrorBlasterToolStripMenuItem.BackColor = System.Drawing.Color.LightGray
-        Me.ErrorBlasterToolStripMenuItem.Image = Global.Histacom.My.Resources.Resources.ErrorBlast__One_
+        Me.ErrorBlasterToolStripMenuItem.Image = Global.Histacom.My.Resources.Resources.ErrorBlast_One
         Me.ErrorBlasterToolStripMenuItem.Name = "ErrorBlasterToolStripMenuItem"
         Me.ErrorBlasterToolStripMenuItem.Size = New System.Drawing.Size(198, 26)
         Me.ErrorBlasterToolStripMenuItem.Text = "Error Blaster"
@@ -1090,7 +1090,7 @@ Partial Class windows_me
         'SkindowsToolStripMenuItem
         '
         Me.SkindowsToolStripMenuItem.BackColor = System.Drawing.Color.LightGray
-        Me.SkindowsToolStripMenuItem.Image = Global.Histacom.My.Resources.Resources.install_icon__32x32__basic__liquify_
+        Me.SkindowsToolStripMenuItem.Image = Global.Histacom.My.Resources.Resources.install_icon_basic
         Me.SkindowsToolStripMenuItem.Name = "SkindowsToolStripMenuItem"
         Me.SkindowsToolStripMenuItem.Size = New System.Drawing.Size(198, 26)
         Me.SkindowsToolStripMenuItem.Text = "Skindows 95"
@@ -1099,7 +1099,7 @@ Partial Class windows_me
         'WebChatToolStripMenuItem
         '
         Me.WebChatToolStripMenuItem.BackColor = System.Drawing.Color.LightGray
-        Me.WebChatToolStripMenuItem.Image = Global.Histacom.My.Resources.Resources.chat__32x32_
+        Me.WebChatToolStripMenuItem.Image = Global.Histacom.My.Resources.Resources.chat
         Me.WebChatToolStripMenuItem.Name = "WebChatToolStripMenuItem"
         Me.WebChatToolStripMenuItem.Size = New System.Drawing.Size(198, 26)
         Me.WebChatToolStripMenuItem.Text = "Web Chat"
@@ -1448,7 +1448,7 @@ Partial Class windows_me
         '
         'startbutton
         '
-        Me.startbutton.Image = Global.Histacom.My.Resources.Resources.start_button_windows_95
+        Me.startbutton.Image = Global.Histacom.My.Resources.Resources.start_button_win95
         Me.startbutton.Location = New System.Drawing.Point(3, 4)
         Me.startbutton.Name = "startbutton"
         Me.startbutton.Size = New System.Drawing.Size(56, 24)

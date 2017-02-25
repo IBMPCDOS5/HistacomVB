@@ -708,7 +708,7 @@ Partial Class Windows2000
         'GuessTheNumberToolStripMenuItem
         '
         Me.GuessTheNumberToolStripMenuItem.BackColor = System.Drawing.Color.LightGray
-        Me.GuessTheNumberToolStripMenuItem.Image = Global.Histacom.My.Resources.Resources.guess_the_number_number_1__32x32_
+        Me.GuessTheNumberToolStripMenuItem.Image = Global.Histacom.My.Resources.Resources.guess_the_number_one
         Me.GuessTheNumberToolStripMenuItem.Name = "GuessTheNumberToolStripMenuItem"
         Me.GuessTheNumberToolStripMenuItem.Size = New System.Drawing.Size(198, 26)
         Me.GuessTheNumberToolStripMenuItem.Text = "Guess The Number 2"
@@ -717,7 +717,7 @@ Partial Class Windows2000
         'StartRunnerToolStripMenuItem
         '
         Me.StartRunnerToolStripMenuItem.BackColor = System.Drawing.Color.LightGray
-        Me.StartRunnerToolStripMenuItem.Image = Global.Histacom.My.Resources.Resources.start_run__32x32_
+        Me.StartRunnerToolStripMenuItem.Image = Global.Histacom.My.Resources.Resources.start_run
         Me.StartRunnerToolStripMenuItem.Name = "StartRunnerToolStripMenuItem"
         Me.StartRunnerToolStripMenuItem.Size = New System.Drawing.Size(198, 26)
         Me.StartRunnerToolStripMenuItem.Text = "Start Runner"
@@ -726,7 +726,7 @@ Partial Class Windows2000
         'ErrorBlasterToolStripMenuItem
         '
         Me.ErrorBlasterToolStripMenuItem.BackColor = System.Drawing.Color.LightGray
-        Me.ErrorBlasterToolStripMenuItem.Image = Global.Histacom.My.Resources.Resources.ErrorBlast__One_
+        Me.ErrorBlasterToolStripMenuItem.Image = Global.Histacom.My.Resources.Resources.ErrorBlast_One
         Me.ErrorBlasterToolStripMenuItem.Name = "ErrorBlasterToolStripMenuItem"
         Me.ErrorBlasterToolStripMenuItem.Size = New System.Drawing.Size(198, 26)
         Me.ErrorBlasterToolStripMenuItem.Text = "Error Blaster"
@@ -735,7 +735,7 @@ Partial Class Windows2000
         'SkindowsToolStripMenuItem
         '
         Me.SkindowsToolStripMenuItem.BackColor = System.Drawing.Color.LightGray
-        Me.SkindowsToolStripMenuItem.Image = Global.Histacom.My.Resources.Resources.install_icon__32x32__basic__liquify_
+        Me.SkindowsToolStripMenuItem.Image = Global.Histacom.My.Resources.Resources.install_icon_basic
         Me.SkindowsToolStripMenuItem.Name = "SkindowsToolStripMenuItem"
         Me.SkindowsToolStripMenuItem.Size = New System.Drawing.Size(198, 26)
         Me.SkindowsToolStripMenuItem.Text = "Skindows 95"
@@ -744,7 +744,7 @@ Partial Class Windows2000
         'WebChatToolStripMenuItem
         '
         Me.WebChatToolStripMenuItem.BackColor = System.Drawing.Color.LightGray
-        Me.WebChatToolStripMenuItem.Image = Global.Histacom.My.Resources.Resources.chat__32x32_
+        Me.WebChatToolStripMenuItem.Image = Global.Histacom.My.Resources.Resources.chat
         Me.WebChatToolStripMenuItem.Name = "WebChatToolStripMenuItem"
         Me.WebChatToolStripMenuItem.Size = New System.Drawing.Size(198, 26)
         Me.WebChatToolStripMenuItem.Text = "Web Chat"
@@ -1215,7 +1215,7 @@ Partial Class Windows2000
         'desktopicons
         '
         Me.desktopicons.Alignment = System.Windows.Forms.ListViewAlignment.Left
-        Me.desktopicons.BackgroundImage = Global.Histacom.My.Resources.Resources.Windows_2000_background
+        Me.desktopicons.BackgroundImage = Global.Histacom.My.Resources.Resources.Windows_2000__background
         Me.desktopicons.BackgroundImageTiled = True
         Me.desktopicons.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.desktopicons.Dock = System.Windows.Forms.DockStyle.Fill
@@ -1243,7 +1243,7 @@ Partial Class Windows2000
         '
         'startbutton
         '
-        Me.startbutton.Image = Global.Histacom.My.Resources.Resources.start_button_windows_95
+        Me.startbutton.Image = Global.Histacom.My.Resources.Resources.start_button_win95
         Me.startbutton.Location = New System.Drawing.Point(3, 4)
         Me.startbutton.Name = "startbutton"
         Me.startbutton.Size = New System.Drawing.Size(56, 24)

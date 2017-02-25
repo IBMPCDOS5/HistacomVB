@@ -154,13 +154,13 @@
         End If
         If countdownnum = 59 Then
             countdown.Text = countdownnum
-            commandprompt2000.TextBox1.Text = commandprompt2000.TextBox1.Text + ("The Hidden Hacker: Ok... you chose the year 2000." & Environment.NewLine)
+            commandprompt.TextBox1.Text = commandprompt.TextBox1.Text + ("The Hidden Hacker: Ok... you chose the year 2000." & Environment.NewLine)
         End If
         If timergo = True Then
             countdown.Text = countdownnum
         End If
 
-        commandprompt2000.TextBox1.SelectionStart = 999999
-        commandprompt2000.TextBox1.ScrollToCaret()
+        commandprompt.TextBox1.SelectionStart = 999999
+        commandprompt.TextBox1.ScrollToCaret()
     End Sub
 End Class

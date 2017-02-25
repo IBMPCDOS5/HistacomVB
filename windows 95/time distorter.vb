@@ -574,43 +574,43 @@
             Windows95.taskbar.BackColor = Color.Black
         End If
         If count = -10 Then
-            Command_prompt.Hide()
+            commandprompt.Hide()
         End If
         If count = -9 Then
-            Command_prompt.TextBox1.ForeColor = Color.Black
-            Command_prompt.TextBox1.BackColor = Color.White
+            commandprompt.TextBox1.ForeColor = Color.Black
+            commandprompt.TextBox1.BackColor = Color.White
         End If
         If count = -8 Then
-            Command_prompt.TextBox1.ForeColor = Color.White
-            Command_prompt.TextBox1.BackColor = Color.Black
+            commandprompt.TextBox1.ForeColor = Color.White
+            commandprompt.TextBox1.BackColor = Color.Black
         End If
         If count = -7 Then
-            Command_prompt.TextBox1.ForeColor = Color.Black
-            Command_prompt.TextBox1.BackColor = Color.White
+            commandprompt.TextBox1.ForeColor = Color.Black
+            commandprompt.TextBox1.BackColor = Color.White
         End If
         If count = -6 Then
-            Command_prompt.TextBox1.ForeColor = Color.White
-            Command_prompt.TextBox1.BackColor = Color.Black
+            commandprompt.TextBox1.ForeColor = Color.White
+            commandprompt.TextBox1.BackColor = Color.Black
         End If
         If count = -5 Then
-            Command_prompt.TextBox1.ForeColor = Color.Black
-            Command_prompt.TextBox1.BackColor = Color.White
+            commandprompt.TextBox1.ForeColor = Color.Black
+            commandprompt.TextBox1.BackColor = Color.White
         End If
         If count = -4 Then
-            Command_prompt.TextBox1.ForeColor = Color.White
-            Command_prompt.TextBox1.BackColor = Color.Black
+            commandprompt.TextBox1.ForeColor = Color.White
+            commandprompt.TextBox1.BackColor = Color.Black
         End If
         If count = -3 Then
-            Command_prompt.TextBox1.ForeColor = Color.Black
-            Command_prompt.TextBox1.BackColor = Color.White
+            commandprompt.TextBox1.ForeColor = Color.Black
+            commandprompt.TextBox1.BackColor = Color.White
         End If
         If count = -2 Then
-            Command_prompt.TextBox1.ForeColor = Color.White
-            Command_prompt.TextBox1.BackColor = Color.Black
+            commandprompt.TextBox1.ForeColor = Color.White
+            commandprompt.TextBox1.BackColor = Color.Black
         End If
         If count = -1 Then
-            Command_prompt.TextBox1.ForeColor = Color.Black
-            Command_prompt.TextBox1.BackColor = Color.White
+            commandprompt.TextBox1.ForeColor = Color.Black
+            commandprompt.TextBox1.BackColor = Color.White
         End If
         If count = 0 Then
             look.Stop()
@@ -619,16 +619,16 @@
             Timer1.Interval = 100
         End If
         If count = 3 Then
-            Command_prompt.TextBox1.Text = Command_prompt.TextBox1.Text + ("The Hidden Hacker: Good luck Windows 95 user... Ill see you in the future!" & Environment.NewLine)
+            commandprompt.TextBox1.Text = commandprompt.TextBox1.Text + ("The Hidden Hacker: Good luck Windows 95 user... Ill see you in the future!" & Environment.NewLine)
         End If
         If count = 6 Then
-            Command_prompt.TextBox1.Text = Command_prompt.TextBox1.Text + ("12padams Has been Disconnected..." & Environment.NewLine)
+            commandprompt.TextBox1.Text = commandprompt.TextBox1.Text + ("12padams Has been Disconnected..." & Environment.NewLine)
         End If
         If count = 7 Then
-            Command_prompt.TextBox1.Text = Command_prompt.TextBox1.Text + ("Disconnect 12padams" & Environment.NewLine)
+            commandprompt.TextBox1.Text = commandprompt.TextBox1.Text + ("Disconnect 12padams" & Environment.NewLine)
         End If
         If count = 10 Then
-            Command_prompt.TextBox1.Text = Command_prompt.TextBox1.Text + ("The Hidden Hacker: Oh and heres one more command for you to learn" & Environment.NewLine)
+            commandprompt.TextBox1.Text = commandprompt.TextBox1.Text + ("The Hidden Hacker: Oh and heres one more command for you to learn" & Environment.NewLine)
         End If
         If count = 12 Then
             showcount = "yes"
@@ -636,140 +636,140 @@
 
         End If
         If count = 13 Then
-            Command_prompt.TextBox1.Text = Command_prompt.TextBox1.Text + ("Show Timer" & Environment.NewLine)
+            commandprompt.TextBox1.Text = commandprompt.TextBox1.Text + ("Show Timer" & Environment.NewLine)
         End If
         If count = 15 Then
-            Command_prompt.TextBox1.Text = Command_prompt.TextBox1.Text + ("The Hidden Hacker: Oh Is It? Well watch this!!" & Environment.NewLine)
+            commandprompt.TextBox1.Text = commandprompt.TextBox1.Text + ("The Hidden Hacker: Oh Is It? Well watch this!!" & Environment.NewLine)
         End If
         If count = 20 Then
-            Command_prompt.TextBox1.Text = Command_prompt.TextBox1.Text + ("12padams: THATS IMPOSSIBLE" & Environment.NewLine)
+            commandprompt.TextBox1.Text = commandprompt.TextBox1.Text + ("12padams: THATS IMPOSSIBLE" & Environment.NewLine)
         End If
         If count = 26 Then
-            Command_prompt.TextBox1.Text = Command_prompt.TextBox1.Text + ("The Hidden Hacker: I converted the stop function to the hide function when i first logged on..." & Environment.NewLine)
+            commandprompt.TextBox1.Text = commandprompt.TextBox1.Text + ("The Hidden Hacker: I converted the stop function to the hide function when i first logged on..." & Environment.NewLine)
         End If
         If count = 30 Then
-            Command_prompt.TextBox1.Text = Command_prompt.TextBox1.Text + ("The Hidden Hacker: Oh but i did..." & Environment.NewLine)
+            commandprompt.TextBox1.Text = commandprompt.TextBox1.Text + ("The Hidden Hacker: Oh but i did..." & Environment.NewLine)
         End If
         If count = 34 Then
-            Command_prompt.TextBox1.Text = Command_prompt.TextBox1.Text + ("12padams: Bet You didn't see that one coming..." & Environment.NewLine)
+            commandprompt.TextBox1.Text = commandprompt.TextBox1.Text + ("12padams: Bet You didn't see that one coming..." & Environment.NewLine)
         End If
         If count = 38 Then
             Me.Label7.Hide()
         End If
         If count = 39 Then
-            Command_prompt.TextBox1.Text = Command_prompt.TextBox1.Text + ("Stop Timer" & Environment.NewLine)
+            commandprompt.TextBox1.Text = commandprompt.TextBox1.Text + ("Stop Timer" & Environment.NewLine)
             showcount = "no"
         End If
         If count = 41 Then
-            Command_prompt.TextBox1.Text = Command_prompt.TextBox1.Text + ("12padams: OK NOW YOU HAVE DONE IT!!!!" & Environment.NewLine)
+            commandprompt.TextBox1.Text = commandprompt.TextBox1.Text + ("12padams: OK NOW YOU HAVE DONE IT!!!!" & Environment.NewLine)
         End If
         If count = 44 Then
             Windows95.startbutton.Show()
         End If
         If count = 45 Then
-            Command_prompt.TextBox1.Text = Command_prompt.TextBox1.Text + ("Show Start Button" & Environment.NewLine)
+            commandprompt.TextBox1.Text = commandprompt.TextBox1.Text + ("Show Start Button" & Environment.NewLine)
         End If
         If count = 47 Then
-            Command_prompt.TextBox1.Text = Command_prompt.TextBox1.Text + ("The Hidden Hacker: Hey heres your start button back" & Environment.NewLine)
+            commandprompt.TextBox1.Text = commandprompt.TextBox1.Text + ("The Hidden Hacker: Hey heres your start button back" & Environment.NewLine)
         End If
         If count = 51 Then
-            Command_prompt.TextBox1.Text = Command_prompt.TextBox1.Text + ("The Hidden Hacker: Hey person who owns this computer don't worry your about to get away from all this..." & Environment.NewLine)
+            commandprompt.TextBox1.Text = commandprompt.TextBox1.Text + ("The Hidden Hacker: Hey person who owns this computer don't worry your about to get away from all this..." & Environment.NewLine)
         End If
         If count = 56 Then
-            Command_prompt.TextBox1.Text = Command_prompt.TextBox1.Text + ("12padams: Get out now or ill make you get out!!!!" & Environment.NewLine)
+            commandprompt.TextBox1.Text = commandprompt.TextBox1.Text + ("12padams: Get out now or ill make you get out!!!!" & Environment.NewLine)
         End If
         If count = 62 Then
-            Command_prompt.TextBox1.Text = Command_prompt.TextBox1.Text + ("The Hidden Hacker: Well Now that i have uncovered your secret... I'm not gunna just go away" & Environment.NewLine)
+            commandprompt.TextBox1.Text = commandprompt.TextBox1.Text + ("The Hidden Hacker: Well Now that i have uncovered your secret... I'm not gunna just go away" & Environment.NewLine)
         End If
         If count = 67 Then
-            Command_prompt.TextBox1.Text = Command_prompt.TextBox1.Text + ("12padams: The Hidden Hacker... I Though My first leason was enough to get you away" & Environment.NewLine)
+            commandprompt.TextBox1.Text = commandprompt.TextBox1.Text + ("12padams: The Hidden Hacker... I Though My first leason was enough to get you away" & Environment.NewLine)
         End If
         If count = 71 Then
-            Command_prompt.TextBox1.Text = Command_prompt.TextBox1.Text + ("The Hidden Hacker: Good job for getting this software" & Environment.NewLine)
+            commandprompt.TextBox1.Text = commandprompt.TextBox1.Text + ("The Hidden Hacker: Good job for getting this software" & Environment.NewLine)
         End If
         If count = 75 Then
-            Command_prompt.TextBox1.Text = Command_prompt.TextBox1.Text + ("The Hidden Hacker: but to the person who owns this computer..." & Environment.NewLine)
+            commandprompt.TextBox1.Text = commandprompt.TextBox1.Text + ("The Hidden Hacker: but to the person who owns this computer..." & Environment.NewLine)
         End If
         If count = 78 Then
-            Command_prompt.TextBox1.Text = Command_prompt.TextBox1.Text + ("The Hidden Hacker: Don't worry um... sorry i don't know your name" & Environment.NewLine)
+            commandprompt.TextBox1.Text = commandprompt.TextBox1.Text + ("The Hidden Hacker: Don't worry um... sorry i don't know your name" & Environment.NewLine)
         End If
         If count = 81 Then
-            Command_prompt.TextBox1.Text = Command_prompt.TextBox1.Text + ("12padams: HOW DARE YOU INVADE" & Environment.NewLine)
+            commandprompt.TextBox1.Text = commandprompt.TextBox1.Text + ("12padams: HOW DARE YOU INVADE" & Environment.NewLine)
         End If
         If count = 84 Then
-            Command_prompt.TextBox1.Text = Command_prompt.TextBox1.Text + ("The Hidden Hacker: Great you found The software" & Environment.NewLine)
+            commandprompt.TextBox1.Text = commandprompt.TextBox1.Text + ("The Hidden Hacker: Great you found The software" & Environment.NewLine)
         End If
         If count = 86 Then
-            Command_prompt.TextBox1.Text = Command_prompt.TextBox1.Text + ("The Hidden Hacker has connected" & Environment.NewLine)
+            commandprompt.TextBox1.Text = commandprompt.TextBox1.Text + ("The Hidden Hacker has connected" & Environment.NewLine)
         End If
         If count = 90 Then
-            Command_prompt.TextBox1.Text = Command_prompt.TextBox1.Text + ("146.342.534.632 connecting" & Environment.NewLine)
+            commandprompt.TextBox1.Text = commandprompt.TextBox1.Text + ("146.342.534.632 connecting" & Environment.NewLine)
         End If
         If count = 92 Then
-            Command_prompt.TextBox1.Text = Command_prompt.TextBox1.Text + ("12padams: Ha Ha having a few errors are we?" & Environment.NewLine)
+            commandprompt.TextBox1.Text = commandprompt.TextBox1.Text + ("12padams: Ha Ha having a few errors are we?" & Environment.NewLine)
         End If
         If count = 95 Then
             Windows95.desktopicons.BackgroundImage = My.Resources.windows95error
         End If
         If count = 97 Then
-            Command_prompt.TextBox1.Text = Command_prompt.TextBox1.Text + ("12padams: Now watch this" & Environment.NewLine)
+            commandprompt.TextBox1.Text = commandprompt.TextBox1.Text + ("12padams: Now watch this" & Environment.NewLine)
         End If
         If count = 103 Then
-            Command_prompt.TextBox1.Text = Command_prompt.TextBox1.Text + ("12padams: See how easy that was" & Environment.NewLine)
+            commandprompt.TextBox1.Text = commandprompt.TextBox1.Text + ("12padams: See how easy that was" & Environment.NewLine)
         End If
         If count = 106 Then
             Windows95.startbutton.Hide()
         End If
         If count = 108 Then
-            Command_prompt.TextBox1.Text = Command_prompt.TextBox1.Text + ("Hide Start Button" & Environment.NewLine)
+            commandprompt.TextBox1.Text = commandprompt.TextBox1.Text + ("Hide Start Button" & Environment.NewLine)
         End If
         If count = 112 Then
-            Command_prompt.TextBox1.Text = Command_prompt.TextBox1.Text + ("12padams: Ok Let me show you how easy this is" & Environment.NewLine)
+            commandprompt.TextBox1.Text = commandprompt.TextBox1.Text + ("12padams: Ok Let me show you how easy this is" & Environment.NewLine)
         End If
         If count = 117 Then
-            Command_prompt.TextBox1.Text = Command_prompt.TextBox1.Text + ("12padams: You see I have LOTS of power over your computer" & Environment.NewLine)
+            commandprompt.TextBox1.Text = commandprompt.TextBox1.Text + ("12padams: You see I have LOTS of power over your computer" & Environment.NewLine)
         End If
         If count = 122 Then
-            Command_prompt.TextBox1.Text = Command_prompt.TextBox1.Text + ("12padams: Well I am sorry but i just can't let you do that." & Environment.NewLine)
+            commandprompt.TextBox1.Text = commandprompt.TextBox1.Text + ("12padams: Well I am sorry but i just can't let you do that." & Environment.NewLine)
         End If
         If count = 127 Then
-            Command_prompt.TextBox1.Text = Command_prompt.TextBox1.Text + ("12padams: Now In 2 minutes you think your going to be able to travel to 1999" & Environment.NewLine)
+            commandprompt.TextBox1.Text = commandprompt.TextBox1.Text + ("12padams: Now In 2 minutes you think your going to be able to travel to 1999" & Environment.NewLine)
         End If
         If count = 132 Then
-            Command_prompt.TextBox1.Text = Command_prompt.TextBox1.Text + ("12padams: To prove that I can see it look at your timer... It says 130 seconds left... " & Environment.NewLine)
+            commandprompt.TextBox1.Text = commandprompt.TextBox1.Text + ("12padams: To prove that I can see it look at your timer... It says 130 seconds left... " & Environment.NewLine)
         End If
         If count = 137 Then
-            Command_prompt.TextBox1.Text = Command_prompt.TextBox1.Text + ("12padams: I can see your screen right now..." & Environment.NewLine)
+            commandprompt.TextBox1.Text = commandprompt.TextBox1.Text + ("12padams: I can see your screen right now..." & Environment.NewLine)
         End If
         If count = 142 Then
-            Command_prompt.TextBox1.Text = Command_prompt.TextBox1.Text + ("12padams: Oh and i know you pressed it" & Environment.NewLine)
+            commandprompt.TextBox1.Text = commandprompt.TextBox1.Text + ("12padams: Oh and i know you pressed it" & Environment.NewLine)
         End If
         If count = 147 Then
-            Command_prompt.TextBox1.Text = Command_prompt.TextBox1.Text + ("12padams: And download my secret time travel software..." & Environment.NewLine)
+            commandprompt.TextBox1.Text = commandprompt.TextBox1.Text + ("12padams: And download my secret time travel software..." & Environment.NewLine)
         End If
         If count = 151 Then
-            Command_prompt.TextBox1.Text = Command_prompt.TextBox1.Text + ("12padams: Then use it to hack my website" & Environment.NewLine)
+            commandprompt.TextBox1.Text = commandprompt.TextBox1.Text + ("12padams: Then use it to hack my website" & Environment.NewLine)
         End If
         If count = 154 Then
-            Command_prompt.TextBox1.Text = Command_prompt.TextBox1.Text + ("12padams: And you download an attachment" & Environment.NewLine)
+            commandprompt.TextBox1.Text = commandprompt.TextBox1.Text + ("12padams: And you download an attachment" & Environment.NewLine)
         End If
         If count = 157 Then
-            Command_prompt.TextBox1.Text = Command_prompt.TextBox1.Text + ("12padams: Then you read them all..." & Environment.NewLine)
+            commandprompt.TextBox1.Text = commandprompt.TextBox1.Text + ("12padams: Then you read them all..." & Environment.NewLine)
         End If
         If count = 161 Then
-            Command_prompt.TextBox1.Text = Command_prompt.TextBox1.Text + ("12padams: You first hack my emails..." & Environment.NewLine)
+            commandprompt.TextBox1.Text = commandprompt.TextBox1.Text + ("12padams: You first hack my emails..." & Environment.NewLine)
         End If
         If count = 165 Then
-            Command_prompt.TextBox1.Text = Command_prompt.TextBox1.Text + ("12padams: WHAT DO YOU THINK YOUR DOING!!!" & Environment.NewLine)
+            commandprompt.TextBox1.Text = commandprompt.TextBox1.Text + ("12padams: WHAT DO YOU THINK YOUR DOING!!!" & Environment.NewLine)
         End If
         If count = 168 Then
-            Command_prompt.TextBox1.Text = Command_prompt.TextBox1.Text + ("12padams Connected" & Environment.NewLine)
+            commandprompt.TextBox1.Text = commandprompt.TextBox1.Text + ("12padams Connected" & Environment.NewLine)
         End If
         If count = 171 Then
-            Command_prompt.TextBox1.Text = Command_prompt.TextBox1.Text + ("Ip 185.352.857.342 Connecting..." & Environment.NewLine)
+            commandprompt.TextBox1.Text = commandprompt.TextBox1.Text + ("Ip 185.352.857.342 Connecting..." & Environment.NewLine)
         End If
         If count = 172 Then
-            Command_prompt.Show()
+            commandprompt.Show()
         End If
         If Label1.Text = "                    ---------------  TIME DISTORTER ---------------" Then
             If showcount = "yes" Then
@@ -827,8 +827,8 @@
         If Label1.Text = "###############  TIME DISTORTER ###############" Then
             Label1.Text = " -##############  TIME DISTORTER ##############-"
         End If
-        Command_prompt.TextBox1.SelectionStart = 999999
-        Command_prompt.TextBox1.ScrollToCaret()
+        commandprompt.TextBox1.SelectionStart = 999999
+        commandprompt.TextBox1.ScrollToCaret()
     End Sub
 
     Private Sub Button1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button1.Click

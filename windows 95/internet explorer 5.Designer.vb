@@ -1380,7 +1380,7 @@ Partial Class internet_explorer_5
         '
         'PictureBox9
         '
-        Me.PictureBox9.Image = Global.Histacom.My.Resources.Resources.Windows2_0
+        Me.PictureBox9.Image = Global.Histacom.My.Resources.Resources.Windows2
         Me.PictureBox9.Location = New System.Drawing.Point(421, 2759)
         Me.PictureBox9.Name = "PictureBox9"
         Me.PictureBox9.Size = New System.Drawing.Size(451, 294)
@@ -1413,7 +1413,7 @@ Partial Class internet_explorer_5
         '
         'PictureBox8
         '
-        Me.PictureBox8.Image = Global.Histacom.My.Resources.Resources.Windows1_0
+        Me.PictureBox8.Image = Global.Histacom.My.Resources.Resources.Windows1
         Me.PictureBox8.Location = New System.Drawing.Point(421, 2448)
         Me.PictureBox8.Name = "PictureBox8"
         Me.PictureBox8.Size = New System.Drawing.Size(451, 294)
@@ -1908,7 +1908,7 @@ Partial Class internet_explorer_5
         'PictureBox11
         '
         Me.PictureBox11.Anchor = System.Windows.Forms.AnchorStyles.Top
-        Me.PictureBox11.Image = Global.Histacom.My.Resources.Resources.skindows_95_picture
+        Me.PictureBox11.Image = Global.Histacom.My.Resources.Resources.skindows_95_preview
         Me.PictureBox11.Location = New System.Drawing.Point(471, 8)
         Me.PictureBox11.Name = "PictureBox11"
         Me.PictureBox11.Size = New System.Drawing.Size(331, 420)
@@ -2634,7 +2634,7 @@ Partial Class internet_explorer_5
         '
         'PictureBox5
         '
-        Me.PictureBox5.Image = Global.Histacom.My.Resources.Resources._1999_sky
+        Me.PictureBox5.Image = Global.Histacom.My.Resources.Resources.sky
         Me.PictureBox5.Location = New System.Drawing.Point(26, 192)
         Me.PictureBox5.Name = "PictureBox5"
         Me.PictureBox5.Size = New System.Drawing.Size(184, 115)
@@ -2907,7 +2907,7 @@ Partial Class internet_explorer_5
         '
         'PictureBox4
         '
-        Me.PictureBox4.Image = Global.Histacom.My.Resources.Resources._1999hotmaillogo
+        Me.PictureBox4.Image = Global.Histacom.My.Resources.Resources.hotmaillogo
         Me.PictureBox4.Location = New System.Drawing.Point(6, 3)
         Me.PictureBox4.Name = "PictureBox4"
         Me.PictureBox4.Size = New System.Drawing.Size(290, 52)
@@ -3091,7 +3091,7 @@ Partial Class internet_explorer_5
         '
         'PictureBox3
         '
-        Me.PictureBox3.Image = Global.Histacom.My.Resources.Resources._1999hotmailpassport
+        Me.PictureBox3.Image = Global.Histacom.My.Resources.Resources.hotmailpassport
         Me.PictureBox3.Location = New System.Drawing.Point(98, 3)
         Me.PictureBox3.Name = "PictureBox3"
         Me.PictureBox3.Size = New System.Drawing.Size(100, 40)

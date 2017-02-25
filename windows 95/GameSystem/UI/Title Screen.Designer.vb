@@ -27,6 +27,7 @@ Partial Class Title_Screen
         Me.buttonloadgame = New System.Windows.Forms.PictureBox()
         Me.buttonexit = New System.Windows.Forms.PictureBox()
         Me.Label1 = New System.Windows.Forms.Label()
+        Me.Label2 = New System.Windows.Forms.Label()
         CType(Me.buttonnewgame, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.buttonloadgame, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.buttonexit, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -59,7 +60,7 @@ Partial Class Title_Screen
         '
         Me.buttonexit.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.buttonexit.BackColor = System.Drawing.Color.Transparent
-        Me.buttonexit.Image = Global.Histacom.My.Resources.Resources._exit
+        Me.buttonexit.Image = Global.Histacom.My.Resources.Resources.exitimg
         Me.buttonexit.Location = New System.Drawing.Point(602, 119)
         Me.buttonexit.Name = "buttonexit"
         Me.buttonexit.Size = New System.Drawing.Size(156, 113)
@@ -72,12 +73,25 @@ Partial Class Title_Screen
         Me.Label1.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
         Me.Label1.AutoSize = True
         Me.Label1.BackColor = System.Drawing.Color.White
+        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!)
         Me.Label1.ForeColor = System.Drawing.Color.Black
-        Me.Label1.Location = New System.Drawing.Point(221, 494)
+        Me.Label1.Location = New System.Drawing.Point(52, 440)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(321, 13)
+        Me.Label1.Size = New System.Drawing.Size(720, 29)
         Me.Label1.TabIndex = 3
         Me.Label1.Text = "Histacom 2.0 origanally By 12padams now by Alex (aka SonicMad)"
+        '
+        'Label2
+        '
+        Me.Label2.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
+        Me.Label2.AutoSize = True
+        Me.Label2.BackColor = System.Drawing.Color.White
+        Me.Label2.ForeColor = System.Drawing.Color.Black
+        Me.Label2.Location = New System.Drawing.Point(266, 485)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(258, 13)
+        Me.Label2.TabIndex = 3
+        Me.Label2.Text = "Alpha 1 (Everything is basically messed up, right now)"
         '
         'Title_Screen
         '
@@ -86,6 +100,7 @@ Partial Class Title_Screen
         Me.BackgroundImage = Global.Histacom.My.Resources.Resources.Histacom_1_8_Background
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(784, 560)
+        Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.buttonexit)
         Me.Controls.Add(Me.buttonloadgame)
@@ -106,4 +121,5 @@ Partial Class Title_Screen
     Friend WithEvents buttonloadgame As System.Windows.Forms.PictureBox
     Friend WithEvents buttonexit As System.Windows.Forms.PictureBox
     Friend WithEvents Label1 As System.Windows.Forms.Label
+    Friend WithEvents Label2 As Label
 End Class

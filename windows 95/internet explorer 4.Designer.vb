@@ -1099,7 +1099,7 @@ Partial Class internet_explorer_4
         Me.Button30.Dock = System.Windows.Forms.DockStyle.Left
         Me.Button30.FlatAppearance.BorderSize = 0
         Me.Button30.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button30.Image = Global.Histacom.My.Resources.Resources.internet_explorer_4_print
+        Me.Button30.Image = Global.Histacom.My.Resources.Resources.ie_four_print
         Me.Button30.ImageAlign = System.Drawing.ContentAlignment.TopCenter
         Me.Button30.Location = New System.Drawing.Point(750, 0)
         Me.Button30.Name = "Button30"
@@ -1115,7 +1115,7 @@ Partial Class internet_explorer_4
         Me.Button29.Dock = System.Windows.Forms.DockStyle.Left
         Me.Button29.FlatAppearance.BorderSize = 0
         Me.Button29.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button29.Image = Global.Histacom.My.Resources.Resources.internet_explorer_4_mail
+        Me.Button29.Image = Global.Histacom.My.Resources.Resources.ie_four_mail
         Me.Button29.ImageAlign = System.Drawing.ContentAlignment.TopCenter
         Me.Button29.Location = New System.Drawing.Point(675, 0)
         Me.Button29.Name = "Button29"
@@ -1131,7 +1131,7 @@ Partial Class internet_explorer_4
         Me.Button28.Dock = System.Windows.Forms.DockStyle.Left
         Me.Button28.FlatAppearance.BorderSize = 0
         Me.Button28.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button28.Image = Global.Histacom.My.Resources.Resources.internet_explorer_4_fullscreen
+        Me.Button28.Image = Global.Histacom.My.Resources.Resources.ie_four_fullscreen
         Me.Button28.ImageAlign = System.Drawing.ContentAlignment.TopCenter
         Me.Button28.Location = New System.Drawing.Point(600, 0)
         Me.Button28.Name = "Button28"
@@ -1147,7 +1147,7 @@ Partial Class internet_explorer_4
         Me.Button27.Dock = System.Windows.Forms.DockStyle.Left
         Me.Button27.FlatAppearance.BorderSize = 0
         Me.Button27.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button27.Image = Global.Histacom.My.Resources.Resources.internet_explorer_4_channels
+        Me.Button27.Image = Global.Histacom.My.Resources.Resources.ie_four_channels
         Me.Button27.ImageAlign = System.Drawing.ContentAlignment.TopCenter
         Me.Button27.Location = New System.Drawing.Point(525, 0)
         Me.Button27.Name = "Button27"
@@ -1270,7 +1270,7 @@ Partial Class internet_explorer_4
         'PictureBox1
         '
         Me.PictureBox1.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.PictureBox1.Image = Global.Histacom.My.Resources.Resources.internet_explorer_4_logo
+        Me.PictureBox1.Image = Global.Histacom.My.Resources.Resources.ie_four_logo
         Me.PictureBox1.Location = New System.Drawing.Point(915, 23)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(38, 21)
@@ -1381,7 +1381,7 @@ Partial Class internet_explorer_4
         '
         'mclarinflimage
         '
-        Me.mclarinflimage.Image = Global.Histacom.My.Resources.Resources._1994_mclaren_f1
+        Me.mclarinflimage.Image = Global.Histacom.My.Resources.Resources.mclaren_f1
         Me.mclarinflimage.Location = New System.Drawing.Point(26, 192)
         Me.mclarinflimage.Name = "mclarinflimage"
         Me.mclarinflimage.Size = New System.Drawing.Size(184, 115)
@@ -2809,7 +2809,7 @@ Partial Class internet_explorer_4
         'PictureBox11
         '
         Me.PictureBox11.Anchor = System.Windows.Forms.AnchorStyles.Top
-        Me.PictureBox11.Image = Global.Histacom.My.Resources.Resources.skindows_95_picture
+        Me.PictureBox11.Image = Global.Histacom.My.Resources.Resources.skindows_95_preview
         Me.PictureBox11.Location = New System.Drawing.Point(266, 60)
         Me.PictureBox11.Name = "PictureBox11"
         Me.PictureBox11.Size = New System.Drawing.Size(337, 386)

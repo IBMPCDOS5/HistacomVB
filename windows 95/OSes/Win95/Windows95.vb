@@ -88,14 +88,14 @@
 
                     Dim openinstall As New Installer95
                     openinstall.installname.Text = "Skindows 95"
-                    openinstall.installimage.Image = My.Resources.skindows_95__install_
+                    openinstall.installimage.Image = My.Resources.skindows_95
                     openinstall.Show()
                 End If
                 If objListViewItem.Text = "Web Chat Setup" Then
 
                     Dim openinstall As New Installer95
                     openinstall.installname.Text = "Web Chat"
-                    openinstall.installimage.Image = My.Resources.chat__big_
+                    openinstall.installimage.Image = My.Resources.chat_big
                     openinstall.Show()
                 End If
                 If objListViewItem.Text = "hwcv.exe" Then
@@ -186,8 +186,8 @@
     End Sub
 
     Private Sub WindowsExplorerToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles WindowsExplorerToolStripMenuItem.Click
-        Dim openinternetexplorer As New internet_explorer_4
-        openinternetexplorer.Show()
+        Dim openier As New internet_explorer_4
+        openier.Show()
         startmenu.Hide()
     End Sub
 
@@ -257,6 +257,10 @@
     End Sub
 
     Private Sub startmenuitems_ItemClicked(sender As Object, e As ToolStripItemClickedEventArgs) Handles startmenuitems.ItemClicked
+
+    End Sub
+
+    Private Sub ByNameToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ByNameToolStripMenuItem.Click
 
     End Sub
 End Class

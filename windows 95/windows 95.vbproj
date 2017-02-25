@@ -98,41 +98,23 @@
     <Compile Include="2002 virus labels.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Address Book.Designer.vb">
+    <Compile Include="Apps\Address Book.Designer.vb">
       <DependentUpon>Address Book.vb</DependentUpon>
     </Compile>
-    <Compile Include="Address Book.vb">
+    <Compile Include="Apps\Address Book.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="ApplicationEvents.vb" />
-    <Compile Include="Command prompt.Designer.vb">
-      <DependentUpon>Command prompt.vb</DependentUpon>
+    <Compile Include="Apps\commandprompt.Designer.vb">
+      <DependentUpon>commandprompt.vb</DependentUpon>
     </Compile>
-    <Compile Include="Command prompt.vb">
+    <Compile Include="Apps\commandprompt.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="commandprompt2000.Designer.vb">
-      <DependentUpon>commandprompt2000.vb</DependentUpon>
+    <Compile Include="Apps\downloader.Designer.vb">
+      <DependentUpon>downloader.vb</DependentUpon>
     </Compile>
-    <Compile Include="commandprompt2000.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="commandpromptxp.Designer.vb">
-      <DependentUpon>commandpromptxp.vb</DependentUpon>
-    </Compile>
-    <Compile Include="commandpromptxp.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="downloader2000.Designer.vb">
-      <DependentUpon>downloader2000.vb</DependentUpon>
-    </Compile>
-    <Compile Include="downloader2000.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="downloader95.Designer.vb">
-      <DependentUpon>downloader95.vb</DependentUpon>
-    </Compile>
-    <Compile Include="downloader95.vb">
+    <Compile Include="Apps\downloader.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="errorblaster2000.Designer.vb">
@@ -147,6 +129,8 @@
     <Compile Include="errorblaster98.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="GameSystem\Backend\GameMain.vb" />
+    <Compile Include="GameSystem\Backend\winman.vb" />
     <Compile Include="Guess The Number 98.Designer.vb">
       <DependentUpon>Guess The Number 98.vb</DependentUpon>
     </Compile>
@@ -160,12 +144,6 @@
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="hiden contect varable.vb" />
-    <Compile Include="Downloader98.Designer.vb">
-      <DependentUpon>Downloader98.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Downloader98.vb">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Include="errorblaster95.Designer.vb">
       <DependentUpon>errorblaster95.vb</DependentUpon>
     </Compile>
@@ -250,10 +228,10 @@
     <Compile Include="Internetexplorer62002damaged.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Game\UI\loadsettings.Designer.vb">
+    <Compile Include="GameSystem\UI\loadsettings.Designer.vb">
       <DependentUpon>loadsettings.vb</DependentUpon>
     </Compile>
-    <Compile Include="Game\UI\loadsettings.vb">
+    <Compile Include="GameSystem\UI\loadsettings.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -391,10 +369,10 @@
     <Compile Include="timedistorter032002xp.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Game\UI\Title Screen.Designer.vb">
+    <Compile Include="GameSystem\UI\Title Screen.Designer.vb">
       <DependentUpon>Title Screen.vb</DependentUpon>
     </Compile>
-    <Compile Include="Game\UI\Title Screen.vb">
+    <Compile Include="GameSystem\UI\Title Screen.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="volume control.Designer.vb">
@@ -457,10 +435,10 @@
     <Compile Include="windows2000messagebox.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Windows95.Designer.vb">
+    <Compile Include="OSes\Win95\Windows95.Designer.vb">
       <DependentUpon>Windows95.vb</DependentUpon>
     </Compile>
-    <Compile Include="Windows95.vb">
+    <Compile Include="OSes\Win95\Windows95.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="windows95messagebox.Designer.vb">
@@ -498,26 +476,14 @@
     <EmbeddedResource Include="2002 virus labels.resx">
       <DependentUpon>2002 virus labels.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Address Book.resx">
+    <EmbeddedResource Include="Apps\Address Book.resx">
       <DependentUpon>Address Book.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Command prompt.resx">
-      <DependentUpon>Command prompt.vb</DependentUpon>
+    <EmbeddedResource Include="Apps\commandprompt.resx">
+      <DependentUpon>commandprompt.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="commandprompt2000.resx">
-      <DependentUpon>commandprompt2000.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="commandpromptxp.resx">
-      <DependentUpon>commandpromptxp.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="downloader2000.resx">
-      <DependentUpon>downloader2000.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="downloader95.resx">
-      <DependentUpon>downloader95.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Downloader98.resx">
-      <DependentUpon>Downloader98.vb</DependentUpon>
+    <EmbeddedResource Include="Apps\downloader.resx">
+      <DependentUpon>downloader.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="errorblaster2000.resx">
       <DependentUpon>errorblaster2000.vb</DependentUpon>
@@ -573,7 +539,7 @@
     <EmbeddedResource Include="Internetexplorer62002damaged.resx">
       <DependentUpon>Internetexplorer62002damaged.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Game\UI\loadsettings.resx">
+    <EmbeddedResource Include="GameSystem\UI\loadsettings.resx">
       <DependentUpon>loadsettings.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
@@ -642,7 +608,7 @@
     <EmbeddedResource Include="timedistorter032002xp.resx">
       <DependentUpon>timedistorter032002xp.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Game\UI\Title Screen.resx">
+    <EmbeddedResource Include="GameSystem\UI\Title Screen.resx">
       <DependentUpon>Title Screen.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="volume control.resx">
@@ -675,7 +641,7 @@
     <EmbeddedResource Include="windows2000messagebox.resx">
       <DependentUpon>windows2000messagebox.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Windows95.resx">
+    <EmbeddedResource Include="OSes\Win95\Windows95.resx">
       <DependentUpon>Windows95.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="windows95messagebox.resx">
@@ -1837,6 +1803,9 @@
       <ProductName>Windows Installer 4.5</ProductName>
       <Install>true</Install>
     </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="OSes\Win95\Borders\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

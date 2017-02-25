@@ -193,7 +193,7 @@ Partial Class timedistorter0
         'PictureBox1
         '
         Me.PictureBox1.Dock = System.Windows.Forms.DockStyle.Bottom
-        Me.PictureBox1.Image = Global.Histacom.My.Resources.Resources.time_distorter_0_3_top
+        Me.PictureBox1.Image = Global.Histacom.My.Resources.Resources.time_distorter_top
         Me.PictureBox1.Location = New System.Drawing.Point(0, 95)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(407, 100)

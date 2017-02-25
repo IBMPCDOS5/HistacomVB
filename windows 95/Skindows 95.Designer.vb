@@ -5214,7 +5214,7 @@ Partial Class Skindows_95
         '
         'startbutton
         '
-        Me.startbutton.Image = Global.Histacom.My.Resources.Resources.start_button_windows_95
+        Me.startbutton.Image = Global.Histacom.My.Resources.Resources.start_button_win95
         Me.startbutton.Location = New System.Drawing.Point(3, 2)
         Me.startbutton.Name = "startbutton"
         Me.startbutton.Size = New System.Drawing.Size(56, 24)

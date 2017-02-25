@@ -49,10 +49,10 @@
 
     Private Sub colorpalettecbox_SelectedIndexChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles colorpalettecbox.SelectedIndexChanged
         If colorpalettecbox.SelectedItem = "16 Color" Then
-            colourpaletepicturebox.Image = My.Resources._16_color
+            colourpaletepicturebox.Image = My.Resources.sixteencolor
         End If
         If colorpalettecbox.SelectedItem = "256 Color" Then
-            colourpaletepicturebox.Image = My.Resources._256_color
+            colourpaletepicturebox.Image = My.Resources.two_five_six_color
         End If
         If colorpalettecbox.SelectedItem = "High Color (16 bit)" Then
             colourpaletepicturebox.Image = My.Resources.high_color

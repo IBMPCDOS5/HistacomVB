@@ -23,7 +23,7 @@
         Me.FormBorderStyle = Windows.Forms.FormBorderStyle.None
         Me.WindowState = FormWindowState.Maximized
         System.Windows.Forms.Application.VisualStyleState = VisualStyles.VisualStyleState.NoneEnabled
-        Me.desktopicons.BackgroundImage = My.Resources.Windows_2000_background
+        Me.desktopicons.BackgroundImage = My.Resources.Windows_2000__background
         Dim w, h As Integer
         w = Me.desktopicons.Width
         h = Me.desktopicons.Height
@@ -110,14 +110,14 @@
 
                     Dim openinstall As New installer2000
                     openinstall.installname.Text = "Skindows 95"
-                    openinstall.installimage.Image = My.Resources.skindows_95__install_
+                    openinstall.installimage.Image = My.Resources.skindows_95
                     openinstall.Show()
                 End If
                 If objListViewItem.Text = "Web Chat 2000 Setup" Then
 
                     Dim openinstall As New installer2000
                     openinstall.installname.Text = "Web Chat 2000"
-                    openinstall.installimage.Image = My.Resources.chat__big_
+                    openinstall.installimage.Image = My.Resources.chat_big
                     openinstall.Show()
                 End If
                 If objListViewItem.Text = "hwcv.exe" Then
@@ -277,125 +277,125 @@
     Private Sub commandpromptstartup_Tick(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles commandpromptstartup.Tick
 
         If comn = -43 Then
-            commandprompt2000.TextBox1.Text = ""
-            commandprompt2000.Close()
+            commandprompt.TextBox1.Text = ""
+            commandprompt.Close()
             commandpromptstartup.Stop()
         End If
         If comn = -41 Then
-            commandprompt2000.TextBox1.Text = commandprompt2000.TextBox1.Text + ("12padams: bye" & Environment.NewLine)
+            commandprompt.TextBox1.Text = commandprompt.TextBox1.Text + ("12padams: bye" & Environment.NewLine)
 
         End If
         If comn = -37 Then
-            commandprompt2000.TextBox1.Text = commandprompt2000.TextBox1.Text + ("12padams: We will see you after your done " & mainname & Environment.NewLine)
+            commandprompt.TextBox1.Text = commandprompt.TextBox1.Text + ("12padams: We will see you after your done " & mainname & Environment.NewLine)
 
         End If
         If comn = -32 Then
-            commandprompt2000.TextBox1.Text = commandprompt2000.TextBox1.Text + ("12padams: Stop it hidden hacker he needs a break..." & Environment.NewLine)
+            commandprompt.TextBox1.Text = commandprompt.TextBox1.Text + ("12padams: Stop it hidden hacker he needs a break..." & Environment.NewLine)
 
         End If
         If comn = -26 Then
-            commandprompt2000.TextBox1.Text = commandprompt2000.TextBox1.Text + ("The Hidden Hacker: Don't be long " & mainname & " since I really wanna time travel now" & Environment.NewLine)
+            commandprompt.TextBox1.Text = commandprompt.TextBox1.Text + ("The Hidden Hacker: Don't be long " & mainname & " since I really wanna time travel now" & Environment.NewLine)
 
         End If
         If comn = -20 Then
-            commandprompt2000.TextBox1.Text = commandprompt2000.TextBox1.Text + ("12padams: Ok bye " & mainname & ", and good luck :)" & Environment.NewLine)
+            commandprompt.TextBox1.Text = commandprompt.TextBox1.Text + ("12padams: Ok bye " & mainname & ", and good luck :)" & Environment.NewLine)
 
         End If
         If comn = -15 Then
-            commandprompt2000.TextBox1.Text = commandprompt2000.TextBox1.Text + ("12padams: Once you tell me the password you and The Hidden hacker will go on a time travel test together." & Environment.NewLine)
+            commandprompt.TextBox1.Text = commandprompt.TextBox1.Text + ("12padams: Once you tell me the password you and The Hidden hacker will go on a time travel test together." & Environment.NewLine)
 
         End If
         If comn = -8 Then
-            commandprompt2000.TextBox1.Text = commandprompt2000.TextBox1.Text + ("12padams: Then download webchat and tell me what the password is." & Environment.NewLine)
+            commandprompt.TextBox1.Text = commandprompt.TextBox1.Text + ("12padams: Then download webchat and tell me what the password is." & Environment.NewLine)
 
         End If
         If comn = 3 Then
-            commandprompt2000.TextBox1.Text = commandprompt2000.TextBox1.Text + ("12padams: When you beat it you will be given a password" & Environment.NewLine)
+            commandprompt.TextBox1.Text = commandprompt.TextBox1.Text + ("12padams: When you beat it you will be given a password" & Environment.NewLine)
 
         End If
         If comn = 7 Then
-            commandprompt2000.TextBox1.Text = commandprompt2000.TextBox1.Text + ("12padams: Go onto my website and download survive the day" & Environment.NewLine)
+            commandprompt.TextBox1.Text = commandprompt.TextBox1.Text + ("12padams: Go onto my website and download survive the day" & Environment.NewLine)
 
         End If
         If comn = 14 Then
-            commandprompt2000.TextBox1.Text = commandprompt2000.TextBox1.Text + ("12padams: " & mainname & " I will let you time travel again once you complete a game" & Environment.NewLine)
+            commandprompt.TextBox1.Text = commandprompt.TextBox1.Text + ("12padams: " & mainname & " I will let you time travel again once you complete a game" & Environment.NewLine)
 
         End If
         If comn = 20 Then
-            commandprompt2000.TextBox1.Text = commandprompt2000.TextBox1.Text + ("12padams: Please be patient... Not now becasue " & mainname & " has already time traveled recently" & Environment.NewLine)
+            commandprompt.TextBox1.Text = commandprompt.TextBox1.Text + ("12padams: Please be patient... Not now becasue " & mainname & " has already time traveled recently" & Environment.NewLine)
 
         End If
         If comn = 26 Then
-            commandprompt2000.TextBox1.Text = commandprompt2000.TextBox1.Text + ("The Hidden Hacker: Why not NOWWWWW!!!!!" & Environment.NewLine)
+            commandprompt.TextBox1.Text = commandprompt.TextBox1.Text + ("The Hidden Hacker: Why not NOWWWWW!!!!!" & Environment.NewLine)
 
         End If
         If comn = 33 Then
-            commandprompt2000.TextBox1.Text = commandprompt2000.TextBox1.Text + ("12padams: Don't worry you will both time travel... just not now" & Environment.NewLine)
+            commandprompt.TextBox1.Text = commandprompt.TextBox1.Text + ("12padams: Don't worry you will both time travel... just not now" & Environment.NewLine)
 
         End If
         If comn = 37 Then
-            commandprompt2000.TextBox1.Text = commandprompt2000.TextBox1.Text + ("The Hidden Hacker: Thats why you gave me time distorter 0.3 yesterday..." & Environment.NewLine)
+            commandprompt.TextBox1.Text = commandprompt.TextBox1.Text + ("The Hidden Hacker: Thats why you gave me time distorter 0.3 yesterday..." & Environment.NewLine)
 
         End If
         If comn = 43 Then
-            commandprompt2000.TextBox1.Text = commandprompt2000.TextBox1.Text + ("The Hidden Hacker: but you said when " & mainname & " gets back we get to time travel together..." & Environment.NewLine)
+            commandprompt.TextBox1.Text = commandprompt.TextBox1.Text + ("The Hidden Hacker: but you said when " & mainname & " gets back we get to time travel together..." & Environment.NewLine)
 
         End If
         If comn = 47 Then
-            commandprompt2000.TextBox1.Text = commandprompt2000.TextBox1.Text + ("12padams: Well no where right now... " & mainname & " only just got back" & Environment.NewLine)
+            commandprompt.TextBox1.Text = commandprompt.TextBox1.Text + ("12padams: Well no where right now... " & mainname & " only just got back" & Environment.NewLine)
 
         End If
         If comn = 51 Then
-            commandprompt2000.TextBox1.Text = commandprompt2000.TextBox1.Text + ("The Hidden Hacker: Well what do we do now where are we of to?" & Environment.NewLine)
+            commandprompt.TextBox1.Text = commandprompt.TextBox1.Text + ("The Hidden Hacker: Well what do we do now where are we of to?" & Environment.NewLine)
 
         End If
         If comn = 55 Then
-            commandprompt2000.TextBox1.Text = commandprompt2000.TextBox1.Text + ("12padams: Yes It did work... see I told you hidden hacker that it would work." & Environment.NewLine)
+            commandprompt.TextBox1.Text = commandprompt.TextBox1.Text + ("12padams: Yes It did work... see I told you hidden hacker that it would work." & Environment.NewLine)
 
         End If
         If comn = 60 Then
-            commandprompt2000.TextBox1.Text = commandprompt2000.TextBox1.Text + ("12padams Connected" & Environment.NewLine)
+            commandprompt.TextBox1.Text = commandprompt.TextBox1.Text + ("12padams Connected" & Environment.NewLine)
 
         End If
         If comn = 62 Then
-            commandprompt2000.TextBox1.Text = commandprompt2000.TextBox1.Text + ("Ip 185.352.857.342 Connecting..." & Environment.NewLine)
+            commandprompt.TextBox1.Text = commandprompt.TextBox1.Text + ("Ip 185.352.857.342 Connecting..." & Environment.NewLine)
 
         End If
         If comn = 65 Then
-            commandprompt2000.TextBox1.Text = commandprompt2000.TextBox1.Text + ("The Hidden Hacker: Ok he's gunna come now..." & Environment.NewLine)
+            commandprompt.TextBox1.Text = commandprompt.TextBox1.Text + ("The Hidden Hacker: Ok he's gunna come now..." & Environment.NewLine)
 
         End If
         If comn = 78 Then
-            commandprompt2000.TextBox1.Text = commandprompt2000.TextBox1.Text + ("The Hidden Hacker: Just wait a sec while I message him." & Environment.NewLine)
+            commandprompt.TextBox1.Text = commandprompt.TextBox1.Text + ("The Hidden Hacker: Just wait a sec while I message him." & Environment.NewLine)
 
         End If
         If comn = 83 Then
-            commandprompt2000.TextBox1.Text = commandprompt2000.TextBox1.Text + ("The Hidden Hacker: Ok " & mainname & " I will get 12padams here and tell him the good news" & Environment.NewLine)
+            commandprompt.TextBox1.Text = commandprompt.TextBox1.Text + ("The Hidden Hacker: Ok " & mainname & " I will get 12padams here and tell him the good news" & Environment.NewLine)
 
         End If
         If comn = 91 Then
-            commandprompt2000.TextBox1.Text = commandprompt2000.TextBox1.Text + ("The Hidden Hacker: The time travel from 1999 to 2000 worked without getting stuffed up by the y2k" & Environment.NewLine)
+            commandprompt.TextBox1.Text = commandprompt.TextBox1.Text + ("The Hidden Hacker: The time travel from 1999 to 2000 worked without getting stuffed up by the y2k" & Environment.NewLine)
 
         End If
         If comn = 95 Then
-            commandprompt2000.TextBox1.Text = commandprompt2000.TextBox1.Text + ("The Hidden Hacker: Yay it worked perfectly" & Environment.NewLine)
+            commandprompt.TextBox1.Text = commandprompt.TextBox1.Text + ("The Hidden Hacker: Yay it worked perfectly" & Environment.NewLine)
 
         End If
         If comn = 98 Then
-            commandprompt2000.TextBox1.Text = commandprompt2000.TextBox1.Text + ("The Hidden Hacker Connected" & Environment.NewLine)
+            commandprompt.TextBox1.Text = commandprompt.TextBox1.Text + ("The Hidden Hacker Connected" & Environment.NewLine)
 
         End If
         If comn = 99 Then
-            commandprompt2000.TextBox1.Text = commandprompt2000.TextBox1.Text + ("IP 146.342.534.632 Connecting..." & Environment.NewLine)
+            commandprompt.TextBox1.Text = commandprompt.TextBox1.Text + ("IP 146.342.534.632 Connecting..." & Environment.NewLine)
 
         End If
         If comn = 100 Then
-            commandprompt2000.Show()
+            commandprompt.Show()
 
             commandpromptstartup.Interval = 1000
         End If
-        commandprompt2000.TextBox1.SelectionStart = 999999
-        commandprompt2000.TextBox1.ScrollToCaret()
+        commandprompt.TextBox1.SelectionStart = 999999
+        commandprompt.TextBox1.ScrollToCaret()
         comn = comn - 1
     End Sub
 

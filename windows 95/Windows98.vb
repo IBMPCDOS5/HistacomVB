@@ -107,14 +107,14 @@
 
                     Dim openinstall As New Installer98
                     openinstall.installname.Text = "Skindows 95"
-                    openinstall.installimage.Image = My.Resources.skindows_95__install_
+                    openinstall.installimage.Image = My.Resources.skindows_95
                     openinstall.Show()
                 End If
                 If objListViewItem.Text = "Web Chat 1999 Setup" Then
 
                     Dim openinstall As New Installer98
                     openinstall.installname.Text = "Web Chat 1999"
-                    openinstall.installimage.Image = My.Resources.chat__big_
+                    openinstall.installimage.Image = My.Resources.chat_big
                     openinstall.Show()
                 End If
                 If objListViewItem.Text = "hwcv.exe" Then

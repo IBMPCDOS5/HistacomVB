@@ -106,7 +106,7 @@
     End Sub
 
     Private Sub Button22_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
-        previewimage.Image = My.Resources._1994_mclaren_f1
+        previewimage.Image = My.Resources.mclaren_f1
     End Sub
 
     Private Sub Button20_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
@@ -114,7 +114,7 @@
     End Sub
 
     Private Sub Button21_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
-        windows98.BackgroundImage = My.Resources._1994_mclaren_f1
+        windows98.BackgroundImage = My.Resources.mclaren_f1
     End Sub
 
     Private Sub LinkLabel17_LinkClicked(ByVal sender As System.Object, ByVal e As System.Windows.Forms.LinkLabelLinkClickedEventArgs) Handles LinkLabel17.LinkClicked
@@ -371,7 +371,7 @@
     End Sub
 
     Private Sub Button26_Click_1(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button26.Click
-        previewimage.Image = My.Resources._1999_sky
+        previewimage.Image = My.Resources.sky
     End Sub
 
     Private Sub Button27_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button27.Click
@@ -388,7 +388,7 @@
     End Sub
 
     Private Sub Button18_Click_1(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button18.Click
-        Windows98.desktopicons.BackgroundImage = My.Resources._1999_sky
+        Windows98.desktopicons.BackgroundImage = My.Resources.sky
         Dim w, h As Integer
         w = windows98.desktopicons.Width
         h = windows98.desktopicons.Height

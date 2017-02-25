@@ -1001,7 +1001,7 @@ Partial Class Internet_Explorer_52001
         'PictureBox16
         '
         Me.PictureBox16.Anchor = System.Windows.Forms.AnchorStyles.Top
-        Me.PictureBox16.Image = Global.Histacom.My.Resources.Resources._12padams2000logo
+        Me.PictureBox16.Image = Global.Histacom.My.Resources.Resources.padamslogo
         Me.PictureBox16.Location = New System.Drawing.Point(398, 3)
         Me.PictureBox16.Name = "PictureBox16"
         Me.PictureBox16.Size = New System.Drawing.Size(86, 62)
@@ -1481,7 +1481,7 @@ Partial Class Internet_Explorer_52001
         '
         'PictureBox18
         '
-        Me.PictureBox18.Image = Global.Histacom.My.Resources.Resources.windows_2000_history_image
+        Me.PictureBox18.Image = Global.Histacom.My.Resources.Resources.windows_2000_history__image
         Me.PictureBox18.Location = New System.Drawing.Point(426, 1617)
         Me.PictureBox18.Name = "PictureBox18"
         Me.PictureBox18.Size = New System.Drawing.Size(451, 294)
@@ -1613,7 +1613,7 @@ Partial Class Internet_Explorer_52001
         '
         'PictureBox9
         '
-        Me.PictureBox9.Image = Global.Histacom.My.Resources.Resources.Windows2_0
+        Me.PictureBox9.Image = Global.Histacom.My.Resources.Resources.Windows2
         Me.PictureBox9.Location = New System.Drawing.Point(426, 335)
         Me.PictureBox9.Name = "PictureBox9"
         Me.PictureBox9.Size = New System.Drawing.Size(451, 294)
@@ -1646,7 +1646,7 @@ Partial Class Internet_Explorer_52001
         '
         'PictureBox8
         '
-        Me.PictureBox8.Image = Global.Histacom.My.Resources.Resources.Windows1_0
+        Me.PictureBox8.Image = Global.Histacom.My.Resources.Resources.Windows1
         Me.PictureBox8.Location = New System.Drawing.Point(426, 24)
         Me.PictureBox8.Name = "PictureBox8"
         Me.PictureBox8.Size = New System.Drawing.Size(451, 294)
@@ -2141,7 +2141,7 @@ Partial Class Internet_Explorer_52001
         'PictureBox11
         '
         Me.PictureBox11.Anchor = System.Windows.Forms.AnchorStyles.Top
-        Me.PictureBox11.Image = Global.Histacom.My.Resources.Resources.skindows_95_picture
+        Me.PictureBox11.Image = Global.Histacom.My.Resources.Resources.skindows_95_preview
         Me.PictureBox11.Location = New System.Drawing.Point(922, 8)
         Me.PictureBox11.Name = "PictureBox11"
         Me.PictureBox11.Size = New System.Drawing.Size(331, 420)
@@ -2668,7 +2668,7 @@ Partial Class Internet_Explorer_52001
         '
         'PictureBox4
         '
-        Me.PictureBox4.Image = Global.Histacom.My.Resources.Resources._1999hotmaillogo
+        Me.PictureBox4.Image = Global.Histacom.My.Resources.Resources.hotmaillogo
         Me.PictureBox4.Location = New System.Drawing.Point(6, 3)
         Me.PictureBox4.Name = "PictureBox4"
         Me.PictureBox4.Size = New System.Drawing.Size(290, 52)
@@ -2852,7 +2852,7 @@ Partial Class Internet_Explorer_52001
         '
         'PictureBox3
         '
-        Me.PictureBox3.Image = Global.Histacom.My.Resources.Resources._1999hotmailpassport
+        Me.PictureBox3.Image = Global.Histacom.My.Resources.Resources.hotmailpassport
         Me.PictureBox3.Location = New System.Drawing.Point(98, 3)
         Me.PictureBox3.Name = "PictureBox3"
         Me.PictureBox3.Size = New System.Drawing.Size(100, 40)

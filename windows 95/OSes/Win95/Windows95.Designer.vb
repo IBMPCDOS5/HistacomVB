@@ -162,7 +162,7 @@ Partial Class Windows95
         Me.startmenuitems.Name = "startmenuitems"
         Me.startmenuitems.Padding = New System.Windows.Forms.Padding(6, 2, 0, 0)
         Me.startmenuitems.RenderMode = System.Windows.Forms.ToolStripRenderMode.System
-        Me.startmenuitems.Size = New System.Drawing.Size(142, 311)
+        Me.startmenuitems.Size = New System.Drawing.Size(142, 292)
         Me.startmenuitems.TabIndex = 0
         Me.startmenuitems.Text = "MenuStrip1"
         '
@@ -390,7 +390,7 @@ Partial Class Windows95
         'AOLInternetFREETrialToolStripMenuItem
         '
         Me.AOLInternetFREETrialToolStripMenuItem.BackColor = System.Drawing.Color.Silver
-        Me.AOLInternetFREETrialToolStripMenuItem.Image = Global.Histacom.My.Resources.Resources.windows95aolandinternetfreetrial_startmenuicon
+        Me.AOLInternetFREETrialToolStripMenuItem.Image = Global.Histacom.My.Resources.Resources.windows95aolandinternetfreetrialstartmenuicon
         Me.AOLInternetFREETrialToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
         Me.AOLInternetFREETrialToolStripMenuItem.Name = "AOLInternetFREETrialToolStripMenuItem"
         Me.AOLInternetFREETrialToolStripMenuItem.Size = New System.Drawing.Size(255, 24)
@@ -488,7 +488,7 @@ Partial Class Windows95
         'GuessTheNumberToolStripMenuItem
         '
         Me.GuessTheNumberToolStripMenuItem.BackColor = System.Drawing.Color.Silver
-        Me.GuessTheNumberToolStripMenuItem.Image = Global.Histacom.My.Resources.Resources.guess_the_number_number_1__32x32_
+        Me.GuessTheNumberToolStripMenuItem.Image = Global.Histacom.My.Resources.Resources.guess_the_number_one
         Me.GuessTheNumberToolStripMenuItem.Name = "GuessTheNumberToolStripMenuItem"
         Me.GuessTheNumberToolStripMenuItem.Size = New System.Drawing.Size(184, 26)
         Me.GuessTheNumberToolStripMenuItem.Text = "Guess The Number"
@@ -497,7 +497,7 @@ Partial Class Windows95
         'StartRunnerToolStripMenuItem
         '
         Me.StartRunnerToolStripMenuItem.BackColor = System.Drawing.Color.Silver
-        Me.StartRunnerToolStripMenuItem.Image = Global.Histacom.My.Resources.Resources.start_run__32x32_
+        Me.StartRunnerToolStripMenuItem.Image = Global.Histacom.My.Resources.Resources.start_run
         Me.StartRunnerToolStripMenuItem.Name = "StartRunnerToolStripMenuItem"
         Me.StartRunnerToolStripMenuItem.Size = New System.Drawing.Size(184, 26)
         Me.StartRunnerToolStripMenuItem.Text = "Start Runner"
@@ -506,7 +506,7 @@ Partial Class Windows95
         'ErrorBlasterToolStripMenuItem
         '
         Me.ErrorBlasterToolStripMenuItem.BackColor = System.Drawing.Color.Silver
-        Me.ErrorBlasterToolStripMenuItem.Image = Global.Histacom.My.Resources.Resources.ErrorBlast__One_
+        Me.ErrorBlasterToolStripMenuItem.Image = Global.Histacom.My.Resources.Resources.ErrorBlast_One
         Me.ErrorBlasterToolStripMenuItem.Name = "ErrorBlasterToolStripMenuItem"
         Me.ErrorBlasterToolStripMenuItem.Size = New System.Drawing.Size(184, 26)
         Me.ErrorBlasterToolStripMenuItem.Text = "Error Blaster"
@@ -515,7 +515,7 @@ Partial Class Windows95
         'SkindowsToolStripMenuItem
         '
         Me.SkindowsToolStripMenuItem.BackColor = System.Drawing.Color.Silver
-        Me.SkindowsToolStripMenuItem.Image = Global.Histacom.My.Resources.Resources.install_icon__32x32__basic__liquify_
+        Me.SkindowsToolStripMenuItem.Image = Global.Histacom.My.Resources.Resources.install_icon_basic
         Me.SkindowsToolStripMenuItem.Name = "SkindowsToolStripMenuItem"
         Me.SkindowsToolStripMenuItem.Size = New System.Drawing.Size(184, 26)
         Me.SkindowsToolStripMenuItem.Text = "Skindows 95"
@@ -524,7 +524,7 @@ Partial Class Windows95
         'WebChatToolStripMenuItem
         '
         Me.WebChatToolStripMenuItem.BackColor = System.Drawing.Color.Silver
-        Me.WebChatToolStripMenuItem.Image = Global.Histacom.My.Resources.Resources.chat__32x32_
+        Me.WebChatToolStripMenuItem.Image = Global.Histacom.My.Resources.Resources.chat
         Me.WebChatToolStripMenuItem.Name = "WebChatToolStripMenuItem"
         Me.WebChatToolStripMenuItem.Size = New System.Drawing.Size(184, 26)
         Me.WebChatToolStripMenuItem.Text = "Web Chat"
@@ -801,70 +801,70 @@ Partial Class Windows95
         Me.rightclickbackproperties.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.PropertiesToolStripMenuItem, Me.LineUpIconsToolStripMenuItem, Me.PasteToolStripMenuItem, Me.PasteShortcutToolStripMenuItem, Me.NewToolStripMenuItem1, Me.PropertiesToolStripMenuItem1})
         Me.rightclickbackproperties.Name = "ContextMenuStrip1"
         Me.rightclickbackproperties.RenderMode = System.Windows.Forms.ToolStripRenderMode.Professional
-        Me.rightclickbackproperties.Size = New System.Drawing.Size(151, 136)
+        Me.rightclickbackproperties.Size = New System.Drawing.Size(153, 158)
         '
         'PropertiesToolStripMenuItem
         '
         Me.PropertiesToolStripMenuItem.BackColor = System.Drawing.Color.Silver
         Me.PropertiesToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ByNameToolStripMenuItem, Me.ByTypeToolStripMenuItem, Me.BySizeToolStripMenuItem, Me.AutoArrangeToolStripMenuItem, Me.ByDateToolStripMenuItem})
         Me.PropertiesToolStripMenuItem.Name = "PropertiesToolStripMenuItem"
-        Me.PropertiesToolStripMenuItem.Size = New System.Drawing.Size(150, 22)
+        Me.PropertiesToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
         Me.PropertiesToolStripMenuItem.Text = "Arrange Icons"
         '
         'ByNameToolStripMenuItem
         '
         Me.ByNameToolStripMenuItem.BackColor = System.Drawing.Color.Silver
         Me.ByNameToolStripMenuItem.Name = "ByNameToolStripMenuItem"
-        Me.ByNameToolStripMenuItem.Size = New System.Drawing.Size(145, 22)
+        Me.ByNameToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
         Me.ByNameToolStripMenuItem.Text = "by Name"
         '
         'ByTypeToolStripMenuItem
         '
         Me.ByTypeToolStripMenuItem.BackColor = System.Drawing.Color.Silver
         Me.ByTypeToolStripMenuItem.Name = "ByTypeToolStripMenuItem"
-        Me.ByTypeToolStripMenuItem.Size = New System.Drawing.Size(145, 22)
+        Me.ByTypeToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
         Me.ByTypeToolStripMenuItem.Text = "by Type"
         '
         'BySizeToolStripMenuItem
         '
         Me.BySizeToolStripMenuItem.BackColor = System.Drawing.Color.Silver
         Me.BySizeToolStripMenuItem.Name = "BySizeToolStripMenuItem"
-        Me.BySizeToolStripMenuItem.Size = New System.Drawing.Size(145, 22)
+        Me.BySizeToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
         Me.BySizeToolStripMenuItem.Text = "by Size"
         '
         'AutoArrangeToolStripMenuItem
         '
         Me.AutoArrangeToolStripMenuItem.BackColor = System.Drawing.Color.Silver
         Me.AutoArrangeToolStripMenuItem.Name = "AutoArrangeToolStripMenuItem"
-        Me.AutoArrangeToolStripMenuItem.Size = New System.Drawing.Size(145, 22)
+        Me.AutoArrangeToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
         Me.AutoArrangeToolStripMenuItem.Text = "Auto Arrange"
         '
         'ByDateToolStripMenuItem
         '
         Me.ByDateToolStripMenuItem.BackColor = System.Drawing.Color.Silver
         Me.ByDateToolStripMenuItem.Name = "ByDateToolStripMenuItem"
-        Me.ByDateToolStripMenuItem.Size = New System.Drawing.Size(145, 22)
+        Me.ByDateToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
         Me.ByDateToolStripMenuItem.Text = "by Date"
         '
         'LineUpIconsToolStripMenuItem
         '
         Me.LineUpIconsToolStripMenuItem.BackColor = System.Drawing.Color.Silver
         Me.LineUpIconsToolStripMenuItem.Name = "LineUpIconsToolStripMenuItem"
-        Me.LineUpIconsToolStripMenuItem.Size = New System.Drawing.Size(150, 22)
+        Me.LineUpIconsToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
         Me.LineUpIconsToolStripMenuItem.Text = "Line Up Icons"
         '
         'PasteToolStripMenuItem
         '
         Me.PasteToolStripMenuItem.BackColor = System.Drawing.Color.Silver
         Me.PasteToolStripMenuItem.Name = "PasteToolStripMenuItem"
-        Me.PasteToolStripMenuItem.Size = New System.Drawing.Size(150, 22)
+        Me.PasteToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
         Me.PasteToolStripMenuItem.Text = "Paste"
         '
         'PasteShortcutToolStripMenuItem
         '
         Me.PasteShortcutToolStripMenuItem.BackColor = System.Drawing.Color.Silver
         Me.PasteShortcutToolStripMenuItem.Name = "PasteShortcutToolStripMenuItem"
-        Me.PasteShortcutToolStripMenuItem.Size = New System.Drawing.Size(150, 22)
+        Me.PasteShortcutToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
         Me.PasteShortcutToolStripMenuItem.Text = "Paste Shortcut"
         '
         'NewToolStripMenuItem1
@@ -872,7 +872,7 @@ Partial Class Windows95
         Me.NewToolStripMenuItem1.BackColor = System.Drawing.Color.Silver
         Me.NewToolStripMenuItem1.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.FolderToolStripMenuItem, Me.ShortcutToolStripMenuItem, Me.WaveSoundToolStripMenuItem, Me.TextDocumentToolStripMenuItem, Me.WordPadDocumentToolStripMenuItem, Me.BitmapImageToolStripMenuItem, Me.MicrosoftDataLinkToolStripMenuItem})
         Me.NewToolStripMenuItem1.Name = "NewToolStripMenuItem1"
-        Me.NewToolStripMenuItem1.Size = New System.Drawing.Size(150, 22)
+        Me.NewToolStripMenuItem1.Size = New System.Drawing.Size(152, 22)
         Me.NewToolStripMenuItem1.Text = "New"
         '
         'FolderToolStripMenuItem
@@ -928,7 +928,7 @@ Partial Class Windows95
         '
         Me.PropertiesToolStripMenuItem1.BackColor = System.Drawing.Color.Silver
         Me.PropertiesToolStripMenuItem1.Name = "PropertiesToolStripMenuItem1"
-        Me.PropertiesToolStripMenuItem1.Size = New System.Drawing.Size(150, 22)
+        Me.PropertiesToolStripMenuItem1.Size = New System.Drawing.Size(152, 22)
         Me.PropertiesToolStripMenuItem1.Text = "Properties"
         '
         'desktopiconsimages
@@ -975,7 +975,7 @@ Partial Class Windows95
         'taskbar
         '
         Me.taskbar.BackColor = System.Drawing.Color.Silver
-        Me.taskbar.BackgroundImage = Global.Histacom.My.Resources.Resources.windows95_and_98_taskbar
+        Me.taskbar.BackgroundImage = Global.Histacom.My.Resources.Resources.win95_and_98_taskbar
         Me.taskbar.Controls.Add(Me.startbutton)
         Me.taskbar.Controls.Add(Me.taskbartime)
         Me.taskbar.Dock = System.Windows.Forms.DockStyle.Bottom
@@ -986,7 +986,7 @@ Partial Class Windows95
         '
         'startbutton
         '
-        Me.startbutton.Image = Global.Histacom.My.Resources.Resources.start_button_windows_95
+        Me.startbutton.Image = Global.Histacom.My.Resources.Resources.start_button_win95
         Me.startbutton.Location = New System.Drawing.Point(3, 4)
         Me.startbutton.Name = "startbutton"
         Me.startbutton.Size = New System.Drawing.Size(56, 24)

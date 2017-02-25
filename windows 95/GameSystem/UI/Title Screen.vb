@@ -21,7 +21,7 @@
     End Sub
 
     Private Sub buttonexit_MouseLeave(ByVal sender As Object, ByVal e As System.EventArgs) Handles buttonexit.MouseLeave
-        buttonexit.Image = My.Resources._exit
+        buttonexit.Image = My.Resources.exitimg
     End Sub
 
     Private Sub buttonloadgame_MouseEnter(ByVal sender As Object, ByVal e As System.EventArgs) Handles buttonloadgame.MouseEnter
@@ -34,8 +34,5 @@
 
     Private Sub buttonloadgame_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles buttonloadgame.Click
         loadsettings.Show()
-    End Sub
-
-    Private Sub Title_Screen_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
     End Sub
 End Class

@@ -790,7 +790,7 @@
     End Sub
 
     Private Sub Button5_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button5.Click
-        Dim opendownload As New downloader95
+        Dim opendownload As New downloader
         opendownload.Show()
         opendownload.Label2.Text = "Downloading: Skindows 95"
     End Sub

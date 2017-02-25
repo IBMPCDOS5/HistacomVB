@@ -346,7 +346,7 @@ Partial Class Internetexplorer62002damaged
         Me.Button12.Dock = System.Windows.Forms.DockStyle.Left
         Me.Button12.FlatAppearance.BorderSize = 0
         Me.Button12.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button12.Image = Global.Histacom.My.Resources.Resources.internetexplorer6editbutton
+        Me.Button12.Image = Global.Histacom.My.Resources.Resources.ie6editbutton
         Me.Button12.Location = New System.Drawing.Point(473, 0)
         Me.Button12.Name = "Button12"
         Me.Button12.Size = New System.Drawing.Size(30, 47)
@@ -398,7 +398,7 @@ Partial Class Internetexplorer62002damaged
         Me.Button9.Dock = System.Windows.Forms.DockStyle.Left
         Me.Button9.FlatAppearance.BorderSize = 0
         Me.Button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button9.Image = Global.Histacom.My.Resources.Resources.internetexplorer6faveroritesbutton
+        Me.Button9.Image = Global.Histacom.My.Resources.Resources.ie6faveroritesbutton
         Me.Button9.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.Button9.Location = New System.Drawing.Point(298, 0)
         Me.Button9.Name = "Button9"
@@ -482,7 +482,7 @@ Partial Class Internetexplorer62002damaged
         Me.Button1.Dock = System.Windows.Forms.DockStyle.Left
         Me.Button1.FlatAppearance.BorderSize = 0
         Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button1.Image = Global.Histacom.My.Resources.Resources.internetexplorer6backbutton
+        Me.Button1.Image = Global.Histacom.My.Resources.Resources.ie6backbutton
         Me.Button1.Location = New System.Drawing.Point(0, 0)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(70, 47)

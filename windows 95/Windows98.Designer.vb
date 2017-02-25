@@ -1100,7 +1100,7 @@ Partial Class Windows98
         'taskbar
         '
         Me.taskbar.BackColor = System.Drawing.Color.Silver
-        Me.taskbar.BackgroundImage = Global.Histacom.My.Resources.Resources.windows95_and_98_taskbar
+        Me.taskbar.BackgroundImage = Global.Histacom.My.Resources.Resources.win95_and_98_taskbar
         Me.taskbar.Controls.Add(Me.startbutton)
         Me.taskbar.Controls.Add(Me.taskbartime)
         Me.taskbar.Dock = System.Windows.Forms.DockStyle.Bottom
