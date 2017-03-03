@@ -11,7 +11,6 @@
             End If
             ListView1.Items.Add(TreeNode.text)
         Next
-
     End Sub
 
     Private Sub windows_explorer_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load

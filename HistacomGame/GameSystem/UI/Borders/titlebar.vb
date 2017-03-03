@@ -32,7 +32,6 @@
                 Me.BackgroundImage = Windows98.exampleprogramtopbar.BackgroundImage
                 Me.BackColor = Windows98.exampleprogramtext.BackColor
         End Select
-
     End Sub
 
     Private Sub titlebar_MouseUp(sender As Object, e As MouseEventArgs) Handles Me.MouseUp
