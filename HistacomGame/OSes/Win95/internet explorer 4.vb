@@ -76,10 +76,15 @@
                 skindows95advertisment.Dock = DockStyle.Fill
                 skindows95advertisment.Show()
             Case "www.12padams.com/???"
-                GameMain.OpenMsg("NOTE TO 12PADAMS:" & vbCrLf & "Use the hidden link on my website to access this page")
-                addressbar.Text = "www.12padams.com"
-                padamsmain.Dock = DockStyle.Fill
-                padamsmain.Show()
+                If special = False Then
+                    GameMain.OpenMsg("NOTE TO 12PADAMS:" & vbCrLf & "Use the hidden link on my website to access this page")
+                    addressbar.Text = "www.12padams.com"
+                    padamsmain.Dock = DockStyle.Fill
+                    padamsmain.Show()
+                Else
+                    padamshidden.Dock = DockStyle.Fill
+                    padamshidden.Show()
+                End If
             Case "www.hotmail.com/seculink/145624987903246EGS4HFO954325UPWEM5N8BSSA5634S"
                 If special = False Then
                     GameMain.OpenMsg("For security reasons please login normally")
@@ -90,7 +95,6 @@
                     hotmailpadams.Dock = DockStyle.Fill
                     hotmailpadams.Show()
                 End If
-
             Case "www.???.com"
                 secretwebsite.Dock = DockStyle.Fill
                 secretwebsite.Show()

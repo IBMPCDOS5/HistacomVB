@@ -28,6 +28,10 @@ Partial Class Title_Screen
         Me.buttonexit = New System.Windows.Forms.PictureBox()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
+        Me.Button1 = New System.Windows.Forms.Button()
+        Me.txtNew = New System.Windows.Forms.TextBox()
+        Me.lblNew = New System.Windows.Forms.Label()
+        Me.btnNew = New System.Windows.Forms.Button()
         CType(Me.buttonnewgame, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.buttonloadgame, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.buttonexit, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -93,6 +97,44 @@ Partial Class Title_Screen
         Me.Label2.TabIndex = 3
         Me.Label2.Text = "Alpha 1 (Everything is basically messed up, right now)"
         '
+        'Button1
+        '
+        Me.Button1.Location = New System.Drawing.Point(281, 535)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(218, 23)
+        Me.Button1.TabIndex = 4
+        Me.Button1.Text = "EXTRA INFO"
+        Me.Button1.UseVisualStyleBackColor = True
+        '
+        'txtNew
+        '
+        Me.txtNew.Location = New System.Drawing.Point(42, 312)
+        Me.txtNew.Name = "txtNew"
+        Me.txtNew.Size = New System.Drawing.Size(716, 20)
+        Me.txtNew.TabIndex = 5
+        Me.txtNew.Visible = False
+        '
+        'lblNew
+        '
+        Me.lblNew.AutoSize = True
+        Me.lblNew.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.0!)
+        Me.lblNew.Location = New System.Drawing.Point(138, 284)
+        Me.lblNew.Name = "lblNew"
+        Me.lblNew.Size = New System.Drawing.Size(561, 25)
+        Me.lblNew.TabIndex = 6
+        Me.lblNew.Text = "Give your game a profile name (You do need to remember this):"
+        Me.lblNew.Visible = False
+        '
+        'btnNew
+        '
+        Me.btnNew.Location = New System.Drawing.Point(281, 338)
+        Me.btnNew.Name = "btnNew"
+        Me.btnNew.Size = New System.Drawing.Size(185, 23)
+        Me.btnNew.TabIndex = 7
+        Me.btnNew.Text = "Go!"
+        Me.btnNew.UseVisualStyleBackColor = True
+        Me.btnNew.Visible = False
+        '
         'Title_Screen
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -100,6 +142,10 @@ Partial Class Title_Screen
         Me.BackgroundImage = Global.Histacom.My.Resources.Resources.Histacom_1_8_Background
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(784, 560)
+        Me.Controls.Add(Me.btnNew)
+        Me.Controls.Add(Me.lblNew)
+        Me.Controls.Add(Me.txtNew)
+        Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.buttonexit)
@@ -122,4 +168,8 @@ Partial Class Title_Screen
     Friend WithEvents buttonexit As System.Windows.Forms.PictureBox
     Friend WithEvents Label1 As System.Windows.Forms.Label
     Friend WithEvents Label2 As Label
+    Friend WithEvents Button1 As Button
+    Friend WithEvents txtNew As TextBox
+    Friend WithEvents lblNew As Label
+    Friend WithEvents btnNew As Button
 End Class

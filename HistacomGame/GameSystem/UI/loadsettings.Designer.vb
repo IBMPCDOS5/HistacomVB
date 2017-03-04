@@ -26,8 +26,6 @@ Partial Class loadsettings
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.txtname = New System.Windows.Forms.TextBox()
-        Me.Label3 = New System.Windows.Forms.Label()
-        Me.txtcode = New System.Windows.Forms.TextBox()
         Me.btnhelp = New System.Windows.Forms.Button()
         Me.btnload = New System.Windows.Forms.Button()
         Me.btncancel = New System.Windows.Forms.Button()
@@ -39,45 +37,27 @@ Partial Class loadsettings
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.Location = New System.Drawing.Point(12, 9)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(237, 16)
+        Me.Label1.Size = New System.Drawing.Size(231, 32)
         Me.Label1.TabIndex = 0
-        Me.Label1.Text = "Please fill out your game settings"
+        Me.Label1.Text = "Type the profile name you gave " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "the game when you started it"
         '
         'Label2
         '
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(13, 45)
+        Me.Label2.Location = New System.Drawing.Point(-1, 64)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(83, 15)
+        Me.Label2.Size = New System.Drawing.Size(95, 15)
         Me.Label2.TabIndex = 1
-        Me.Label2.Text = "User Name:"
+        Me.Label2.Text = "Profile Name:"
         '
         'txtname
         '
-        Me.txtname.Location = New System.Drawing.Point(96, 44)
+        Me.txtname.Location = New System.Drawing.Point(100, 63)
         Me.txtname.Multiline = True
         Me.txtname.Name = "txtname"
         Me.txtname.Size = New System.Drawing.Size(153, 20)
         Me.txtname.TabIndex = 2
-        '
-        'Label3
-        '
-        Me.Label3.AutoSize = True
-        Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(13, 78)
-        Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(77, 15)
-        Me.Label3.TabIndex = 3
-        Me.Label3.Text = "Year Code:"
-        '
-        'txtcode
-        '
-        Me.txtcode.Location = New System.Drawing.Point(96, 77)
-        Me.txtcode.Multiline = True
-        Me.txtcode.Name = "txtcode"
-        Me.txtcode.Size = New System.Drawing.Size(153, 20)
-        Me.txtcode.TabIndex = 4
         '
         'btnhelp
         '
@@ -114,8 +94,6 @@ Partial Class loadsettings
         Me.Controls.Add(Me.btncancel)
         Me.Controls.Add(Me.btnload)
         Me.Controls.Add(Me.btnhelp)
-        Me.Controls.Add(Me.txtcode)
-        Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.txtname)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
@@ -129,8 +107,6 @@ Partial Class loadsettings
     Friend WithEvents Label1 As System.Windows.Forms.Label
     Friend WithEvents Label2 As System.Windows.Forms.Label
     Friend WithEvents txtname As System.Windows.Forms.TextBox
-    Friend WithEvents Label3 As System.Windows.Forms.Label
-    Friend WithEvents txtcode As System.Windows.Forms.TextBox
     Friend WithEvents btnhelp As System.Windows.Forms.Button
     Friend WithEvents btnload As System.Windows.Forms.Button
     Friend WithEvents btncancel As System.Windows.Forms.Button
