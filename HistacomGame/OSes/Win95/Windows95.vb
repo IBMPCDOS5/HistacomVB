@@ -8,6 +8,7 @@
     End Sub
 
     Private Sub windows95_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
+        GameMain.OS = 1
         desktopicons.Show()
         If My.Resources.windows95bootsound.CanRead Then
             Dim bStr(My.Resources.windows95bootsound.Length) As Byte

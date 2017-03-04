@@ -22,7 +22,19 @@ Partial Class rborder
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
+        Me.pull = New System.Windows.Forms.Timer(Me.components)
+        Me.update = New System.Windows.Forms.Timer(Me.components)
         Me.SuspendLayout()
+        '
+        'pull
+        '
+        Me.pull.Interval = 10
+        '
+        'update
+        '
+        Me.update.Enabled = True
+        Me.update.Interval = 5000
         '
         'rborder
         '
@@ -35,4 +47,6 @@ Partial Class rborder
 
     End Sub
 
+    Friend WithEvents pull As Timer
+    Friend WithEvents update As Timer
 End Class

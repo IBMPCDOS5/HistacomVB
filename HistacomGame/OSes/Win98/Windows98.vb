@@ -12,6 +12,7 @@
     End Sub
 
     Private Sub windows98Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Me.Load
+        GameMain.OS = 2
         If My.Resources.windows98bootsound.CanRead Then
             Dim bStr(My.Resources.windows98bootsound.Length) As Byte
             My.Resources.windows98bootsound.Read(bStr, 0, My.Resources.windows98bootsound.Length)

@@ -98,6 +98,12 @@
     <Compile Include="2002 virus labels.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Apps\About.Designer.vb">
+      <DependentUpon>About.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Apps\About.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Apps\Address Book.Designer.vb">
       <DependentUpon>Address Book.vb</DependentUpon>
     </Compile>
@@ -402,6 +408,9 @@
   <ItemGroup>
     <EmbeddedResource Include="2002 virus labels.resx">
       <DependentUpon>2002 virus labels.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Apps\About.resx">
+      <DependentUpon>About.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Apps\Address Book.resx">
       <DependentUpon>Address Book.vb</DependentUpon>
@@ -1538,6 +1547,7 @@
     <Content Include="histacom logo.ico" />
     <Content Include="histacom icon.ico" />
     <Content Include="Resources\Command-Prompt-icon.png" />
+    <None Include="Resources\win9xlogo.bmp" />
     <None Include="Resources\money.gif" />
     <None Include="Resources\other-fire-143887964479415.gif" />
     <None Include="Resources\Windows ME Startup.wav" />
