@@ -90,11 +90,11 @@ Partial Class createmsg
         Me.infomessage.BackColor = System.Drawing.Color.LightGray
         Me.infomessage.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.infomessage.Cursor = System.Windows.Forms.Cursors.Default
-        Me.infomessage.Location = New System.Drawing.Point(50, 3)
+        Me.infomessage.Location = New System.Drawing.Point(50, 28)
         Me.infomessage.Multiline = True
         Me.infomessage.Name = "infomessage"
         Me.infomessage.ReadOnly = True
-        Me.infomessage.Size = New System.Drawing.Size(224, 102)
+        Me.infomessage.Size = New System.Drawing.Size(224, 54)
         Me.infomessage.TabIndex = 6
         Me.infomessage.TabStop = False
         '
@@ -110,7 +110,7 @@ Partial Class createmsg
         'Button1
         '
         Me.Button1.Anchor = System.Windows.Forms.AnchorStyles.Bottom
-        Me.Button1.Location = New System.Drawing.Point(110, 124)
+        Me.Button1.Location = New System.Drawing.Point(220, 160)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(75, 23)
         Me.Button1.TabIndex = 7

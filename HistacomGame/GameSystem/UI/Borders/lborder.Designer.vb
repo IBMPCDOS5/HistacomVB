@@ -34,7 +34,7 @@ Partial Class lborder
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackgroundImage = Global.Histacom.My.Resources.Resources.windows95leftside
+        Me.BackgroundImage = Global.Histacom.My.Resources.Resources.windows95rightside
         Me.Name = "lborder"
         Me.Size = New System.Drawing.Size(4, 150)
         Me.ResumeLayout(False)

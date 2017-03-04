@@ -1311,7 +1311,7 @@ Partial Class internet_explorer_4
         Me.Panel13.Controls.Add(Me.win95background)
         Me.Panel13.Location = New System.Drawing.Point(46, 74)
         Me.Panel13.Name = "Panel13"
-        Me.Panel13.Size = New System.Drawing.Size(5188, 9)
+        Me.Panel13.Size = New System.Drawing.Size(5734, 9)
         Me.Panel13.TabIndex = 2
         '
         'Previewimage
@@ -1322,7 +1322,7 @@ Partial Class internet_explorer_4
         Me.Previewimage.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Previewimage.Location = New System.Drawing.Point(246, 6)
         Me.Previewimage.Name = "Previewimage"
-        Me.Previewimage.Size = New System.Drawing.Size(3771, 9)
+        Me.Previewimage.Size = New System.Drawing.Size(4317, 9)
         Me.Previewimage.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.Previewimage.TabIndex = 1
         Me.Previewimage.TabStop = False
@@ -2732,7 +2732,7 @@ Partial Class internet_explorer_4
         Me.Label42.Anchor = System.Windows.Forms.AnchorStyles.Top
         Me.Label42.AutoSize = True
         Me.Label42.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label42.Location = New System.Drawing.Point(734, 9)
+        Me.Label42.Location = New System.Drawing.Point(807, 9)
         Me.Label42.Name = "Label42"
         Me.Label42.Size = New System.Drawing.Size(263, 18)
         Me.Label42.TabIndex = 5
@@ -2743,7 +2743,7 @@ Partial Class internet_explorer_4
         Me.Label41.Anchor = System.Windows.Forms.AnchorStyles.Top
         Me.Label41.AutoSize = True
         Me.Label41.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label41.Location = New System.Drawing.Point(834, 33)
+        Me.Label41.Location = New System.Drawing.Point(907, 33)
         Me.Label41.Name = "Label41"
         Me.Label41.Size = New System.Drawing.Size(71, 24)
         Me.Label41.TabIndex = 4
@@ -2758,7 +2758,7 @@ Partial Class internet_explorer_4
         Me.TextBox8.Multiline = True
         Me.TextBox8.Name = "TextBox8"
         Me.TextBox8.ReadOnly = True
-        Me.TextBox8.Size = New System.Drawing.Size(172, 4250)
+        Me.TextBox8.Size = New System.Drawing.Size(172, 4641)
         Me.TextBox8.TabIndex = 3
         Me.TextBox8.Text = resources.GetString("TextBox8.Text")
         '
@@ -2766,7 +2766,7 @@ Partial Class internet_explorer_4
         '
         Me.PictureBox11.Anchor = System.Windows.Forms.AnchorStyles.Top
         Me.PictureBox11.Image = Global.Histacom.My.Resources.Resources.skindows_95_preview
-        Me.PictureBox11.Location = New System.Drawing.Point(704, 60)
+        Me.PictureBox11.Location = New System.Drawing.Point(777, 60)
         Me.PictureBox11.Name = "PictureBox11"
         Me.PictureBox11.Size = New System.Drawing.Size(337, 386)
         Me.PictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage

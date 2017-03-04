@@ -314,4 +314,8 @@
     Private Sub Button28_Click(sender As Object, e As EventArgs) Handles Button28.Click
         Me.WindowState = 2
     End Sub
+
+    Private Sub ToolStripMenuItem21_Click(sender As Object, e As EventArgs) Handles ToolStripMenuItem21.Click
+        Me.Close()
+    End Sub
 End Class
