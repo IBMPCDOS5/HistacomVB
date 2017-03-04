@@ -64,7 +64,7 @@ Partial Class About
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(10, 82)
+        Me.Label2.Location = New System.Drawing.Point(7, 82)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(185, 39)
         Me.Label2.TabIndex = 1

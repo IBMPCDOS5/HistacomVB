@@ -15,6 +15,10 @@
         win.Controls.Add(lbord)
         win.Controls.Add(rbord)
         win.Controls.Add(dbord)
+        win.Height += ntitle.Height
+        win.Width += lbord.Width
+        win.Width += rbord.Width
+        win.Height += dbord.Height
     End Sub
 
 

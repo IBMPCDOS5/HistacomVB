@@ -38,7 +38,7 @@
                 waiting = False
             Else
                 history.Text += (username & ": " & typechat.Text & Environment.NewLine)
-                history.Text += ("12padams: sorry that was the wrong password... remember that you should only type the 4 letter password and nothing else." & Environment.NewLine)
+                history.Text += ("12padams: Sorry that was the wrong password... remember that you should only type the 4 letter password and nothing else." & Environment.NewLine)
                 typechat.Text = ""
                 history.Focus()
                 history.SelectionStart = 999999
