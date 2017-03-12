@@ -154,7 +154,7 @@ Partial Class Title_Screen
         Me.DoubleBuffered = True
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "Title_Screen"
-        Me.Text = "Histacom 1.8.5"
+        Me.Text = "Histacom 2.0"
         Me.TransparencyKey = System.Drawing.Color.Magenta
         CType(Me.buttonnewgame, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.buttonloadgame, System.ComponentModel.ISupportInitialize).EndInit()

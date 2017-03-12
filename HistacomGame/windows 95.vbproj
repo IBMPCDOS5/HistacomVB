@@ -141,6 +141,7 @@
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="GameSystem\Backend\GameMain.vb" />
+    <Compile Include="GameSystem\Backend\OpenTextFile.vb" />
     <Compile Include="GameSystem\Backend\SAVESYSTEM.vb" />
     <Compile Include="GameSystem\Backend\winman.vb" />
     <Compile Include="Apps\Guess The Number.Designer.vb">
@@ -1548,6 +1549,7 @@
     <Content Include="histacom logo.ico" />
     <Content Include="histacom icon.ico" />
     <Content Include="Resources\Command-Prompt-icon.png" />
+    <None Include="Resources\th677JBLA1.jpg" />
     <None Include="Resources\win9xlogo.bmp" />
     <None Include="Resources\money.gif" />
     <None Include="Resources\other-fire-143887964479415.gif" />

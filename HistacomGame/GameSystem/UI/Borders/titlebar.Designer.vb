@@ -78,11 +78,11 @@ Partial Class titlebar
         'appName
         '
         Me.appName.AutoSize = True
-        Me.appName.Font = New System.Drawing.Font("Tahoma", 12.0!)
+        Me.appName.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.appName.ForeColor = System.Drawing.Color.White
         Me.appName.Location = New System.Drawing.Point(26, 6)
         Me.appName.Name = "appName"
-        Me.appName.Size = New System.Drawing.Size(73, 19)
+        Me.appName.Size = New System.Drawing.Size(72, 18)
         Me.appName.TabIndex = 1
         Me.appName.Text = "Windows"
         '

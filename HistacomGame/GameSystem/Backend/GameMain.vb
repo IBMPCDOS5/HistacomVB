@@ -19,9 +19,9 @@
 
     Public Shared Sub setUpFolders(ByVal dir As String)
         If Not My.Computer.FileSystem.DirectoryExists(dir & "\C") Then My.Computer.FileSystem.CreateDirectory(dir & "\C")
-        If Not My.Computer.FileSystem.DirectoryExists(dir & "\Doc") Then My.Computer.FileSystem.CreateDirectory(dir & "\Doc")
-        If Not My.Computer.FileSystem.DirectoryExists(dir & "\Prog") Then My.Computer.FileSystem.CreateDirectory(dir & "\Prog")
-        If Not My.Computer.FileSystem.DirectoryExists(dir & "\Win") Then My.Computer.FileSystem.CreateDirectory(dir & "\Win")
+        If Not My.Computer.FileSystem.DirectoryExists(dir & "\C\Doc") Then My.Computer.FileSystem.CreateDirectory(dir & "\C\Doc")
+        If Not My.Computer.FileSystem.DirectoryExists(dir & "\C\Prog") Then My.Computer.FileSystem.CreateDirectory(dir & "\C\Prog")
+        If Not My.Computer.FileSystem.DirectoryExists(dir & "\C\Win") Then My.Computer.FileSystem.CreateDirectory(dir & "\C\Win")
     End Sub
 
     Public Shared Sub newGame(ByVal profileName As String)
@@ -51,46 +51,43 @@
                 currentver.AddProperty("Version", GameVersion)
                 currentver.AddProperty("VersionSmall", GameVersionSmall)
 
-                ''EXTRA DATA FOR SPECIAL FOLDERS
-                'My Computer
-                filesys.AddProperty("from", "folders")
+#Region "FileSystem"
                 filesys.AddProperty("protected", "false")
                 filesys.AddProperty("label", "My Computer")
                 filesys.AddProperty("allowback", "false")
-                'C drive
-                filesC.AddProperty("from", "folders\C")
+
                 filesC.AddProperty("protected", "false")
                 filesC.AddProperty("label", "Win_95")
                 filesC.AddProperty("allowback", "true")
-                'C\My Documents
-                filesCDoc.AddProperty("from", "folders\C\Doc")
+
                 filesCDoc.AddProperty("protected", "false")
                 filesCDoc.AddProperty("label", "My Documents")
                 filesCDoc.AddProperty("allowback", "true")
                 filesCDoc.AddProperty("isMyDocuments", "true")
-                'C\Program Files
-                filesCProg.AddProperty("from", "folders\C\Prog")
+
                 filesCProg.AddProperty("protected", "true")
-                filesCProg.AddProperty("label", "Program Files")
+                filesCProg.AddProperty("label", "My Programs")
                 filesCProg.AddProperty("allowback", "true")
                 filesCProg.AddProperty("isMyPrograms", "true")
-                'C\Windows
-                filesCWin.AddProperty("from", "folders\C\Win")
+
                 filesCWin.AddProperty("protected", "true")
                 filesCWin.AddProperty("label", "Windows")
                 filesCWin.AddProperty("allowback", "true")
                 filesCWin.AddProperty("isWindows", "true")
-                filesC.AddBlock("MyDocuments", filesCDoc)
-                filesC.AddBlock("ProgFiles", filesCProg)
-                filesC.AddBlock("Windows", filesCWin)
-                filesys.AddBlock("MyComputer", filesC)
+
+                filesys.SaveToFile(MyDocuments & "\HistacomVB\" & SaveProfile & "\folders\_data.txt")
+                filesC.SaveToFile(MyDocuments & "\HistacomVB\" & SaveProfile & "\folders\C\_data.txt")
+                filesCDoc.SaveToFile(MyDocuments & "\HistacomVB\" & SaveProfile & "\folders\C\Doc\_data.txt")
+                filesCProg.SaveToFile(MyDocuments & "\HistacomVB\" & SaveProfile & "\folders\C\Prog\_data.txt")
+                filesCWin.SaveToFile(MyDocuments & "\HistacomVB\" & SaveProfile & "\folders\C\Win\_data.txt")
+#End Region
 
                 main.AddProperty("os", OS)
 
                 MainSave.AddBlock("startedVersion", startedver)
                 MainSave.AddBlock("currentVersion", currentver)
                 MainSave.AddBlock("mainData", main)
-                MainSave.AddBlock("FileSystem", filesys)
+                'MainSave.AddBlock("FileSystem", filesys)
 
                 MainSave.SaveToFile(MyDocuments & "\HistacomVB\" & SaveProfile & "\Main.txt")
             End If
