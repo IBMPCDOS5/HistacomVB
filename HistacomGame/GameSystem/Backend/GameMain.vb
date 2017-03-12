@@ -2,6 +2,7 @@
     Public Shared MyDocuments As String = My.Computer.FileSystem.SpecialDirectories.MyDocuments
     Public Shared GameVersion As String = "2.0"
     Public Shared GameVersionSmall As String = "Alpha-1"
+    Public Shared ReturnPath As String
 #Region "Save Things"
     Public Shared SaveProfile As String
 
@@ -136,4 +137,12 @@
         msg.infomessage.Text = message
         msg.ShowDialog()
     End Sub
+
+    Public Shared Function ShowFileDialog(IsSaveFile As Boolean, ByVal Extension As String)
+        windows_explorer.IsFileDialog = True
+        windows_explorer.onlyViewExtension = Extension
+        If IsSaveFile Then windows_explorer.pnlSave.Show()
+        windows_explorer.ShowDialog()
+        Return ReturnPath
+    End Function
 End Class

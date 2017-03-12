@@ -152,7 +152,7 @@
                 Chat.Interval = 5000
                 con += 1
             Case 11
-                history.Text += ("The Hidden Hacker: " & mainname & " you dont understand how boring it is to wait a whole year for you to return..." & Environment.NewLine)
+                history.Text += ("The Hidden Hacker: " & mainname & ", you dont understand how boring it is to wait a whole year for you to return..." & Environment.NewLine)
                 Chat.Interval = 6000
                 con += 1
             Case 10

@@ -24,11 +24,10 @@ Partial Class notepad
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
         Me.program = New System.Windows.Forms.Panel()
-        Me.notepadtextbox = New System.Windows.Forms.TextBox()
+        Me.maintxt = New System.Windows.Forms.TextBox()
         Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
         Me.FileToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
         Me.EditToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
-        Me.FormatToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
         Me.HelpToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
         Me.toprightcorner = New System.Windows.Forms.Panel()
         Me.bottomrightcorner = New System.Windows.Forms.Panel()
@@ -60,6 +59,10 @@ Partial Class notepad
         Me.CopyToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.PasteToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.DeleteToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.SelectAllToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.TimeDateToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.WordWrapToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.AboutNotepadToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.program.SuspendLayout()
         Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
@@ -67,7 +70,7 @@ Partial Class notepad
         'program
         '
         Me.program.BackColor = System.Drawing.Color.LightGray
-        Me.program.Controls.Add(Me.notepadtextbox)
+        Me.program.Controls.Add(Me.maintxt)
         Me.program.Controls.Add(Me.MenuStrip1)
         Me.program.Controls.Add(Me.toprightcorner)
         Me.program.Controls.Add(Me.bottomrightcorner)
@@ -79,21 +82,21 @@ Partial Class notepad
         Me.program.Size = New System.Drawing.Size(438, 316)
         Me.program.TabIndex = 5
         '
-        'notepadtextbox
+        'maintxt
         '
-        Me.notepadtextbox.Cursor = System.Windows.Forms.Cursors.Arrow
-        Me.notepadtextbox.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.notepadtextbox.Location = New System.Drawing.Point(0, 24)
-        Me.notepadtextbox.Multiline = True
-        Me.notepadtextbox.Name = "notepadtextbox"
-        Me.notepadtextbox.ScrollBars = System.Windows.Forms.ScrollBars.Both
-        Me.notepadtextbox.Size = New System.Drawing.Size(438, 292)
-        Me.notepadtextbox.TabIndex = 10
+        Me.maintxt.Cursor = System.Windows.Forms.Cursors.IBeam
+        Me.maintxt.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.maintxt.Location = New System.Drawing.Point(0, 24)
+        Me.maintxt.Multiline = True
+        Me.maintxt.Name = "maintxt"
+        Me.maintxt.ScrollBars = System.Windows.Forms.ScrollBars.Both
+        Me.maintxt.Size = New System.Drawing.Size(438, 292)
+        Me.maintxt.TabIndex = 10
         '
         'MenuStrip1
         '
         Me.MenuStrip1.BackColor = System.Drawing.Color.LightGray
-        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.FileToolStripMenuItem1, Me.EditToolStripMenuItem1, Me.FormatToolStripMenuItem1, Me.HelpToolStripMenuItem1})
+        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.FileToolStripMenuItem1, Me.EditToolStripMenuItem1, Me.HelpToolStripMenuItem1})
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
         Me.MenuStrip1.Size = New System.Drawing.Size(438, 24)
@@ -109,19 +112,14 @@ Partial Class notepad
         '
         'EditToolStripMenuItem1
         '
-        Me.EditToolStripMenuItem1.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.CutToolStripMenuItem, Me.CopyToolStripMenuItem, Me.PasteToolStripMenuItem, Me.DeleteToolStripMenuItem})
+        Me.EditToolStripMenuItem1.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.CutToolStripMenuItem, Me.CopyToolStripMenuItem, Me.PasteToolStripMenuItem, Me.DeleteToolStripMenuItem, Me.SelectAllToolStripMenuItem, Me.TimeDateToolStripMenuItem, Me.WordWrapToolStripMenuItem})
         Me.EditToolStripMenuItem1.Name = "EditToolStripMenuItem1"
         Me.EditToolStripMenuItem1.Size = New System.Drawing.Size(39, 20)
         Me.EditToolStripMenuItem1.Text = "Edit"
         '
-        'FormatToolStripMenuItem1
-        '
-        Me.FormatToolStripMenuItem1.Name = "FormatToolStripMenuItem1"
-        Me.FormatToolStripMenuItem1.Size = New System.Drawing.Size(57, 20)
-        Me.FormatToolStripMenuItem1.Text = "Format"
-        '
         'HelpToolStripMenuItem1
         '
+        Me.HelpToolStripMenuItem1.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.AboutNotepadToolStripMenuItem})
         Me.HelpToolStripMenuItem1.Name = "HelpToolStripMenuItem1"
         Me.HelpToolStripMenuItem1.Size = New System.Drawing.Size(44, 20)
         Me.HelpToolStripMenuItem1.Text = "Help"
@@ -306,6 +304,31 @@ Partial Class notepad
         Me.DeleteToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
         Me.DeleteToolStripMenuItem.Text = "Delete"
         '
+        'SelectAllToolStripMenuItem
+        '
+        Me.SelectAllToolStripMenuItem.Name = "SelectAllToolStripMenuItem"
+        Me.SelectAllToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.SelectAllToolStripMenuItem.Text = "Select All"
+        '
+        'TimeDateToolStripMenuItem
+        '
+        Me.TimeDateToolStripMenuItem.Name = "TimeDateToolStripMenuItem"
+        Me.TimeDateToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.TimeDateToolStripMenuItem.Text = "Time/Date"
+        '
+        'WordWrapToolStripMenuItem
+        '
+        Me.WordWrapToolStripMenuItem.CheckOnClick = True
+        Me.WordWrapToolStripMenuItem.Name = "WordWrapToolStripMenuItem"
+        Me.WordWrapToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.WordWrapToolStripMenuItem.Text = "Word Wrap"
+        '
+        'AboutNotepadToolStripMenuItem
+        '
+        Me.AboutNotepadToolStripMenuItem.Name = "AboutNotepadToolStripMenuItem"
+        Me.AboutNotepadToolStripMenuItem.Size = New System.Drawing.Size(156, 22)
+        Me.AboutNotepadToolStripMenuItem.Text = "About Notepad"
+        '
         'notepad
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -350,9 +373,8 @@ Partial Class notepad
     Friend WithEvents HelpToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents FileToolStripMenuItem1 As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents EditToolStripMenuItem1 As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents FormatToolStripMenuItem1 As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents HelpToolStripMenuItem1 As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents notepadtextbox As System.Windows.Forms.TextBox
+    Friend WithEvents maintxt As System.Windows.Forms.TextBox
     Friend WithEvents NewToolStripMenuItem1 As ToolStripMenuItem
     Friend WithEvents OpenToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents SaveToolStripMenuItem As ToolStripMenuItem
@@ -362,4 +384,8 @@ Partial Class notepad
     Friend WithEvents CopyToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents PasteToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents DeleteToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents SelectAllToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents TimeDateToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents WordWrapToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents AboutNotepadToolStripMenuItem As ToolStripMenuItem
 End Class

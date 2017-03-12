@@ -23,8 +23,6 @@ Partial Class windows_explorer
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
-        Me.StatusStrip1 = New System.Windows.Forms.StatusStrip()
-        Me.lblamountofobjects = New System.Windows.Forms.ToolStripStatusLabel()
         Me.mainView = New System.Windows.Forms.ListView()
         Me.dirLbl = New System.Windows.Forms.ComboBox()
         Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
@@ -85,27 +83,15 @@ Partial Class windows_explorer
         Me.LinkLabel1 = New System.Windows.Forms.LinkLabel()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
-        Me.StatusStrip1.SuspendLayout()
+        Me.pnlSave = New System.Windows.Forms.Panel()
+        Me.Button1 = New System.Windows.Forms.Button()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.txtSave = New System.Windows.Forms.TextBox()
         Me.MenuStrip1.SuspendLayout()
         Me.program.SuspendLayout()
         Me.pnlHidden.SuspendLayout()
+        Me.pnlSave.SuspendLayout()
         Me.SuspendLayout()
-        '
-        'StatusStrip1
-        '
-        Me.StatusStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.lblamountofobjects})
-        Me.StatusStrip1.Location = New System.Drawing.Point(0, 530)
-        Me.StatusStrip1.Name = "StatusStrip1"
-        Me.StatusStrip1.Size = New System.Drawing.Size(874, 22)
-        Me.StatusStrip1.TabIndex = 11
-        Me.StatusStrip1.Text = "StatusStrip1"
-        '
-        'lblamountofobjects
-        '
-        Me.lblamountofobjects.BackColor = System.Drawing.Color.WhiteSmoke
-        Me.lblamountofobjects.Name = "lblamountofobjects"
-        Me.lblamountofobjects.Size = New System.Drawing.Size(120, 17)
-        Me.lblamountofobjects.Text = "ToolStripStatusLabel1"
         '
         'mainView
         '
@@ -150,7 +136,7 @@ Partial Class windows_explorer
         '
         Me.CreateShortcutToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.FolderToolStripMenuItem, Me.ShortcutToolStripMenuItem, Me.TextDocumentToolStripMenuItem, Me.BitmapImageToolStripMenuItem})
         Me.CreateShortcutToolStripMenuItem.Name = "CreateShortcutToolStripMenuItem"
-        Me.CreateShortcutToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.CreateShortcutToolStripMenuItem.Size = New System.Drawing.Size(127, 22)
         Me.CreateShortcutToolStripMenuItem.Text = "New"
         '
         'FolderToolStripMenuItem
@@ -180,25 +166,25 @@ Partial Class windows_explorer
         'DeleteToolStripMenuItem
         '
         Me.DeleteToolStripMenuItem.Name = "DeleteToolStripMenuItem"
-        Me.DeleteToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.DeleteToolStripMenuItem.Size = New System.Drawing.Size(127, 22)
         Me.DeleteToolStripMenuItem.Text = "Delete"
         '
         'RenameToolStripMenuItem
         '
         Me.RenameToolStripMenuItem.Name = "RenameToolStripMenuItem"
-        Me.RenameToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.RenameToolStripMenuItem.Size = New System.Drawing.Size(127, 22)
         Me.RenameToolStripMenuItem.Text = "Rename"
         '
         'PropertiesToolStripMenuItem
         '
         Me.PropertiesToolStripMenuItem.Name = "PropertiesToolStripMenuItem"
-        Me.PropertiesToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.PropertiesToolStripMenuItem.Size = New System.Drawing.Size(127, 22)
         Me.PropertiesToolStripMenuItem.Text = "Properties"
         '
         'CloseToolStripMenuItem
         '
         Me.CloseToolStripMenuItem.Name = "CloseToolStripMenuItem"
-        Me.CloseToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.CloseToolStripMenuItem.Size = New System.Drawing.Size(127, 22)
         Me.CloseToolStripMenuItem.Text = "Close"
         '
         'EditToolStripMenuItem
@@ -425,12 +411,12 @@ Partial Class windows_explorer
         Me.program.Controls.Add(Me.MenuStrip1)
         Me.program.Controls.Add(Me.toprightcorner)
         Me.program.Controls.Add(Me.dirLbl)
-        Me.program.Controls.Add(Me.StatusStrip1)
         Me.program.Controls.Add(Me.bottomrightcorner)
         Me.program.Controls.Add(Me.bottomleftcorner)
         Me.program.Controls.Add(Me.topleftcorner)
         Me.program.Controls.Add(Me.mainView)
         Me.program.Controls.Add(Me.pnlHidden)
+        Me.program.Controls.Add(Me.pnlSave)
         Me.program.Dock = System.Windows.Forms.DockStyle.Fill
         Me.program.Location = New System.Drawing.Point(0, 0)
         Me.program.Name = "program"
@@ -548,6 +534,42 @@ Partial Class windows_explorer
         Me.Label2.TabIndex = 0
         Me.Label2.Text = "This directory is hidden"
         '
+        'pnlSave
+        '
+        Me.pnlSave.Controls.Add(Me.Button1)
+        Me.pnlSave.Controls.Add(Me.Label1)
+        Me.pnlSave.Controls.Add(Me.txtSave)
+        Me.pnlSave.Location = New System.Drawing.Point(162, 520)
+        Me.pnlSave.Name = "pnlSave"
+        Me.pnlSave.Size = New System.Drawing.Size(253, 73)
+        Me.pnlSave.TabIndex = 18
+        Me.pnlSave.Visible = False
+        '
+        'Button1
+        '
+        Me.Button1.Location = New System.Drawing.Point(166, 3)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(75, 23)
+        Me.Button1.TabIndex = 17
+        Me.Button1.Text = "Save"
+        Me.Button1.UseVisualStyleBackColor = True
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Location = New System.Drawing.Point(3, 3)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(57, 13)
+        Me.Label1.TabIndex = 16
+        Me.Label1.Text = "File Name:"
+        '
+        'txtSave
+        '
+        Me.txtSave.Location = New System.Drawing.Point(60, 3)
+        Me.txtSave.Name = "txtSave"
+        Me.txtSave.Size = New System.Drawing.Size(100, 20)
+        Me.txtSave.TabIndex = 15
+        '
         'windows_explorer
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -559,14 +581,14 @@ Partial Class windows_explorer
         Me.Name = "windows_explorer"
         Me.Text = "windows_explorer"
         Me.TopMost = True
-        Me.StatusStrip1.ResumeLayout(False)
-        Me.StatusStrip1.PerformLayout()
         Me.MenuStrip1.ResumeLayout(False)
         Me.MenuStrip1.PerformLayout()
         Me.program.ResumeLayout(False)
         Me.program.PerformLayout()
         Me.pnlHidden.ResumeLayout(False)
         Me.pnlHidden.PerformLayout()
+        Me.pnlSave.ResumeLayout(False)
+        Me.pnlSave.PerformLayout()
         Me.ResumeLayout(False)
 
     End Sub
@@ -614,8 +636,6 @@ Partial Class windows_explorer
     Friend WithEvents AboutWindows95ToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents dirLbl As System.Windows.Forms.ComboBox
     Friend WithEvents mainView As System.Windows.Forms.ListView
-    Friend WithEvents StatusStrip1 As System.Windows.Forms.StatusStrip
-    Friend WithEvents lblamountofobjects As System.Windows.Forms.ToolStripStatusLabel
     Friend WithEvents program As System.Windows.Forms.Panel
     Friend WithEvents toprightcorner As System.Windows.Forms.Panel
     Friend WithEvents bottomrightcorner As System.Windows.Forms.Panel
@@ -632,4 +652,8 @@ Partial Class windows_explorer
     Friend WithEvents LinkLabel1 As LinkLabel
     Friend WithEvents Label3 As Label
     Friend WithEvents Label2 As Label
+    Friend WithEvents pnlSave As Panel
+    Friend WithEvents Button1 As Button
+    Friend WithEvents Label1 As Label
+    Friend WithEvents txtSave As TextBox
 End Class

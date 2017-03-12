@@ -1,4 +1,6 @@
 ﻿Public Class windows_explorer
+    Public IsFileDialog As Boolean
+    Public onlyViewExtension As String
     Dim ToReplaceWith As String = GameMain.MyDocuments & "\HistacomVB\" & GameMain.SaveProfile
     Dim directory As String = GameMain.MyDocuments & "\HistacomVB\" & GameMain.SaveProfile & "\folders"
     Dim fileType As Integer = 6
@@ -75,12 +77,20 @@
                     mainView.FindItemWithText(Label).Tag = My.Computer.FileSystem.GetName(str)
                 End If
 
-                '        diskView.Items.Add("", 0)
+                '    diskView.Items.Add("", 0)
                 '    End If
             Next
             For Each str As String In My.Computer.FileSystem.GetFiles(directory)
                 'ReturnType(My.Computer.FileSystem.GetFileInfo(str).Extension)
-                If Not My.Computer.FileSystem.GetName(str) = "_data" Then mainView.Items.Add(My.Computer.FileSystem.GetName(str))
+                If IsFileDialog = True Then
+                    If Not My.Computer.FileSystem.GetName(str) = "_data.txt" Then
+                        If My.Computer.FileSystem.GetFileInfo(str).Extension = onlyViewExtension Then
+                            mainView.Items.Add(My.Computer.FileSystem.GetName(str))
+                        End If
+                    End If
+                Else
+                    If Not My.Computer.FileSystem.GetName(str) = "_data.txt" Then mainView.Items.Add(My.Computer.FileSystem.GetName(str))
+                End If
             Next
             CheckLbl()
         Catch ex As Exception
@@ -318,13 +328,19 @@
 
     Private Sub dirView_DoubleClick(sender As Object, e As EventArgs) Handles mainView.DoubleClick
         Try
-            If My.Computer.FileSystem.DirectoryExists(directory & "\" & mainView.FocusedItem.Tag) Then
+            If mainView.FocusedItem.Tag <> "" Then 'If it isn't a file
                 dirLbl.Text = dirLbl.Text & "\" & mainView.FocusedItem.Tag
                 GoToDir(directory & "\" & mainView.FocusedItem.Tag)
-            Else
-                ReturnType(My.Computer.FileSystem.GetFileInfo(mainView.FocusedItem.Text).Extension)
-                If fileType = 1 Then
-
+            Else ' If it is a file
+                If IsFileDialog = True Then 'If it is a open/save file dialog box
+                    GameMain.ReturnPath = directory & "\" & mainView.FocusedItem.Text
+                    Me.Close()
+                Else
+                    ReturnType(My.Computer.FileSystem.GetFileInfo(directory & "\" & mainView.FocusedItem.Text).Extension)
+                    Select Case fileType
+                        Case 1
+                            ManageTextFile.OpenNewTextFile(directory & "\" & mainView.FocusedItem.Text)
+                    End Select
                 End If
             End If
 
@@ -376,15 +392,18 @@
         End If
     End Sub
 
-    Private Sub DeleteToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles DeleteToolStripMenuItem.Click
-
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+        If txtSave.Text = "" Then
+            GameMain.OpenMsg("Please enter a filename")
+        Else
+            If My.Computer.FileSystem.GetFileInfo(directory & "\" & txtSave.Text).Extension = onlyViewExtension Then
+                GameMain.ReturnPath = directory & "\" & txtSave.Text
+            End If
+            Me.Close()
+        End If
     End Sub
 
-    Private Sub mainView_SelectedIndexChanged(sender As Object, e As EventArgs) Handles mainView.SelectedIndexChanged
-
-    End Sub
-
-    Private Sub TextDocumentToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles TextDocumentToolStripMenuItem.Click
-
+    Private Sub windows_explorer_Closed(sender As Object, e As EventArgs) Handles Me.Closed
+        IsFileDialog = False
     End Sub
 End Class

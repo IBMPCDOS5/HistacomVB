@@ -31,6 +31,8 @@
                 Me.BackColor = Windows98.exampleprogramtopbar.BackColor
                 Me.BackgroundImage = Windows98.exampleprogramtopbar.BackgroundImage
                 Me.BackColor = Windows98.exampleprogramtext.BackColor
+            Case 3
+
         End Select
     End Sub
 
