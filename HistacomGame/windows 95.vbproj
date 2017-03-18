@@ -112,6 +112,12 @@
     </Compile>
     <Compile Include="ApplicationEvents.vb" />
     <Compile Include="Apps\AppsLicense.vb" />
+    <Compile Include="Apps\Calculator.Designer.vb">
+      <DependentUpon>Calculator.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Apps\Calculator.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Apps\commandprompt.Designer.vb">
       <DependentUpon>commandprompt.vb</DependentUpon>
     </Compile>
@@ -175,12 +181,6 @@
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="hidden varables.vb" />
-    <Compile Include="Apps\formcalculator.Designer.vb">
-      <DependentUpon>formcalculator.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Apps\formcalculator.vb">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Include="Apps\formDisplayproperties.Designer.vb">
       <DependentUpon>formDisplayproperties.vb</DependentUpon>
     </Compile>
@@ -417,6 +417,9 @@
     <EmbeddedResource Include="Apps\Address Book.resx">
       <DependentUpon>Address Book.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Apps\Calculator.resx">
+      <DependentUpon>Calculator.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Apps\commandprompt.resx">
       <DependentUpon>commandprompt.vb</DependentUpon>
     </EmbeddedResource>
@@ -428,9 +431,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Apps\failerrorblaster.resx">
       <DependentUpon>failerrorblaster.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Apps\formcalculator.resx">
-      <DependentUpon>formcalculator.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Apps\formDisplayproperties.resx">
       <DependentUpon>formDisplayproperties.vb</DependentUpon>

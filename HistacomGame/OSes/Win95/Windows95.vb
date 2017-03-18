@@ -42,7 +42,7 @@
     End Sub
 
     Private Sub CalculatorToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles CalculatorToolStripMenuItem.Click
-        Dim opencalc As New formcalculator
+        Dim opencalc As New Calculator
         opencalc.Show()
         startmenu.Hide()
     End Sub

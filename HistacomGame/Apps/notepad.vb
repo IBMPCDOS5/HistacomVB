@@ -32,4 +32,29 @@
     Private Sub WordWrapToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles WordWrapToolStripMenuItem.Click
         maintxt.WordWrap = WordWrapToolStripMenuItem.Checked
     End Sub
+
+    Private Sub SelectAllToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles SelectAllToolStripMenuItem.Click
+        maintxt.SelectAll()
+    End Sub
+
+    Private Sub AboutNotepadToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles AboutNotepadToolStripMenuItem.Click
+
+    End Sub
+
+    Private Sub CutToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles CutToolStripMenuItem.Click
+        My.Computer.Clipboard.SetText(maintxt.SelectedText)
+        maintxt.Text = maintxt.Text.Remove(maintxt.SelectionStart, maintxt.SelectionLength)
+    End Sub
+
+    Private Sub CopyToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles CopyToolStripMenuItem.Click
+        My.Computer.Clipboard.SetText(maintxt.SelectedText)
+    End Sub
+
+    Private Sub PasteToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles PasteToolStripMenuItem.Click
+        maintxt.AppendText(My.Computer.Clipboard.GetText())
+    End Sub
+
+    Private Sub DeleteToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles DeleteToolStripMenuItem.Click
+        maintxt.Text = maintxt.Text.Remove(maintxt.SelectionStart, maintxt.SelectionLength)
+    End Sub
 End Class

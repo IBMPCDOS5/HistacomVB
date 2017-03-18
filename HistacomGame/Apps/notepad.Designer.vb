@@ -27,8 +27,21 @@ Partial Class notepad
         Me.maintxt = New System.Windows.Forms.TextBox()
         Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
         Me.FileToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.NewToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.OpenToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.SaveToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.SaveAsToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ExitToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
         Me.EditToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.CutToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.CopyToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.PasteToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.DeleteToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.SelectAllToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.TimeDateToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.WordWrapToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.HelpToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.AboutNotepadToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.toprightcorner = New System.Windows.Forms.Panel()
         Me.bottomrightcorner = New System.Windows.Forms.Panel()
         Me.bottomleftcorner = New System.Windows.Forms.Panel()
@@ -50,19 +63,6 @@ Partial Class notepad
         Me.HelpToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.UndoCtrlZToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.CutCtrlXToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.NewToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
-        Me.OpenToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.SaveToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.SaveAsToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
-        Me.ExitToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
-        Me.CutToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.CopyToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.PasteToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.DeleteToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.SelectAllToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.TimeDateToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.WordWrapToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.AboutNotepadToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.program.SuspendLayout()
         Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
@@ -110,6 +110,36 @@ Partial Class notepad
         Me.FileToolStripMenuItem1.Size = New System.Drawing.Size(37, 20)
         Me.FileToolStripMenuItem1.Text = "File"
         '
+        'NewToolStripMenuItem1
+        '
+        Me.NewToolStripMenuItem1.Name = "NewToolStripMenuItem1"
+        Me.NewToolStripMenuItem1.Size = New System.Drawing.Size(152, 22)
+        Me.NewToolStripMenuItem1.Text = "New"
+        '
+        'OpenToolStripMenuItem
+        '
+        Me.OpenToolStripMenuItem.Name = "OpenToolStripMenuItem"
+        Me.OpenToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.OpenToolStripMenuItem.Text = "Open..."
+        '
+        'SaveToolStripMenuItem
+        '
+        Me.SaveToolStripMenuItem.Name = "SaveToolStripMenuItem"
+        Me.SaveToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.SaveToolStripMenuItem.Text = "Save"
+        '
+        'SaveAsToolStripMenuItem1
+        '
+        Me.SaveAsToolStripMenuItem1.Name = "SaveAsToolStripMenuItem1"
+        Me.SaveAsToolStripMenuItem1.Size = New System.Drawing.Size(152, 22)
+        Me.SaveAsToolStripMenuItem1.Text = "Save As..."
+        '
+        'ExitToolStripMenuItem1
+        '
+        Me.ExitToolStripMenuItem1.Name = "ExitToolStripMenuItem1"
+        Me.ExitToolStripMenuItem1.Size = New System.Drawing.Size(152, 22)
+        Me.ExitToolStripMenuItem1.Text = "Exit"
+        '
         'EditToolStripMenuItem1
         '
         Me.EditToolStripMenuItem1.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.CutToolStripMenuItem, Me.CopyToolStripMenuItem, Me.PasteToolStripMenuItem, Me.DeleteToolStripMenuItem, Me.SelectAllToolStripMenuItem, Me.TimeDateToolStripMenuItem, Me.WordWrapToolStripMenuItem})
@@ -117,12 +147,61 @@ Partial Class notepad
         Me.EditToolStripMenuItem1.Size = New System.Drawing.Size(39, 20)
         Me.EditToolStripMenuItem1.Text = "Edit"
         '
+        'CutToolStripMenuItem
+        '
+        Me.CutToolStripMenuItem.Name = "CutToolStripMenuItem"
+        Me.CutToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.CutToolStripMenuItem.Text = "Cut"
+        '
+        'CopyToolStripMenuItem
+        '
+        Me.CopyToolStripMenuItem.Name = "CopyToolStripMenuItem"
+        Me.CopyToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.CopyToolStripMenuItem.Text = "Copy"
+        '
+        'PasteToolStripMenuItem
+        '
+        Me.PasteToolStripMenuItem.Name = "PasteToolStripMenuItem"
+        Me.PasteToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.PasteToolStripMenuItem.Text = "Paste"
+        '
+        'DeleteToolStripMenuItem
+        '
+        Me.DeleteToolStripMenuItem.Name = "DeleteToolStripMenuItem"
+        Me.DeleteToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.DeleteToolStripMenuItem.Text = "Delete"
+        '
+        'SelectAllToolStripMenuItem
+        '
+        Me.SelectAllToolStripMenuItem.Name = "SelectAllToolStripMenuItem"
+        Me.SelectAllToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.SelectAllToolStripMenuItem.Text = "Select All"
+        '
+        'TimeDateToolStripMenuItem
+        '
+        Me.TimeDateToolStripMenuItem.Name = "TimeDateToolStripMenuItem"
+        Me.TimeDateToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.TimeDateToolStripMenuItem.Text = "Time/Date"
+        '
+        'WordWrapToolStripMenuItem
+        '
+        Me.WordWrapToolStripMenuItem.CheckOnClick = True
+        Me.WordWrapToolStripMenuItem.Name = "WordWrapToolStripMenuItem"
+        Me.WordWrapToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.WordWrapToolStripMenuItem.Text = "Word Wrap"
+        '
         'HelpToolStripMenuItem1
         '
         Me.HelpToolStripMenuItem1.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.AboutNotepadToolStripMenuItem})
         Me.HelpToolStripMenuItem1.Name = "HelpToolStripMenuItem1"
         Me.HelpToolStripMenuItem1.Size = New System.Drawing.Size(44, 20)
         Me.HelpToolStripMenuItem1.Text = "Help"
+        '
+        'AboutNotepadToolStripMenuItem
+        '
+        Me.AboutNotepadToolStripMenuItem.Name = "AboutNotepadToolStripMenuItem"
+        Me.AboutNotepadToolStripMenuItem.Size = New System.Drawing.Size(156, 22)
+        Me.AboutNotepadToolStripMenuItem.Text = "About Notepad"
         '
         'toprightcorner
         '
@@ -249,85 +328,6 @@ Partial Class notepad
         Me.CutCtrlXToolStripMenuItem.Name = "CutCtrlXToolStripMenuItem"
         Me.CutCtrlXToolStripMenuItem.Size = New System.Drawing.Size(182, 22)
         Me.CutCtrlXToolStripMenuItem.Text = "Cut                  Ctrl+X"
-        '
-        'NewToolStripMenuItem1
-        '
-        Me.NewToolStripMenuItem1.Name = "NewToolStripMenuItem1"
-        Me.NewToolStripMenuItem1.Size = New System.Drawing.Size(152, 22)
-        Me.NewToolStripMenuItem1.Text = "New"
-        '
-        'OpenToolStripMenuItem
-        '
-        Me.OpenToolStripMenuItem.Name = "OpenToolStripMenuItem"
-        Me.OpenToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
-        Me.OpenToolStripMenuItem.Text = "Open..."
-        '
-        'SaveToolStripMenuItem
-        '
-        Me.SaveToolStripMenuItem.Name = "SaveToolStripMenuItem"
-        Me.SaveToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
-        Me.SaveToolStripMenuItem.Text = "Save"
-        '
-        'SaveAsToolStripMenuItem1
-        '
-        Me.SaveAsToolStripMenuItem1.Name = "SaveAsToolStripMenuItem1"
-        Me.SaveAsToolStripMenuItem1.Size = New System.Drawing.Size(152, 22)
-        Me.SaveAsToolStripMenuItem1.Text = "Save As..."
-        '
-        'ExitToolStripMenuItem1
-        '
-        Me.ExitToolStripMenuItem1.Name = "ExitToolStripMenuItem1"
-        Me.ExitToolStripMenuItem1.Size = New System.Drawing.Size(152, 22)
-        Me.ExitToolStripMenuItem1.Text = "Exit"
-        '
-        'CutToolStripMenuItem
-        '
-        Me.CutToolStripMenuItem.Name = "CutToolStripMenuItem"
-        Me.CutToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
-        Me.CutToolStripMenuItem.Text = "Cut"
-        '
-        'CopyToolStripMenuItem
-        '
-        Me.CopyToolStripMenuItem.Name = "CopyToolStripMenuItem"
-        Me.CopyToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
-        Me.CopyToolStripMenuItem.Text = "Copy"
-        '
-        'PasteToolStripMenuItem
-        '
-        Me.PasteToolStripMenuItem.Name = "PasteToolStripMenuItem"
-        Me.PasteToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
-        Me.PasteToolStripMenuItem.Text = "Paste"
-        '
-        'DeleteToolStripMenuItem
-        '
-        Me.DeleteToolStripMenuItem.Name = "DeleteToolStripMenuItem"
-        Me.DeleteToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
-        Me.DeleteToolStripMenuItem.Text = "Delete"
-        '
-        'SelectAllToolStripMenuItem
-        '
-        Me.SelectAllToolStripMenuItem.Name = "SelectAllToolStripMenuItem"
-        Me.SelectAllToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
-        Me.SelectAllToolStripMenuItem.Text = "Select All"
-        '
-        'TimeDateToolStripMenuItem
-        '
-        Me.TimeDateToolStripMenuItem.Name = "TimeDateToolStripMenuItem"
-        Me.TimeDateToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
-        Me.TimeDateToolStripMenuItem.Text = "Time/Date"
-        '
-        'WordWrapToolStripMenuItem
-        '
-        Me.WordWrapToolStripMenuItem.CheckOnClick = True
-        Me.WordWrapToolStripMenuItem.Name = "WordWrapToolStripMenuItem"
-        Me.WordWrapToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
-        Me.WordWrapToolStripMenuItem.Text = "Word Wrap"
-        '
-        'AboutNotepadToolStripMenuItem
-        '
-        Me.AboutNotepadToolStripMenuItem.Name = "AboutNotepadToolStripMenuItem"
-        Me.AboutNotepadToolStripMenuItem.Size = New System.Drawing.Size(156, 22)
-        Me.AboutNotepadToolStripMenuItem.Text = "About Notepad"
         '
         'notepad
         '
