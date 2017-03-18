@@ -274,6 +274,7 @@ Partial Class Calculator
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Name = "Calculator"
         Me.Text = "Calculator"
+        Me.TopMost = True
         Me.ResumeLayout(False)
         Me.PerformLayout()
 

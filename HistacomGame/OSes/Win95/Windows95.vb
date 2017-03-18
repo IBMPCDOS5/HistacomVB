@@ -110,6 +110,11 @@
                     openinstall.installimage.Image = My.Resources.time_distorter__install_Black_
                     openinstall.Show()
                 End If
+                If objListViewItem.Text = "My Computer" Then
+
+                    Dim openfiles As New windows_explorer
+                    openfiles.Show()
+                End If
             End If
         End If
     End Sub

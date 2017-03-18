@@ -1,4 +1,32 @@
 ﻿Public Class internet_explorer_5
+    Dim chistory As Integer
+    Dim history(99) As String
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+        If Not chistory <= 1 Then
+            GoToPage(history(chistory - 1), True)
+            chistory -= 1
+        Else
+            GameMain.OpenMsg("You cannot go any further backward")
+        End If
+    End Sub
+
+    Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
+        Dim i As Integer
+        Dim historyCount As Integer = 0
+        i = 0
+        Do Until i = history.Count
+            If history(i) <> "" Then
+                historyCount += 1
+            End If
+            i += 1
+        Loop
+        If Not chistory >= historyCount Then
+            GoToPage(history(chistory + 1), True)
+            chistory += 1
+        Else
+            GameMain.OpenMsg("You cannot go any further forward")
+        End If
+    End Sub
 
     Private Sub internet_explorer_5_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
         winman.setupwindow(Me, "Internet Explorer 5", My.Resources.start_run)
@@ -9,7 +37,27 @@
         look.Start()
     End Sub
 
-    Private Sub Button8_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button8.Click
+    Sub GoToPage(ByVal page As String, ByVal fromBack As Boolean)
+        If fromBack = False Then
+            Dim i As Integer
+            If chistory >= 99 Then chistory = 80
+            i = chistory + 1
+            Do Until i = history.Count
+                history(i) = Nothing
+                i += 1
+            Loop
+            Dim historyCount As Integer = 0
+            i = 0
+            Do Until i = history.Count
+                If history(i) <> "" Then
+                    historyCount += 1
+                End If
+                i += 1
+            Loop
+            chistory = historyCount
+            history(chistory + 1) = page
+            chistory += 1
+        End If
         removewebsites()
         padamsbackground.Dock = DockStyle.None
         hotmailmain.Dock = DockStyle.None
@@ -18,41 +66,32 @@
         googlemain.Dock = DockStyle.None
         welcomeinternetscreen.Dock = DockStyle.None
 
-        If addressbar.Text = "www.google.com" Then
-            googlemain.Dock = DockStyle.Fill
-            googlemain.Show()
-        End If
-        If addressbar.Text = "www.microsoft.com/internetexplorer5/welcome" Then
-            welcomeinternetscreen.Dock = DockStyle.Fill
-            welcomeinternetscreen.Show()
-        End If
-        If addressbar.Text = "www.12padams.com" Then
-            padamsmain.Dock = DockStyle.Fill
-            padamsmain.Show()
-        End If
-        If addressbar.Text = "www.hotmail.com" Then
-            hotmailmain.Dock = DockStyle.Fill
-            hotmailmain.Show()
-        End If
-        If addressbar.Text = "www.12padams.com/background" Then
-            padamsbackground.Dock = DockStyle.Fill
-            padamsbackground.Show()
-        End If
-
-        If addressbar.Text = "www.12padams.com/skindows" Then
-            skindows98advertisment.Dock = DockStyle.Fill
-            skindows98advertisment.Show()
-        End If
-        If addressbar.Text = "www.12padams.com/y2k" Then
-            padamsNewsstorys.Dock = DockStyle.Fill
-            padamsNewsstorys.Show()
-        End If
-        If addressbar.Text = "www.12padams.com/microsoftwindowshistory" Then
-            padamscomputerhistorymicrosoft.Dock = DockStyle.Fill
-            padamscomputerhistorymicrosoft.Show()
-        End If
-
-
+        Select Case addressbar.Text
+            Case "www.google.com"
+                googlemain.Dock = DockStyle.Fill
+                googlemain.Show()
+            Case "www.microsoft.com/internetexplorer5/welcome"
+                welcomeinternetscreen.Dock = DockStyle.Fill
+                welcomeinternetscreen.Show()
+            Case "www.12padams.com"
+                padamsmain.Dock = DockStyle.Fill
+                padamsmain.Show()
+            Case "www.hotmail.com"
+                hotmailmain.Dock = DockStyle.Fill
+                hotmailmain.Show()
+            Case "www.12padams.com/background"
+                padamsbackground.Dock = DockStyle.Fill
+                padamsbackground.Show()
+            Case "www.12padams.com/skindows"
+                skindows98advertisment.Dock = DockStyle.Fill
+                skindows98advertisment.Show()
+            Case "www.12padams.com/y2k"
+                padamsNewsstorys.Dock = DockStyle.Fill
+                padamsNewsstorys.Show()
+            Case "www.12padams.com/microsoftwindowshistory"
+                padamscomputerhistorymicrosoft.Dock = DockStyle.Fill
+                padamscomputerhistorymicrosoft.Show()
+        End Select
     End Sub
 
 
@@ -111,11 +150,11 @@
     End Sub
 
     Private Sub Button20_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
-        windows98.BackgroundImage = My.Resources.windows_95_background
+        Windows98.BackgroundImage = My.Resources.windows_95_background
     End Sub
 
     Private Sub Button21_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
-        windows98.BackgroundImage = My.Resources.mclaren_f1
+        Windows98.BackgroundImage = My.Resources.mclaren_f1
     End Sub
 
     Private Sub LinkLabel17_LinkClicked(ByVal sender As System.Object, ByVal e As System.Windows.Forms.LinkLabelLinkClickedEventArgs) Handles LinkLabel17.LinkClicked
@@ -182,7 +221,7 @@
         If ListBox1.SelectedItem = "12padams.com datalog 1998" Then
             email1.Show()
             email2.Hide()
-            email3.hide()
+            email3.Hide()
         End If
         If ListBox1.SelectedItem = "What's the secret to your website?" Then
             email1.Hide()
@@ -267,29 +306,36 @@
     End Sub
 
     Private Sub Button27_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button27.Click
-        windows98.desktopicons.BackgroundImage = My.Resources.windows_98_background
+        Windows98.desktopicons.BackgroundImage = My.Resources.windows_98_background
         Dim w, h As Integer
-        w = windows98.desktopicons.Width
-        h = windows98.desktopicons.Height
+        w = Windows98.desktopicons.Width
+        h = Windows98.desktopicons.Height
         Dim bmp As Bitmap = New Bitmap(w, h)
         Using g As Graphics = Graphics.FromImage(bmp)
-            g.DrawImage(windows98.desktopicons.BackgroundImage, 0, 0, bmp.Width, bmp.Height)
+            g.DrawImage(Windows98.desktopicons.BackgroundImage, 0, 0, bmp.Width, bmp.Height)
         End Using
-        windows98.BackgroundImage = bmp
-        windows98.desktopicons.BackgroundImage = bmp
+        Windows98.BackgroundImage = bmp
+        Windows98.desktopicons.BackgroundImage = bmp
     End Sub
 
     Private Sub Button18_Click_1(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button18.Click
         Windows98.desktopicons.BackgroundImage = My.Resources.sky
         Dim w, h As Integer
-        w = windows98.desktopicons.Width
-        h = windows98.desktopicons.Height
+        w = Windows98.desktopicons.Width
+        h = Windows98.desktopicons.Height
         Dim bmp As Bitmap = New Bitmap(w, h)
         Using g As Graphics = Graphics.FromImage(bmp)
-            g.DrawImage(windows98.desktopicons.BackgroundImage, 0, 0, bmp.Width, bmp.Height)
+            g.DrawImage(Windows98.desktopicons.BackgroundImage, 0, 0, bmp.Width, bmp.Height)
         End Using
-        windows98.BackgroundImage = bmp
-        windows98.desktopicons.BackgroundImage = bmp
+        Windows98.BackgroundImage = bmp
+        Windows98.desktopicons.BackgroundImage = bmp
     End Sub
 
+    Private Sub Button8_Click(sender As Object, e As EventArgs) Handles Button8.Click
+        GoToPage(addressbar.Text, False)
+    End Sub
+
+    Private Sub ToolStripMenuItem21_Click(sender As Object, e As EventArgs) Handles ToolStripMenuItem21.Click
+        Me.Close()
+    End Sub
 End Class

@@ -1062,7 +1062,7 @@ Partial Class internet_explorer_5
         Me.Panel1.Dock = System.Windows.Forms.DockStyle.Top
         Me.Panel1.Location = New System.Drawing.Point(0, 24)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(953, 49)
+        Me.Panel1.Size = New System.Drawing.Size(953, 45)
         Me.Panel1.TabIndex = 7
         '
         'Button7
@@ -1073,7 +1073,7 @@ Partial Class internet_explorer_5
         Me.Button7.Image = Global.Histacom.My.Resources.Resources.windows95internetexplorerhistory
         Me.Button7.Location = New System.Drawing.Point(450, 0)
         Me.Button7.Name = "Button7"
-        Me.Button7.Size = New System.Drawing.Size(75, 47)
+        Me.Button7.Size = New System.Drawing.Size(75, 43)
         Me.Button7.TabIndex = 6
         Me.Button7.Text = "History"
         Me.Button7.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
@@ -1087,7 +1087,7 @@ Partial Class internet_explorer_5
         Me.Button6.Image = Global.Histacom.My.Resources.Resources.windows95internetexplorerfavorites
         Me.Button6.Location = New System.Drawing.Point(375, 0)
         Me.Button6.Name = "Button6"
-        Me.Button6.Size = New System.Drawing.Size(75, 47)
+        Me.Button6.Size = New System.Drawing.Size(75, 43)
         Me.Button6.TabIndex = 5
         Me.Button6.Text = "Favorites"
         Me.Button6.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
@@ -1101,7 +1101,7 @@ Partial Class internet_explorer_5
         Me.Button5.Image = Global.Histacom.My.Resources.Resources.windows95internetexplorerhome
         Me.Button5.Location = New System.Drawing.Point(300, 0)
         Me.Button5.Name = "Button5"
-        Me.Button5.Size = New System.Drawing.Size(75, 47)
+        Me.Button5.Size = New System.Drawing.Size(75, 43)
         Me.Button5.TabIndex = 4
         Me.Button5.Text = "Home"
         Me.Button5.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
@@ -1115,7 +1115,7 @@ Partial Class internet_explorer_5
         Me.Button4.Image = Global.Histacom.My.Resources.Resources.windows95internetexplorerrefresh
         Me.Button4.Location = New System.Drawing.Point(225, 0)
         Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(75, 47)
+        Me.Button4.Size = New System.Drawing.Size(75, 43)
         Me.Button4.TabIndex = 3
         Me.Button4.Text = "Refresh"
         Me.Button4.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
@@ -1129,7 +1129,7 @@ Partial Class internet_explorer_5
         Me.Button3.Image = Global.Histacom.My.Resources.Resources.windows95internetexplorerstop
         Me.Button3.Location = New System.Drawing.Point(150, 0)
         Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(75, 47)
+        Me.Button3.Size = New System.Drawing.Size(75, 43)
         Me.Button3.TabIndex = 2
         Me.Button3.Text = "Stop"
         Me.Button3.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
@@ -1143,7 +1143,7 @@ Partial Class internet_explorer_5
         Me.Button2.Image = Global.Histacom.My.Resources.Resources.windows95internetexplorerforward
         Me.Button2.Location = New System.Drawing.Point(75, 0)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(75, 47)
+        Me.Button2.Size = New System.Drawing.Size(75, 43)
         Me.Button2.TabIndex = 1
         Me.Button2.Text = "Forward"
         Me.Button2.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
@@ -1157,7 +1157,7 @@ Partial Class internet_explorer_5
         Me.Button1.Image = Global.Histacom.My.Resources.Resources.windows95internetexplorerback
         Me.Button1.Location = New System.Drawing.Point(0, 0)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(75, 47)
+        Me.Button1.Size = New System.Drawing.Size(75, 43)
         Me.Button1.TabIndex = 0
         Me.Button1.Text = "Back"
         Me.Button1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
@@ -1197,9 +1197,9 @@ Partial Class internet_explorer_5
         Me.browsingarea.Controls.Add(Me.padamsNewsstorys)
         Me.browsingarea.Controls.Add(Me.hotmailmain)
         Me.browsingarea.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.browsingarea.Location = New System.Drawing.Point(0, 109)
+        Me.browsingarea.Location = New System.Drawing.Point(0, 101)
         Me.browsingarea.Name = "browsingarea"
-        Me.browsingarea.Size = New System.Drawing.Size(953, 485)
+        Me.browsingarea.Size = New System.Drawing.Size(953, 493)
         Me.browsingarea.TabIndex = 9
         '
         'padamscomputerhistorymicrosoft
@@ -1234,7 +1234,7 @@ Partial Class internet_explorer_5
         Me.Button10.Image = Global.Histacom.My.Resources.Resources.backarrow
         Me.Button10.Location = New System.Drawing.Point(20, 110)
         Me.Button10.Name = "Button10"
-        Me.Button10.Size = New System.Drawing.Size(95, 55)
+        Me.Button10.Size = New System.Drawing.Size(95, 51)
         Me.Button10.TabIndex = 12
         Me.Button10.Text = "Back"
         Me.Button10.UseVisualStyleBackColor = True
@@ -1263,15 +1263,15 @@ Partial Class internet_explorer_5
         Me.Panel2.Controls.Add(Me.Label28)
         Me.Panel2.Location = New System.Drawing.Point(19, 44)
         Me.Panel2.Name = "Panel2"
-        Me.Panel2.Size = New System.Drawing.Size(100, 67)
+        Me.Panel2.Size = New System.Drawing.Size(100, 59)
         Me.Panel2.TabIndex = 13
         '
         'PictureBox6
         '
         Me.PictureBox6.Image = Global.Histacom.My.Resources.Resources.windows98
-        Me.PictureBox6.Location = New System.Drawing.Point(421, 3718)
+        Me.PictureBox6.Location = New System.Drawing.Point(438, 1280)
         Me.PictureBox6.Name = "PictureBox6"
-        Me.PictureBox6.Size = New System.Drawing.Size(451, 294)
+        Me.PictureBox6.Size = New System.Drawing.Size(451, 290)
         Me.PictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox6.TabIndex = 14
         Me.PictureBox6.TabStop = False
@@ -1280,11 +1280,11 @@ Partial Class internet_explorer_5
         '
         Me.TextBox24.BackColor = System.Drawing.Color.PaleGreen
         Me.TextBox24.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox24.Location = New System.Drawing.Point(18, 3740)
+        Me.TextBox24.Location = New System.Drawing.Point(35, 1302)
         Me.TextBox24.Multiline = True
         Me.TextBox24.Name = "TextBox24"
         Me.TextBox24.ReadOnly = True
-        Me.TextBox24.Size = New System.Drawing.Size(377, 272)
+        Me.TextBox24.Size = New System.Drawing.Size(377, 268)
         Me.TextBox24.TabIndex = 13
         Me.TextBox24.TabStop = False
         Me.TextBox24.Text = resources.GetString("TextBox24.Text")
@@ -1293,7 +1293,7 @@ Partial Class internet_explorer_5
         '
         Me.Label32.AutoSize = True
         Me.Label32.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label32.Location = New System.Drawing.Point(15, 3717)
+        Me.Label32.Location = New System.Drawing.Point(32, 1279)
         Me.Label32.Name = "Label32"
         Me.Label32.Size = New System.Drawing.Size(136, 16)
         Me.Label32.TabIndex = 12
@@ -1302,9 +1302,9 @@ Partial Class internet_explorer_5
         'PictureBox15
         '
         Me.PictureBox15.Image = Global.Histacom.My.Resources.Resources.windows95_desktop
-        Me.PictureBox15.Location = New System.Drawing.Point(421, 3397)
+        Me.PictureBox15.Location = New System.Drawing.Point(438, 959)
         Me.PictureBox15.Name = "PictureBox15"
-        Me.PictureBox15.Size = New System.Drawing.Size(451, 294)
+        Me.PictureBox15.Size = New System.Drawing.Size(451, 290)
         Me.PictureBox15.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox15.TabIndex = 11
         Me.PictureBox15.TabStop = False
@@ -1313,11 +1313,11 @@ Partial Class internet_explorer_5
         '
         Me.TextBox23.BackColor = System.Drawing.Color.PaleGreen
         Me.TextBox23.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox23.Location = New System.Drawing.Point(18, 3419)
+        Me.TextBox23.Location = New System.Drawing.Point(35, 981)
         Me.TextBox23.Multiline = True
         Me.TextBox23.Name = "TextBox23"
         Me.TextBox23.ReadOnly = True
-        Me.TextBox23.Size = New System.Drawing.Size(377, 272)
+        Me.TextBox23.Size = New System.Drawing.Size(377, 268)
         Me.TextBox23.TabIndex = 10
         Me.TextBox23.TabStop = False
         Me.TextBox23.Text = resources.GetString("TextBox23.Text")
@@ -1326,7 +1326,7 @@ Partial Class internet_explorer_5
         '
         Me.Label57.AutoSize = True
         Me.Label57.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label57.Location = New System.Drawing.Point(15, 3396)
+        Me.Label57.Location = New System.Drawing.Point(32, 958)
         Me.Label57.Name = "Label57"
         Me.Label57.Size = New System.Drawing.Size(136, 16)
         Me.Label57.TabIndex = 9
@@ -1335,9 +1335,9 @@ Partial Class internet_explorer_5
         'PictureBox10
         '
         Me.PictureBox10.Image = Global.Histacom.My.Resources.Resources.Windows3_11
-        Me.PictureBox10.Location = New System.Drawing.Point(421, 3078)
+        Me.PictureBox10.Location = New System.Drawing.Point(438, 640)
         Me.PictureBox10.Name = "PictureBox10"
-        Me.PictureBox10.Size = New System.Drawing.Size(451, 294)
+        Me.PictureBox10.Size = New System.Drawing.Size(451, 290)
         Me.PictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox10.TabIndex = 8
         Me.PictureBox10.TabStop = False
@@ -1346,11 +1346,11 @@ Partial Class internet_explorer_5
         '
         Me.TextBox22.BackColor = System.Drawing.Color.PaleGreen
         Me.TextBox22.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox22.Location = New System.Drawing.Point(18, 3100)
+        Me.TextBox22.Location = New System.Drawing.Point(35, 662)
         Me.TextBox22.Multiline = True
         Me.TextBox22.Name = "TextBox22"
         Me.TextBox22.ReadOnly = True
-        Me.TextBox22.Size = New System.Drawing.Size(377, 272)
+        Me.TextBox22.Size = New System.Drawing.Size(377, 268)
         Me.TextBox22.TabIndex = 7
         Me.TextBox22.TabStop = False
         Me.TextBox22.Text = resources.GetString("TextBox22.Text")
@@ -1359,7 +1359,7 @@ Partial Class internet_explorer_5
         '
         Me.Label31.AutoSize = True
         Me.Label31.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label31.Location = New System.Drawing.Point(15, 3077)
+        Me.Label31.Location = New System.Drawing.Point(32, 639)
         Me.Label31.Name = "Label31"
         Me.Label31.Size = New System.Drawing.Size(148, 16)
         Me.Label31.TabIndex = 6
@@ -1368,9 +1368,9 @@ Partial Class internet_explorer_5
         'PictureBox9
         '
         Me.PictureBox9.Image = Global.Histacom.My.Resources.Resources.Windows2
-        Me.PictureBox9.Location = New System.Drawing.Point(421, 2759)
+        Me.PictureBox9.Location = New System.Drawing.Point(438, 321)
         Me.PictureBox9.Name = "PictureBox9"
-        Me.PictureBox9.Size = New System.Drawing.Size(451, 294)
+        Me.PictureBox9.Size = New System.Drawing.Size(451, 290)
         Me.PictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox9.TabIndex = 5
         Me.PictureBox9.TabStop = False
@@ -1379,11 +1379,11 @@ Partial Class internet_explorer_5
         '
         Me.TextBox21.BackColor = System.Drawing.Color.PaleGreen
         Me.TextBox21.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox21.Location = New System.Drawing.Point(18, 2781)
+        Me.TextBox21.Location = New System.Drawing.Point(35, 343)
         Me.TextBox21.Multiline = True
         Me.TextBox21.Name = "TextBox21"
         Me.TextBox21.ReadOnly = True
-        Me.TextBox21.Size = New System.Drawing.Size(377, 272)
+        Me.TextBox21.Size = New System.Drawing.Size(377, 268)
         Me.TextBox21.TabIndex = 4
         Me.TextBox21.TabStop = False
         Me.TextBox21.Text = resources.GetString("TextBox21.Text")
@@ -1392,7 +1392,7 @@ Partial Class internet_explorer_5
         '
         Me.Label30.AutoSize = True
         Me.Label30.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label30.Location = New System.Drawing.Point(15, 2758)
+        Me.Label30.Location = New System.Drawing.Point(32, 320)
         Me.Label30.Name = "Label30"
         Me.Label30.Size = New System.Drawing.Size(140, 16)
         Me.Label30.TabIndex = 3
@@ -1401,9 +1401,9 @@ Partial Class internet_explorer_5
         'PictureBox8
         '
         Me.PictureBox8.Image = Global.Histacom.My.Resources.Resources.Windows1
-        Me.PictureBox8.Location = New System.Drawing.Point(421, 2448)
+        Me.PictureBox8.Location = New System.Drawing.Point(438, 10)
         Me.PictureBox8.Name = "PictureBox8"
-        Me.PictureBox8.Size = New System.Drawing.Size(451, 294)
+        Me.PictureBox8.Size = New System.Drawing.Size(451, 290)
         Me.PictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox8.TabIndex = 2
         Me.PictureBox8.TabStop = False
@@ -1412,11 +1412,11 @@ Partial Class internet_explorer_5
         '
         Me.TextBox9.BackColor = System.Drawing.Color.PaleGreen
         Me.TextBox9.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox9.Location = New System.Drawing.Point(18, 2470)
+        Me.TextBox9.Location = New System.Drawing.Point(35, 32)
         Me.TextBox9.Multiline = True
         Me.TextBox9.Name = "TextBox9"
         Me.TextBox9.ReadOnly = True
-        Me.TextBox9.Size = New System.Drawing.Size(377, 272)
+        Me.TextBox9.Size = New System.Drawing.Size(377, 268)
         Me.TextBox9.TabIndex = 1
         Me.TextBox9.TabStop = False
         Me.TextBox9.Text = resources.GetString("TextBox9.Text")
@@ -1425,7 +1425,7 @@ Partial Class internet_explorer_5
         '
         Me.Label28.AutoSize = True
         Me.Label28.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label28.Location = New System.Drawing.Point(15, 2447)
+        Me.Label28.Location = New System.Drawing.Point(32, 9)
         Me.Label28.Name = "Label28"
         Me.Label28.Size = New System.Drawing.Size(140, 16)
         Me.Label28.TabIndex = 0
@@ -1441,7 +1441,7 @@ Partial Class internet_explorer_5
         Me.Button29.Image = Global.Histacom.My.Resources.Resources.backarrow
         Me.Button29.Location = New System.Drawing.Point(19, 516)
         Me.Button29.Name = "Button29"
-        Me.Button29.Size = New System.Drawing.Size(95, 55)
+        Me.Button29.Size = New System.Drawing.Size(95, 51)
         Me.Button29.TabIndex = 12
         Me.Button29.Text = "Back"
         Me.Button29.UseVisualStyleBackColor = True
@@ -1454,7 +1454,7 @@ Partial Class internet_explorer_5
         Me.Panel23.Dock = System.Windows.Forms.DockStyle.Top
         Me.Panel23.Location = New System.Drawing.Point(0, 0)
         Me.Panel23.Name = "Panel23"
-        Me.Panel23.Size = New System.Drawing.Size(129, 35)
+        Me.Panel23.Size = New System.Drawing.Size(129, 31)
         Me.Panel23.TabIndex = 10
         '
         'Label27
@@ -1484,7 +1484,7 @@ Partial Class internet_explorer_5
         Me.hotmailpadams.Controls.Add(Me.PictureBox12)
         Me.hotmailpadams.Location = New System.Drawing.Point(748, 236)
         Me.hotmailpadams.Name = "hotmailpadams"
-        Me.hotmailpadams.Size = New System.Drawing.Size(81, 60)
+        Me.hotmailpadams.Size = New System.Drawing.Size(81, 56)
         Me.hotmailpadams.TabIndex = 10
         '
         'email1
@@ -1501,7 +1501,7 @@ Partial Class internet_explorer_5
         Me.email1.Controls.Add(Me.Label44)
         Me.email1.Location = New System.Drawing.Point(207, 121)
         Me.email1.Name = "email1"
-        Me.email1.Size = New System.Drawing.Size(465, 213)
+        Me.email1.Size = New System.Drawing.Size(465, 209)
         Me.email1.TabIndex = 4
         Me.email1.Visible = False
         '
@@ -1538,7 +1538,7 @@ Partial Class internet_explorer_5
         Me.TextBox12.Location = New System.Drawing.Point(55, 109)
         Me.TextBox12.Multiline = True
         Me.TextBox12.Name = "TextBox12"
-        Me.TextBox12.Size = New System.Drawing.Size(394, 94)
+        Me.TextBox12.Size = New System.Drawing.Size(394, 90)
         Me.TextBox12.TabIndex = 6
         Me.TextBox12.Text = resources.GetString("TextBox12.Text")
         '
@@ -1605,7 +1605,7 @@ Partial Class internet_explorer_5
         Me.email3.Controls.Add(Me.Label55)
         Me.email3.Location = New System.Drawing.Point(175, 99)
         Me.email3.Name = "email3"
-        Me.email3.Size = New System.Drawing.Size(465, 213)
+        Me.email3.Size = New System.Drawing.Size(465, 209)
         Me.email3.TabIndex = 6
         Me.email3.Visible = False
         '
@@ -1623,7 +1623,7 @@ Partial Class internet_explorer_5
         Me.TextBox17.Location = New System.Drawing.Point(55, 85)
         Me.TextBox17.Multiline = True
         Me.TextBox17.Name = "TextBox17"
-        Me.TextBox17.Size = New System.Drawing.Size(394, 116)
+        Me.TextBox17.Size = New System.Drawing.Size(394, 112)
         Me.TextBox17.TabIndex = 6
         Me.TextBox17.Text = resources.GetString("TextBox17.Text")
         '
@@ -1690,7 +1690,7 @@ Partial Class internet_explorer_5
         Me.email2.Controls.Add(Me.Label51)
         Me.email2.Location = New System.Drawing.Point(161, 124)
         Me.email2.Name = "email2"
-        Me.email2.Size = New System.Drawing.Size(465, 213)
+        Me.email2.Size = New System.Drawing.Size(465, 209)
         Me.email2.TabIndex = 5
         Me.email2.Visible = False
         '
@@ -1708,7 +1708,7 @@ Partial Class internet_explorer_5
         Me.TextBox13.Location = New System.Drawing.Point(55, 85)
         Me.TextBox13.Multiline = True
         Me.TextBox13.Name = "TextBox13"
-        Me.TextBox13.Size = New System.Drawing.Size(394, 116)
+        Me.TextBox13.Size = New System.Drawing.Size(394, 112)
         Me.TextBox13.TabIndex = 6
         Me.TextBox13.Text = "Hey How dare you ask me about that I am blocking your ip right now from my websit" &
     "e... And for the record don't waste your time theres nothing hidden on my websit" &
@@ -1770,18 +1770,18 @@ Partial Class internet_explorer_5
         Me.ListBox1.Dock = System.Windows.Forms.DockStyle.Fill
         Me.ListBox1.FormattingEnabled = True
         Me.ListBox1.Items.AddRange(New Object() {"12padams.com datalog 1998", "RE: What's the secrect to your website?", "What's the secret to your website?"})
-        Me.ListBox1.Location = New System.Drawing.Point(154, 59)
+        Me.ListBox1.Location = New System.Drawing.Point(154, 51)
         Me.ListBox1.Name = "ListBox1"
-        Me.ListBox1.Size = New System.Drawing.Size(518, 278)
+        Me.ListBox1.Size = New System.Drawing.Size(518, 282)
         Me.ListBox1.TabIndex = 3
         '
         'PictureBox14
         '
         Me.PictureBox14.Dock = System.Windows.Forms.DockStyle.Top
         Me.PictureBox14.Image = Global.Histacom.My.Resources.Resources.hotmail2ndfromtopbar
-        Me.PictureBox14.Location = New System.Drawing.Point(154, 38)
+        Me.PictureBox14.Location = New System.Drawing.Point(154, 34)
         Me.PictureBox14.Name = "PictureBox14"
-        Me.PictureBox14.Size = New System.Drawing.Size(518, 21)
+        Me.PictureBox14.Size = New System.Drawing.Size(518, 17)
         Me.PictureBox14.TabIndex = 2
         Me.PictureBox14.TabStop = False
         '
@@ -1791,7 +1791,7 @@ Partial Class internet_explorer_5
         Me.PictureBox13.Image = Global.Histacom.My.Resources.Resources.hotmailtop
         Me.PictureBox13.Location = New System.Drawing.Point(154, 0)
         Me.PictureBox13.Name = "PictureBox13"
-        Me.PictureBox13.Size = New System.Drawing.Size(518, 38)
+        Me.PictureBox13.Size = New System.Drawing.Size(518, 34)
         Me.PictureBox13.TabIndex = 1
         Me.PictureBox13.TabStop = False
         '
@@ -1801,7 +1801,7 @@ Partial Class internet_explorer_5
         Me.PictureBox12.Image = Global.Histacom.My.Resources.Resources.hotmailside
         Me.PictureBox12.Location = New System.Drawing.Point(0, 0)
         Me.PictureBox12.Name = "PictureBox12"
-        Me.PictureBox12.Size = New System.Drawing.Size(154, 337)
+        Me.PictureBox12.Size = New System.Drawing.Size(154, 333)
         Me.PictureBox12.TabIndex = 0
         Me.PictureBox12.TabStop = False
         '
@@ -1811,7 +1811,7 @@ Partial Class internet_explorer_5
         Me.padamshidden.Controls.Add(Me.TextBox10)
         Me.padamshidden.Location = New System.Drawing.Point(455, 189)
         Me.padamshidden.Name = "padamshidden"
-        Me.padamshidden.Size = New System.Drawing.Size(132, 80)
+        Me.padamshidden.Size = New System.Drawing.Size(132, 76)
         Me.padamshidden.TabIndex = 9
         '
         'TextBox10
@@ -1822,7 +1822,7 @@ Partial Class internet_explorer_5
         Me.TextBox10.Multiline = True
         Me.TextBox10.Name = "TextBox10"
         Me.TextBox10.ReadOnly = True
-        Me.TextBox10.Size = New System.Drawing.Size(721, 409)
+        Me.TextBox10.Size = New System.Drawing.Size(721, 405)
         Me.TextBox10.TabIndex = 0
         Me.TextBox10.Text = resources.GetString("TextBox10.Text")
         '
@@ -1839,7 +1839,7 @@ Partial Class internet_explorer_5
         Me.skindows98advertisment.Controls.Add(Me.Label39)
         Me.skindows98advertisment.Location = New System.Drawing.Point(618, 325)
         Me.skindows98advertisment.Name = "skindows98advertisment"
-        Me.skindows98advertisment.Size = New System.Drawing.Size(124, 112)
+        Me.skindows98advertisment.Size = New System.Drawing.Size(124, 108)
         Me.skindows98advertisment.TabIndex = 7
         '
         'Button11
@@ -1851,7 +1851,7 @@ Partial Class internet_explorer_5
         Me.Button11.Image = Global.Histacom.My.Resources.Resources.backarrow
         Me.Button11.Location = New System.Drawing.Point(51, 383)
         Me.Button11.Name = "Button11"
-        Me.Button11.Size = New System.Drawing.Size(95, 55)
+        Me.Button11.Size = New System.Drawing.Size(95, 51)
         Me.Button11.TabIndex = 13
         Me.Button11.Text = "Back"
         Me.Button11.UseVisualStyleBackColor = True
@@ -1861,7 +1861,7 @@ Partial Class internet_explorer_5
         Me.Label42.Anchor = System.Windows.Forms.AnchorStyles.Top
         Me.Label42.AutoSize = True
         Me.Label42.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label42.Location = New System.Drawing.Point(3, 20)
+        Me.Label42.Location = New System.Drawing.Point(25, 20)
         Me.Label42.Name = "Label42"
         Me.Label42.Size = New System.Drawing.Size(263, 18)
         Me.Label42.TabIndex = 5
@@ -1872,7 +1872,7 @@ Partial Class internet_explorer_5
         Me.Label41.Anchor = System.Windows.Forms.AnchorStyles.Top
         Me.Label41.AutoSize = True
         Me.Label41.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label41.Location = New System.Drawing.Point(267, 16)
+        Me.Label41.Location = New System.Drawing.Point(289, 16)
         Me.Label41.Name = "Label41"
         Me.Label41.Size = New System.Drawing.Size(71, 24)
         Me.Label41.TabIndex = 4
@@ -1884,11 +1884,11 @@ Partial Class internet_explorer_5
         Me.TextBox8.BackColor = System.Drawing.Color.SpringGreen
         Me.TextBox8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.TextBox8.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox8.Location = New System.Drawing.Point(-51, 126)
+        Me.TextBox8.Location = New System.Drawing.Point(-29, 126)
         Me.TextBox8.Multiline = True
         Me.TextBox8.Name = "TextBox8"
         Me.TextBox8.ReadOnly = True
-        Me.TextBox8.Size = New System.Drawing.Size(515, 255)
+        Me.TextBox8.Size = New System.Drawing.Size(515, 251)
         Me.TextBox8.TabIndex = 3
         Me.TextBox8.Text = resources.GetString("TextBox8.Text")
         '
@@ -1896,9 +1896,9 @@ Partial Class internet_explorer_5
         '
         Me.PictureBox11.Anchor = System.Windows.Forms.AnchorStyles.Top
         Me.PictureBox11.Image = Global.Histacom.My.Resources.Resources.skindows_95_preview
-        Me.PictureBox11.Location = New System.Drawing.Point(482, 8)
+        Me.PictureBox11.Location = New System.Drawing.Point(504, 8)
         Me.PictureBox11.Name = "PictureBox11"
-        Me.PictureBox11.Size = New System.Drawing.Size(331, 420)
+        Me.PictureBox11.Size = New System.Drawing.Size(331, 416)
         Me.PictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox11.TabIndex = 2
         Me.PictureBox11.TabStop = False
@@ -1908,7 +1908,7 @@ Partial Class internet_explorer_5
         Me.Label40.Anchor = System.Windows.Forms.AnchorStyles.Top
         Me.Label40.AutoSize = True
         Me.Label40.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label40.Location = New System.Drawing.Point(104, 103)
+        Me.Label40.Location = New System.Drawing.Point(126, 103)
         Me.Label40.Name = "Label40"
         Me.Label40.Size = New System.Drawing.Size(160, 13)
         Me.Label40.TabIndex = 1
@@ -1919,7 +1919,7 @@ Partial Class internet_explorer_5
         Me.Label39.Anchor = System.Windows.Forms.AnchorStyles.Top
         Me.Label39.AutoSize = True
         Me.Label39.Font = New System.Drawing.Font("Arial Black", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label39.Location = New System.Drawing.Point(120, 79)
+        Me.Label39.Location = New System.Drawing.Point(142, 79)
         Me.Label39.Name = "Label39"
         Me.Label39.Size = New System.Drawing.Size(123, 23)
         Me.Label39.TabIndex = 0
@@ -1938,7 +1938,7 @@ Partial Class internet_explorer_5
         Me.googlemain.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.googlemain.Location = New System.Drawing.Point(862, 255)
         Me.googlemain.Name = "googlemain"
-        Me.googlemain.Size = New System.Drawing.Size(49, 28)
+        Me.googlemain.Size = New System.Drawing.Size(49, 24)
         Me.googlemain.TabIndex = 3
         '
         'LinkLabel1
@@ -1959,7 +1959,7 @@ Partial Class internet_explorer_5
         Me.Button13.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button13.Location = New System.Drawing.Point(25, 197)
         Me.Button13.Name = "Button13"
-        Me.Button13.Size = New System.Drawing.Size(110, 25)
+        Me.Button13.Size = New System.Drawing.Size(110, 21)
         Me.Button13.TabIndex = 3
         Me.Button13.Text = "I'm feeling lucky"
         Me.Button13.UseVisualStyleBackColor = True
@@ -1981,7 +1981,7 @@ Partial Class internet_explorer_5
         Me.Button12.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button12.Location = New System.Drawing.Point(-84, 197)
         Me.Button12.Name = "Button12"
-        Me.Button12.Size = New System.Drawing.Size(106, 25)
+        Me.Button12.Size = New System.Drawing.Size(106, 21)
         Me.Button12.TabIndex = 2
         Me.Button12.Text = "Google Search"
         Me.Button12.UseVisualStyleBackColor = True
@@ -1992,7 +1992,7 @@ Partial Class internet_explorer_5
         Me.TextBox4.Location = New System.Drawing.Point(-114, 170)
         Me.TextBox4.Multiline = True
         Me.TextBox4.Name = "TextBox4"
-        Me.TextBox4.Size = New System.Drawing.Size(281, 24)
+        Me.TextBox4.Size = New System.Drawing.Size(281, 20)
         Me.TextBox4.TabIndex = 1
         '
         'PictureBox2
@@ -2001,7 +2001,7 @@ Partial Class internet_explorer_5
         Me.PictureBox2.Image = Global.Histacom.My.Resources.Resources.googlebetalogo
         Me.PictureBox2.Location = New System.Drawing.Point(-150, 42)
         Me.PictureBox2.Name = "PictureBox2"
-        Me.PictureBox2.Size = New System.Drawing.Size(361, 106)
+        Me.PictureBox2.Size = New System.Drawing.Size(361, 102)
         Me.PictureBox2.TabIndex = 0
         Me.PictureBox2.TabStop = False
         '
@@ -2031,7 +2031,7 @@ Partial Class internet_explorer_5
         Me.padamsmain.Controls.Add(Me.Panel20)
         Me.padamsmain.Location = New System.Drawing.Point(784, 351)
         Me.padamsmain.Name = "padamsmain"
-        Me.padamsmain.Size = New System.Drawing.Size(100, 59)
+        Me.padamsmain.Size = New System.Drawing.Size(100, 55)
         Me.padamsmain.TabIndex = 4
         '
         'Panel18
@@ -2043,7 +2043,7 @@ Partial Class internet_explorer_5
         Me.Panel18.Controls.Add(Me.Panel19)
         Me.Panel18.Location = New System.Drawing.Point(-394, 286)
         Me.Panel18.Name = "Panel18"
-        Me.Panel18.Size = New System.Drawing.Size(425, 128)
+        Me.Panel18.Size = New System.Drawing.Size(425, 124)
         Me.Panel18.TabIndex = 11
         '
         'LinkLabel20
@@ -2064,7 +2064,7 @@ Partial Class internet_explorer_5
         Me.Panel19.Dock = System.Windows.Forms.DockStyle.Top
         Me.Panel19.Location = New System.Drawing.Point(0, 0)
         Me.Panel19.Name = "Panel19"
-        Me.Panel19.Size = New System.Drawing.Size(423, 35)
+        Me.Panel19.Size = New System.Drawing.Size(423, 31)
         Me.Panel19.TabIndex = 10
         '
         'Label59
@@ -2089,7 +2089,7 @@ Partial Class internet_explorer_5
         Me.Panel12.Controls.Add(Me.Panel17)
         Me.Panel12.Location = New System.Drawing.Point(267, 93)
         Me.Panel12.Name = "Panel12"
-        Me.Panel12.Size = New System.Drawing.Size(200, 185)
+        Me.Panel12.Size = New System.Drawing.Size(200, 181)
         Me.Panel12.TabIndex = 6
         '
         'LinkLabel17
@@ -2120,7 +2120,7 @@ Partial Class internet_explorer_5
         Me.Panel17.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Panel17.Location = New System.Drawing.Point(-1, -1)
         Me.Panel17.Name = "Panel17"
-        Me.Panel17.Size = New System.Drawing.Size(200, 35)
+        Me.Panel17.Size = New System.Drawing.Size(200, 31)
         Me.Panel17.TabIndex = 4
         '
         'Label20
@@ -2147,7 +2147,7 @@ Partial Class internet_explorer_5
         Me.Panel10.Controls.Add(Me.Panel16)
         Me.Panel10.Location = New System.Drawing.Point(50, 93)
         Me.Panel10.Name = "Panel10"
-        Me.Panel10.Size = New System.Drawing.Size(200, 185)
+        Me.Panel10.Size = New System.Drawing.Size(200, 181)
         Me.Panel10.TabIndex = 6
         '
         'Button16
@@ -2157,7 +2157,7 @@ Partial Class internet_explorer_5
         Me.Button16.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button16.Location = New System.Drawing.Point(112, 74)
         Me.Button16.Name = "Button16"
-        Me.Button16.Size = New System.Drawing.Size(75, 23)
+        Me.Button16.Size = New System.Drawing.Size(75, 19)
         Me.Button16.TabIndex = 7
         Me.Button16.Text = "Download"
         Me.Button16.UseVisualStyleBackColor = False
@@ -2178,7 +2178,7 @@ Partial Class internet_explorer_5
         Me.Button15.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button15.Location = New System.Drawing.Point(112, 40)
         Me.Button15.Name = "Button15"
-        Me.Button15.Size = New System.Drawing.Size(75, 23)
+        Me.Button15.Size = New System.Drawing.Size(75, 19)
         Me.Button15.TabIndex = 5
         Me.Button15.Text = "Download"
         Me.Button15.UseVisualStyleBackColor = False
@@ -2210,7 +2210,7 @@ Partial Class internet_explorer_5
         Me.Panel16.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Panel16.Location = New System.Drawing.Point(-1, -1)
         Me.Panel16.Name = "Panel16"
-        Me.Panel16.Size = New System.Drawing.Size(200, 35)
+        Me.Panel16.Size = New System.Drawing.Size(200, 31)
         Me.Panel16.TabIndex = 8
         '
         'Panel9
@@ -2225,7 +2225,7 @@ Partial Class internet_explorer_5
         Me.Panel9.Controls.Add(Me.Panel14)
         Me.Panel9.Location = New System.Drawing.Point(-176, 93)
         Me.Panel9.Name = "Panel9"
-        Me.Panel9.Size = New System.Drawing.Size(207, 185)
+        Me.Panel9.Size = New System.Drawing.Size(207, 181)
         Me.Panel9.TabIndex = 6
         '
         'Label37
@@ -2244,7 +2244,7 @@ Partial Class internet_explorer_5
         Me.Button24.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button24.Location = New System.Drawing.Point(94, 87)
         Me.Button24.Name = "Button24"
-        Me.Button24.Size = New System.Drawing.Size(106, 23)
+        Me.Button24.Size = New System.Drawing.Size(106, 19)
         Me.Button24.TabIndex = 7
         Me.Button24.Text = "Info"
         Me.Button24.UseVisualStyleBackColor = False
@@ -2256,7 +2256,7 @@ Partial Class internet_explorer_5
         Me.Button23.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button23.Location = New System.Drawing.Point(94, 46)
         Me.Button23.Name = "Button23"
-        Me.Button23.Size = New System.Drawing.Size(106, 23)
+        Me.Button23.Size = New System.Drawing.Size(106, 19)
         Me.Button23.TabIndex = 6
         Me.Button23.Text = "View Backgrounds"
         Me.Button23.UseVisualStyleBackColor = False
@@ -2277,7 +2277,7 @@ Partial Class internet_explorer_5
         Me.Panel14.Controls.Add(Me.Label19)
         Me.Panel14.Location = New System.Drawing.Point(-1, -1)
         Me.Panel14.Name = "Panel14"
-        Me.Panel14.Size = New System.Drawing.Size(207, 34)
+        Me.Panel14.Size = New System.Drawing.Size(207, 30)
         Me.Panel14.TabIndex = 9
         '
         'Label19
@@ -2305,7 +2305,7 @@ Partial Class internet_explorer_5
         Me.Panel8.Controls.Add(Me.Panel15)
         Me.Panel8.Location = New System.Drawing.Point(-394, 93)
         Me.Panel8.Name = "Panel8"
-        Me.Panel8.Size = New System.Drawing.Size(200, 184)
+        Me.Panel8.Size = New System.Drawing.Size(200, 180)
         Me.Panel8.TabIndex = 5
         '
         'Button25
@@ -2315,7 +2315,7 @@ Partial Class internet_explorer_5
         Me.Button25.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button25.Location = New System.Drawing.Point(117, 81)
         Me.Button25.Name = "Button25"
-        Me.Button25.Size = New System.Drawing.Size(75, 22)
+        Me.Button25.Size = New System.Drawing.Size(75, 18)
         Me.Button25.TabIndex = 6
         Me.Button25.Text = "Download"
         Me.Button25.UseVisualStyleBackColor = False
@@ -2336,7 +2336,7 @@ Partial Class internet_explorer_5
         Me.Button17.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button17.Location = New System.Drawing.Point(117, 47)
         Me.Button17.Name = "Button17"
-        Me.Button17.Size = New System.Drawing.Size(75, 22)
+        Me.Button17.Size = New System.Drawing.Size(75, 18)
         Me.Button17.TabIndex = 4
         Me.Button17.Text = "Download"
         Me.Button17.UseVisualStyleBackColor = False
@@ -2368,7 +2368,7 @@ Partial Class internet_explorer_5
         Me.Panel15.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Panel15.Location = New System.Drawing.Point(-1, -1)
         Me.Panel15.Name = "Panel15"
-        Me.Panel15.Size = New System.Drawing.Size(200, 35)
+        Me.Panel15.Size = New System.Drawing.Size(200, 31)
         Me.Panel15.TabIndex = 10
         '
         'Label16
@@ -2401,7 +2401,7 @@ Partial Class internet_explorer_5
         Me.Panel20.Controls.Add(Me.Panel21)
         Me.Panel20.Location = New System.Drawing.Point(50, 286)
         Me.Panel20.Name = "Panel20"
-        Me.Panel20.Size = New System.Drawing.Size(417, 128)
+        Me.Panel20.Size = New System.Drawing.Size(417, 124)
         Me.Panel20.TabIndex = 12
         '
         'LinkLabel19
@@ -2422,7 +2422,7 @@ Partial Class internet_explorer_5
         Me.Panel21.Dock = System.Windows.Forms.DockStyle.Top
         Me.Panel21.Location = New System.Drawing.Point(0, 0)
         Me.Panel21.Name = "Panel21"
-        Me.Panel21.Size = New System.Drawing.Size(415, 35)
+        Me.Panel21.Size = New System.Drawing.Size(415, 31)
         Me.Panel21.TabIndex = 10
         '
         'Label23
@@ -2449,7 +2449,7 @@ Partial Class internet_explorer_5
         Me.welcomeinternetscreen.Controls.Add(Me.Label2)
         Me.welcomeinternetscreen.Location = New System.Drawing.Point(638, 236)
         Me.welcomeinternetscreen.Name = "welcomeinternetscreen"
-        Me.welcomeinternetscreen.Size = New System.Drawing.Size(76, 50)
+        Me.welcomeinternetscreen.Size = New System.Drawing.Size(76, 46)
         Me.welcomeinternetscreen.TabIndex = 0
         '
         'LinkLabel16
@@ -2495,7 +2495,7 @@ Partial Class internet_explorer_5
         Me.TextBox1.Multiline = True
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.ReadOnly = True
-        Me.TextBox1.Size = New System.Drawing.Size(421, 130)
+        Me.TextBox1.Size = New System.Drawing.Size(421, 126)
         Me.TextBox1.TabIndex = 1
         Me.TextBox1.Text = resources.GetString("TextBox1.Text")
         Me.TextBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
@@ -2517,7 +2517,7 @@ Partial Class internet_explorer_5
         Me.padamsbackground.Controls.Add(Me.Panel6)
         Me.padamsbackground.Location = New System.Drawing.Point(107, 37)
         Me.padamsbackground.Name = "padamsbackground"
-        Me.padamsbackground.Size = New System.Drawing.Size(388, 146)
+        Me.padamsbackground.Size = New System.Drawing.Size(388, 142)
         Me.padamsbackground.TabIndex = 15
         '
         'Panel6
@@ -2531,7 +2531,7 @@ Partial Class internet_explorer_5
         Me.Panel6.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Panel6.Location = New System.Drawing.Point(0, 0)
         Me.Panel6.Name = "Panel6"
-        Me.Panel6.Size = New System.Drawing.Size(388, 146)
+        Me.Panel6.Size = New System.Drawing.Size(388, 142)
         Me.Panel6.TabIndex = 16
         '
         'Panel7
@@ -2542,7 +2542,7 @@ Partial Class internet_explorer_5
         Me.Panel7.Dock = System.Windows.Forms.DockStyle.Top
         Me.Panel7.Location = New System.Drawing.Point(0, 0)
         Me.Panel7.Name = "Panel7"
-        Me.Panel7.Size = New System.Drawing.Size(386, 35)
+        Me.Panel7.Size = New System.Drawing.Size(386, 31)
         Me.Panel7.TabIndex = 10
         '
         'Label29
@@ -2566,9 +2566,9 @@ Partial Class internet_explorer_5
         Me.Button14.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button14.ForeColor = System.Drawing.Color.White
         Me.Button14.Image = Global.Histacom.My.Resources.Resources.backarrow
-        Me.Button14.Location = New System.Drawing.Point(23, 80)
+        Me.Button14.Location = New System.Drawing.Point(23, 76)
         Me.Button14.Name = "Button14"
-        Me.Button14.Size = New System.Drawing.Size(95, 55)
+        Me.Button14.Size = New System.Drawing.Size(95, 51)
         Me.Button14.TabIndex = 15
         Me.Button14.Text = "Back"
         Me.Button14.UseVisualStyleBackColor = True
@@ -2589,14 +2589,14 @@ Partial Class internet_explorer_5
         Me.Panel5.Controls.Add(Me.PictureBox7)
         Me.Panel5.Location = New System.Drawing.Point(23, 48)
         Me.Panel5.Name = "Panel5"
-        Me.Panel5.Size = New System.Drawing.Size(252, 29)
+        Me.Panel5.Size = New System.Drawing.Size(252, 25)
         Me.Panel5.TabIndex = 2
         '
         'Button18
         '
         Me.Button18.Location = New System.Drawing.Point(95, 310)
         Me.Button18.Name = "Button18"
-        Me.Button18.Size = New System.Drawing.Size(115, 23)
+        Me.Button18.Size = New System.Drawing.Size(115, 19)
         Me.Button18.TabIndex = 8
         Me.Button18.Text = "Set As Background"
         Me.Button18.UseVisualStyleBackColor = True
@@ -2605,7 +2605,7 @@ Partial Class internet_explorer_5
         '
         Me.Button26.Location = New System.Drawing.Point(26, 310)
         Me.Button26.Name = "Button26"
-        Me.Button26.Size = New System.Drawing.Size(63, 23)
+        Me.Button26.Size = New System.Drawing.Size(63, 19)
         Me.Button26.TabIndex = 7
         Me.Button26.Text = "Preview"
         Me.Button26.UseVisualStyleBackColor = True
@@ -2624,7 +2624,7 @@ Partial Class internet_explorer_5
         Me.PictureBox5.Image = Global.Histacom.My.Resources.Resources.sky
         Me.PictureBox5.Location = New System.Drawing.Point(26, 192)
         Me.PictureBox5.Name = "PictureBox5"
-        Me.PictureBox5.Size = New System.Drawing.Size(184, 115)
+        Me.PictureBox5.Size = New System.Drawing.Size(184, 111)
         Me.PictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox5.TabIndex = 5
         Me.PictureBox5.TabStop = False
@@ -2633,7 +2633,7 @@ Partial Class internet_explorer_5
         '
         Me.Button27.Location = New System.Drawing.Point(95, 140)
         Me.Button27.Name = "Button27"
-        Me.Button27.Size = New System.Drawing.Size(115, 23)
+        Me.Button27.Size = New System.Drawing.Size(115, 19)
         Me.Button27.TabIndex = 4
         Me.Button27.Text = "Set As Background"
         Me.Button27.UseVisualStyleBackColor = True
@@ -2642,7 +2642,7 @@ Partial Class internet_explorer_5
         '
         Me.Button28.Location = New System.Drawing.Point(26, 140)
         Me.Button28.Name = "Button28"
-        Me.Button28.Size = New System.Drawing.Size(63, 23)
+        Me.Button28.Size = New System.Drawing.Size(63, 19)
         Me.Button28.TabIndex = 3
         Me.Button28.Text = "Preview"
         Me.Button28.UseVisualStyleBackColor = True
@@ -2661,7 +2661,7 @@ Partial Class internet_explorer_5
         Me.PictureBox7.Image = Global.Histacom.My.Resources.Resources.windows_98_background
         Me.PictureBox7.Location = New System.Drawing.Point(26, 22)
         Me.PictureBox7.Name = "PictureBox7"
-        Me.PictureBox7.Size = New System.Drawing.Size(184, 115)
+        Me.PictureBox7.Size = New System.Drawing.Size(184, 111)
         Me.PictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox7.TabIndex = 0
         Me.PictureBox7.TabStop = False
@@ -2674,7 +2674,7 @@ Partial Class internet_explorer_5
         Me.previewimage.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.previewimage.Location = New System.Drawing.Point(296, 48)
         Me.previewimage.Name = "previewimage"
-        Me.previewimage.Size = New System.Drawing.Size(75, 81)
+        Me.previewimage.Size = New System.Drawing.Size(75, 77)
         Me.previewimage.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.previewimage.TabIndex = 1
         Me.previewimage.TabStop = False
@@ -2685,7 +2685,7 @@ Partial Class internet_explorer_5
         Me.padamsNewsstorys.Controls.Add(Me.Panel3)
         Me.padamsNewsstorys.Location = New System.Drawing.Point(259, 202)
         Me.padamsNewsstorys.Name = "padamsNewsstorys"
-        Me.padamsNewsstorys.Size = New System.Drawing.Size(153, 161)
+        Me.padamsNewsstorys.Size = New System.Drawing.Size(153, 157)
         Me.padamsNewsstorys.TabIndex = 11
         '
         'Panel3
@@ -2699,7 +2699,7 @@ Partial Class internet_explorer_5
         Me.Panel3.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Panel3.Location = New System.Drawing.Point(0, 0)
         Me.Panel3.Name = "Panel3"
-        Me.Panel3.Size = New System.Drawing.Size(153, 161)
+        Me.Panel3.Size = New System.Drawing.Size(153, 157)
         Me.Panel3.TabIndex = 12
         '
         'Button30
@@ -2710,9 +2710,9 @@ Partial Class internet_explorer_5
         Me.Button30.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button30.ForeColor = System.Drawing.Color.White
         Me.Button30.Image = Global.Histacom.My.Resources.Resources.backarrow
-        Me.Button30.Location = New System.Drawing.Point(19, 95)
+        Me.Button30.Location = New System.Drawing.Point(19, 91)
         Me.Button30.Name = "Button30"
-        Me.Button30.Size = New System.Drawing.Size(95, 55)
+        Me.Button30.Size = New System.Drawing.Size(95, 51)
         Me.Button30.TabIndex = 16
         Me.Button30.Text = "Back"
         Me.Button30.UseVisualStyleBackColor = True
@@ -2729,7 +2729,7 @@ Partial Class internet_explorer_5
         Me.TextBox5.Multiline = True
         Me.TextBox5.Name = "TextBox5"
         Me.TextBox5.ReadOnly = True
-        Me.TextBox5.Size = New System.Drawing.Size(125, 36)
+        Me.TextBox5.Size = New System.Drawing.Size(125, 32)
         Me.TextBox5.TabIndex = 11
         Me.TextBox5.Text = resources.GetString("TextBox5.Text")
         '
@@ -2741,7 +2741,7 @@ Partial Class internet_explorer_5
         Me.Panel4.Dock = System.Windows.Forms.DockStyle.Top
         Me.Panel4.Location = New System.Drawing.Point(0, 0)
         Me.Panel4.Name = "Panel4"
-        Me.Panel4.Size = New System.Drawing.Size(151, 35)
+        Me.Panel4.Size = New System.Drawing.Size(151, 31)
         Me.Panel4.TabIndex = 10
         '
         'Label24
@@ -2774,7 +2774,7 @@ Partial Class internet_explorer_5
         Me.hotmailmain.Controls.Add(Me.Panel11)
         Me.hotmailmain.Location = New System.Drawing.Point(865, 83)
         Me.hotmailmain.Name = "hotmailmain"
-        Me.hotmailmain.Size = New System.Drawing.Size(61, 47)
+        Me.hotmailmain.Size = New System.Drawing.Size(61, 43)
         Me.hotmailmain.TabIndex = 5
         '
         'TextBox3
@@ -2786,7 +2786,7 @@ Partial Class internet_explorer_5
         Me.TextBox3.Location = New System.Drawing.Point(10, 297)
         Me.TextBox3.Multiline = True
         Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(288, 51)
+        Me.TextBox3.Size = New System.Drawing.Size(288, 47)
         Me.TextBox3.TabIndex = 12
         Me.TextBox3.Text = "Get notified when you have new Hotmail or when your friends are on-line. Send ins" &
     "tant messages. Click here to get your FREE download of MSN Messenger Service!"
@@ -2876,7 +2876,7 @@ Partial Class internet_explorer_5
         Me.TextBox2.Location = New System.Drawing.Point(10, 99)
         Me.TextBox2.Multiline = True
         Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(288, 51)
+        Me.TextBox2.Size = New System.Drawing.Size(288, 47)
         Me.TextBox2.TabIndex = 4
         Me.TextBox2.Text = "Your Hotmail account just got more powerful with Microsoft Passport. Have you see" &
     "n Hotmail's new look?" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & " "
@@ -2897,7 +2897,7 @@ Partial Class internet_explorer_5
         Me.PictureBox4.Image = Global.Histacom.My.Resources.Resources.hotmaillogo
         Me.PictureBox4.Location = New System.Drawing.Point(6, 3)
         Me.PictureBox4.Name = "PictureBox4"
-        Me.PictureBox4.Size = New System.Drawing.Size(290, 52)
+        Me.PictureBox4.Size = New System.Drawing.Size(290, 48)
         Me.PictureBox4.TabIndex = 2
         Me.PictureBox4.TabStop = False
         '
@@ -2923,7 +2923,7 @@ Partial Class internet_explorer_5
         Me.Panel11.Controls.Add(Me.PictureBox3)
         Me.Panel11.Location = New System.Drawing.Point(310, 0)
         Me.Panel11.Name = "Panel11"
-        Me.Panel11.Size = New System.Drawing.Size(626, 445)
+        Me.Panel11.Size = New System.Drawing.Size(626, 441)
         Me.Panel11.TabIndex = 0
         '
         'LinkLabel9
@@ -3000,7 +3000,7 @@ Partial Class internet_explorer_5
         '
         Me.Button9.Location = New System.Drawing.Point(168, 143)
         Me.Button9.Name = "Button9"
-        Me.Button9.Size = New System.Drawing.Size(75, 23)
+        Me.Button9.Size = New System.Drawing.Size(75, 19)
         Me.Button9.TabIndex = 10
         Me.Button9.Text = "Sign In"
         Me.Button9.UseVisualStyleBackColor = True
@@ -3081,12 +3081,9 @@ Partial Class internet_explorer_5
         Me.PictureBox3.Image = Global.Histacom.My.Resources.Resources.hotmailpassport
         Me.PictureBox3.Location = New System.Drawing.Point(98, 3)
         Me.PictureBox3.Name = "PictureBox3"
-        Me.PictureBox3.Size = New System.Drawing.Size(100, 40)
+        Me.PictureBox3.Size = New System.Drawing.Size(100, 36)
         Me.PictureBox3.TabIndex = 1
         Me.PictureBox3.TabStop = False
-        '
-        'look
-        '
         '
         'Panel24
         '
@@ -3094,9 +3091,9 @@ Partial Class internet_explorer_5
         Me.Panel24.Controls.Add(Me.addressbar)
         Me.Panel24.Controls.Add(Me.Label1)
         Me.Panel24.Dock = System.Windows.Forms.DockStyle.Top
-        Me.Panel24.Location = New System.Drawing.Point(0, 73)
+        Me.Panel24.Location = New System.Drawing.Point(0, 69)
         Me.Panel24.Name = "Panel24"
-        Me.Panel24.Size = New System.Drawing.Size(953, 36)
+        Me.Panel24.Size = New System.Drawing.Size(953, 32)
         Me.Panel24.TabIndex = 12
         '
         'Button8
@@ -3106,7 +3103,7 @@ Partial Class internet_explorer_5
         Me.Button8.Image = Global.Histacom.My.Resources.Resources.windows95internetexplorergobutton
         Me.Button8.Location = New System.Drawing.Point(890, 2)
         Me.Button8.Name = "Button8"
-        Me.Button8.Size = New System.Drawing.Size(55, 32)
+        Me.Button8.Size = New System.Drawing.Size(55, 28)
         Me.Button8.TabIndex = 2
         Me.Button8.Text = "Go"
         Me.Button8.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
@@ -3136,7 +3133,7 @@ Partial Class internet_explorer_5
         Me.PictureBox1.Image = Global.Histacom.My.Resources.Resources.windows95internetexplorertoplogo
         Me.PictureBox1.Location = New System.Drawing.Point(909, 24)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(38, 21)
+        Me.PictureBox1.Size = New System.Drawing.Size(38, 17)
         Me.PictureBox1.TabIndex = 10
         Me.PictureBox1.TabStop = False
         '
@@ -3146,7 +3143,7 @@ Partial Class internet_explorer_5
         Me.toprightcorner.BackgroundImage = Global.Histacom.My.Resources.Resources.windows95toprightcorner
         Me.toprightcorner.Location = New System.Drawing.Point(949, 0)
         Me.toprightcorner.Name = "toprightcorner"
-        Me.toprightcorner.Size = New System.Drawing.Size(4, 4)
+        Me.toprightcorner.Size = New System.Drawing.Size(4, 10)
         Me.toprightcorner.TabIndex = 6
         '
         'bottomrightcorner
@@ -3156,7 +3153,7 @@ Partial Class internet_explorer_5
         Me.bottomrightcorner.Cursor = System.Windows.Forms.Cursors.SizeNWSE
         Me.bottomrightcorner.Location = New System.Drawing.Point(949, 590)
         Me.bottomrightcorner.Name = "bottomrightcorner"
-        Me.bottomrightcorner.Size = New System.Drawing.Size(4, 4)
+        Me.bottomrightcorner.Size = New System.Drawing.Size(4, 10)
         Me.bottomrightcorner.TabIndex = 4
         '
         'bottomleftcorner
@@ -3165,7 +3162,7 @@ Partial Class internet_explorer_5
         Me.bottomleftcorner.BackgroundImage = Global.Histacom.My.Resources.Resources.windows95bottomleftcorner
         Me.bottomleftcorner.Location = New System.Drawing.Point(0, 590)
         Me.bottomleftcorner.Name = "bottomleftcorner"
-        Me.bottomleftcorner.Size = New System.Drawing.Size(4, 4)
+        Me.bottomleftcorner.Size = New System.Drawing.Size(4, 10)
         Me.bottomleftcorner.TabIndex = 2
         '
         'topleftcorner
@@ -3173,7 +3170,7 @@ Partial Class internet_explorer_5
         Me.topleftcorner.BackgroundImage = Global.Histacom.My.Resources.Resources.windows95topleftcorner
         Me.topleftcorner.Location = New System.Drawing.Point(0, 0)
         Me.topleftcorner.Name = "topleftcorner"
-        Me.topleftcorner.Size = New System.Drawing.Size(4, 4)
+        Me.topleftcorner.Size = New System.Drawing.Size(4, 10)
         Me.topleftcorner.TabIndex = 1
         '
         'pullbs
