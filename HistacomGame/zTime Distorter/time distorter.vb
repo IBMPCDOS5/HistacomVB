@@ -15,6 +15,8 @@
     Private Sub Timer1_Tick(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Timer1.Tick
         If count = -200 Then
             Windows98.Show()
+            If Not GameMain.TimeDisAlreadtSentMessage Then If GameMain.webChatInstalled Then GameMain.OpenMsg("Due to a Technical Issue we could not transfer Web Chat 1998 over, we will auto-install Web Chat 1999 for you") : GameMain.TimeDisAlreadtSentMessage = True
+            Timer1.Stop()
             Me.Close()
         End If
         If count = -180 Then
@@ -827,6 +829,7 @@
         End If
         If Label1.Text = "###############  TIME DISTORTER ###############" Then
             Label1.Text = " -##############  TIME DISTORTER ##############-"
+            count = 0
         End If
         commandprompt.TextBox1.SelectionStart = 999999
         commandprompt.TextBox1.ScrollToCaret()

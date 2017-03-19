@@ -29,6 +29,8 @@
     End Sub
 
     Private Sub internet_explorer_5_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
+        history(1) = "www.microsoft.com/internetexplorer4/welcome"
+        chistory = 1
         winman.setupwindow(Me, "Internet Explorer 5", My.Resources.start_run)
         'programtopbar.BackColor = Windows95.exampleprogramtopbar.BackColor
         removewebsites()
@@ -124,21 +126,23 @@
     End Sub
 
     Private Sub Button17_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button17.Click
-        Dim opendownload As New downloader
-        opendownload.Show()
-        opendownload.Label2.Text = "Downloading: Guess The Number 2"
+        If Not GameMain.guessInstalled Then
+            GameMain.OpenInstaller("guessNum", My.Resources.guess_the_number_one, AppsLicense.normalLicense, "Guess The Number v2", 20)
+        Else
+            GameMain.OpenMsg("You already have Guess The Number Installed!")
+        End If
     End Sub
 
     Private Sub Button15_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button15.Click
-        Dim opendownload As New downloader
-        opendownload.Show()
-        opendownload.Label2.Text = "Downloading: Start Runner 98"
+        GameMain.OpenInstaller("guessNum", My.Resources.Guess_the_Number__install_, AppsLicense.normalLicense, "Guess The Number V2", 100)
     End Sub
 
-    Private Sub Button16_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button16.Click
-        Dim opendownload As New downloader
-        opendownload.Show()
-        opendownload.Label2.Text = "Downloading: Error Blaster 98"
+    Private Sub Button16_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
+        If Not GameMain.startRInstalled Then
+            GameMain.OpenInstaller("startR", My.Resources.start_run__install___white_with_programname_, AppsLicense.normalLicense, "Start Runner", 60)
+        Else
+            GameMain.OpenMsg("You already have Start Runner Installed!")
+        End If
     End Sub
 
     Private Sub Button19_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
@@ -196,9 +200,11 @@
     End Sub
 
     Private Sub Button25_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button25.Click
-        Dim opendownload As New downloader
-        opendownload.Show()
-        opendownload.Label2.Text = "Downloading: Web Chat 1999"
+        If Not GameMain.webChatInstalled Then
+            GameMain.OpenInstaller("webChat", My.Resources.chat_big, AppsLicense.normalLicense, "Web Chat 1999", 150)
+        Else
+            GameMain.OpenMsg("The application Web Chat 1999 is already installed!")
+        End If
     End Sub
 
     Private Sub Label20_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Label20.Click
@@ -337,5 +343,10 @@
 
     Private Sub ToolStripMenuItem21_Click(sender As Object, e As EventArgs) Handles ToolStripMenuItem21.Click
         Me.Close()
+    End Sub
+
+    Private Sub ToolStripMenuItem13_Click(sender As Object, e As EventArgs) Handles ToolStripMenuItem13.Click
+        GameMain.OpenMsg("WELL DONE! YOU JUST FOUND AN EASTER EGG!")
+        GameMain.OpenMsg("Send a picture of this to the discord!")
     End Sub
 End Class

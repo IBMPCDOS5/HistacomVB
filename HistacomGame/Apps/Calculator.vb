@@ -55,7 +55,9 @@
                     Case "*"
                         Calc *= CNumber
                     Case "/"
-                        Calc /= CNumber
+                        If Calc <> 0 And CNumber <> 0 Then
+                            Calc /= CNumber
+                        End If
                     Case Else
                         ' Failed to calculate
                         cAnswer = pAnswer

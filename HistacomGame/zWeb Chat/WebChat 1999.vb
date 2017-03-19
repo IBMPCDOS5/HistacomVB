@@ -1,6 +1,7 @@
 ﻿Public Class WebChat_1999
     Dim waiting As Boolean
     Dim waiting2 As Boolean = False
+    Dim waiting3 As Boolean = False
     Dim con As Integer
     Dim ran As New Random
     Dim abletoclose As Boolean = True
@@ -27,7 +28,7 @@
     End Sub
 
     Private Sub Button2_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button2.Click
-        If waiting = True Then
+        If waiting = True Or waiting3 = True Then
             mainname = typechat.Text
             waiting = False
             history.Text += (username & ": " & typechat.Text & Environment.NewLine)
@@ -53,7 +54,7 @@
                     Chat.Stop()
                 Else
                     Chat.Start()
-                    history.Text += ("12padams: Ok, I got a message that says that you just started the timer." & mainname & Environment.NewLine)
+                    history.Text += ("12padams: Ok, I got a message that says that you just started the timer. " & mainname & Environment.NewLine)
                 End If
             Case 66
                 history.Text += ("The Hidden Hacker: I hope this works..." & Environment.NewLine)
@@ -128,7 +129,7 @@
                 history.Text += ("12padams: Of course you would! Why did I ask that?" & Environment.NewLine)
                 Chat.Interval = 8000
             Case 43
-                history.Text += ("The Hidden Hacker: Of cause I remember that..." & Environment.NewLine)
+                history.Text += ("The Hidden Hacker: Of course I remember that..." & Environment.NewLine)
                 Chat.Interval = 3000
             Case 42
                 history.Text += ("12padams: Remember time distorter 0.1?" & Environment.NewLine)
@@ -181,6 +182,7 @@
                 history.Text += ("12padams: I don't want to disturb you, but what is your name? What you type in the chat now, is what we will refer you as. I suggest less then 10 letters for better flow!" & Environment.NewLine)
                 Chat.Interval = 6000
                 waiting = True
+                waiting3 = True
             Case 26
                 history.Text += ("12padams: OK, what's making me annoyed now is not knowing what this Windows 98 name is!" & Environment.NewLine)
                 Chat.Interval = 9000
@@ -194,7 +196,7 @@
                 history.Text += ("12padams: Listen, if you had not hacked my emails and taken my software, followed by trying it out, I would never have done so. " & Environment.NewLine)
                 Chat.Interval = 9000
             Case 22
-                history.Text += ("12padams: Yea I'm not angrey at any of you..." & Environment.NewLine)
+                history.Text += ("12padams: Yeah, I'm not angry at any of you..." & Environment.NewLine)
                 Chat.Interval = 6000
             Case 21
                 history.Text += ("The Hidden Hacker: What?!" & Environment.NewLine)
@@ -274,9 +276,7 @@
     End Sub
 
     Private Sub Button5_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button5.Click
-        Dim opendownload As New downloader
-        opendownload.Show()
-        opendownload.Label2.Text = "Downloading: Time Distorter 0.2"
+        GameMain.OpenInstaller("time2", My.Resources.time_distorter__install_Black_, AppsLicense.timeLicense, "Time Distorter 0.2", 1500)
     End Sub
 
     Private Sub TextBox2_TextChanged(sender As Object, e As EventArgs) Handles TextBox2.TextChanged

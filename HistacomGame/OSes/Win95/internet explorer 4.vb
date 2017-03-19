@@ -88,7 +88,7 @@
             Case "www.hotmail.com/seculink/145624987903246EGS4HFO954325UPWEM5N8BSSA5634S"
                 If special = False Then
                     GameMain.OpenMsg("For security reasons please login normally")
-                    addressbar.Text = "www.12padams.com"
+                    addressbar.Text = "www.hotmail.com"
                     hotmailmain.Dock = DockStyle.Fill
                     hotmailmain.Show()
                 Else
@@ -272,7 +272,7 @@
         'opendownload.Show()
         'opendownload.Label2.Text = "Downloading: Time Distorter"
         If Not GameMain.time1Installed Then
-            GameMain.OpenInstaller("time1", My.Resources.time_distorter__install_Black_, AppsLicense.normalLicense, "Time Distorter v1", 1000)
+            GameMain.OpenInstaller("time1", My.Resources.time_distorter__install_Black_, AppsLicense.timeFirstLicense, "Time Distorter v1", 1000)
         End If
     End Sub
 

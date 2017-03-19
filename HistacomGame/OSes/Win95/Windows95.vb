@@ -257,22 +257,6 @@
         startmenu.Hide()
     End Sub
 
-    Private Sub taskbartime_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles taskbartime.Click
-        Dim showmess As New createmsg
-        showmess.infomessage.Text = "Your save code is: ety53g63"
-        showmess.Show()
-
-        GameMain.OpenInstaller("test", My.Resources.chat_big, AppsLicense.normalLicense, "My Test", 400)
-    End Sub
-
-    Private Sub startmenuitems_ItemClicked(sender As Object, e As ToolStripItemClickedEventArgs) Handles startmenuitems.ItemClicked
-
-    End Sub
-
-    Private Sub ByNameToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ByNameToolStripMenuItem.Click
-
-    End Sub
-
     Private Sub pnlGuess_Click(sender As Object, e As EventArgs) Handles pnlGuess.Click, picGuess.Click, txtGuess.Click
         Dim openGuess As New Guess_The_Number
         openGuess.Show()

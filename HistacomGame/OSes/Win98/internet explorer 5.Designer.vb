@@ -216,8 +216,6 @@ Partial Class internet_explorer_5
         Me.Panel17 = New System.Windows.Forms.Panel()
         Me.Label20 = New System.Windows.Forms.Label()
         Me.Panel10 = New System.Windows.Forms.Panel()
-        Me.Button16 = New System.Windows.Forms.Button()
-        Me.Label22 = New System.Windows.Forms.Label()
         Me.Button15 = New System.Windows.Forms.Button()
         Me.Label21 = New System.Windows.Forms.Label()
         Me.Label18 = New System.Windows.Forms.Label()
@@ -1809,9 +1807,9 @@ Partial Class internet_explorer_5
         '
         Me.padamshidden.AutoScroll = True
         Me.padamshidden.Controls.Add(Me.TextBox10)
-        Me.padamshidden.Location = New System.Drawing.Point(455, 189)
+        Me.padamshidden.Location = New System.Drawing.Point(328, 301)
         Me.padamshidden.Name = "padamshidden"
-        Me.padamshidden.Size = New System.Drawing.Size(132, 76)
+        Me.padamshidden.Size = New System.Drawing.Size(259, 121)
         Me.padamshidden.TabIndex = 9
         '
         'TextBox10
@@ -1861,7 +1859,7 @@ Partial Class internet_explorer_5
         Me.Label42.Anchor = System.Windows.Forms.AnchorStyles.Top
         Me.Label42.AutoSize = True
         Me.Label42.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label42.Location = New System.Drawing.Point(25, 20)
+        Me.Label42.Location = New System.Drawing.Point(47, 20)
         Me.Label42.Name = "Label42"
         Me.Label42.Size = New System.Drawing.Size(263, 18)
         Me.Label42.TabIndex = 5
@@ -1872,7 +1870,7 @@ Partial Class internet_explorer_5
         Me.Label41.Anchor = System.Windows.Forms.AnchorStyles.Top
         Me.Label41.AutoSize = True
         Me.Label41.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label41.Location = New System.Drawing.Point(289, 16)
+        Me.Label41.Location = New System.Drawing.Point(311, 16)
         Me.Label41.Name = "Label41"
         Me.Label41.Size = New System.Drawing.Size(71, 24)
         Me.Label41.TabIndex = 4
@@ -1884,7 +1882,7 @@ Partial Class internet_explorer_5
         Me.TextBox8.BackColor = System.Drawing.Color.SpringGreen
         Me.TextBox8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.TextBox8.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox8.Location = New System.Drawing.Point(-29, 126)
+        Me.TextBox8.Location = New System.Drawing.Point(-7, 126)
         Me.TextBox8.Multiline = True
         Me.TextBox8.Name = "TextBox8"
         Me.TextBox8.ReadOnly = True
@@ -1896,7 +1894,7 @@ Partial Class internet_explorer_5
         '
         Me.PictureBox11.Anchor = System.Windows.Forms.AnchorStyles.Top
         Me.PictureBox11.Image = Global.Histacom.My.Resources.Resources.skindows_95_preview
-        Me.PictureBox11.Location = New System.Drawing.Point(504, 8)
+        Me.PictureBox11.Location = New System.Drawing.Point(526, 8)
         Me.PictureBox11.Name = "PictureBox11"
         Me.PictureBox11.Size = New System.Drawing.Size(331, 416)
         Me.PictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
@@ -1908,7 +1906,7 @@ Partial Class internet_explorer_5
         Me.Label40.Anchor = System.Windows.Forms.AnchorStyles.Top
         Me.Label40.AutoSize = True
         Me.Label40.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label40.Location = New System.Drawing.Point(126, 103)
+        Me.Label40.Location = New System.Drawing.Point(148, 103)
         Me.Label40.Name = "Label40"
         Me.Label40.Size = New System.Drawing.Size(160, 13)
         Me.Label40.TabIndex = 1
@@ -1919,7 +1917,7 @@ Partial Class internet_explorer_5
         Me.Label39.Anchor = System.Windows.Forms.AnchorStyles.Top
         Me.Label39.AutoSize = True
         Me.Label39.Font = New System.Drawing.Font("Arial Black", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label39.Location = New System.Drawing.Point(142, 79)
+        Me.Label39.Location = New System.Drawing.Point(164, 79)
         Me.Label39.Name = "Label39"
         Me.Label39.Size = New System.Drawing.Size(123, 23)
         Me.Label39.TabIndex = 0
@@ -2029,9 +2027,9 @@ Partial Class internet_explorer_5
         Me.padamsmain.Controls.Add(Me.Label16)
         Me.padamsmain.Controls.Add(Me.Label4)
         Me.padamsmain.Controls.Add(Me.Panel20)
-        Me.padamsmain.Location = New System.Drawing.Point(784, 351)
+        Me.padamsmain.Location = New System.Drawing.Point(56, 6)
         Me.padamsmain.Name = "padamsmain"
-        Me.padamsmain.Size = New System.Drawing.Size(100, 55)
+        Me.padamsmain.Size = New System.Drawing.Size(828, 400)
         Me.padamsmain.TabIndex = 4
         '
         'Panel18
@@ -2041,7 +2039,7 @@ Partial Class internet_explorer_5
         Me.Panel18.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Panel18.Controls.Add(Me.LinkLabel20)
         Me.Panel18.Controls.Add(Me.Panel19)
-        Me.Panel18.Location = New System.Drawing.Point(-394, 286)
+        Me.Panel18.Location = New System.Drawing.Point(-30, 286)
         Me.Panel18.Name = "Panel18"
         Me.Panel18.Size = New System.Drawing.Size(425, 124)
         Me.Panel18.TabIndex = 11
@@ -2087,7 +2085,7 @@ Partial Class internet_explorer_5
         Me.Panel12.Controls.Add(Me.LinkLabel17)
         Me.Panel12.Controls.Add(Me.Label38)
         Me.Panel12.Controls.Add(Me.Panel17)
-        Me.Panel12.Location = New System.Drawing.Point(267, 93)
+        Me.Panel12.Location = New System.Drawing.Point(631, 93)
         Me.Panel12.Name = "Panel12"
         Me.Panel12.Size = New System.Drawing.Size(200, 181)
         Me.Panel12.TabIndex = 6
@@ -2128,7 +2126,7 @@ Partial Class internet_explorer_5
         Me.Label20.Anchor = System.Windows.Forms.AnchorStyles.Top
         Me.Label20.AutoSize = True
         Me.Label20.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label20.Location = New System.Drawing.Point(-61, 431)
+        Me.Label20.Location = New System.Drawing.Point(303, 431)
         Me.Label20.Name = "Label20"
         Me.Label20.Size = New System.Drawing.Size(174, 15)
         Me.Label20.TabIndex = 7
@@ -2139,37 +2137,14 @@ Partial Class internet_explorer_5
         Me.Panel10.Anchor = System.Windows.Forms.AnchorStyles.Top
         Me.Panel10.BackColor = System.Drawing.Color.Lime
         Me.Panel10.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Panel10.Controls.Add(Me.Button16)
-        Me.Panel10.Controls.Add(Me.Label22)
         Me.Panel10.Controls.Add(Me.Button15)
         Me.Panel10.Controls.Add(Me.Label21)
         Me.Panel10.Controls.Add(Me.Label18)
         Me.Panel10.Controls.Add(Me.Panel16)
-        Me.Panel10.Location = New System.Drawing.Point(50, 93)
+        Me.Panel10.Location = New System.Drawing.Point(414, 93)
         Me.Panel10.Name = "Panel10"
         Me.Panel10.Size = New System.Drawing.Size(200, 181)
         Me.Panel10.TabIndex = 6
-        '
-        'Button16
-        '
-        Me.Button16.BackColor = System.Drawing.Color.PaleGreen
-        Me.Button16.FlatAppearance.BorderColor = System.Drawing.Color.Firebrick
-        Me.Button16.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button16.Location = New System.Drawing.Point(112, 74)
-        Me.Button16.Name = "Button16"
-        Me.Button16.Size = New System.Drawing.Size(75, 19)
-        Me.Button16.TabIndex = 7
-        Me.Button16.Text = "Download"
-        Me.Button16.UseVisualStyleBackColor = False
-        '
-        'Label22
-        '
-        Me.Label22.AutoSize = True
-        Me.Label22.Location = New System.Drawing.Point(12, 78)
-        Me.Label22.Name = "Label22"
-        Me.Label22.Size = New System.Drawing.Size(79, 13)
-        Me.Label22.TabIndex = 6
-        Me.Label22.Text = "Error Blaster 98"
         '
         'Button15
         '
@@ -2223,7 +2198,7 @@ Partial Class internet_explorer_5
         Me.Panel9.Controls.Add(Me.Button23)
         Me.Panel9.Controls.Add(Me.Label36)
         Me.Panel9.Controls.Add(Me.Panel14)
-        Me.Panel9.Location = New System.Drawing.Point(-176, 93)
+        Me.Panel9.Location = New System.Drawing.Point(188, 93)
         Me.Panel9.Name = "Panel9"
         Me.Panel9.Size = New System.Drawing.Size(207, 181)
         Me.Panel9.TabIndex = 6
@@ -2303,7 +2278,7 @@ Partial Class internet_explorer_5
         Me.Panel8.Controls.Add(Me.Label5)
         Me.Panel8.Controls.Add(Me.Label17)
         Me.Panel8.Controls.Add(Me.Panel15)
-        Me.Panel8.Location = New System.Drawing.Point(-394, 93)
+        Me.Panel8.Location = New System.Drawing.Point(-30, 93)
         Me.Panel8.Name = "Panel8"
         Me.Panel8.Size = New System.Drawing.Size(200, 180)
         Me.Panel8.TabIndex = 5
@@ -2375,7 +2350,7 @@ Partial Class internet_explorer_5
         '
         Me.Label16.Anchor = System.Windows.Forms.AnchorStyles.Top
         Me.Label16.AutoSize = True
-        Me.Label16.Location = New System.Drawing.Point(-95, 35)
+        Me.Label16.Location = New System.Drawing.Point(269, 35)
         Me.Label16.Name = "Label16"
         Me.Label16.Size = New System.Drawing.Size(238, 13)
         Me.Label16.TabIndex = 1
@@ -2386,7 +2361,7 @@ Partial Class internet_explorer_5
         Me.Label4.Anchor = System.Windows.Forms.AnchorStyles.Top
         Me.Label4.AutoSize = True
         Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.Location = New System.Drawing.Point(-133, 19)
+        Me.Label4.Location = New System.Drawing.Point(231, 19)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(312, 16)
         Me.Label4.TabIndex = 0
@@ -2399,7 +2374,7 @@ Partial Class internet_explorer_5
         Me.Panel20.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Panel20.Controls.Add(Me.LinkLabel19)
         Me.Panel20.Controls.Add(Me.Panel21)
-        Me.Panel20.Location = New System.Drawing.Point(50, 286)
+        Me.Panel20.Location = New System.Drawing.Point(414, 286)
         Me.Panel20.Name = "Panel20"
         Me.Panel20.Size = New System.Drawing.Size(417, 124)
         Me.Panel20.TabIndex = 12
@@ -3317,8 +3292,6 @@ Partial Class internet_explorer_5
     Friend WithEvents Label5 As System.Windows.Forms.Label
     Friend WithEvents Button15 As System.Windows.Forms.Button
     Friend WithEvents Label21 As System.Windows.Forms.Label
-    Friend WithEvents Button16 As System.Windows.Forms.Button
-    Friend WithEvents Label22 As System.Windows.Forms.Label
     Friend WithEvents hotmailmain As System.Windows.Forms.Panel
     Friend WithEvents Panel11 As System.Windows.Forms.Panel
     Friend WithEvents Panel12 As System.Windows.Forms.Panel

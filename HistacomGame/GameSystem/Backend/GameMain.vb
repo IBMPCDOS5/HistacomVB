@@ -1,4 +1,5 @@
 ﻿Public Class GameMain
+    Public Shared TimeDisAlreadtSentMessage As Boolean
     Public Shared MyDocuments As String = My.Computer.FileSystem.SpecialDirectories.MyDocuments
     Public Shared GameVersion As String = "2.0"
     Public Shared GameVersionSmall As String = "Alpha-1"
@@ -13,6 +14,7 @@
     Public Shared webChatInstalled As Boolean
     Public Shared startRInstalled As Boolean
     Public Shared time1Installed As Boolean
+    Public Shared time2Installed As Boolean
 
     Public Shared Sub saveGame()
 
@@ -113,22 +115,30 @@
                 Windows98.GuessTheNumberToolStripMenuItem.Visible = True
                 Windows2000.GuessTheNumberToolStripMenuItem.Visible = True
                 Windows95.pnlGuess.Show()
+                Windows98.pnlGuess.Show()
             Case "webChat"
                 webChatInstalled = True
                 Windows95.WebChatToolStripMenuItem.Visible = True
                 Windows98.WebChatToolStripMenuItem.Visible = True
                 Windows2000.WebChatToolStripMenuItem.Visible = True
                 Windows95.pnlWeb.Show()
+                Windows98.pnlWeb.Show()
             Case "startR"
                 startRInstalled = True
                 Windows95.StartRunnerToolStripMenuItem.Visible = True
                 Windows98.StartRunnerToolStripMenuItem.Visible = True
                 Windows2000.StartRunnerToolStripMenuItem.Visible = True
                 Windows95.pnlStartR.Show()
+                Windows98.pnlStartR.Show()
             Case "time1"
                 time1Installed = True
                 Windows95.TimeDistorterToolStripMenuItem.Visible = True
                 Windows95.pnlTime.Show()
+                Windows98.pnlTimeB.Show()
+            Case "time2"
+                time2Installed = True
+                Windows98.TimeDistorterToolStripMenuItem.Visible = True
+                Windows98.pnlTime.Show()
         End Select
     End Sub
 

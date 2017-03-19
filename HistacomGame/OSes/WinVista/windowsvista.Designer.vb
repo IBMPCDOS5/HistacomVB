@@ -366,8 +366,8 @@ Partial Class windowsvista
         Me.middlestartmenu.Controls.Add(Me.turnoffcomputerbutton)
         Me.middlestartmenu.Controls.Add(Me.Panel9)
         Me.middlestartmenu.Controls.Add(Me.logoffbutton)
-        Me.middlestartmenu.Controls.Add(Me.Panel8)
         Me.middlestartmenu.Controls.Add(Me.PictureBox3)
+        Me.middlestartmenu.Controls.Add(Me.Panel8)
         Me.middlestartmenu.Dock = System.Windows.Forms.DockStyle.Fill
         Me.middlestartmenu.Location = New System.Drawing.Point(2, 0)
         Me.middlestartmenu.Name = "middlestartmenu"
@@ -531,7 +531,7 @@ Partial Class windowsvista
         Me.MenuStrip2.LayoutStyle = System.Windows.Forms.ToolStripLayoutStyle.VerticalStackWithOverflow
         Me.MenuStrip2.Location = New System.Drawing.Point(3, 48)
         Me.MenuStrip2.Name = "MenuStrip2"
-        Me.MenuStrip2.Size = New System.Drawing.Size(153, 276)
+        Me.MenuStrip2.Size = New System.Drawing.Size(153, 295)
         Me.MenuStrip2.TabIndex = 1
         Me.MenuStrip2.Text = "MenuStrip2"
         '

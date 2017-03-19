@@ -257,4 +257,8 @@
     Private Sub formDisplayproperties_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
         winman.setupwindow(Me, "Properties", My.Resources.settings_pic_start)
     End Sub
+
+    Private Sub Button30_Click(sender As Object, e As EventArgs) Handles Button30.Click, Button29.Click
+        Me.Close()
+    End Sub
 End Class

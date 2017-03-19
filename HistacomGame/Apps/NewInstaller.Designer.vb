@@ -48,8 +48,8 @@ Partial Class NewInstaller
         '
         'program
         '
-        Me.program.Controls.Add(Me.pnlnav)
         Me.program.Controls.Add(Me.pnlmain)
+        Me.program.Controls.Add(Me.pnlnav)
         Me.program.Dock = System.Windows.Forms.DockStyle.Fill
         Me.program.Location = New System.Drawing.Point(0, 0)
         Me.program.Name = "program"
@@ -117,7 +117,7 @@ Partial Class NewInstaller
         Me.pnlmain.Dock = System.Windows.Forms.DockStyle.Fill
         Me.pnlmain.Location = New System.Drawing.Point(0, 0)
         Me.pnlmain.Name = "pnlmain"
-        Me.pnlmain.Size = New System.Drawing.Size(702, 460)
+        Me.pnlmain.Size = New System.Drawing.Size(702, 406)
         Me.pnlmain.TabIndex = 4
         '
         'Progress
@@ -174,7 +174,7 @@ Partial Class NewInstaller
         Me.sideimg.Dock = System.Windows.Forms.DockStyle.Left
         Me.sideimg.Location = New System.Drawing.Point(0, 0)
         Me.sideimg.Name = "sideimg"
-        Me.sideimg.Size = New System.Drawing.Size(118, 460)
+        Me.sideimg.Size = New System.Drawing.Size(118, 406)
         Me.sideimg.TabIndex = 0
         Me.sideimg.TabStop = False
         '

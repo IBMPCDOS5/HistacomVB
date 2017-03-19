@@ -287,4 +287,31 @@
         lvi.Position = Point.Subtract(desktopicons.PointToClient(New Point(e.X, e.Y)), Offset)
         e.Effect = DragDropEffects.Move
     End Sub
+
+    Private Sub pnlGuess_Click(sender As Object, e As EventArgs) Handles pnlGuess.Click, picGuess.Click, txtGuess.Click
+        Dim openGuess As New Guess_The_Number
+        openGuess.Show()
+    End Sub
+
+    Private Sub pnlWeb_Click(sender As Object, e As EventArgs) Handles pnlWeb.Click, picWeb.Click, txtWeb.Click
+        Dim openWeb As New WebChat_1999
+        openWeb.Show()
+    End Sub
+
+    Private Sub pnlTime_Click(sender As Object, e As EventArgs) Handles pnlTimeB.Click, picTimeB.Click, txtTimeB.Click
+        GameMain.OpenMsg("Application is not a valid Win32 Application - Try a newer version of the software or call technical support for help")
+    End Sub
+
+    Private Sub pnlStartR_Click(sender As Object, e As EventArgs) Handles txtStartR.Click, pnlStartR.Click, picStartR.Click
+        Dim openSR As New startrunner
+        openSR.Show()
+    End Sub
+
+    Private Sub pnlTime_Click_1(sender As Object, e As EventArgs) Handles txtTime.Click, pnlTime.Click, picTime.Click
+        time_distorter_0.Show()
+    End Sub
+
+    Private Sub Timer2_Tick(sender As Object, e As EventArgs) Handles Timer2.Tick
+
+    End Sub
 End Class

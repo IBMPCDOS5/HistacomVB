@@ -248,7 +248,7 @@ Partial Class formDisplayproperties
         Me.TabPage4.Location = New System.Drawing.Point(4, 22)
         Me.TabPage4.Name = "TabPage4"
         Me.TabPage4.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage4.Size = New System.Drawing.Size(438, 404)
+        Me.TabPage4.Size = New System.Drawing.Size(622, 512)
         Me.TabPage4.TabIndex = 0
         Me.TabPage4.Text = "Background"
         '
@@ -378,7 +378,7 @@ Partial Class formDisplayproperties
         Me.TabPage5.Location = New System.Drawing.Point(4, 22)
         Me.TabPage5.Name = "TabPage5"
         Me.TabPage5.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage5.Size = New System.Drawing.Size(438, 404)
+        Me.TabPage5.Size = New System.Drawing.Size(622, 512)
         Me.TabPage5.TabIndex = 1
         Me.TabPage5.Text = "Screen Saver"
         '
@@ -714,7 +714,7 @@ Partial Class formDisplayproperties
         Me.Button34.Name = "Button34"
         Me.Button34.Size = New System.Drawing.Size(75, 23)
         Me.Button34.TabIndex = 2
-        Me.Button34.Text = "Preveiw"
+        Me.Button34.Text = "Preview"
         Me.Button34.UseVisualStyleBackColor = True
         '
         'Button33
@@ -766,7 +766,7 @@ Partial Class formDisplayproperties
         Me.darkgreycs.Controls.Add(Me.Label16)
         Me.darkgreycs.Location = New System.Drawing.Point(4, 22)
         Me.darkgreycs.Name = "darkgreycs"
-        Me.darkgreycs.Size = New System.Drawing.Size(438, 404)
+        Me.darkgreycs.Size = New System.Drawing.Size(622, 512)
         Me.darkgreycs.TabIndex = 2
         Me.darkgreycs.Text = "Appearance"
         '

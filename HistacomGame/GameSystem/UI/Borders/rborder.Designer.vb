@@ -24,17 +24,17 @@ Partial Class rborder
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
         Me.pull = New System.Windows.Forms.Timer(Me.components)
-        Me.update = New System.Windows.Forms.Timer(Me.components)
+        Me.updat = New System.Windows.Forms.Timer(Me.components)
         Me.SuspendLayout()
         '
         'pull
         '
         Me.pull.Interval = 10
         '
-        'update
+        'updat
         '
-        Me.update.Enabled = True
-        Me.update.Interval = 5000
+        Me.updat.Enabled = True
+        Me.updat.Interval = 5000
         '
         'rborder
         '
@@ -48,5 +48,5 @@ Partial Class rborder
     End Sub
 
     Friend WithEvents pull As Timer
-    Friend WithEvents update As Timer
+    Friend WithEvents updat As Timer
 End Class

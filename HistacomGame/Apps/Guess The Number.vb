@@ -16,7 +16,7 @@
     End Sub
 
     Private Sub Button1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button1.Click
-        guessednumb = txtGuessedNumber.Text
+        guessednumb = Val(txtGuessedNumber.Text)
         If guessednumb < thenumber Then
             higherorlower.Text = "Higher"
             higherorlower.ForeColor = Color.Blue

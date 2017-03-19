@@ -15,7 +15,7 @@
         FindForm.Width = Cursor.Position.X - FindForm.Location.X
     End Sub
 
-    Private Sub update_Tick(sender As Object, e As EventArgs) Handles update.Tick
+    Private Sub update_Tick(sender As Object, e As EventArgs) Handles updat.Tick
 
     End Sub
 End Class

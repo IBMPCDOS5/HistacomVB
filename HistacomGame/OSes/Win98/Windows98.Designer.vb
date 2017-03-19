@@ -24,15 +24,15 @@ Partial Class Windows98
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Windows98))
-        Dim ListViewItem1 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("My Computer", 3)
-        Dim ListViewItem2 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("My Documents", 15)
-        Dim ListViewItem3 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("Internet Explorer", 1)
-        Dim ListViewItem4 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("Network Neightborhood", 4)
-        Dim ListViewItem5 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("Recycle Bin", 6)
-        Dim ListViewItem6 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("Setup MSN Internet Access", 2)
-        Dim ListViewItem7 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("Connect to the Internet", 14)
-        Dim ListViewItem8 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("Online services", 0)
-        Dim ListViewItem9 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("Outlook Express", 5)
+        Dim ListViewItem10 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("My Computer", 3)
+        Dim ListViewItem11 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("My Documents", 15)
+        Dim ListViewItem12 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("Internet Explorer", 1)
+        Dim ListViewItem13 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("Network Neightborhood", 4)
+        Dim ListViewItem14 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("Recycle Bin", 6)
+        Dim ListViewItem15 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("Setup MSN Internet Access", 2)
+        Dim ListViewItem16 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("Connect to the Internet", 14)
+        Dim ListViewItem17 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("Online services", 0)
+        Dim ListViewItem18 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("Outlook Express", 5)
         Me.startmenu = New System.Windows.Forms.Panel()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.Panel1 = New System.Windows.Forms.Panel()
@@ -83,8 +83,8 @@ Partial Class Windows98
         Me.StartRunnerToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ErrorBlasterToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.SkindowsToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.WebChatToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.TimeDistorterToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.WebChatToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.FavoritesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.DocumentsToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.SettingsToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
@@ -137,6 +137,21 @@ Partial Class Windows98
         Me.taskbar = New System.Windows.Forms.Panel()
         Me.startbutton = New System.Windows.Forms.PictureBox()
         Me.taskbartime = New System.Windows.Forms.Label()
+        Me.pnlStartR = New System.Windows.Forms.Panel()
+        Me.txtStartR = New System.Windows.Forms.Label()
+        Me.picStartR = New System.Windows.Forms.PictureBox()
+        Me.pnlTimeB = New System.Windows.Forms.Panel()
+        Me.txtTimeB = New System.Windows.Forms.Label()
+        Me.picTimeB = New System.Windows.Forms.PictureBox()
+        Me.pnlWeb = New System.Windows.Forms.Panel()
+        Me.txtWeb = New System.Windows.Forms.Label()
+        Me.picWeb = New System.Windows.Forms.PictureBox()
+        Me.pnlGuess = New System.Windows.Forms.Panel()
+        Me.txtGuess = New System.Windows.Forms.Label()
+        Me.picGuess = New System.Windows.Forms.PictureBox()
+        Me.pnlTime = New System.Windows.Forms.Panel()
+        Me.txtTime = New System.Windows.Forms.Label()
+        Me.picTime = New System.Windows.Forms.PictureBox()
         Me.startmenu.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.startmenuitems.SuspendLayout()
@@ -149,6 +164,16 @@ Partial Class Windows98
         Me.rightclickbackproperties.SuspendLayout()
         Me.taskbar.SuspendLayout()
         CType(Me.startbutton, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.pnlStartR.SuspendLayout()
+        CType(Me.picStartR, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.pnlTimeB.SuspendLayout()
+        CType(Me.picTimeB, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.pnlWeb.SuspendLayout()
+        CType(Me.picWeb, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.pnlGuess.SuspendLayout()
+        CType(Me.picGuess, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.pnlTime.SuspendLayout()
+        CType(Me.picTime, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'startmenu
@@ -192,7 +217,7 @@ Partial Class Windows98
         Me.startmenuitems.Name = "startmenuitems"
         Me.startmenuitems.Padding = New System.Windows.Forms.Padding(6, 2, 0, 0)
         Me.startmenuitems.RenderMode = System.Windows.Forms.ToolStripRenderMode.System
-        Me.startmenuitems.Size = New System.Drawing.Size(150, 383)
+        Me.startmenuitems.Size = New System.Drawing.Size(150, 364)
         Me.startmenuitems.TabIndex = 0
         Me.startmenuitems.Text = "MenuStrip1"
         '
@@ -551,7 +576,7 @@ Partial Class Windows98
         '
         Me.EmptyToolStripMenuItem.BackColor = System.Drawing.Color.Silver
         Me.EmptyToolStripMenuItem.Name = "EmptyToolStripMenuItem"
-        Me.EmptyToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.EmptyToolStripMenuItem.Size = New System.Drawing.Size(116, 22)
         Me.EmptyToolStripMenuItem.Text = "(Empty)"
         '
         'WindowsExplorerToolStripMenuItem
@@ -634,15 +659,6 @@ Partial Class Windows98
         Me.SkindowsToolStripMenuItem.Text = "Skindows 95"
         Me.SkindowsToolStripMenuItem.Visible = False
         '
-        'WebChatToolStripMenuItem
-        '
-        Me.WebChatToolStripMenuItem.BackColor = System.Drawing.Color.Silver
-        Me.WebChatToolStripMenuItem.Image = CType(resources.GetObject("WebChatToolStripMenuItem.Image"), System.Drawing.Image)
-        Me.WebChatToolStripMenuItem.Name = "WebChatToolStripMenuItem"
-        Me.WebChatToolStripMenuItem.Size = New System.Drawing.Size(195, 26)
-        Me.WebChatToolStripMenuItem.Text = "Web Chat"
-        Me.WebChatToolStripMenuItem.Visible = False
-        '
         'TimeDistorterToolStripMenuItem
         '
         Me.TimeDistorterToolStripMenuItem.BackColor = System.Drawing.Color.Silver
@@ -651,6 +667,15 @@ Partial Class Windows98
         Me.TimeDistorterToolStripMenuItem.Size = New System.Drawing.Size(195, 26)
         Me.TimeDistorterToolStripMenuItem.Text = "Time Distorter"
         Me.TimeDistorterToolStripMenuItem.Visible = False
+        '
+        'WebChatToolStripMenuItem
+        '
+        Me.WebChatToolStripMenuItem.BackColor = System.Drawing.Color.Silver
+        Me.WebChatToolStripMenuItem.Image = CType(resources.GetObject("WebChatToolStripMenuItem.Image"), System.Drawing.Image)
+        Me.WebChatToolStripMenuItem.Name = "WebChatToolStripMenuItem"
+        Me.WebChatToolStripMenuItem.Size = New System.Drawing.Size(195, 26)
+        Me.WebChatToolStripMenuItem.Text = "Web Chat"
+        Me.WebChatToolStripMenuItem.Visible = False
         '
         'FavoritesToolStripMenuItem
         '
@@ -844,7 +869,7 @@ Partial Class Windows98
         'exampleprogramtopbar
         '
         Me.exampleprogramtopbar.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.exampleprogramtopbar.BackColor = System.Drawing.Color.DarkBlue
         Me.exampleprogramtopbar.Controls.Add(Me.maximizebutton)
         Me.exampleprogramtopbar.Controls.Add(Me.minimizebutton)
@@ -901,15 +926,15 @@ Partial Class Windows98
         '
         Me.desktopicons.Alignment = System.Windows.Forms.ListViewAlignment.Left
         Me.desktopicons.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-                    Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.desktopicons.BackColor = System.Drawing.Color.Teal
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.desktopicons.BackColor = System.Drawing.Color.Gray
         Me.desktopicons.BackgroundImageTiled = True
         Me.desktopicons.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.desktopicons.ContextMenuStrip = Me.rightclickbackproperties
         Me.desktopicons.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.desktopicons.ForeColor = System.Drawing.Color.White
-        Me.desktopicons.Items.AddRange(New System.Windows.Forms.ListViewItem() {ListViewItem1, ListViewItem2, ListViewItem3, ListViewItem4, ListViewItem5, ListViewItem6, ListViewItem7, ListViewItem8, ListViewItem9})
+        Me.desktopicons.Items.AddRange(New System.Windows.Forms.ListViewItem() {ListViewItem10, ListViewItem11, ListViewItem12, ListViewItem13, ListViewItem14, ListViewItem15, ListViewItem16, ListViewItem17, ListViewItem18})
         Me.desktopicons.LargeImageList = Me.desktopiconsimages
         Me.desktopicons.Location = New System.Drawing.Point(0, 0)
         Me.desktopicons.Name = "desktopicons"
@@ -1097,6 +1122,9 @@ Partial Class Windows98
         'Timer1
         '
         '
+        'Timer2
+        '
+        '
         'taskbar
         '
         Me.taskbar.BackColor = System.Drawing.Color.Silver
@@ -1129,12 +1157,177 @@ Partial Class Windows98
         Me.taskbartime.TabIndex = 2
         Me.taskbartime.Text = "time"
         '
+        'pnlStartR
+        '
+        Me.pnlStartR.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.pnlStartR.BackColor = System.Drawing.Color.Transparent
+        Me.pnlStartR.Controls.Add(Me.txtStartR)
+        Me.pnlStartR.Controls.Add(Me.picStartR)
+        Me.pnlStartR.Location = New System.Drawing.Point(927, 196)
+        Me.pnlStartR.Name = "pnlStartR"
+        Me.pnlStartR.Size = New System.Drawing.Size(50, 75)
+        Me.pnlStartR.TabIndex = 7
+        Me.pnlStartR.Visible = False
+        '
+        'txtStartR
+        '
+        Me.txtStartR.AutoSize = True
+        Me.txtStartR.ForeColor = System.Drawing.Color.White
+        Me.txtStartR.Location = New System.Drawing.Point(3, 39)
+        Me.txtStartR.Name = "txtStartR"
+        Me.txtStartR.Size = New System.Drawing.Size(42, 26)
+        Me.txtStartR.TabIndex = 1
+        Me.txtStartR.Text = "Start" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Runner"
+        '
+        'picStartR
+        '
+        Me.picStartR.Image = Global.Histacom.My.Resources.Resources.start_run
+        Me.picStartR.Location = New System.Drawing.Point(7, 3)
+        Me.picStartR.Name = "picStartR"
+        Me.picStartR.Size = New System.Drawing.Size(33, 33)
+        Me.picStartR.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.picStartR.TabIndex = 0
+        Me.picStartR.TabStop = False
+        '
+        'pnlTimeB
+        '
+        Me.pnlTimeB.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.pnlTimeB.BackColor = System.Drawing.Color.Transparent
+        Me.pnlTimeB.Controls.Add(Me.txtTimeB)
+        Me.pnlTimeB.Controls.Add(Me.picTimeB)
+        Me.pnlTimeB.Location = New System.Drawing.Point(927, 277)
+        Me.pnlTimeB.Name = "pnlTimeB"
+        Me.pnlTimeB.Size = New System.Drawing.Size(50, 84)
+        Me.pnlTimeB.TabIndex = 8
+        Me.pnlTimeB.Visible = False
+        '
+        'txtTimeB
+        '
+        Me.txtTimeB.AutoSize = True
+        Me.txtTimeB.ForeColor = System.Drawing.Color.White
+        Me.txtTimeB.Location = New System.Drawing.Point(3, 39)
+        Me.txtTimeB.Name = "txtTimeB"
+        Me.txtTimeB.Size = New System.Drawing.Size(46, 39)
+        Me.txtTimeB.TabIndex = 1
+        Me.txtTimeB.Text = "Time" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Distorter" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "v1"
+        '
+        'picTimeB
+        '
+        Me.picTimeB.Image = Global.Histacom.My.Resources.Resources.Time_Distorter_icon
+        Me.picTimeB.Location = New System.Drawing.Point(7, 3)
+        Me.picTimeB.Name = "picTimeB"
+        Me.picTimeB.Size = New System.Drawing.Size(33, 33)
+        Me.picTimeB.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.picTimeB.TabIndex = 0
+        Me.picTimeB.TabStop = False
+        '
+        'pnlWeb
+        '
+        Me.pnlWeb.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.pnlWeb.BackColor = System.Drawing.Color.Transparent
+        Me.pnlWeb.Controls.Add(Me.txtWeb)
+        Me.pnlWeb.Controls.Add(Me.picWeb)
+        Me.pnlWeb.Location = New System.Drawing.Point(927, 106)
+        Me.pnlWeb.Name = "pnlWeb"
+        Me.pnlWeb.Size = New System.Drawing.Size(50, 84)
+        Me.pnlWeb.TabIndex = 9
+        Me.pnlWeb.Visible = False
+        '
+        'txtWeb
+        '
+        Me.txtWeb.AutoSize = True
+        Me.txtWeb.ForeColor = System.Drawing.Color.White
+        Me.txtWeb.Location = New System.Drawing.Point(7, 39)
+        Me.txtWeb.Name = "txtWeb"
+        Me.txtWeb.Size = New System.Drawing.Size(33, 39)
+        Me.txtWeb.TabIndex = 1
+        Me.txtWeb.Text = "Web " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "chat" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "1999"
+        '
+        'picWeb
+        '
+        Me.picWeb.Image = Global.Histacom.My.Resources.Resources.chat
+        Me.picWeb.Location = New System.Drawing.Point(7, 3)
+        Me.picWeb.Name = "picWeb"
+        Me.picWeb.Size = New System.Drawing.Size(33, 33)
+        Me.picWeb.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.picWeb.TabIndex = 0
+        Me.picWeb.TabStop = False
+        '
+        'pnlGuess
+        '
+        Me.pnlGuess.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.pnlGuess.BackColor = System.Drawing.Color.Transparent
+        Me.pnlGuess.Controls.Add(Me.txtGuess)
+        Me.pnlGuess.Controls.Add(Me.picGuess)
+        Me.pnlGuess.Location = New System.Drawing.Point(927, 16)
+        Me.pnlGuess.Name = "pnlGuess"
+        Me.pnlGuess.Size = New System.Drawing.Size(50, 84)
+        Me.pnlGuess.TabIndex = 10
+        Me.pnlGuess.Visible = False
+        '
+        'txtGuess
+        '
+        Me.txtGuess.AutoSize = True
+        Me.txtGuess.ForeColor = System.Drawing.Color.White
+        Me.txtGuess.Location = New System.Drawing.Point(4, 39)
+        Me.txtGuess.Name = "txtGuess"
+        Me.txtGuess.Size = New System.Drawing.Size(42, 39)
+        Me.txtGuess.TabIndex = 1
+        Me.txtGuess.Text = "Guess " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "the " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "number"
+        '
+        'picGuess
+        '
+        Me.picGuess.Image = Global.Histacom.My.Resources.Resources.guess_the_number_Icon
+        Me.picGuess.Location = New System.Drawing.Point(7, 3)
+        Me.picGuess.Name = "picGuess"
+        Me.picGuess.Size = New System.Drawing.Size(33, 33)
+        Me.picGuess.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.picGuess.TabIndex = 0
+        Me.picGuess.TabStop = False
+        '
+        'pnlTime
+        '
+        Me.pnlTime.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.pnlTime.BackColor = System.Drawing.Color.Transparent
+        Me.pnlTime.Controls.Add(Me.txtTime)
+        Me.pnlTime.Controls.Add(Me.picTime)
+        Me.pnlTime.Location = New System.Drawing.Point(927, 367)
+        Me.pnlTime.Name = "pnlTime"
+        Me.pnlTime.Size = New System.Drawing.Size(50, 84)
+        Me.pnlTime.TabIndex = 8
+        Me.pnlTime.Visible = False
+        '
+        'txtTime
+        '
+        Me.txtTime.AutoSize = True
+        Me.txtTime.ForeColor = System.Drawing.Color.White
+        Me.txtTime.Location = New System.Drawing.Point(3, 39)
+        Me.txtTime.Name = "txtTime"
+        Me.txtTime.Size = New System.Drawing.Size(46, 39)
+        Me.txtTime.TabIndex = 1
+        Me.txtTime.Text = "Time" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Distorter" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "v2"
+        '
+        'picTime
+        '
+        Me.picTime.Image = Global.Histacom.My.Resources.Resources.Time_Distorter_icon
+        Me.picTime.Location = New System.Drawing.Point(7, 3)
+        Me.picTime.Name = "picTime"
+        Me.picTime.Size = New System.Drawing.Size(33, 33)
+        Me.picTime.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.picTime.TabIndex = 0
+        Me.picTime.TabStop = False
+        '
         'Windows98
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.Teal
         Me.ClientSize = New System.Drawing.Size(999, 617)
+        Me.Controls.Add(Me.pnlStartR)
+        Me.Controls.Add(Me.pnlTime)
+        Me.Controls.Add(Me.pnlTimeB)
+        Me.Controls.Add(Me.pnlWeb)
+        Me.Controls.Add(Me.pnlGuess)
         Me.Controls.Add(Me.program)
         Me.Controls.Add(Me.startmenu)
         Me.Controls.Add(Me.taskbar)
@@ -1157,6 +1350,21 @@ Partial Class Windows98
         Me.taskbar.ResumeLayout(False)
         Me.taskbar.PerformLayout()
         CType(Me.startbutton, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.pnlStartR.ResumeLayout(False)
+        Me.pnlStartR.PerformLayout()
+        CType(Me.picStartR, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.pnlTimeB.ResumeLayout(False)
+        Me.pnlTimeB.PerformLayout()
+        CType(Me.picTimeB, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.pnlWeb.ResumeLayout(False)
+        Me.pnlWeb.PerformLayout()
+        CType(Me.picWeb, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.pnlGuess.ResumeLayout(False)
+        Me.pnlGuess.PerformLayout()
+        CType(Me.picGuess, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.pnlTime.ResumeLayout(False)
+        Me.pnlTime.PerformLayout()
+        CType(Me.picTime, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
@@ -1264,4 +1472,19 @@ Partial Class Windows98
     Friend WithEvents ActiveDesktopToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents ViewAsWebPageToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents RefreshToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents pnlStartR As Panel
+    Friend WithEvents txtStartR As Label
+    Friend WithEvents picStartR As PictureBox
+    Friend WithEvents pnlTimeB As Panel
+    Friend WithEvents txtTimeB As Label
+    Friend WithEvents picTimeB As PictureBox
+    Friend WithEvents pnlWeb As Panel
+    Friend WithEvents txtWeb As Label
+    Friend WithEvents picWeb As PictureBox
+    Friend WithEvents pnlGuess As Panel
+    Friend WithEvents txtGuess As Label
+    Friend WithEvents picGuess As PictureBox
+    Friend WithEvents pnlTime As Panel
+    Friend WithEvents txtTime As Label
+    Friend WithEvents picTime As PictureBox
 End Class
