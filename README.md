@@ -1,4 +1,7 @@
 # HistacomVB
+
+[![Build status](https://ci.appveyor.com/api/projects/status/oo603xid0lea8b0t?svg=true)](https://ci.appveyor.com/project/timehack/histacomvb)
+
 The developed, VB version of TimeHACK/Histacom
 THE LEAD DEVELOPER OF THIS IS NOT AShifter
 
