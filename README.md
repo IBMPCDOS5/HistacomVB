@@ -10,4 +10,9 @@ THEN MESSAGE ME ON DISCORD AND IF THE QUESTION IS GOOD ENOUGH I WILL PUT IT PUBL
 
 FINALLY - MY NAME ON GITHUB IS Alex-TIMEHACK and on Discord it is just Alex
 
+---------------------- VERY IMPORTANT ----------------------
+May I just point out that AShifter also helped with this
+By owning the repo and commiting the source. Not to mention the AppVeyor (WHEN/IF THAT'S SET UP)
+------------------------------------------------------------
+
 Enjoy!
