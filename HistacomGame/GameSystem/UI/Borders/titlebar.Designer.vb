@@ -24,15 +24,12 @@ Partial Class titlebar
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
         Me.Panel1 = New System.Windows.Forms.Panel()
-        Me.rcorner = New System.Windows.Forms.PictureBox()
         Me.appName = New System.Windows.Forms.Label()
         Me.btnclose = New System.Windows.Forms.PictureBox()
         Me.btnmax = New System.Windows.Forms.PictureBox()
         Me.btnmin = New System.Windows.Forms.PictureBox()
         Me.look = New System.Windows.Forms.Timer(Me.components)
         Me.appIcon = New System.Windows.Forms.PictureBox()
-        Me.Panel1.SuspendLayout()
-        CType(Me.rcorner, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.btnclose, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.btnmax, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.btnmin, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -43,23 +40,11 @@ Partial Class titlebar
         '
         Me.Panel1.BackColor = System.Drawing.Color.Silver
         Me.Panel1.BackgroundImage = Global.Histacom.My.Resources.Resources.windows95top
-        Me.Panel1.Controls.Add(Me.rcorner)
         Me.Panel1.Dock = System.Windows.Forms.DockStyle.Top
         Me.Panel1.Location = New System.Drawing.Point(0, 0)
         Me.Panel1.Name = "Panel1"
         Me.Panel1.Size = New System.Drawing.Size(568, 4)
         Me.Panel1.TabIndex = 0
-        '
-        'rcorner
-        '
-        Me.rcorner.BackColor = System.Drawing.Color.Silver
-        Me.rcorner.BackgroundImage = Global.Histacom.My.Resources.Resources.windows95toprightcorner
-        Me.rcorner.Dock = System.Windows.Forms.DockStyle.Right
-        Me.rcorner.Location = New System.Drawing.Point(564, 0)
-        Me.rcorner.Name = "rcorner"
-        Me.rcorner.Size = New System.Drawing.Size(4, 4)
-        Me.rcorner.TabIndex = 2
-        Me.rcorner.TabStop = False
         '
         'appName
         '
@@ -136,8 +121,6 @@ Partial Class titlebar
         Me.Controls.Add(Me.Panel1)
         Me.Name = "titlebar"
         Me.Size = New System.Drawing.Size(568, 25)
-        Me.Panel1.ResumeLayout(False)
-        CType(Me.rcorner, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.btnclose, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.btnmax, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.btnmin, System.ComponentModel.ISupportInitialize).EndInit()
@@ -148,7 +131,6 @@ Partial Class titlebar
     End Sub
 
     Friend WithEvents Panel1 As Panel
-    Friend WithEvents rcorner As PictureBox
     Friend WithEvents appName As Label
     Friend WithEvents btnclose As PictureBox
     Friend WithEvents btnmax As PictureBox

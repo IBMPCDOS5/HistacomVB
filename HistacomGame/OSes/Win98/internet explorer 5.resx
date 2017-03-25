@@ -120,21 +120,6 @@
   <metadata name="MenuStrip3.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>207, 17</value>
   </metadata>
-  <data name="TextBox10.Text" xml:space="preserve">
-    <value>12padams.com Data Log
-
-1996: www.12padams.com created
-1997:Lots Of software added to 12padams.com
-1998: ###############
-1999: Updated Website Interface and updated the software contained on it
-
-WARNING 1998 log file is encrypted and unreadable.
-
-Rest of log stored on hotmail account...
-
-Username: 12padams@hotmail.com
-Password: *************                                                                   </value>
-  </data>
   <data name="TextBox24.Text" xml:space="preserve">
     <value>Due to windows 95 being so successful on 25 June 1998 microsoft released windows 98 which was very similar in fuction and control to windows 95.
 
@@ -214,6 +199,21 @@ Any Download of the time distortion software results in an instant alert to 12pa
 Do you have some type of hidden software on it because i can't find to find the matching software the has the same code as i saw...
 
 Whats the hidden software?</value>
+  </data>
+  <data name="TextBox10.Text" xml:space="preserve">
+    <value>12padams.com Data Log
+
+1996: www.12padams.com created
+1997:Lots Of software added to 12padams.com
+1998: ###############
+1999: Updated Website Interface and updated the software contained on it
+
+WARNING 1998 log file is encrypted and unreadable.
+
+Rest of log stored on hotmail account...
+
+Username: 12padams@hotmail.com
+Password: *************                                                                   </value>
   </data>
   <data name="TextBox8.Text" xml:space="preserve">
     <value>Skindows 98 is the best customization software in the world avalible for windows 98.

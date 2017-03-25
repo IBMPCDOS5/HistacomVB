@@ -1934,9 +1934,9 @@ Partial Class internet_explorer_5
         Me.googlemain.Controls.Add(Me.PictureBox2)
         Me.googlemain.Controls.Add(Me.Label11)
         Me.googlemain.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.googlemain.Location = New System.Drawing.Point(862, 255)
+        Me.googlemain.Location = New System.Drawing.Point(835, 255)
         Me.googlemain.Name = "googlemain"
-        Me.googlemain.Size = New System.Drawing.Size(49, 24)
+        Me.googlemain.Size = New System.Drawing.Size(76, 65)
         Me.googlemain.TabIndex = 3
         '
         'LinkLabel1
@@ -1944,7 +1944,7 @@ Partial Class internet_explorer_5
         Me.LinkLabel1.Anchor = System.Windows.Forms.AnchorStyles.Top
         Me.LinkLabel1.AutoSize = True
         Me.LinkLabel1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.LinkLabel1.Location = New System.Drawing.Point(-24, 230)
+        Me.LinkLabel1.Location = New System.Drawing.Point(-11, 230)
         Me.LinkLabel1.Name = "LinkLabel1"
         Me.LinkLabel1.Size = New System.Drawing.Size(90, 16)
         Me.LinkLabel1.TabIndex = 5
@@ -1955,7 +1955,7 @@ Partial Class internet_explorer_5
         '
         Me.Button13.Anchor = System.Windows.Forms.AnchorStyles.Top
         Me.Button13.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button13.Location = New System.Drawing.Point(25, 197)
+        Me.Button13.Location = New System.Drawing.Point(38, 197)
         Me.Button13.Name = "Button13"
         Me.Button13.Size = New System.Drawing.Size(110, 21)
         Me.Button13.TabIndex = 3
@@ -1967,7 +1967,7 @@ Partial Class internet_explorer_5
         Me.Label15.Anchor = System.Windows.Forms.AnchorStyles.Top
         Me.Label15.AutoSize = True
         Me.Label15.Font = New System.Drawing.Font("Bookman Old Style", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label15.Location = New System.Drawing.Point(-64, 253)
+        Me.Label15.Location = New System.Drawing.Point(-51, 253)
         Me.Label15.Name = "Label15"
         Me.Label15.Size = New System.Drawing.Size(178, 16)
         Me.Label15.TabIndex = 4
@@ -1977,7 +1977,7 @@ Partial Class internet_explorer_5
         '
         Me.Button12.Anchor = System.Windows.Forms.AnchorStyles.Top
         Me.Button12.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button12.Location = New System.Drawing.Point(-84, 197)
+        Me.Button12.Location = New System.Drawing.Point(-71, 197)
         Me.Button12.Name = "Button12"
         Me.Button12.Size = New System.Drawing.Size(106, 21)
         Me.Button12.TabIndex = 2
@@ -1987,7 +1987,7 @@ Partial Class internet_explorer_5
         'TextBox4
         '
         Me.TextBox4.Anchor = System.Windows.Forms.AnchorStyles.Top
-        Me.TextBox4.Location = New System.Drawing.Point(-114, 170)
+        Me.TextBox4.Location = New System.Drawing.Point(-101, 170)
         Me.TextBox4.Multiline = True
         Me.TextBox4.Name = "TextBox4"
         Me.TextBox4.Size = New System.Drawing.Size(281, 20)
@@ -1997,7 +1997,7 @@ Partial Class internet_explorer_5
         '
         Me.PictureBox2.Anchor = System.Windows.Forms.AnchorStyles.Top
         Me.PictureBox2.Image = Global.Histacom.My.Resources.Resources.googlebetalogo
-        Me.PictureBox2.Location = New System.Drawing.Point(-150, 42)
+        Me.PictureBox2.Location = New System.Drawing.Point(-137, 42)
         Me.PictureBox2.Name = "PictureBox2"
         Me.PictureBox2.Size = New System.Drawing.Size(361, 102)
         Me.PictureBox2.TabIndex = 0
@@ -2008,7 +2008,7 @@ Partial Class internet_explorer_5
         Me.Label11.Anchor = System.Windows.Forms.AnchorStyles.Top
         Me.Label11.AutoSize = True
         Me.Label11.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label11.Location = New System.Drawing.Point(-72, 151)
+        Me.Label11.Location = New System.Drawing.Point(-59, 151)
         Me.Label11.Name = "Label11"
         Me.Label11.Size = New System.Drawing.Size(186, 16)
         Me.Label11.TabIndex = 0
@@ -2153,7 +2153,7 @@ Partial Class internet_explorer_5
         Me.Button15.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button15.Location = New System.Drawing.Point(112, 40)
         Me.Button15.Name = "Button15"
-        Me.Button15.Size = New System.Drawing.Size(75, 19)
+        Me.Button15.Size = New System.Drawing.Size(75, 25)
         Me.Button15.TabIndex = 5
         Me.Button15.Text = "Download"
         Me.Button15.UseVisualStyleBackColor = False
@@ -2219,7 +2219,7 @@ Partial Class internet_explorer_5
         Me.Button24.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button24.Location = New System.Drawing.Point(94, 87)
         Me.Button24.Name = "Button24"
-        Me.Button24.Size = New System.Drawing.Size(106, 19)
+        Me.Button24.Size = New System.Drawing.Size(106, 33)
         Me.Button24.TabIndex = 7
         Me.Button24.Text = "Info"
         Me.Button24.UseVisualStyleBackColor = False
@@ -2231,7 +2231,7 @@ Partial Class internet_explorer_5
         Me.Button23.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button23.Location = New System.Drawing.Point(94, 46)
         Me.Button23.Name = "Button23"
-        Me.Button23.Size = New System.Drawing.Size(106, 19)
+        Me.Button23.Size = New System.Drawing.Size(106, 29)
         Me.Button23.TabIndex = 6
         Me.Button23.Text = "View Backgrounds"
         Me.Button23.UseVisualStyleBackColor = False
@@ -2290,7 +2290,7 @@ Partial Class internet_explorer_5
         Me.Button25.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button25.Location = New System.Drawing.Point(117, 81)
         Me.Button25.Name = "Button25"
-        Me.Button25.Size = New System.Drawing.Size(75, 18)
+        Me.Button25.Size = New System.Drawing.Size(75, 26)
         Me.Button25.TabIndex = 6
         Me.Button25.Text = "Download"
         Me.Button25.UseVisualStyleBackColor = False
@@ -2311,7 +2311,7 @@ Partial Class internet_explorer_5
         Me.Button17.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button17.Location = New System.Drawing.Point(117, 47)
         Me.Button17.Name = "Button17"
-        Me.Button17.Size = New System.Drawing.Size(75, 18)
+        Me.Button17.Size = New System.Drawing.Size(75, 28)
         Me.Button17.TabIndex = 4
         Me.Button17.Text = "Download"
         Me.Button17.UseVisualStyleBackColor = False

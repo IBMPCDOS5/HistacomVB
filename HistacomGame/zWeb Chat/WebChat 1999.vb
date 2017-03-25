@@ -1,7 +1,6 @@
 ﻿Public Class WebChat_1999
     Dim waiting As Boolean
     Dim waiting2 As Boolean = False
-    Dim waiting3 As Boolean = False
     Dim con As Integer
     Dim ran As New Random
     Dim abletoclose As Boolean = True
@@ -28,7 +27,7 @@
     End Sub
 
     Private Sub Button2_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button2.Click
-        If waiting = True Or waiting3 = True Then
+        If waiting = True Or waiting2 = True Then
             mainname = typechat.Text
             waiting = False
             history.Text += (username & ": " & typechat.Text & Environment.NewLine)
@@ -174,15 +173,18 @@
                 history.Text += ("12padams: From now on we will call this user " & mainname & Environment.NewLine)
                 Chat.Interval = 4000
             Case 28
+                waiting2 = True
                 If mainname = "" Then
                     con -= 1
+                Else
+                    waiting2 = False
                 End If
                 Chat.Interval = 3000
             Case 27
                 history.Text += ("12padams: I don't want to disturb you, but what is your name? What you type in the chat now, is what we will refer you as. I suggest less then 10 letters for better flow!" & Environment.NewLine)
                 Chat.Interval = 6000
                 waiting = True
-                waiting3 = True
+                waiting2 = True
             Case 26
                 history.Text += ("12padams: OK, what's making me annoyed now is not knowing what this Windows 98 name is!" & Environment.NewLine)
                 Chat.Interval = 9000

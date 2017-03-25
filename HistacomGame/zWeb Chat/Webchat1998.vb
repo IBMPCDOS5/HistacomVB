@@ -55,7 +55,7 @@
                 history.Text = ("The Hidden Hacker: All done!" & Environment.NewLine)
                 history.Text = ("The Hidden Hacker: Now, go back on the web and destroy him!" & Environment.NewLine)
                 con += 1
-
+                Me.Close()
             Case 163
                 history.Text = ("RESTORING BORDER..." & Environment.NewLine)
                 program.BorderStyle = BorderStyle.FixedSingle
@@ -69,6 +69,7 @@
                 bottomrightcorner.Show()
                 bottomleftcorner.Show()
                 history.Text = ("BORDER RESTORE COMPLETE" & Environment.NewLine)
+                con += 1
             Case 162
                 history.Text = ("RESTORING CHANGES..." & Environment.NewLine)
                 con += 1
@@ -466,6 +467,8 @@
                 Dim FontSize As Integer = 11
                 Dim FS As New Font(FontName, FontSize, FontStyle.Regular)
                 history.Font = FS
+                Windows95.taskbar.Show()
+                Windows95.startbutton.Show()
             Case 68
                 history.Text += ("SkyHigh: Please let me and " & username & " go and just forget this happened!" & Environment.NewLine)
                 Chat.Interval = 6000

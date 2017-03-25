@@ -14,6 +14,7 @@
     End Sub
 
     Private Sub windows98Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Me.Load
+        GameMain.OS = 3
         If My.Resources.Windows_XP_Startup.CanRead Then
             Dim bStr(My.Resources.Windows_XP_Startup.Length) As Byte
             My.Resources.Windows_XP_Startup.Read(bStr, 0, My.Resources.Windows_XP_Startup.Length)
@@ -430,9 +431,7 @@
     End Sub
 
     Private Sub taskbartime_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles taskbartime.Click
-        Dim showmess As New createmsg
-        showmess.infomessage.Text = "your save code is: bsdn98e5"
-        showmess.Show()
+
     End Sub
     Private Sub desktopicons_ItemDrag(ByVal sender As Object, ByVal e As System.Windows.Forms.ItemDragEventArgs) Handles desktopicons.ItemDrag
         Dim lvi As ListViewItem = CType(e.Item, ListViewItem)

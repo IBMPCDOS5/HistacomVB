@@ -1,6 +1,13 @@
 ﻿Public Class rborder
     Private Sub rborder_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Me.Cursor = Cursors.SizeWE
+
+        Select Case GameMain.OS
+            Case 3
+                Me.BackColor = Color.Transparent
+                Me.BackgroundImage = My.Resources.windowsxprightside
+                rcorner.BackgroundImage = My.Resources.windowsxptoprightcorner
+        End Select
     End Sub
 
     Private Sub rborder_MouseDown(sender As Object, e As MouseEventArgs) Handles Me.MouseDown

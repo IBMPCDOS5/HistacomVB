@@ -25,6 +25,8 @@ Partial Class rborder
         Me.components = New System.ComponentModel.Container()
         Me.pull = New System.Windows.Forms.Timer(Me.components)
         Me.updat = New System.Windows.Forms.Timer(Me.components)
+        Me.rcorner = New System.Windows.Forms.PictureBox()
+        CType(Me.rcorner, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'pull
@@ -36,17 +38,31 @@ Partial Class rborder
         Me.updat.Enabled = True
         Me.updat.Interval = 5000
         '
+        'rcorner
+        '
+        Me.rcorner.BackColor = System.Drawing.Color.Silver
+        Me.rcorner.BackgroundImage = Global.Histacom.My.Resources.Resources.windows95toprightcorner
+        Me.rcorner.Dock = System.Windows.Forms.DockStyle.Top
+        Me.rcorner.Location = New System.Drawing.Point(0, 0)
+        Me.rcorner.Name = "rcorner"
+        Me.rcorner.Size = New System.Drawing.Size(4, 4)
+        Me.rcorner.TabIndex = 3
+        Me.rcorner.TabStop = False
+        '
         'rborder
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = Global.Histacom.My.Resources.Resources.windows95rightside
+        Me.Controls.Add(Me.rcorner)
         Me.Name = "rborder"
         Me.Size = New System.Drawing.Size(4, 150)
+        CType(Me.rcorner, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
 
     Friend WithEvents pull As Timer
     Friend WithEvents updat As Timer
+    Friend WithEvents rcorner As PictureBox
 End Class

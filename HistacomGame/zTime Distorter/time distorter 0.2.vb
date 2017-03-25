@@ -172,5 +172,4 @@
         winman.setupwindow(Me, "Time distorter", My.Resources.Time_Distorter_icon)
         Label3.Hide()
     End Sub
-
 End Class

@@ -26,13 +26,13 @@
             Case 1
                 Me.BackColor = Windows95.titlebarcol.BackColor
                 Me.BackgroundImage = Windows95.titlebarcol.BackgroundImage
-                Me.BackColor = Windows95.titlebarcol.BackColor
             Case 2
                 Me.BackColor = Windows98.exampleprogramtopbar.BackColor
                 Me.BackgroundImage = Windows98.exampleprogramtopbar.BackgroundImage
-                Me.BackColor = Windows98.exampleprogramtext.BackColor
             Case 3
-
+                Me.BackColor = Color.Transparent
+                Me.BackgroundImage = My.Resources.windowsxptopbarmiddle
+                Panel1.Hide()
         End Select
     End Sub
 

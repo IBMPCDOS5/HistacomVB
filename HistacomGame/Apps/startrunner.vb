@@ -24,6 +24,7 @@
     Private Sub Timer1_Tick(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Timer1.Tick
         xlocation = randnumb.Next(1, taskbarlenght)
         Windows95.startbutton.Location = New Point(xlocation, Windows95.startbutton.Location.Y)
+        Windows98.startbutton.Location = New Point(xlocation, Windows95.startbutton.Location.Y)
     End Sub
 
     Private Sub Button1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button1.Click

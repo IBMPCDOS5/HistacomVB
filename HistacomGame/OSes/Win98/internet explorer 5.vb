@@ -29,7 +29,7 @@
     End Sub
 
     Private Sub internet_explorer_5_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
-        history(1) = "www.microsoft.com/internetexplorer4/welcome"
+        history(1) = "www.microsoft.com/internetexplorer5/welcome"
         chistory = 1
         winman.setupwindow(Me, "Internet Explorer 5", My.Resources.start_run)
         'programtopbar.BackColor = Windows95.exampleprogramtopbar.BackColor
