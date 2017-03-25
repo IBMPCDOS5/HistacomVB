@@ -166,6 +166,10 @@
         Dim bStr(My.Resources.Windows_XP_Shutdown.Length) As Byte
         My.Resources.Windows_XP_Shutdown.Read(bStr, 0, My.Resources.Windows_XP_Shutdown.Length)
         My.Computer.Audio.Play(bStr, AudioPlayMode.WaitToComplete)
+        Try
+            End
+        Catch ex As Exception
+        End Try
         Me.Close()
     End Sub
 
@@ -411,6 +415,7 @@
         End If
         If countdown = 199 Then
             commandprompt.TextBox1.Text = commandprompt.TextBox1.Text + ("Ip 192.424.112.432 Connecting..." & Environment.NewLine)
+            If close_everything_.Dev = True Then countdown = 20
         End If
         commandprompt.TextBox1.SelectionStart = 999999
         commandprompt.TextBox1.ScrollToCaret()
@@ -458,6 +463,14 @@
     End Sub
 
     Private Sub Label1_Click(sender As Object, e As EventArgs) Handles Label1.Click
+
+    End Sub
+
+    Private Sub Timer2_Tick(sender As Object, e As EventArgs) Handles Timer2.Tick
+
+    End Sub
+
+    Private Sub Timer3_Tick(sender As Object, e As EventArgs) Handles Timer3.Tick
 
     End Sub
 End Class

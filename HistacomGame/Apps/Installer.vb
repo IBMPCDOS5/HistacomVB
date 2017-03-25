@@ -46,6 +46,7 @@
             If programtoinstall = "Time Distorter 0.3" Then
                 Me.Close()
                 Windows2000.TimeDistorter03ToolStripMenuItem.Visible = True
+                Windowsxp2002damaged.TimeDistorter03ToolStripMenuItem.Visible = True
             End If
             If programtoinstall = "Survive The Day" Then
                 Me.Close()

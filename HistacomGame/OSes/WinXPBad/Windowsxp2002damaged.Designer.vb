@@ -24,8 +24,8 @@ Partial Class Windowsxp2002damaged
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Windowsxp2002damaged))
-        Dim ListViewItem1 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("My Computer", 1)
-        Dim ListViewItem2 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("Recycle Bin", 0)
+        Dim ListViewItem3 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("My Computer", 1)
+        Dim ListViewItem4 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("Recycle Bin", 0)
         Me.startmenu = New System.Windows.Forms.Panel()
         Me.middlestartmenu = New System.Windows.Forms.Panel()
         Me.leftstartmenu = New System.Windows.Forms.Panel()
@@ -1099,6 +1099,9 @@ Partial Class Windowsxp2002damaged
         Me.logoffbutton.TabIndex = 0
         Me.logoffbutton.TabStop = False
         '
+        'Timer2
+        '
+        '
         'rightclickbackproperties
         '
         Me.rightclickbackproperties.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ActiveDesktopToolStripMenuItem, Me.PropertiesToolStripMenuItem, Me.LineUpIconsToolStripMenuItem, Me.RefreshToolStripMenuItem, Me.PasteToolStripMenuItem, Me.PasteShortcutToolStripMenuItem, Me.NewToolStripMenuItem1, Me.PropertiesToolStripMenuItem1})
@@ -1255,6 +1258,9 @@ Partial Class Windowsxp2002damaged
         Me.PropertiesToolStripMenuItem1.Size = New System.Drawing.Size(153, 22)
         Me.PropertiesToolStripMenuItem1.Text = "Properties"
         '
+        'Timer3
+        '
+        '
         'Timer1
         '
         '
@@ -1339,7 +1345,7 @@ Partial Class Windowsxp2002damaged
         Me.desktopicons.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.desktopicons.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.desktopicons.ForeColor = System.Drawing.Color.White
-        Me.desktopicons.Items.AddRange(New System.Windows.Forms.ListViewItem() {ListViewItem1, ListViewItem2})
+        Me.desktopicons.Items.AddRange(New System.Windows.Forms.ListViewItem() {ListViewItem3, ListViewItem4})
         Me.desktopicons.LargeImageList = Me.desktopiconsimages
         Me.desktopicons.Location = New System.Drawing.Point(-2, 0)
         Me.desktopicons.Name = "desktopicons"

@@ -1495,7 +1495,7 @@ Partial Class Internet_Explorer_52001
         Me.Label42.Anchor = System.Windows.Forms.AnchorStyles.Top
         Me.Label42.AutoSize = True
         Me.Label42.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label42.Location = New System.Drawing.Point(465, 20)
+        Me.Label42.Location = New System.Drawing.Point(476, 20)
         Me.Label42.Name = "Label42"
         Me.Label42.Size = New System.Drawing.Size(263, 18)
         Me.Label42.TabIndex = 5
@@ -1506,7 +1506,7 @@ Partial Class Internet_Explorer_52001
         Me.Label41.Anchor = System.Windows.Forms.AnchorStyles.Top
         Me.Label41.AutoSize = True
         Me.Label41.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label41.Location = New System.Drawing.Point(729, 16)
+        Me.Label41.Location = New System.Drawing.Point(740, 16)
         Me.Label41.Name = "Label41"
         Me.Label41.Size = New System.Drawing.Size(71, 24)
         Me.Label41.TabIndex = 4
@@ -1518,7 +1518,7 @@ Partial Class Internet_Explorer_52001
         Me.TextBox8.BackColor = System.Drawing.Color.SpringGreen
         Me.TextBox8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.TextBox8.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox8.Location = New System.Drawing.Point(411, 126)
+        Me.TextBox8.Location = New System.Drawing.Point(422, 126)
         Me.TextBox8.Multiline = True
         Me.TextBox8.Name = "TextBox8"
         Me.TextBox8.ReadOnly = True
@@ -1530,7 +1530,7 @@ Partial Class Internet_Explorer_52001
         '
         Me.PictureBox11.Anchor = System.Windows.Forms.AnchorStyles.Top
         Me.PictureBox11.Image = Global.Histacom.My.Resources.Resources.skindows_95_preview
-        Me.PictureBox11.Location = New System.Drawing.Point(944, 8)
+        Me.PictureBox11.Location = New System.Drawing.Point(955, 8)
         Me.PictureBox11.Name = "PictureBox11"
         Me.PictureBox11.Size = New System.Drawing.Size(331, 420)
         Me.PictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
@@ -1542,7 +1542,7 @@ Partial Class Internet_Explorer_52001
         Me.Label40.Anchor = System.Windows.Forms.AnchorStyles.Top
         Me.Label40.AutoSize = True
         Me.Label40.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label40.Location = New System.Drawing.Point(566, 103)
+        Me.Label40.Location = New System.Drawing.Point(577, 103)
         Me.Label40.Name = "Label40"
         Me.Label40.Size = New System.Drawing.Size(160, 13)
         Me.Label40.TabIndex = 1
@@ -1553,7 +1553,7 @@ Partial Class Internet_Explorer_52001
         Me.Label39.Anchor = System.Windows.Forms.AnchorStyles.Top
         Me.Label39.AutoSize = True
         Me.Label39.Font = New System.Drawing.Font("Arial Black", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label39.Location = New System.Drawing.Point(582, 79)
+        Me.Label39.Location = New System.Drawing.Point(593, 79)
         Me.Label39.Name = "Label39"
         Me.Label39.Size = New System.Drawing.Size(123, 23)
         Me.Label39.TabIndex = 0
@@ -2748,9 +2748,9 @@ Partial Class Internet_Explorer_52001
         Me.Label5.AutoSize = True
         Me.Label5.Location = New System.Drawing.Point(8, 51)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(104, 13)
+        Me.Label5.Size = New System.Drawing.Size(95, 13)
         Me.Label5.TabIndex = 3
-        Me.Label5.Text = "Guess the Number 2"
+        Me.Label5.Text = "Guess the Number"
         '
         'gameandsoftwaretop
         '
@@ -3738,9 +3738,6 @@ Partial Class Internet_Explorer_52001
         Me.topleftcorner.Name = "topleftcorner"
         Me.topleftcorner.Size = New System.Drawing.Size(4, 4)
         Me.topleftcorner.TabIndex = 1
-        '
-        'look
-        '
         '
         'pullbottom
         '

@@ -976,6 +976,7 @@ Partial Class Windows95
         Me.pnlTime.Name = "pnlTime"
         Me.pnlTime.Size = New System.Drawing.Size(50, 84)
         Me.pnlTime.TabIndex = 6
+        Me.pnlTime.Visible = False
         '
         'txtTime
         '

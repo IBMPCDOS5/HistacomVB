@@ -4,6 +4,6 @@
     Public opennotepads As Integer
     Public mainname As String
     Public waitfor02download As Boolean
+    Public Dev As Boolean
     Public count2000 As Integer = 200
-
 End Module

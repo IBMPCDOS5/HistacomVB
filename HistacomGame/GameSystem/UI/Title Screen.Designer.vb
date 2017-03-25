@@ -32,6 +32,7 @@ Partial Class Title_Screen
         Me.txtNew = New System.Windows.Forms.TextBox()
         Me.lblNew = New System.Windows.Forms.Label()
         Me.btnNew = New System.Windows.Forms.Button()
+        Me.Button2 = New System.Windows.Forms.Button()
         CType(Me.buttonnewgame, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.buttonloadgame, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.buttonexit, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -76,7 +77,7 @@ Partial Class Title_Screen
         '
         Me.Label1.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
         Me.Label1.AutoSize = True
-        Me.Label1.BackColor = System.Drawing.Color.White
+        Me.Label1.BackColor = System.Drawing.Color.Transparent
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!)
         Me.Label1.ForeColor = System.Drawing.Color.Black
         Me.Label1.Location = New System.Drawing.Point(52, 440)
@@ -89,7 +90,7 @@ Partial Class Title_Screen
         '
         Me.Label2.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
         Me.Label2.AutoSize = True
-        Me.Label2.BackColor = System.Drawing.Color.White
+        Me.Label2.BackColor = System.Drawing.Color.Transparent
         Me.Label2.ForeColor = System.Drawing.Color.Black
         Me.Label2.Location = New System.Drawing.Point(266, 485)
         Me.Label2.Name = "Label2"
@@ -117,6 +118,7 @@ Partial Class Title_Screen
         'lblNew
         '
         Me.lblNew.AutoSize = True
+        Me.lblNew.BackColor = System.Drawing.Color.Transparent
         Me.lblNew.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.0!)
         Me.lblNew.Location = New System.Drawing.Point(138, 284)
         Me.lblNew.Name = "lblNew"
@@ -135,6 +137,15 @@ Partial Class Title_Screen
         Me.btnNew.UseVisualStyleBackColor = True
         Me.btnNew.Visible = False
         '
+        'Button2
+        '
+        Me.Button2.Location = New System.Drawing.Point(353, 506)
+        Me.Button2.Name = "Button2"
+        Me.Button2.Size = New System.Drawing.Size(75, 23)
+        Me.Button2.TabIndex = 8
+        Me.Button2.Text = "Dev"
+        Me.Button2.UseVisualStyleBackColor = True
+        '
         'Title_Screen
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -142,6 +153,7 @@ Partial Class Title_Screen
         Me.BackgroundImage = Global.Histacom.My.Resources.Resources.Histacom_1_8_Background
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(784, 560)
+        Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.btnNew)
         Me.Controls.Add(Me.lblNew)
         Me.Controls.Add(Me.txtNew)
@@ -172,4 +184,5 @@ Partial Class Title_Screen
     Friend WithEvents txtNew As TextBox
     Friend WithEvents lblNew As Label
     Friend WithEvents btnNew As Button
+    Friend WithEvents Button2 As Button
 End Class

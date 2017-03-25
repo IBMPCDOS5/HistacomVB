@@ -26,6 +26,10 @@ Partial Class Internetexplorer62002damaged
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Internetexplorer62002damaged))
         Me.program = New System.Windows.Forms.Panel()
         Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.browsingarea = New System.Windows.Forms.Panel()
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.original = New System.Windows.Forms.Label()
         Me.Panel24 = New System.Windows.Forms.Panel()
         Me.Button8 = New System.Windows.Forms.Button()
         Me.addressbar = New System.Windows.Forms.ComboBox()
@@ -155,17 +159,13 @@ Partial Class Internetexplorer62002damaged
         Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
         Me.Timer2 = New System.Windows.Forms.Timer(Me.components)
         Me.Timer3 = New System.Windows.Forms.Timer(Me.components)
-        Me.original = New System.Windows.Forms.Label()
-        Me.Label1 = New System.Windows.Forms.Label()
-        Me.Label2 = New System.Windows.Forms.Label()
-        Me.browsingarea = New System.Windows.Forms.Panel()
         Me.program.SuspendLayout()
         Me.Panel1.SuspendLayout()
+        Me.browsingarea.SuspendLayout()
         Me.Panel24.SuspendLayout()
         Me.Panel13.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.MenuStrip3.SuspendLayout()
-        Me.browsingarea.SuspendLayout()
         Me.SuspendLayout()
         '
         'program
@@ -197,6 +197,46 @@ Partial Class Internetexplorer62002damaged
         Me.Panel1.Name = "Panel1"
         Me.Panel1.Size = New System.Drawing.Size(992, 656)
         Me.Panel1.TabIndex = 14
+        '
+        'browsingarea
+        '
+        Me.browsingarea.BackColor = System.Drawing.Color.White
+        Me.browsingarea.Controls.Add(Me.Label2)
+        Me.browsingarea.Controls.Add(Me.Label1)
+        Me.browsingarea.Controls.Add(Me.original)
+        Me.browsingarea.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.browsingarea.Location = New System.Drawing.Point(0, 103)
+        Me.browsingarea.Name = "browsingarea"
+        Me.browsingarea.Size = New System.Drawing.Size(992, 553)
+        Me.browsingarea.TabIndex = 9
+        '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.Location = New System.Drawing.Point(936, 497)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(39, 13)
+        Me.Label2.TabIndex = 2
+        Me.Label2.Text = "Label3"
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Location = New System.Drawing.Point(9, 498)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(39, 13)
+        Me.Label1.TabIndex = 1
+        Me.Label1.Text = "Label2"
+        '
+        'original
+        '
+        Me.original.AutoSize = True
+        Me.original.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.original.Location = New System.Drawing.Point(321, 49)
+        Me.original.Name = "original"
+        Me.original.Size = New System.Drawing.Size(303, 20)
+        Me.original.TabIndex = 0
+        Me.original.Text = "Welcome to the end of the internet!!!"
         '
         'Panel24
         '
@@ -1181,9 +1221,6 @@ Partial Class Internetexplorer62002damaged
         Me.topleftcorner.Size = New System.Drawing.Size(7, 30)
         Me.topleftcorner.TabIndex = 8
         '
-        'look
-        '
-        '
         'pullbs
         '
         Me.pullbs.Interval = 1
@@ -1214,46 +1251,6 @@ Partial Class Internetexplorer62002damaged
         '
         Me.Timer3.Interval = 1000
         '
-        'original
-        '
-        Me.original.AutoSize = True
-        Me.original.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.original.Location = New System.Drawing.Point(321, 49)
-        Me.original.Name = "original"
-        Me.original.Size = New System.Drawing.Size(303, 20)
-        Me.original.TabIndex = 0
-        Me.original.Text = "Welcome to the end of the internet!!!"
-        '
-        'Label1
-        '
-        Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(9, 498)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(39, 13)
-        Me.Label1.TabIndex = 1
-        Me.Label1.Text = "Label2"
-        '
-        'Label2
-        '
-        Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(936, 497)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(39, 13)
-        Me.Label2.TabIndex = 2
-        Me.Label2.Text = "Label3"
-        '
-        'browsingarea
-        '
-        Me.browsingarea.BackColor = System.Drawing.Color.White
-        Me.browsingarea.Controls.Add(Me.Label2)
-        Me.browsingarea.Controls.Add(Me.Label1)
-        Me.browsingarea.Controls.Add(Me.original)
-        Me.browsingarea.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.browsingarea.Location = New System.Drawing.Point(0, 103)
-        Me.browsingarea.Name = "browsingarea"
-        Me.browsingarea.Size = New System.Drawing.Size(992, 553)
-        Me.browsingarea.TabIndex = 9
-        '
         'Internetexplorer62002damaged
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -1268,14 +1265,14 @@ Partial Class Internetexplorer62002damaged
         Me.program.ResumeLayout(False)
         Me.Panel1.ResumeLayout(False)
         Me.Panel1.PerformLayout()
+        Me.browsingarea.ResumeLayout(False)
+        Me.browsingarea.PerformLayout()
         Me.Panel24.ResumeLayout(False)
         Me.Panel24.PerformLayout()
         Me.Panel13.ResumeLayout(False)
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.MenuStrip3.ResumeLayout(False)
         Me.MenuStrip3.PerformLayout()
-        Me.browsingarea.ResumeLayout(False)
-        Me.browsingarea.PerformLayout()
         Me.ResumeLayout(False)
 
     End Sub

@@ -89,9 +89,11 @@
     End Sub
 
     Private Sub Button17_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles guessthenumberdownloadbutton.Click
-        Dim opendownload As New downloader
-        opendownload.Show()
-        opendownload.Label2.Text = "Downloading: Guess The Number 2"
+        If Not GameMain.guessInstalled Then
+            GameMain.OpenInstaller("guessNum", My.Resources.guess_the_number_one, AppsLicense.normalLicense, "Guess The Number", 20)
+        Else
+            GameMain.OpenMsg("You already have Guess The Number Installed!")
+        End If
     End Sub
 
     Private Sub startrybber_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles startrunnerbutton.Click
@@ -145,9 +147,7 @@
     End Sub
 
     Private Sub Button25_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles webchatdownloadbutton.Click
-        Dim opendownload As New downloader
-        opendownload.Show()
-        opendownload.Label2.Text = "Downloading: Web Chat 2000"
+        GameMain.OpenMsg("An error occured loading installer. Try on a different version of windows")
     End Sub
 
     Private Sub Label20_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Label20.Click

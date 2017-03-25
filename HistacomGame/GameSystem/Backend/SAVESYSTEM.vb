@@ -18,18 +18,22 @@
     Public Sub AddBlock(ByVal name As String, ByVal block As SaveBlock)
         block.name = name
         Blocks.Add(block)
+        Dim tmpStr As String() = Nothing
 
         'This bit adds tabs to all the things
-        Dim tmpStr As String() = block.MainStr.Split(vbCrLf)
-        Dim extraStr As String = ""
-        Dim i As Integer
-        Do Until i = tmpStr.Count
-            tmpStr(i) = vbTab & tmpStr(i)
-            extraStr = extraStr & tmpStr(i) & vbCrLf
-            i += 1
-        Loop
+        If Not MainStr = Nothing Then
+            tmpStr = block.MainStr.Split(vbCrLf)
 
-        MainStr &= name & " {" & vbCrLf & extraStr & "}" & vbCrLf
+            Dim extraStr As String = ""
+            Dim i As Integer
+            Do Until i = tmpStr.Count
+                tmpStr(i) = vbTab & tmpStr(i)
+                extraStr = extraStr & tmpStr(i) & vbCrLf
+                i += 1
+            Loop
+
+            MainStr &= name & " {" & vbCrLf & extraStr & "}" & vbCrLf
+        End If
     End Sub
 
     Public Function FindProperty(ByVal name As String) As SaveProperty

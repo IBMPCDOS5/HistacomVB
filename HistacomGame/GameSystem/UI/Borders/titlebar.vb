@@ -23,16 +23,18 @@
 
     Private Sub titlebar_Load(sender As Object, e As EventArgs) Handles Me.Load
         Select Case GameMain.OS
-            Case 1
+            Case 1 ' Windows 95
                 Me.BackColor = Windows95.titlebarcol.BackColor
                 Me.BackgroundImage = Windows95.titlebarcol.BackgroundImage
-            Case 2
-                Me.BackColor = Windows98.exampleprogramtopbar.BackColor
-                Me.BackgroundImage = Windows98.exampleprogramtopbar.BackgroundImage
-            Case 3
+            Case 2 ' Windows 98
+                Me.BackColor = Color.DarkBlue
+            Case 3 ' Windows XP
                 Me.BackColor = Color.Transparent
                 Me.BackgroundImage = My.Resources.windowsxptopbarmiddle
                 Panel1.Hide()
+            Case 4 ' Windows 2000
+                Me.BackColor = Color.Transparent
+                Me.BackgroundImage = My.Resources.windows2000gradient
         End Select
     End Sub
 
@@ -50,16 +52,11 @@
     End Sub
 
     Private Sub look_Tick(sender As Object, e As EventArgs) Handles look.Tick
-        Select Case GameMain.OS
-            Case 1
-                Me.BackColor = Windows95.titlebarcol.BackColor
-                Me.BackgroundImage = Windows95.titlebarcol.BackgroundImage
-                Me.BackColor = Windows95.titlebarcol.BackColor
-            Case 2
-                Me.BackColor = Windows98.exampleprogramtopbar.BackColor
-                Me.BackgroundImage = Windows98.exampleprogramtopbar.BackgroundImage
-                Me.BackColor = Windows98.exampleprogramtext.BackColor
-        End Select
+        If GameMain.OS = 1 Then
+            Me.BackColor = Windows95.titlebarcol.BackColor
+            Me.BackgroundImage = Windows95.titlebarcol.BackgroundImage
+            Me.BackColor = Windows95.titlebarcol.BackColor
+        End If
     End Sub
 
     Private Sub btnclose_Click(sender As Object, e As EventArgs) Handles btnclose.Click

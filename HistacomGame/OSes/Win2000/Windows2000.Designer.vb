@@ -24,11 +24,11 @@ Partial Class Windows2000
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Windows2000))
-        Dim ListViewItem6 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("My Documents", 8)
-        Dim ListViewItem7 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("My Computer", 7)
-        Dim ListViewItem8 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("My Network Places", 9)
-        Dim ListViewItem9 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("Recycle Bin", 10)
-        Dim ListViewItem10 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("Internet Explorer", 6)
+        Dim ListViewItem1 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("My Documents", 8)
+        Dim ListViewItem2 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("My Computer", 7)
+        Dim ListViewItem3 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("My Network Places", 9)
+        Dim ListViewItem4 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("Recycle Bin", 10)
+        Dim ListViewItem5 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("Internet Explorer", 6)
         Me.startmenu = New System.Windows.Forms.Panel()
         Me.startmenuitem = New System.Windows.Forms.MenuStrip()
         Me.ToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
@@ -142,6 +142,21 @@ Partial Class Windows2000
         Me.taskbar = New System.Windows.Forms.Panel()
         Me.startbutton = New System.Windows.Forms.PictureBox()
         Me.taskbartime = New System.Windows.Forms.Label()
+        Me.pnlStartR = New System.Windows.Forms.Panel()
+        Me.txtStartR = New System.Windows.Forms.Label()
+        Me.picStartR = New System.Windows.Forms.PictureBox()
+        Me.pnlTime = New System.Windows.Forms.Panel()
+        Me.txtTime = New System.Windows.Forms.Label()
+        Me.picTime = New System.Windows.Forms.PictureBox()
+        Me.pnlTimeB = New System.Windows.Forms.Panel()
+        Me.txtTimeB = New System.Windows.Forms.Label()
+        Me.picTimeB = New System.Windows.Forms.PictureBox()
+        Me.pnlWeb = New System.Windows.Forms.Panel()
+        Me.txtWeb = New System.Windows.Forms.Label()
+        Me.picWeb = New System.Windows.Forms.PictureBox()
+        Me.pnlGuess = New System.Windows.Forms.Panel()
+        Me.txtGuess = New System.Windows.Forms.Label()
+        Me.picGuess = New System.Windows.Forms.PictureBox()
         Me.startmenu.SuspendLayout()
         Me.startmenuitem.SuspendLayout()
         Me.ossidestartmenu.SuspendLayout()
@@ -155,6 +170,16 @@ Partial Class Windows2000
         CType(Me.closebutton, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.taskbar.SuspendLayout()
         CType(Me.startbutton, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.pnlStartR.SuspendLayout()
+        CType(Me.picStartR, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.pnlTime.SuspendLayout()
+        CType(Me.picTime, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.pnlTimeB.SuspendLayout()
+        CType(Me.picTimeB, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.pnlWeb.SuspendLayout()
+        CType(Me.picWeb, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.pnlGuess.SuspendLayout()
+        CType(Me.picGuess, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'startmenu
@@ -185,7 +210,7 @@ Partial Class Windows2000
         '
         'ToolStripMenuItem1
         '
-        Me.ToolStripMenuItem1.Font = New System.Drawing.Font("Seville", 0.5!)
+        Me.ToolStripMenuItem1.Font = New System.Drawing.Font("Microsoft Sans Serif", 0.5!)
         Me.ToolStripMenuItem1.Image = Global.Histacom.My.Resources.Resources.windows_2000_splitter
         Me.ToolStripMenuItem1.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
         Me.ToolStripMenuItem1.Margin = New System.Windows.Forms.Padding(0, -1, 0, -1)
@@ -225,7 +250,7 @@ Partial Class Windows2000
         '
         'ToolStripMenuItem3
         '
-        Me.ToolStripMenuItem3.Font = New System.Drawing.Font("Seville", 0.5!)
+        Me.ToolStripMenuItem3.Font = New System.Drawing.Font("Microsoft Sans Serif", 0.5!)
         Me.ToolStripMenuItem3.Image = CType(resources.GetObject("ToolStripMenuItem3.Image"), System.Drawing.Image)
         Me.ToolStripMenuItem3.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
         Me.ToolStripMenuItem3.Margin = New System.Windows.Forms.Padding(-1)
@@ -927,7 +952,7 @@ Partial Class Windows2000
         '
         'HToolStripMenuItem
         '
-        Me.HToolStripMenuItem.Font = New System.Drawing.Font("Seville", 0.5!)
+        Me.HToolStripMenuItem.Font = New System.Drawing.Font("Microsoft Sans Serif", 0.5!)
         Me.HToolStripMenuItem.Image = CType(resources.GetObject("HToolStripMenuItem.Image"), System.Drawing.Image)
         Me.HToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
         Me.HToolStripMenuItem.Margin = New System.Windows.Forms.Padding(-1)
@@ -1153,7 +1178,7 @@ Partial Class Windows2000
         'exampleprogramtopbar
         '
         Me.exampleprogramtopbar.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.exampleprogramtopbar.BackColor = System.Drawing.Color.DarkBlue
         Me.exampleprogramtopbar.BackgroundImage = Global.Histacom.My.Resources.Resources.windows2000gradient
         Me.exampleprogramtopbar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
@@ -1221,7 +1246,7 @@ Partial Class Windows2000
         Me.desktopicons.Dock = System.Windows.Forms.DockStyle.Fill
         Me.desktopicons.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.desktopicons.ForeColor = System.Drawing.Color.White
-        Me.desktopicons.Items.AddRange(New System.Windows.Forms.ListViewItem() {ListViewItem6, ListViewItem7, ListViewItem8, ListViewItem9, ListViewItem10})
+        Me.desktopicons.Items.AddRange(New System.Windows.Forms.ListViewItem() {ListViewItem1, ListViewItem2, ListViewItem3, ListViewItem4, ListViewItem5})
         Me.desktopicons.LargeImageList = Me.desktopiconsimages
         Me.desktopicons.Location = New System.Drawing.Point(0, 0)
         Me.desktopicons.Name = "desktopicons"
@@ -1261,11 +1286,176 @@ Partial Class Windows2000
         Me.taskbartime.TabIndex = 2
         Me.taskbartime.Text = "time"
         '
+        'pnlStartR
+        '
+        Me.pnlStartR.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.pnlStartR.BackColor = System.Drawing.Color.Transparent
+        Me.pnlStartR.Controls.Add(Me.txtStartR)
+        Me.pnlStartR.Controls.Add(Me.picStartR)
+        Me.pnlStartR.Location = New System.Drawing.Point(961, 192)
+        Me.pnlStartR.Name = "pnlStartR"
+        Me.pnlStartR.Size = New System.Drawing.Size(50, 75)
+        Me.pnlStartR.TabIndex = 11
+        Me.pnlStartR.Visible = False
+        '
+        'txtStartR
+        '
+        Me.txtStartR.AutoSize = True
+        Me.txtStartR.ForeColor = System.Drawing.Color.White
+        Me.txtStartR.Location = New System.Drawing.Point(3, 39)
+        Me.txtStartR.Name = "txtStartR"
+        Me.txtStartR.Size = New System.Drawing.Size(42, 26)
+        Me.txtStartR.TabIndex = 1
+        Me.txtStartR.Text = "Start" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Runner"
+        '
+        'picStartR
+        '
+        Me.picStartR.Image = Global.Histacom.My.Resources.Resources.start_run
+        Me.picStartR.Location = New System.Drawing.Point(7, 3)
+        Me.picStartR.Name = "picStartR"
+        Me.picStartR.Size = New System.Drawing.Size(33, 33)
+        Me.picStartR.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.picStartR.TabIndex = 0
+        Me.picStartR.TabStop = False
+        '
+        'pnlTime
+        '
+        Me.pnlTime.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.pnlTime.BackColor = System.Drawing.Color.Transparent
+        Me.pnlTime.Controls.Add(Me.txtTime)
+        Me.pnlTime.Controls.Add(Me.picTime)
+        Me.pnlTime.Location = New System.Drawing.Point(961, 363)
+        Me.pnlTime.Name = "pnlTime"
+        Me.pnlTime.Size = New System.Drawing.Size(50, 84)
+        Me.pnlTime.TabIndex = 12
+        Me.pnlTime.Visible = False
+        '
+        'txtTime
+        '
+        Me.txtTime.AutoSize = True
+        Me.txtTime.ForeColor = System.Drawing.Color.White
+        Me.txtTime.Location = New System.Drawing.Point(3, 39)
+        Me.txtTime.Name = "txtTime"
+        Me.txtTime.Size = New System.Drawing.Size(46, 39)
+        Me.txtTime.TabIndex = 1
+        Me.txtTime.Text = "Time" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Distorter" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "v2"
+        '
+        'picTime
+        '
+        Me.picTime.Image = Global.Histacom.My.Resources.Resources.Time_Distorter_icon
+        Me.picTime.Location = New System.Drawing.Point(7, 3)
+        Me.picTime.Name = "picTime"
+        Me.picTime.Size = New System.Drawing.Size(33, 33)
+        Me.picTime.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.picTime.TabIndex = 0
+        Me.picTime.TabStop = False
+        '
+        'pnlTimeB
+        '
+        Me.pnlTimeB.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.pnlTimeB.BackColor = System.Drawing.Color.Transparent
+        Me.pnlTimeB.Controls.Add(Me.txtTimeB)
+        Me.pnlTimeB.Controls.Add(Me.picTimeB)
+        Me.pnlTimeB.Location = New System.Drawing.Point(961, 273)
+        Me.pnlTimeB.Name = "pnlTimeB"
+        Me.pnlTimeB.Size = New System.Drawing.Size(50, 84)
+        Me.pnlTimeB.TabIndex = 13
+        Me.pnlTimeB.Visible = False
+        '
+        'txtTimeB
+        '
+        Me.txtTimeB.AutoSize = True
+        Me.txtTimeB.ForeColor = System.Drawing.Color.White
+        Me.txtTimeB.Location = New System.Drawing.Point(3, 39)
+        Me.txtTimeB.Name = "txtTimeB"
+        Me.txtTimeB.Size = New System.Drawing.Size(46, 39)
+        Me.txtTimeB.TabIndex = 1
+        Me.txtTimeB.Text = "Time" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Distorter" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "v1"
+        '
+        'picTimeB
+        '
+        Me.picTimeB.Image = Global.Histacom.My.Resources.Resources.Time_Distorter_icon
+        Me.picTimeB.Location = New System.Drawing.Point(7, 3)
+        Me.picTimeB.Name = "picTimeB"
+        Me.picTimeB.Size = New System.Drawing.Size(33, 33)
+        Me.picTimeB.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.picTimeB.TabIndex = 0
+        Me.picTimeB.TabStop = False
+        '
+        'pnlWeb
+        '
+        Me.pnlWeb.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.pnlWeb.BackColor = System.Drawing.Color.Transparent
+        Me.pnlWeb.Controls.Add(Me.txtWeb)
+        Me.pnlWeb.Controls.Add(Me.picWeb)
+        Me.pnlWeb.Location = New System.Drawing.Point(961, 102)
+        Me.pnlWeb.Name = "pnlWeb"
+        Me.pnlWeb.Size = New System.Drawing.Size(50, 84)
+        Me.pnlWeb.TabIndex = 14
+        Me.pnlWeb.Visible = False
+        '
+        'txtWeb
+        '
+        Me.txtWeb.AutoSize = True
+        Me.txtWeb.ForeColor = System.Drawing.Color.White
+        Me.txtWeb.Location = New System.Drawing.Point(7, 39)
+        Me.txtWeb.Name = "txtWeb"
+        Me.txtWeb.Size = New System.Drawing.Size(33, 39)
+        Me.txtWeb.TabIndex = 1
+        Me.txtWeb.Text = "Web " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "chat" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "1999"
+        '
+        'picWeb
+        '
+        Me.picWeb.Image = Global.Histacom.My.Resources.Resources.chat
+        Me.picWeb.Location = New System.Drawing.Point(7, 3)
+        Me.picWeb.Name = "picWeb"
+        Me.picWeb.Size = New System.Drawing.Size(33, 33)
+        Me.picWeb.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.picWeb.TabIndex = 0
+        Me.picWeb.TabStop = False
+        '
+        'pnlGuess
+        '
+        Me.pnlGuess.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.pnlGuess.BackColor = System.Drawing.Color.Transparent
+        Me.pnlGuess.Controls.Add(Me.txtGuess)
+        Me.pnlGuess.Controls.Add(Me.picGuess)
+        Me.pnlGuess.Location = New System.Drawing.Point(961, 12)
+        Me.pnlGuess.Name = "pnlGuess"
+        Me.pnlGuess.Size = New System.Drawing.Size(50, 84)
+        Me.pnlGuess.TabIndex = 15
+        Me.pnlGuess.Visible = False
+        '
+        'txtGuess
+        '
+        Me.txtGuess.AutoSize = True
+        Me.txtGuess.ForeColor = System.Drawing.Color.White
+        Me.txtGuess.Location = New System.Drawing.Point(4, 39)
+        Me.txtGuess.Name = "txtGuess"
+        Me.txtGuess.Size = New System.Drawing.Size(42, 39)
+        Me.txtGuess.TabIndex = 1
+        Me.txtGuess.Text = "Guess " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "the " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "number"
+        '
+        'picGuess
+        '
+        Me.picGuess.Image = Global.Histacom.My.Resources.Resources.guess_the_number_Icon
+        Me.picGuess.Location = New System.Drawing.Point(7, 3)
+        Me.picGuess.Name = "picGuess"
+        Me.picGuess.Size = New System.Drawing.Size(33, 33)
+        Me.picGuess.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.picGuess.TabIndex = 0
+        Me.picGuess.TabStop = False
+        '
         'Windows2000
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(1023, 677)
+        Me.Controls.Add(Me.pnlStartR)
+        Me.Controls.Add(Me.pnlTime)
+        Me.Controls.Add(Me.pnlTimeB)
+        Me.Controls.Add(Me.pnlWeb)
+        Me.Controls.Add(Me.pnlGuess)
         Me.Controls.Add(Me.startmenu)
         Me.Controls.Add(Me.program)
         Me.Controls.Add(Me.desktopicons)
@@ -1289,6 +1479,21 @@ Partial Class Windows2000
         Me.taskbar.ResumeLayout(False)
         Me.taskbar.PerformLayout()
         CType(Me.startbutton, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.pnlStartR.ResumeLayout(False)
+        Me.pnlStartR.PerformLayout()
+        CType(Me.picStartR, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.pnlTime.ResumeLayout(False)
+        Me.pnlTime.PerformLayout()
+        CType(Me.picTime, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.pnlTimeB.ResumeLayout(False)
+        Me.pnlTimeB.PerformLayout()
+        CType(Me.picTimeB, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.pnlWeb.ResumeLayout(False)
+        Me.pnlWeb.PerformLayout()
+        CType(Me.picWeb, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.pnlGuess.ResumeLayout(False)
+        Me.pnlGuess.PerformLayout()
+        CType(Me.picGuess, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
@@ -1405,4 +1610,19 @@ Partial Class Windows2000
     Friend WithEvents HToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents TimeDistorter03ToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents commandpromptstartup As System.Windows.Forms.Timer
+    Friend WithEvents pnlStartR As Panel
+    Friend WithEvents txtStartR As Label
+    Friend WithEvents picStartR As PictureBox
+    Friend WithEvents pnlTime As Panel
+    Friend WithEvents txtTime As Label
+    Friend WithEvents picTime As PictureBox
+    Friend WithEvents pnlTimeB As Panel
+    Friend WithEvents txtTimeB As Label
+    Friend WithEvents picTimeB As PictureBox
+    Friend WithEvents pnlWeb As Panel
+    Friend WithEvents txtWeb As Label
+    Friend WithEvents picWeb As PictureBox
+    Friend WithEvents pnlGuess As Panel
+    Friend WithEvents txtGuess As Label
+    Friend WithEvents picGuess As PictureBox
 End Class

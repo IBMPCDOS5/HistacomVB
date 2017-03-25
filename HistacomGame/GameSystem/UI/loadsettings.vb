@@ -8,6 +8,14 @@
         MsgBox("When you started the game, you were asked what ""Profile name"" you want. Type that in here")
     End Sub
 
+    Private Sub btnload_Click(sender As Object, e As EventArgs) Handles btnload.Click
+        If txtname.Text = "" Then
+            MsgBox("Profile Name cannot be blank")
+        Else
+            GameMain.loadGame(txtname.Text)
+        End If
+    End Sub
+
     'Private Sub btnhelp_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnhelp.Click
     '    MessageBox.Show("The username is what you will be called in the game. The year code is the code that you get after clicking the time in the taskbar which is unique for that year.")
     'End Sub

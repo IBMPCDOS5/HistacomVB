@@ -7,7 +7,6 @@
         lblNew.Show()
         btnNew.Show()
         txtNew.Show()
-
     End Sub
 
     Private Sub buttonnewgame_MouseEnter(ByVal sender As Object, ByVal e As System.EventArgs) Handles buttonnewgame.MouseEnter
@@ -63,5 +62,10 @@
 
             setup.SaveToFile(GameMain.MyDocuments & "\HistacomVB\Main.txt")
         End If
+    End Sub
+
+    Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
+        close_everything_.Dev = True
+        Windowsxp2002damaged.Show()
     End Sub
 End Class
