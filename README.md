@@ -1,23 +1,23 @@
 
 # HistacomVB
 
+## The developed, VB version of TimeHACK/Histacom
+
+---
+
 [![Discord](https://discordapp.com/api/guilds/234414439330349056/widget.png?style=shield)](https://discord.gg/zMwf3)
 [![Build status](https://ci.appveyor.com/api/projects/status/oo603xid0lea8b0t?svg=true)](https://ci.appveyor.com/project/timehack/histacomvb)
 
-The developed, VB version of TimeHACK/Histacom
-THE LEAD DEVELOPER OF THIS IS NOT AShifter
+---
+The current lead developer of this repository is Alex-TIMEHACK. (alex on Discord)
 
-I'M (Alex) THE NEW LEAD DEVELOPER OF THIS.
-IF YOU WANT TO ASK ME ANYTHING IT WOULD BE BEST IF YOU COULD GO ONTO THE TIMEHACK DISCORD
-(Go to the Timehack forums and you can find the link there - http://www.ashifter.ml/timehack/forum/index.php?sid=1ae8188acd8195fada42f0ce3a82e636)
+If you need any support, message a dev on the Discord server, or use the forums.
 
-THEN MESSAGE ME ON DISCORD AND IF THE QUESTION IS GOOD ENOUGH I WILL PUT IT PUBLIC ON THE TIMEHACK FORUMS.
+You can join the Discord using the badge above.
 
-FINALLY - MY NAME ON GITHUB IS Alex-TIMEHACK and on Discord it is just Alex
+---
 
----------------------- VERY IMPORTANT ----------------------  
-May I just point out that AShifter also helped with this
-By owning the repo and commiting the source. Not to mention the AppVeyor (WHEN/IF THAT'S SET UP)
-------------------------------------------------------------
-
-Enjoy!
+Release types used:
+- Latest: Whenever a commit is pushed, our friend AppVeyor builds it and provides a download. You can download AppVeyor builds [here](http://ci.appveyor.vom/timehack/histcomvb/build/artifacts)
+- Unstable: Once there's enough features, an unstable release is made. This build will contain bugs most of the time.
+- Stable: This build is VERY well tested and will likely have very little bugs.
