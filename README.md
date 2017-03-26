@@ -18,6 +18,10 @@ You can join the Discord using the badge above.
 ---
 
 Release types used:
-- Latest: Whenever a commit is pushed, our friend AppVeyor builds it and provides a download. You can download AppVeyor builds [here](http://ci.appveyor.vom/timehack/histcomvb/build/artifacts)
+- Latest: Whenever a commit is pushed, our friend AppVeyor builds it and provides a download. You can download AppVeyor builds [here](http://ci.appveyor.com/project/timehack/histcomvb/build/artifacts)
 - Unstable: Once there's enough features, an unstable release is made. This build will contain bugs most of the time.
 - Stable: This build is VERY well tested and will likely have very little bugs.
+
+---
+
+Without AShifter, this project would not have existed. Send your kudos to him :P
