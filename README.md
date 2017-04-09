@@ -3,7 +3,8 @@
 
 ## The developed, VB version of TimeHACK/Histacom
 
-## NOTE: This has been cancelled and is replaced with TimeHACK - check it out at https://github.com/TimeHACKDevs/TimeHACK!!!!
+NOTE: This has been cancelled and is replaced with TimeHACK - check it out at https://github.com/TimeHACKDevs/TimeHACK!!!!
+
 ---
 
 [![Discord](https://discordapp.com/api/guilds/234414439330349056/widget.png?style=shield)](https://discord.gg/zMwf3)
