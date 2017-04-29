@@ -5,6 +5,7 @@
 
 NOTE: This has been cancelled and is replaced with TimeHACK - check it out at https://github.com/TimeHACKDevs/TimeHACK!!!!
 
+IF YOU STILL WANT TO DOWNLOAD THE LATEST EVER MADE BUILD OF HISTACOMVB THEN DOWNLOAD IT USING THIS BECAUSE THE APPVEYOR IS DEAD!!: https://goo.gl/kLVJzH
 ---
 
 [![Discord](https://discordapp.com/api/guilds/234414439330349056/widget.png?style=shield)](https://discord.gg/zMwf3)
